@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-05-16 17:05 UTC",
+  "fetched_at": "2026-05-16 17:07 UTC",
   "counts": {
-    "raw": 161,
-    "scored": 64,
-    "this_weekend": 13,
+    "raw": 173,
+    "scored": 66,
+    "this_weekend": 15,
     "next_weekend": 0
   },
   "buckets": {
@@ -26,6 +26,21 @@
           "source": "Holy City Sinner",
           "category": "surf_event",
           "score": 1.0,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Front Paige Media",
+          "start": "2026-05-16T12:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D203519502",
+          "description": "Spend your Saturday at Firefly Distillery shopping a curated lineup of local authors and Bookish vendors at the Charleston Book fair hosted by Front Paige Media \ud83d\udcdaBook fair 12-5pm \ud83c\udfb8 Live Music Enjoy a fun afternoon set by 6ft Tide from 12-3 PM.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.83,
           "tier": "high",
           "recurring": false
         },
@@ -75,21 +90,6 @@
           "recurring": false
         },
         {
-          "title": "18th annual Chef\u2019s Potluck",
-          "start": "2026-05-17T16:00:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.lowcountrylocalfirst.org/events/18th-annual-chefs-potluck",
-          "description": "One of the most popular fundraising events of the year, the 18th annual Chef\u2019s Potluck is set to take place at the stunning, marsh-side Porter Room at Holy City Brewing in North Charleston.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "JUICE w/ S'way",
           "start": "2026-05-17T20:30:00",
           "end": null,
@@ -116,6 +116,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.638,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Kids Drum Circle",
+          "start": "2026-05-16",
+          "end": null,
+          "venue": "Pour House",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/45698093.1771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9raWRzLWRydW0tY2lyY2xlLzE4ODA0MTI0LzIwMjYtMDUtMTZUMTU/62f733efd173ab15f0e89340B8d50b92e",
+          "description": "3:30-4:30 p.m. \u00b7 Pour House \u00b7 Free",
+          "price": 0.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_music",
+          "score": 0.565,
           "tier": "medium",
           "recurring": false
         },
@@ -205,6 +220,21 @@
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "18th annual Chef's Potluck",
+          "start": "2026-05-17",
+          "end": null,
+          "venue": "Holy City Brewing (The Porter Room), North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/45726653.27771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy8xOHRoLWFubnVhbC1jaGVmcy1wb3RsdWNrLzE4Mjk3NzQ0LzIwMjYtMDUtMTdUMTY/62f733efd173ab15f0e89340Bd2e42fe9",
+          "description": "4-7 p.m. \u00b7 Holy City Brewing (The Porter Room), North Charleston \u00b7 $145+",
+          "price": 145.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
           "score": 0.35,
           "tier": "low",
           "recurring": false
