@@ -11,6 +11,13 @@ import score
 import render
 import validate_urls
 
+try:
+    # zoneinfo is stdlib on Python 3.9+; the CI runner has it.
+    from zoneinfo import ZoneInfo
+    _CHS_TZ = ZoneInfo("America/New_York")
+except Exception:
+    _CHS_TZ = None  # fallback below falls back to UTC
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
 
@@ -23,7 +30,14 @@ def main() -> None:
     scored = validate_urls.validate(scored)
     buckets = score.bucket(scored)
 
-    fetched_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    # Display the dashboard's "updated" timestamp in Charleston local time
+    # (EDT/EST auto-handled by America/New_York). The cron itself still
+    # runs on UTC — only the user-facing label is local.
+    if _CHS_TZ is not None:
+        local = datetime.now(timezone.utc).astimezone(_CHS_TZ)
+        fetched_at = local.strftime("%Y-%m-%d %I:%M %p %Z")
+    else:
+        fetched_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     html = render.render(buckets=buckets, fetched_at=fetched_at)
 
     out_dir = Path(__file__).parent / "docs"

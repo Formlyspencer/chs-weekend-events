@@ -264,16 +264,15 @@ def _venue_root(venue: str | None) -> str | None:
 
 
 def _is_duplicate(a: dict, b: dict) -> bool:
-    """Two events are the same if they're at the same venue at the same time.
+    """Two events are the same if they're at the same venue at the same
+    time, full stop. Same venue + close-enough start time = duplicate,
+    regardless of title or description content.
 
-    Strongest signal first: same venue + identical start datetime (including
-    time-of-day) = same event, unconditional. Two things genuinely happening
-    at the same place at the same minute don't exist; if the feed has both,
-    they're a duplicate (host name vs. event name, etc.).
-
-    Fallback for date-only events (no time component, or only one side has
-    time): require same date AND a content match — title-in-title,
-    title-in-description, or token-based description similarity.
+    Why the time-window dance: Trumba and CHStoday newsletters give us the
+    same event with slightly different titles ("Front Paige Media" vs.
+    "Firefly Vendor Village & Book Fair") and identical start times. The
+    only thing that legitimately distinguishes two events at the same venue
+    on the same day is the time slot (12 pm trivia vs. 8 pm concert).
     """
     va, vb = _venue_root(a.get("venue")), _venue_root(b.get("venue"))
     if not va or va != vb:
@@ -284,10 +283,17 @@ def _is_duplicate(a: dict, b: dict) -> bool:
     if da is None or da != db:
         return False
 
-    # Strong signal: both have full datetime AND match to the minute.
-    if isinstance(sa, datetime) and isinstance(sb, datetime) and sa == sb:
-        return True
+    # If both have a full datetime, use the time-of-day distance.
+    if isinstance(sa, datetime) and isinstance(sb, datetime):
+        diff_sec = abs((sa - sb).total_seconds())
+        if diff_sec <= 60:                  # same minute → same event, always
+            return True
+        if diff_sec >= 2 * 3600:            # ≥2h apart → clearly distinct sessions
+            return False
+        # 1-120 min apart: ambiguous — fall through to title/desc check.
 
+    # Title / description match (used when at least one side is date-only,
+    # or when datetimes are within a 2-hour window).
     ta = (a.get("title") or "").lower()
     tb = (b.get("title") or "").lower()
     desca = (a.get("description") or "").lower()
@@ -358,35 +364,43 @@ def pick_featured(events: list[dict], n: int = 3) -> list[dict]:
 
 
 def _dedupe_by_venue_date(events: list[dict]) -> list[dict]:
-    import logging
-    log = logging.getLogger(__name__)
     out: list[dict] = []
     for ev in events:
         merged = False
         for i, kept in enumerate(out):
             if _is_duplicate(ev, kept):
                 winner = _prefer(ev, kept)
-                log.info(
-                    "DEDUP: merge '%s' + '%s' (venue=%s) -> keep '%s'",
-                    (ev.get("title") or "")[:40], (kept.get("title") or "")[:40],
-                    _venue_root(ev.get("venue")), (winner.get("title") or "")[:40],
+                # Use print so output is unbuffered and shows in CI logs
+                # regardless of logging config.
+                print(
+                    f"DEDUP merge: '{(ev.get('title') or '')[:40]}' + "
+                    f"'{(kept.get('title') or '')[:40]}' "
+                    f"(venue={_venue_root(ev.get('venue'))}) "
+                    f"-> kept '{(winner.get('title') or '')[:40]}'",
+                    flush=True,
                 )
                 out[i] = winner
                 merged = True
                 break
         if not merged:
             out.append(ev)
-    # Sanity log: any same-venue-same-date pairs that survived?
-    seen: dict[tuple, list[str]] = {}
+
+    # Flag any same-(venue,date) survivors so we can spot regressions.
+    seen: dict[tuple, list[tuple[str, object]]] = {}
     for ev in out:
         v = _venue_root(ev.get("venue"))
         d = _to_date(ev["start"])
         if not v or not d:
             continue
-        seen.setdefault((v, d.isoformat()), []).append((ev.get("title") or "")[:50])
-    for key, titles in seen.items():
-        if len(titles) > 1:
-            log.warning("DEDUP: survivors at same (venue=%s, date=%s): %s", *key, titles)
+        seen.setdefault((v, d.isoformat()), []).append(
+            ((ev.get("title") or "")[:40], ev.get("start"))
+        )
+    for key, entries in seen.items():
+        if len(entries) > 1:
+            print(
+                f"DEDUP survivors at venue={key[0]} date={key[1]}: {entries}",
+                flush=True,
+            )
     return out
 
 
