@@ -199,18 +199,12 @@ def render(*, buckets: dict, fetched_at: str) -> str:
     this_label = f"{_fmt_date(date.fromisoformat(this_w['range'][0]))} – {_fmt_date(date.fromisoformat(this_w['range'][1]))}"
     next_label = f"{_fmt_date(date.fromisoformat(next_w['range'][0]))} – {_fmt_date(date.fromisoformat(next_w['range'][1]))}"
 
+    # Weekday previews were getting noisy (Mon/Tue events under the
+    # "Next weekend" tab made no sense). Keep the bucketing in score.py
+    # in case we want a separate weekday tab later, but don't render
+    # them in the weekend tabs.
     this_weekday_html = ""
-    if this_w["weekdays"]:
-        this_weekday_html = (
-            "<h2>Heads-up — weekdays this week</h2>"
-            + "".join(_event_card(e) for e in this_w["weekdays"][:8])
-        )
     next_weekday_html = ""
-    if next_w["weekdays"]:
-        next_weekday_html = (
-            "<h2>Heads-up — weekdays next week</h2>"
-            + "".join(_event_card(e) for e in next_w["weekdays"][:8])
-        )
 
     return f"""<!doctype html>
 <html lang="en">
