@@ -142,7 +142,7 @@ def _event_card(ev: dict, *, hero: bool = False) -> str:
           <span class="cat">{html.escape(cat)}</span>
           <span class="when">{html.escape(when)}</span>
           <span class="price">{html.escape(price)}</span>
-          <span class="score">{score:.2f}</span>
+          <span class="score" title="Match score (0–1)">{score:.2f}</span>
         </div>
         <div class="event-title-row">
           <span class="title">{title_html}</span>
@@ -354,7 +354,8 @@ def render(*, buckets: dict, fetched_at: str) -> str:
   .score {{
     margin-left: auto;
     font-variant-numeric: tabular-nums;
-    color: var(--accent); font-weight: 700; font-size: 13px;
+    color: var(--text); font-weight: 400; font-size: 11px;
+    opacity: 0.55;
   }}
   .title {{ font-size: 15px; line-height: 1.3; font-weight: 700; color: var(--text); }}
   .event.hero .title {{ font-size: 16px; }}
