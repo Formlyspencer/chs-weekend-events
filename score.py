@@ -334,16 +334,35 @@ def pick_featured(events: list[dict], n: int = 3) -> list[dict]:
 
 
 def _dedupe_by_venue_date(events: list[dict]) -> list[dict]:
+    import logging
+    log = logging.getLogger(__name__)
     out: list[dict] = []
     for ev in events:
         merged = False
         for i, kept in enumerate(out):
             if _is_duplicate(ev, kept):
-                out[i] = _prefer(ev, kept)
+                winner = _prefer(ev, kept)
+                log.info(
+                    "DEDUP: merge '%s' + '%s' (venue=%s) -> keep '%s'",
+                    (ev.get("title") or "")[:40], (kept.get("title") or "")[:40],
+                    _venue_root(ev.get("venue")), (winner.get("title") or "")[:40],
+                )
+                out[i] = winner
                 merged = True
                 break
         if not merged:
             out.append(ev)
+    # Sanity log: any same-venue-same-date pairs that survived?
+    seen: dict[tuple, list[str]] = {}
+    for ev in out:
+        v = _venue_root(ev.get("venue"))
+        d = _to_date(ev["start"])
+        if not v or not d:
+            continue
+        seen.setdefault((v, d.isoformat()), []).append((ev.get("title") or "")[:50])
+    for key, titles in seen.items():
+        if len(titles) > 1:
+            log.warning("DEDUP: survivors at same (venue=%s, date=%s): %s", *key, titles)
     return out
 
 
