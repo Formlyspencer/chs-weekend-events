@@ -162,21 +162,30 @@ def categorize(ev: dict) -> tuple[str | None, float]:
         return (best[0], best[1])
 
     # Pass 2: venue fallback — same longest-match rule, 0.7x haircut.
-    # Also consider MUSIC_KEYWORDS for the outdoor_music category, since the
-    # music venues live there (not in the category keyword list).
+    # For outdoor_music we use TWO venue lists:
+    #   MUSIC_KEYWORDS      — preferred venues, full 1.0 bump (haircut applied)
+    #   MUSIC_VENUE_HINTS   — other music venues, category-only, no bump
+    music_venue_hints = getattr(config, "MUSIC_VENUE_HINTS", []) or []
     for key, spec in config.CATEGORIES.items():
         match_len = _longest_match(venue, spec["keywords"])
-        if key == "outdoor_music" and config.MUSIC_KEYWORDS:
-            music_len = _longest_match(venue, config.MUSIC_KEYWORDS)
-            if music_len > match_len:
-                match_len = music_len
+        if key == "outdoor_music":
+            if config.MUSIC_KEYWORDS:
+                m = _longest_match(venue, config.MUSIC_KEYWORDS)
+                if m > match_len:
+                    match_len = m
+            if music_venue_hints:
+                m = _longest_match(venue, music_venue_hints)
+                if m > match_len:
+                    match_len = m
         if match_len == 0:
             continue
         w = spec["weight"] * 0.7
         if key == "outdoor_music" and config.MUSIC_KEYWORDS and _matches_any(
             venue, config.MUSIC_KEYWORDS
         ):
-            w = 1.0 * 0.7
+            w = 1.0 * 0.7  # preferred-venue 1.0 bump, with venue-only haircut
+        # Note: MUSIC_VENUE_HINTS does NOT trigger the bump — it only routes
+        # the event to outdoor_music at the category's base weight.
         if (match_len, w) > (best[2], best[1]):
             best = (key, w, match_len)
     return (best[0], best[1])

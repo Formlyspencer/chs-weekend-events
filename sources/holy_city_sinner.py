@@ -241,13 +241,15 @@ def _parse_ical(text: str) -> list[dict]:
         if not _common.is_in_area(location):
             continue
         desc_text, embedded_url = _clean_description(raw.get("DESCRIPTION", ""))
-        # URL preference (event-specific links always win over venue homepages):
-        #   1. Description-embedded URL if it points to a real page.
-        #   2. iCal URL field if it points to a real page.
-        #   3. Trumba deep-link built from the UID — opens the event modal
-        #      on Holy City Sinner's weekend post.
-        #   4. Any URL we have (bare homepage > nothing).
-        #   5. Landing URL fallback.
+        # URL preference:
+        #   1. Description-embedded URL if it has a real path (event page).
+        #   2. iCal URL if it has a real path.
+        #   3. iCal URL even if it's a bare homepage — landing on the venue's
+        #      site is more useful than a Trumba deep-link whose modal
+        #      doesn't reliably auto-open.
+        #   4. Embedded URL even if bare.
+        #   5. Trumba deep-link.
+        #   6. Landing URL fallback.
         from urllib.parse import urlsplit
 
         def _has_path(u: str | None) -> bool:
@@ -258,9 +260,9 @@ def _parse_ical(text: str) -> list[dict]:
         url = (
             (embedded_url if _has_path(embedded_url) else None)
             or (ical_url if _has_path(ical_url) else None)
-            or trumba_url
-            or embedded_url
             or ical_url
+            or embedded_url
+            or trumba_url
             or LANDING_URL
         )
         out.append(_common.event(

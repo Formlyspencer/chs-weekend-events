@@ -59,10 +59,7 @@ def _freshness_check(url: str) -> bool | None:
     return False
 
 
-# URLs are "too generic" if they're a bare homepage or a top-level section
-# index — i.e. the link wouldn't take the user to anything specifically about
-# this event. We treat the source's landing URL (a curated weekly roundup)
-# as the exception, since that page actually lists the event.
+# Generic top-level paths — bare homepages and broad section indexes.
 _GENERIC_PATHS = {
     "", "/",
     "/news", "/news/",
@@ -73,22 +70,36 @@ _GENERIC_PATHS = {
     "/things-to-do", "/things-to-do/",
 }
 
+# News/blog/aggregator sites where a bare or section-level URL is genuinely
+# unhelpful — the user lands on a news front page, not an event. Anywhere
+# else (venue sites, brand sites, etc.) a bare homepage is fine since the
+# user can navigate to find the event.
+_NEWS_DOMAINS = {
+    "holycitysinner.com", "www.holycitysinner.com",
+    "postandcourier.com", "www.postandcourier.com",
+    "6amcity.com", "www.6amcity.com", "chstoday.6amcity.com",
+    "charlestoncitypaper.com", "www.charlestoncitypaper.com",
+    "explorecharleston.com", "www.charlestoncvb.com",
+}
+
 _SOURCE_LANDING_URLS = set(config.SOURCE_LANDING_URLS.values())
 
 
 def _is_too_generic(url: str) -> bool:
-    """True for bare homepages and section index pages.
+    """True for bare/section-level URLs on news/blog sites only.
 
-    The whitelisted source landing URLs (Holy City Sinner's weekend roundup,
-    etc.) are *not* considered too generic — they're the curated fallback
-    that lists each event. Trumba deep-links (`?trumbaEmbed=view=event...`)
-    are likewise event-specific even though the base path is generic.
+    Venue/brand homepages aren't flagged — landing on a venue site is
+    useful (user can navigate to its calendar). Trumba deep-links and
+    whitelisted source landing pages also pass through.
     """
     if url in _SOURCE_LANDING_URLS:
         return False
     if "trumbaEmbed=view" in url and "eventid%3D" in url:
         return False  # per-event modal link — keep
     parts = urlsplit(url)
+    host = parts.netloc.lower()
+    if host not in _NEWS_DOMAINS:
+        return False  # venue/brand site — bare path is acceptable
     if parts.path in _GENERIC_PATHS:
         return True
     return False

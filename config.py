@@ -234,9 +234,8 @@ MUSIC_KEYWORDS = [
     "alternative rock",
     "singer-songwriter",
     "singer songwriter",
-    # Preferred music venues — events at these places get the same bump.
-    # Also includes other Charleston music venues we want classified as music
-    # (even if Spencer hasn't called them out as favorites).
+    # Preferred music venues — events at these places get the 1.0 bump.
+    # Limit to venues Spencer has explicitly called out as favorites.
     "the refinery",
     "refinery",
     "firefly distillery",
@@ -245,10 +244,20 @@ MUSIC_KEYWORDS = [
     "music hall",             # Charleston Music Hall
     "charleston music hall",
     "music farm",
-    "pour house",             # Charleston Pour House — James Island music venue
+]
+
+
+# Other music venues — used ONLY to categorize events as music in the
+# venue-fallback pass. They do NOT trigger the weight bump. A random band
+# at Pour House should still be classified as outdoor_music, but shouldn't
+# rank above a real festival or food event just because of the venue.
+MUSIC_VENUE_HINTS = [
+    "pour house",
     "charleston pour house",
     "credit one stadium",     # Daniel Island — concerts/tennis
-    "riverfront park",        # frequent outdoor concert venue
+    "riverfront park",
+    "north charleston coliseum",
+    "north charleston performing arts",
 ]
 
 # Brands Spencer actively follows — events that mention them (in title,
