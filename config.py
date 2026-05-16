@@ -260,13 +260,18 @@ MUSIC_VENUE_HINTS = [
     "north charleston performing arts",
 ]
 
-# Frequency-based "uniqueness" boost. Events that happen rarely — annual
-# festivals, galas, inaugural editions, anniversaries — get the same
-# treatment as brand-sponsored events: base weight floored at 1.0 so they
-# don't get out-ranked by routine weekly stuff at lower-weight categories.
-# Word-boundary matched; matches in title or description trigger the bump.
+# Frequency-based "uniqueness" boost. Events that happen rarely deserve
+# to surface higher than routine programming. Two tiers:
+#
+#   UNIQUE_KEYWORDS       — strong rarity signal, floors base weight at 1.0
+#   UNIQUE_KEYWORDS_SOFT  — weaker signal, floors base weight at 0.85
+#
+# "premiere" was removed because every touring band claims to premiere
+# something. "gala/fundraiser/debut" stayed but were moved to the soft tier
+# because they sometimes apply to non-unique events (regular charity nights,
+# debut performances by random bands, etc.).
 UNIQUE_KEYWORDS = [
-    "annual",            # "18th annual Chef's Potluck", "annual fundraiser"
+    "annual",            # "18th annual Chef's Potluck"
     "annually",
     "biennial",
     "biennially",
@@ -274,17 +279,19 @@ UNIQUE_KEYWORDS = [
     "first annual",
     "first-ever",
     "first ever",
-    "gala",              # almost always annual
     "anniversary",
     "kickoff",
     "kick-off",
-    "premiere",
     "one night only",
     "one-night-only",
-    "debut",
     "limited engagement",
-    "fundraiser",        # usually annual
     "benefit concert",
+]
+
+UNIQUE_KEYWORDS_SOFT = [
+    "gala",
+    "fundraiser",
+    "debut",
 ]
 
 

@@ -234,10 +234,13 @@ def score(ev: dict) -> dict:
     if getattr(config, "BRAND_KEYWORDS", None) and _matches_any(haystack, config.BRAND_KEYWORDS):
         base = max(base, 1.0)
 
-    # Uniqueness boost — rare/annual/inaugural events deserve a bump because
-    # you don't see them every weekend. Same effect as the brand floor.
+    # Uniqueness boost — rare events deserve a bump because you don't see
+    # them every weekend. Two tiers: strong signals (annual/biennial/etc.)
+    # floor at 1.0, softer signals (gala/fundraiser/debut) floor at 0.85.
     if getattr(config, "UNIQUE_KEYWORDS", None) and _matches_any(haystack, config.UNIQUE_KEYWORDS):
         base = max(base, 1.0)
+    elif getattr(config, "UNIQUE_KEYWORDS_SOFT", None) and _matches_any(haystack, config.UNIQUE_KEYWORDS_SOFT):
+        base = max(base, 0.85)
 
     s = base * day_mult * price_mult * distance_mult * repeat_mult
     if s >= config.TIER_HIGH:
