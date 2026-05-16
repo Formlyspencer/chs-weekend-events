@@ -235,14 +235,25 @@ def score(ev: dict) -> dict:
         base = max(base, 1.0)
 
     # Uniqueness boost — rare events deserve a bump because you don't see
-    # them every weekend. Two tiers: strong signals (annual/biennial/etc.)
-    # floor at 1.0, softer signals (gala/fundraiser/debut) floor at 0.85.
-    if getattr(config, "UNIQUE_KEYWORDS", None) and _matches_any(haystack, config.UNIQUE_KEYWORDS):
+    # them every weekend. Two tiers:
+    #   strong (annual/biennial/inaugural/anniversary/...): floors base at 1.0
+    #     AND bypasses the price multiplier. Rare expensive events are often
+    #     that way because they're charity/special-occasion, and penalizing
+    #     them on price defeats the rarity boost. Day and distance still apply.
+    #   soft (gala/fundraiser/debut): floors base at 0.85, normal multipliers.
+    strong_unique = bool(
+        getattr(config, "UNIQUE_KEYWORDS", None)
+        and _matches_any(haystack, config.UNIQUE_KEYWORDS)
+    )
+    if strong_unique:
         base = max(base, 1.0)
     elif getattr(config, "UNIQUE_KEYWORDS_SOFT", None) and _matches_any(haystack, config.UNIQUE_KEYWORDS_SOFT):
         base = max(base, 0.85)
 
-    s = base * day_mult * price_mult * distance_mult * repeat_mult
+    if strong_unique:
+        s = base * day_mult * distance_mult * repeat_mult
+    else:
+        s = base * day_mult * price_mult * distance_mult * repeat_mult
     if s >= config.TIER_HIGH:
         tier = "high"
     elif s >= config.TIER_MEDIUM:
