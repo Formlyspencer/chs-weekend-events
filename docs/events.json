@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-05-16 04:14 PM EDT",
+  "fetched_at": "2026-05-16 04:17 PM EDT",
   "counts": {
     "raw": 179,
-    "scored": 68,
-    "this_weekend": 17,
+    "scored": 67,
+    "this_weekend": 16,
     "next_weekend": 0
   },
   "dedup_log": [
@@ -24,10 +24,10 @@
     "merge '\"Maria Britton: Second Sleep\ufeff\"' + '\"In Kyoung Chun: Make Room\ufeff\"' @ halsey institute of contemporary art at the college of charleston -> kept '\"Maria Britton: Second Sleep\ufeff\"'",
     "merge '\"Maria Britton: Second Sleep\ufeff\"' + '\"In Kyoung Chun: Make Room\ufeff\"' @ halsey institute of contemporary art at the college of charleston -> kept '\"Maria Britton: Second Sleep\ufeff\"'",
     "merge '\"Maria Britton: Second Sleep\ufeff\"' + '\"In Kyoung Chun: Make Room\ufeff\"' @ halsey institute of contemporary art at the college of charleston -> kept '\"Maria Britton: Second Sleep\ufeff\"'",
+    "consolidate 'Front Paige Media' + 'Firefly Vendor Village & Book Fair' @ firefly distillery -> kept 'Firefly Vendor Village & Book Fair'",
     "survivor venue=charleston pour house date=2026-05-17: ['Pour House Farmers Market@2026-05-17 11:00:00', \"JUICE w/ S'way@2026-05-17 20:30:00\"]",
-    "survivor venue=firefly distillery date=2026-05-16: ['Front Paige Media@2026-05-16 12:00:00', 'Firefly Vendor Village & Book Fair@2026-05-16 12:00:00']",
     "survivor venue=the windjammer date=2026-05-16: ['Little Stranger W/ Suffer Girl on t@2026-05-16 18:00:00', 'Jerkweed on the inside stage@2026-05-16 21:30:00']",
-    "output_count=70"
+    "output_count=69"
   ],
   "buckets": {
     "today": "2026-05-16",
@@ -49,21 +49,6 @@
           "source": "Holy City Sinner",
           "category": "surf_event",
           "score": 1.0,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Front Paige Media",
-          "start": "2026-05-16T12:00:00",
-          "end": null,
-          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D203519502",
-          "description": "Spend your Saturday at Firefly Distillery shopping a curated lineup of local authors and Bookish vendors at the Charleston Book fair hosted by Front Paige Media \ud83d\udcdaBook fair 12-5pm \ud83c\udfb8 Live Music Enjoy a fun afternoon set by 6ft Tide from 12-3 PM.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.83,
           "tier": "high",
           "recurring": false
         },
@@ -223,7 +208,7 @@
           "end": null,
           "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.northcharlestoncoliseumpac.com/events/detail/choir-showcase-7",
           "description": "Choir Showcase Sunday, May 17, 5:30 PM North Charleston Performing Arts Center Tickets Now On Sale!",
           "price": null,
           "source": "Holy City Sinner",
@@ -346,7 +331,7 @@
           "end": null,
           "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.seaislandfarmersmarket.com/",
           "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
           "price": null,
           "source": "Holy City Sinner",
