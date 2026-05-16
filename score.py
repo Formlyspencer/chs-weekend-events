@@ -264,33 +264,41 @@ def _venue_root(venue: str | None) -> str | None:
 
 
 def _is_duplicate(a: dict, b: dict) -> bool:
-    """Same venue, same day, and either:
-      - one title is contained in the other's title or description, or
-      - descriptions are >40% similar (catches host-name-vs-event-name dupes).
+    """Two events are the same if they're at the same venue at the same time.
+
+    Strongest signal first: same venue + identical start datetime (including
+    time-of-day) = same event, unconditional. Two things genuinely happening
+    at the same place at the same minute don't exist; if the feed has both,
+    they're a duplicate (host name vs. event name, etc.).
+
+    Fallback for date-only events (no time component, or only one side has
+    time): require same date AND a content match — title-in-title,
+    title-in-description, or token-based description similarity.
     """
     va, vb = _venue_root(a.get("venue")), _venue_root(b.get("venue"))
     if not va or va != vb:
         return False
-    da, db = _to_date(a["start"]), _to_date(b["start"])
+
+    sa, sb = a.get("start"), b.get("start")
+    da, db = _to_date(sa), _to_date(sb)
     if da is None or da != db:
         return False
+
+    # Strong signal: both have full datetime AND match to the minute.
+    if isinstance(sa, datetime) and isinstance(sb, datetime) and sa == sb:
+        return True
 
     ta = (a.get("title") or "").lower()
     tb = (b.get("title") or "").lower()
     desca = (a.get("description") or "").lower()
     descb = (b.get("description") or "").lower()
 
-    # Cheap wins: title-in-title (substring) or title-in-other-description.
     if ta and tb and (ta in tb or tb in ta):
         return True
     if ta and ta in descb:
         return True
     if tb and tb in desca:
         return True
-
-    # Token-based similarity catches host-name-vs-event-name twins where the
-    # body text describes the same event in different words. We require *both*
-    # a venue and date match upstream, so this is a tight check already.
     if desca and descb:
         if _jaccard(desca, descb) >= 0.30 or _overlap(desca, descb) >= 0.50:
             return True

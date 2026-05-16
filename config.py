@@ -338,6 +338,10 @@ EXCLUDED_KEYWORDS = [
     "colonial era",
     "in revolt",          # caught "Charleston in Revolt, 1775" type titles
     "ringleaders of rebellion",
+    # Touring musicals / Broadway shows — not Spencer's thing
+    "the musical",
+    "broadway",
+    "national tour of",
 ]
 
 # Events already attended — dampen but don't drop. Substring match in title.
