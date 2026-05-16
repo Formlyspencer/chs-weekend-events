@@ -149,8 +149,14 @@ def _build_url_map(soup: BeautifulSoup) -> dict[str, str]:
 
 
 def _date_from_inline(text: str) -> date | None:
-    """Pick the earliest upcoming month/day mentioned in `text`."""
+    """Pick the soonest upcoming month/day mentioned in `text`.
+
+    For a date range like "Thursday, May 14-Saturday, May 16" run on May 16,
+    we want May 16 (today, still happening) — not the first mention May 14
+    bounced to next year.
+    """
     today = date.today()
+    candidates: list[date] = []
     for m in _INLINE_DATE_RE.finditer(text):
         month = _MONTHS[m.group("month").lower()[:3]]
         day = int(m.group("day"))
@@ -160,8 +166,9 @@ def _date_from_inline(text: str) -> date | None:
             except ValueError:
                 continue
             if cand >= today:
-                return cand
-    return None
+                candidates.append(cand)
+                break
+    return min(candidates) if candidates else None
 
 
 def _parse_events_section(body_text: str, url_map: dict[str, str]) -> list[dict]:
@@ -215,7 +222,12 @@ def _parse_events_section(body_text: str, url_map: dict[str, str]) -> list[dict]
                 current_date = new_date
             continue
 
-        # Event line — pipe-delimited.
+        # Event line — pipe-delimited. Two shapes observed in real
+        # newsletters:
+        #   (A) single-day:  title | time | venue | price            (4 parts)
+        #   (B) multi-day:   title | date_range | venue | price      (4 parts)
+        #                    title | date_range | time | venue | price (5 parts)
+        # Detect (B) by checking whether slot 1 contains a month/day phrase.
         if "|" not in line:
             continue
         parts = [p.strip() for p in line.split("|")]
@@ -224,17 +236,26 @@ def _parse_events_section(body_text: str, url_map: dict[str, str]) -> list[dict]
         title = parts[0]
         if len(title) < 4 or len(title) > 140:
             continue
-        # Skip promo / ad-style lines that creep into the section.
         if any(skip in title.lower() for skip in ("subscribe", "advertise", "support us")):
             continue
 
-        time_col = parts[1] if len(parts) >= 2 else ""
-        venue_col = parts[2] if len(parts) >= 3 else ""
-        price_col = parts[3] if len(parts) >= 4 else ""
+        slot1_has_date = bool(_INLINE_DATE_RE.search(parts[1]))
+        if slot1_has_date:
+            date_text = parts[1]
+            if len(parts) >= 5:
+                time_col, venue_col, price_col = parts[2], parts[3], parts[4]
+            else:
+                time_col = ""
+                venue_col = parts[2] if len(parts) > 2 else ""
+                price_col = parts[3] if len(parts) > 3 else ""
+        else:
+            date_text = ""
+            time_col = parts[1] if len(parts) > 1 else ""
+            venue_col = parts[2] if len(parts) > 2 else ""
+            price_col = parts[3] if len(parts) > 3 else ""
 
-        # If the time column contains an explicit date (multi-day event),
-        # use that. Otherwise fall back to the current day-header date.
-        ev_date = _date_from_inline(time_col) or current_date
+        # Inline date wins over the section's day-header (multi-day events).
+        ev_date = _date_from_inline(date_text) or current_date
         if ev_date is None or not _common.within_horizon(ev_date):
             continue
 
