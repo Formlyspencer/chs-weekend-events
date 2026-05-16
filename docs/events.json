@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16 18:24 UTC",
+  "fetched_at": "2026-05-16 18:28 UTC",
   "counts": {
     "raw": 179,
     "scored": 74,
@@ -105,21 +105,6 @@
           "recurring": false
         },
         {
-          "title": "Jerkweed on the inside stage",
-          "start": "2026-05-16T21:30:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com",
-          "description": "Jerkweed on the inside stage $10 at the door or Free with a Little Stranger Ticket May 16, 2026 Doors at 9:30 pm 21 Up Artist Website www.facebook.com\u2026 Jerkweed, \u201cSouth Carolina\u2019s premiere mediocre pop punk/emo band,\u201d was formed officially in September 2023, joined by Ryan Hanifi\u2026",
-          "price": 10.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.72,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Fundraiser for Clarence\u2019s Recovery",
           "start": "2026-05-17T13:00:00",
           "end": null,
@@ -130,7 +115,7 @@
           "price": 10.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
-          "score": 0.72,
+          "score": 0.612,
           "tier": "medium",
           "recurring": false
         },
@@ -140,7 +125,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/gasolina-party/",
           "description": "Gasolina is dedicated to creating a community within the reggaet\u00f3n and latin-music scene across the United States through exciting and innovative events.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -161,6 +146,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Jerkweed on the inside stage",
+          "start": "2026-05-16T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com",
+          "description": "Jerkweed on the inside stage $10 at the door or Free with a Little Stranger Ticket May 16, 2026 Doors at 9:30 pm 21 Up Artist Website www.facebook.com\u2026 Jerkweed, \u201cSouth Carolina\u2019s premiere mediocre pop punk/emo band,\u201d was formed officially in September 2023, joined by Ryan Hanifi\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
           "tier": "low",
           "recurring": false
         },
@@ -215,7 +215,7 @@
           "end": null,
           "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.northcharlestoncoliseumpac.com/events/detail/choir-showcase-7",
           "description": "Choir Showcase Sunday, May 17, 5:30 PM North Charleston Performing Arts Center Tickets Now On Sale!",
           "price": null,
           "source": "Holy City Sinner",
