@@ -85,39 +85,85 @@
     font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
     color: var(--primary); margin: 32px 0 12px; font-weight: 700;
   }
-  .hero-grid { display: grid; gap: 12px; }
+  .hero-grid { display: grid; gap: 8px; }
   .event {
     background: var(--panel);
     border: 1px solid var(--panel-edge);
     border-left: 5px solid var(--tier);
     border-radius: 4px;
-    padding: 14px 16px;
-    margin: 0 0 10px;
+    margin: 0 0 8px;
     box-shadow: 0 1px 2px rgba(26, 34, 40, 0.06);
+    overflow: hidden;
   }
-  .event.hero { padding: 18px 20px; background: var(--panel-hero); }
-  .event-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
-                 font-size: 12px; color: var(--muted); margin-bottom: 6px; }
-  .tier-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--tier); }
-  .cat { font-weight: 700; color: var(--primary); text-transform: uppercase;
-          letter-spacing: 0.06em; font-size: 11px; }
-  .when { }
-  .price { }
-  .score { margin-left: auto; font-variant-numeric: tabular-nums;
-            color: var(--accent); font-weight: 700; font-size: 13px; }
-  .title { margin: 4px 0 6px; font-size: 17px; line-height: 1.3; font-weight: 700; }
-  .event.hero .title { font-size: 20px; }
+  .event.hero { background: var(--panel-hero); }
+  .event[open] { box-shadow: 0 2px 5px rgba(26, 34, 40, 0.10); }
+  /* Compact summary — two short rows of metadata + title, click to expand */
+  .event > summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 14px;
+    display: grid;
+    grid-template-columns: 1fr 18px;
+    gap: 4px 12px;
+    align-items: center;
+  }
+  .event > summary::-webkit-details-marker { display: none; }
+  .event > summary::after {
+    content: "▾";
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    color: var(--muted);
+    font-size: 14px;
+    transition: transform 0.15s ease;
+    align-self: center;
+    text-align: center;
+  }
+  .event[open] > summary::after { transform: rotate(180deg); }
+  .event > summary:hover { background: rgba(45, 67, 50, 0.04); }
+  .event-meta {
+    grid-column: 1;
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    font-size: 12px; color: var(--muted);
+  }
+  .event-title-row {
+    grid-column: 1;
+    display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline;
+  }
+  .tier-dot {
+    width: 9px; height: 9px; border-radius: 50%;
+    background: var(--tier); flex-shrink: 0;
+  }
+  .cat {
+    font-weight: 700; color: var(--primary); text-transform: uppercase;
+    letter-spacing: 0.06em; font-size: 11px;
+  }
+  .score {
+    margin-left: auto;
+    font-variant-numeric: tabular-nums;
+    color: var(--accent); font-weight: 700; font-size: 13px;
+  }
+  .title { font-size: 15px; line-height: 1.3; font-weight: 700; color: var(--text); }
+  .event.hero .title { font-size: 16px; }
   .title a { color: var(--text); text-decoration: none; }
   .title a:hover { color: var(--accent); text-decoration: underline; }
-  .loc { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
-  .desc { margin: 6px 0 4px; font-size: 14px; color: #3a3528; }
-  .src { font-size: 11px; color: var(--muted); margin-top: 8px; font-style: italic; }
-  .stale-badge {
-    font-size: 10px; color: var(--accent);
-    border: 1px solid var(--accent);
-    padding: 2px 6px; border-radius: 10px;
-    text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  .loc { color: var(--muted); font-size: 13px; }
+  .loc::before { content: "· "; }
+  .event-body {
+    padding: 12px 14px 14px;
+    border-top: 1px solid rgba(168, 146, 116, 0.25);
+    background: rgba(0, 0, 0, 0.015);
   }
+  .desc { margin: 0 0 10px; font-size: 14px; color: #3a3528; line-height: 1.5; }
+  .event-foot {
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+    align-items: center; gap: 12px;
+  }
+  .src { font-size: 11px; color: var(--muted); font-style: italic; }
+  .visit {
+    font-size: 13px; color: var(--accent); font-weight: 600;
+    text-decoration: none;
+  }
+  .visit:hover { text-decoration: underline; }
   .empty { color: var(--muted); padding: 30px 0; text-align: center; font-style: italic; }
 </style>
 </head>
@@ -126,7 +172,7 @@
   <header>
     <img class="logo" src="logo.png" alt="Charleston Weekend Events">
     <h1>Charleston weekend events</h1>
-    <div class="sub">Updated 2026-05-16 17:25 UTC · refreshes every 3h</div>
+    <div class="sub">Updated 2026-05-16 17:37 UTC · refreshes every 3h</div>
   </header>
 
   <main class="content">
@@ -145,406 +191,658 @@
       
     <h2>Top picks — this weekend</h2>
     <div class="hero-grid">
-    <article class="event hero" style="--tier:#2d4332">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Surf</span>
-        <span class="when">Sat May 16 · 6:00 am</span>
-        <span class="price">$12</span>
-        <span class="score">1.00</span>
+    <details class="event hero" style="--tier:#2d4332">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Surf</span>
+          <span class="when">Sat May 16 · 6:00 am</span>
+          <span class="price">$12</span>
+          <span class="score">1.00</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/sports/catch-summer-fun-at-charleston-county-parks%E2%80%99-fishing-pier-to/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Cast Off Fishing Tournament</a></span>
+          <span class="loc">Folly Beach Pier · Folly Beach</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">This summer, catch fish, fun and prizes during tournaments at the Folly Beach Pier and the Mount Pleasant Pier! The Mount Pleasant Pier will host the season’s first Cast Off Fishing Tournament on Saturday, May 9.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/sports/catch-summer-fun-at-charleston-county-parks%E2%80%99-fishing-pier-to/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/sports/catch-summer-fun-at-charleston-county-parks%E2%80%99-fishing-pier-to/" target="_blank" rel="noopener">Cast Off Fishing Tournament</a></h3>
-      <div class="loc">Folly Beach Pier · Folly Beach</div>
-      <p class="desc">This summer, catch fish, fun and prizes during tournaments at the Folly Beach Pier and the Mount Pleasant Pier! The Mount Pleasant Pier will host the season’s first Cast Off Fishing Tournament on Saturday, May 9.…</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event hero" style="--tier:#2d4332">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Brewery</span>
-        <span class="when">Sat May 16 · 12:00 pm</span>
-        <span class="price">Free</span>
-        <span class="score">0.83</span>
+    <details class="event hero" style="--tier:#2d4332">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Brewery</span>
+          <span class="when">Sat May 16 · 12:00 pm</span>
+          <span class="price">Free</span>
+          <span class="score">0.83</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D203519502" target="_blank" rel="noopener" onclick="event.stopPropagation()">Front Paige Media</a></span>
+          <span class="loc">Firefly Distillery, 4201 Spruill Ave, North Charleston, SC · North Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Spend your Saturday at Firefly Distillery shopping a curated lineup of local authors and Bookish vendors at the Charleston Book fair hosted by Front Paige Media 📚Book fair 12-5pm 🎸 Live Music Enjoy a fun afternoon set by 6ft Tide from 12-3 PM.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D203519502" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D203519502" target="_blank" rel="noopener">Front Paige Media</a></h3>
-      <div class="loc">Firefly Distillery, 4201 Spruill Ave, North Charleston, SC · North Charleston</div>
-      <p class="desc">Spend your Saturday at Firefly Distillery shopping a curated lineup of local authors and Bookish vendors at the Charleston Book fair hosted by Front Paige Media 📚Book fair 12-5pm 🎸 Live Music Enjoy a fun afternoon set by 6ft Tide from 12-3 </p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event hero" style="--tier:#c8542a">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Sat May 16 · 2:00 pm</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.78</span>
+    <details class="event hero" style="--tier:#c8542a">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Sat May 16 · 2:00 pm</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.78</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/entertainment/soul-fly-chs-announces-lineup-and-debut-event-on-may-16-at-t/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Soul Fly CHS Presented by Marsh Wear</a></span>
+          <span class="loc">The Refinery, 1640 Meeting Street Rd., Charleston, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Soul Fly CHS Presented by Marsh Wear Saturday, May 16 Save the date! Soul Fly is back at The Refinery on May 16th for a day of good vibes, great music, and a shared passion for conservation.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/entertainment/soul-fly-chs-announces-lineup-and-debut-event-on-may-16-at-t/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/entertainment/soul-fly-chs-announces-lineup-and-debut-event-on-may-16-at-t/" target="_blank" rel="noopener">Soul Fly CHS Presented by Marsh Wear</a></h3>
-      <div class="loc">The Refinery, 1640 Meeting Street Rd., Charleston, SC · Charleston</div>
-      <p class="desc">Soul Fly CHS Presented by Marsh Wear Saturday, May 16 Save the date! Soul Fly is back at The Refinery on May 16th for a day of good vibes, great music, and a shared passion for conservation.…</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     </div>
     <h2>More for this weekend</h2>
-    <article class="event " style="--tier:#2d4332">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Maker market</span>
-        <span class="when">Sat May 16 · 12:00 pm</span>
-        <span class="price">Free</span>
-        <span class="score">0.83</span>
+    <details class="event " style="--tier:#2d4332">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Maker market</span>
+          <span class="when">Sat May 16 · 12:00 pm</span>
+          <span class="price">Free</span>
+          <span class="score">0.83</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://fireflydistillery.com/event/firefly-vendor-village-may/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Firefly Vendor Village &amp; Book Fair</a></span>
+          <span class="loc">Firefly Distillery, 4201 Spruill Ave, North Charleston, SC · North Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Live Music • Local Vendors • Book Fair Spend your Saturday at Firefly Distillery shopping a curated lineup of local vendors at our Vendor Village! From handmade goods and vintage finds to artisan treats and boutique fashion, this community market has something for everyone.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://fireflydistillery.com/event/firefly-vendor-village-may/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://fireflydistillery.com/event/firefly-vendor-village-may/" target="_blank" rel="noopener">Firefly Vendor Village &amp; Book Fair</a></h3>
-      <div class="loc">Firefly Distillery, 4201 Spruill Ave, North Charleston, SC · North Charleston</div>
-      <p class="desc">Live Music • Local Vendors • Book Fair Spend your Saturday at Firefly Distillery shopping a curated lineup of local vendors at our Vendor Village! From handmade goods and vintage finds to artisan treats and boutique fashion, this community </p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#c8542a">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Brewery</span>
-        <span class="when">Sat May 16 · 5:00 pm</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.74</span>
+    <details class="event " style="--tier:#c8542a">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Brewery</span>
+          <span class="when">Sat May 16 · 5:00 pm</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.74</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://eventvesta.com/events/133363/t/tickets" target="_blank" rel="noopener" onclick="event.stopPropagation()">Brewery Blast Laser Tag</a></span>
+          <span class="loc">Holy City Brewing, 1021 Aragon Ave, North Charleston, SC · North Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://eventvesta.com/events/133363/t/tickets" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://eventvesta.com/events/133363/t/tickets" target="_blank" rel="noopener">Brewery Blast Laser Tag</a></h3>
-      <div class="loc">Holy City Brewing, 1021 Aragon Ave, North Charleston, SC · North Charleston</div>
-      <p class="desc">Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.…</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#c8542a">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Sun May 17 · 8:30 pm</span>
-        <span class="price">$20</span>
-        <span class="score">0.67</span>
+    <details class="event " style="--tier:#c8542a">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Sun May 17 · 8:30 pm</span>
+          <span class="price">$20</span>
+          <span class="score">0.67</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D199891205" target="_blank" rel="noopener" onclick="event.stopPropagation()">JUICE w/ S&#x27;way</a></span>
+          <span class="loc">Charleston Pour House, 1977 Maybank Hwy, James Island, SC · James Island</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">JUICE w/ S&#x27;way sunday 5.17.26 Charleston Pour House Main Stage 730 doors 830 show $20 advance / $25 day of show</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D199891205" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D199891205" target="_blank" rel="noopener">JUICE w/ S&#x27;way</a></h3>
-      <div class="loc">Charleston Pour House, 1977 Maybank Hwy, James Island, SC · James Island</div>
-      <p class="desc">JUICE w/ S&#x27;way sunday 5.17.26 Charleston Pour House Main Stage 730 doors 830 show $20 advance / $25 day of show</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#c8542a">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Sat May 16 · 3:30 pm</span>
-        <span class="price">Free</span>
-        <span class="score">0.64</span>
+    <details class="event " style="--tier:#c8542a">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Sat May 16 · 3:30 pm</span>
+          <span class="price">Free</span>
+          <span class="score">0.64</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D200523893" target="_blank" rel="noopener" onclick="event.stopPropagation()">Heal with Hearts Kids drum circle</a></span>
+          <span class="loc">Charleston Pour House, 1977 Maybank Hwy, James Island, SC · James Island</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Heal with Hearts Kids drum circle ON THE DECK @ CHS POUR HOUSE Saturday May 16th 2026 Deck Bar opens at 3pm Drum Circle 330pm -430pm FREE</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D200523893" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D200523893" target="_blank" rel="noopener">Heal with Hearts Kids drum circle</a></h3>
-      <div class="loc">Charleston Pour House, 1977 Maybank Hwy, James Island, SC · James Island</div>
-      <p class="desc">Heal with Hearts Kids drum circle ON THE DECK @ CHS POUR HOUSE Saturday May 16th 2026 Deck Bar opens at 3pm Drum Circle 330pm -430pm FREE</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#c8542a">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Sat May 16</span>
-        <span class="price">Free</span>
-        <span class="score">0.56</span>
+    <details class="event " style="--tier:#c8542a">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Sat May 16</span>
+          <span class="price">Free</span>
+          <span class="score">0.56</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://link.6amcity.com/click/45698093.1771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9raWRzLWRydW0tY2lyY2xlLzE4ODA0MTI0LzIwMjYtMDUtMTZUMTU/62f733efd173ab15f0e89340B8d50b92e" target="_blank" rel="noopener" onclick="event.stopPropagation()">Kids Drum Circle</a></span>
+          <span class="loc">Pour House</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">3:30-4:30 p.m. · Pour House · Free</p>
+        <div class="event-foot">
+          <span class="src">via CHStoday (newsletter)</span>
+          <a class="visit" href="https://link.6amcity.com/click/45698093.1771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9raWRzLWRydW0tY2lyY2xlLzE4ODA0MTI0LzIwMjYtMDUtMTZUMTU/62f733efd173ab15f0e89340B8d50b92e" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://link.6amcity.com/click/45698093.1771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9raWRzLWRydW0tY2lyY2xlLzE4ODA0MTI0LzIwMjYtMDUtMTZUMTU/62f733efd173ab15f0e89340B8d50b92e" target="_blank" rel="noopener">Kids Drum Circle</a></h3>
-      <div class="loc">Pour House</div>
-      <p class="desc">3:30-4:30 p.m. · Pour House · Free</p>
-      <div class="src">via CHStoday (newsletter)</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Sat May 16 · 8:00 pm</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.55</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Sat May 16 · 8:00 pm</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.55</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Gasolina Reggaetón Party</a></span>
+          <span class="loc">Music Farm, 32 Ann St, Charleston, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Gasolina is dedicated to creating a community within the reggaetón and latin-music scene across the United States through exciting and innovative events.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Gasolina Reggaetón Party</a></h3>
-      <div class="loc">Music Farm, 32 Ann St, Charleston, SC · Charleston</div>
-      <p class="desc">Gasolina is dedicated to creating a community within the reggaetón and latin-music scene across the United States through exciting and innovative events.…</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Sun May 17 · 4:00 pm</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.55</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Sun May 17 · 4:00 pm</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.55</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Calamity Club Book Tour: A Conversation with Kathryn Stockett</a></span>
+          <span class="loc">Charleston Music Hall, 37 John St, Charleston, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Please join us in welcoming Kathryn Stockett, New York Times bestselling author of The Help, to Charleston to celebrate her long-awaited new novel, The Calamity Club (Spiegel &amp; Grau).…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">The Calamity Club Book Tour: A Conversation with Kathryn Stockett</a></h3>
-      <div class="loc">Charleston Music Hall, 37 John St, Charleston, SC · Charleston</div>
-      <p class="desc">Please join us in welcoming Kathryn Stockett, New York Times bestselling author of The Help, to Charleston to celebrate her long-awaited new novel, The Calamity Club (Spiegel &amp; Grau).…</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Sat May 16 · 9:30 pm</span>
-        <span class="price">$10</span>
-        <span class="score">0.50</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Sat May 16 · 9:30 pm</span>
+          <span class="price">$10</span>
+          <span class="score">0.50</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D202369396" target="_blank" rel="noopener" onclick="event.stopPropagation()">Jerkweed on the inside stage</a></span>
+          <span class="loc">The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC · Isle Of Palms</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Jerkweed on the inside stage $10 at the door or Free with a Little Stranger Ticket May 16, 2026 Doors at 9:30 pm 21 Up Artist Website www.facebook.com… Jerkweed, “South Carolina’s premiere mediocre pop punk/emo band,” was formed officially in September 2023, joined by Ryan Hanifi…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D202369396" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D202369396" target="_blank" rel="noopener">Jerkweed on the inside stage</a></h3>
-      <div class="loc">The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC · Isle Of Palms</div>
-      <p class="desc">Jerkweed on the inside stage $10 at the door or Free with a Little Stranger Ticket May 16, 2026 Doors at 9:30 pm 21 Up Artist Website www.facebook.com… Jerkweed, “South Carolina’s premiere mediocre pop punk/emo band,” was formed officially </p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Sun May 17 · 1:00 pm</span>
-        <span class="price">$10</span>
-        <span class="score">0.50</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Sun May 17 · 1:00 pm</span>
+          <span class="price">$10</span>
+          <span class="score">0.50</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Fundraiser for Clarence’s Recovery</a></span>
+          <span class="loc">The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC · Isle Of Palms</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">min $10 Donation May 17, 2026 Doors at 12:00 pm. Show at 1:00 pm. All AGES</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Fundraiser for Clarence’s Recovery</a></h3>
-      <div class="loc">The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC · Isle Of Palms</div>
-      <p class="desc">min $10 Donation May 17, 2026 Doors at 12:00 pm. Show at 1:00 pm. All AGES</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Art exhibit</span>
-        <span class="when">Sat May 16 · 10:00 am</span>
-        <span class="price">Free</span>
-        <span class="score">0.35</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Art exhibit</span>
+          <span class="when">Sat May 16 · 10:00 am</span>
+          <span class="price">Free</span>
+          <span class="score">0.35</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/entertainment/the-classics-black-white-opens-at-charleston-crafts-gallery-/" target="_blank" rel="noopener" onclick="event.stopPropagation()">The Classics: Black &amp; White</a></span>
+          <span class="loc">Charleston Crafts Gallery, 140 E Bay St, Charleston, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Charleston Crafts Gallery, an artist-owned cooperative in downtown Charleston, will present its May exhibition, The Classics: Black &amp; White, opening with a public reception Friday, May 1, from 5 to 8 p.m.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/entertainment/the-classics-black-white-opens-at-charleston-crafts-gallery-/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/entertainment/the-classics-black-white-opens-at-charleston-crafts-gallery-/" target="_blank" rel="noopener">The Classics: Black &amp; White</a></h3>
-      <div class="loc">Charleston Crafts Gallery, 140 E Bay St, Charleston, SC · Charleston</div>
-      <p class="desc">Charleston Crafts Gallery, an artist-owned cooperative in downtown Charleston, will present its May exhibition, The Classics: Black &amp; White, opening with a public reception Friday, May 1, from 5 to 8 p.m.…</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Art exhibit</span>
-        <span class="when">Sat May 16 · 10:30 am</span>
-        <span class="price">Free</span>
-        <span class="score">0.35</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Art exhibit</span>
+          <span class="when">Sat May 16 · 10:30 am</span>
+          <span class="price">Free</span>
+          <span class="score">0.35</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-present-charleston-in-bloom/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Charleston in Bloom</a></span>
+          <span class="loc">Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Charleston has been described as a “city set in a garden,” and there is no better time than spring to admire the beauty of window boxes spilling over with flowers and gardens filled with vibrant blooms. This exhibition was inspired by the arrival of spring in the Lowcountry.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-present-charleston-in-bloom/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-present-charleston-in-bloom/" target="_blank" rel="noopener">Charleston in Bloom</a></h3>
-      <div class="loc">Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC · Charleston</div>
-      <p class="desc">Charleston has been described as a “city set in a garden,” and there is no better time than spring to admire the beauty of window boxes spilling over with flowers and gardens filled with vibrant blooms. This exhibition was inspired by the a</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Brewery</span>
-        <span class="when">Sun May 17</span>
-        <span class="price">$145</span>
-        <span class="score">0.35</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Brewery</span>
+          <span class="when">Sun May 17</span>
+          <span class="price">$145</span>
+          <span class="score">0.35</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://link.6amcity.com/click/45726653.27771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy8xOHRoLWFubnVhbC1jaGVmcy1wb3RsdWNrLzE4Mjk3NzQ0LzIwMjYtMDUtMTdUMTY/62f733efd173ab15f0e89340Bd2e42fe9" target="_blank" rel="noopener" onclick="event.stopPropagation()">18th annual Chef&#x27;s Potluck</a></span>
+          <span class="loc">Holy City Brewing (The Porter Room), North Charleston · North Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">4-7 p.m. · Holy City Brewing (The Porter Room), North Charleston · $145+</p>
+        <div class="event-foot">
+          <span class="src">via CHStoday (newsletter)</span>
+          <a class="visit" href="https://link.6amcity.com/click/45726653.27771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy8xOHRoLWFubnVhbC1jaGVmcy1wb3RsdWNrLzE4Mjk3NzQ0LzIwMjYtMDUtMTdUMTY/62f733efd173ab15f0e89340Bd2e42fe9" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://link.6amcity.com/click/45726653.27771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy8xOHRoLWFubnVhbC1jaGVmcy1wb3RsdWNrLzE4Mjk3NzQ0LzIwMjYtMDUtMTdUMTY/62f733efd173ab15f0e89340Bd2e42fe9" target="_blank" rel="noopener">18th annual Chef&#x27;s Potluck</a></h3>
-      <div class="loc">Holy City Brewing (The Porter Room), North Charleston · North Charleston</div>
-      <p class="desc">4-7 p.m. · Holy City Brewing (The Porter Room), North Charleston · $145+</p>
-      <div class="src">via CHStoday (newsletter)</div>
-    </article>
+    </details>
     
     
       
       <h2>Routine weekly / monthly — this weekend</h2>
-    <article class="event " style="--tier:#c8542a">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Drinking</span>
-        <span class="when">Sat May 16 · 10:00 am</span>
-        <span class="price">$15</span>
-        <span class="score">0.63</span>
+    <details class="event " style="--tier:#c8542a">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Drinking</span>
+          <span class="when">Sat May 16 · 10:00 am</span>
+          <span class="price">$15</span>
+          <span class="score">0.63</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events" target="_blank" rel="noopener" onclick="event.stopPropagation()">Weekend Wine-Down</a></span>
+          <span class="loc">Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC · Wadmalaw Island</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events" target="_blank" rel="noopener">Weekend Wine-Down</a></h3>
-      <div class="loc">Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC · Wadmalaw Island</div>
-      <p class="desc">Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine </p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#c8542a">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Farmers market</span>
-        <span class="when">Sat May 16 · 9:30 am</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.59</span>
+    <details class="event " style="--tier:#c8542a">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Farmers market</span>
+          <span class="when">Sat May 16 · 9:30 am</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.59</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D175324367" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sea Island Farmers Market</a></span>
+          <span class="loc">Charleston Collegiate School, 2024 Academy Rd, John’s Island, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John’s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D175324367" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D175324367" target="_blank" rel="noopener">Sea Island Farmers Market</a></h3>
-      <div class="loc">Charleston Collegiate School, 2024 Academy Rd, John’s Island, SC · Charleston</div>
-      <p class="desc">Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John’s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade craft</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#c8542a">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Farmers market</span>
-        <span class="when">Sun May 17 · 10:30 am</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.59</span>
+    <details class="event " style="--tier:#c8542a">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Farmers market</span>
+          <span class="when">Sun May 17 · 10:30 am</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.59</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/entertainment/american-gardens-launches-sunday-bazaar-series-may-10/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sunday Bazaar</a></span>
+          <span class="loc">American Gardens, 174 King St., Charleston, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">On Sunday, May 10, American Gardens will kick off its Sunday Bazaar series, a weekly flower and farmers market running through the end of June. Taking place every Sunday from 10:30 a.m.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/entertainment/american-gardens-launches-sunday-bazaar-series-may-10/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/entertainment/american-gardens-launches-sunday-bazaar-series-may-10/" target="_blank" rel="noopener">Sunday Bazaar</a></h3>
-      <div class="loc">American Gardens, 174 King St., Charleston, SC · Charleston</div>
-      <p class="desc">On Sunday, May 10, American Gardens will kick off its Sunday Bazaar series, a weekly flower and farmers market running through the end of June. Taking place every Sunday from 10:30 a.m.…</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Car show</span>
-        <span class="when">Sat May 16 · 9:00 am</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.54</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Car show</span>
+          <span class="when">Sat May 16 · 9:00 am</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.54</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Cars &amp; Coffee</a></span>
+          <span class="loc">Freshfields Village, 165 Village Green Ln, Kiawah Island, SC · Kiawah</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">3rd Saturday of each month from February to September Cars &amp; Coffee Arrive in your favorite ride or stop by the Village Green to browse unique, antique and other cool cars at our monthly Cars &amp; Coffee! Coffee and breakfast will be available for purchase at Java Java.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Cars &amp; Coffee</a></h3>
-      <div class="loc">Freshfields Village, 165 Village Green Ln, Kiawah Island, SC · Kiawah</div>
-      <p class="desc">3rd Saturday of each month from February to September Cars &amp; Coffee Arrive in your favorite ride or stop by the Village Green to browse unique, antique and other cool cars at our monthly Cars &amp; Coffee! Coffee and breakfast will be available</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Art exhibit</span>
-        <span class="when">Sun May 17 · 5:00 pm</span>
-        <span class="price">$15</span>
-        <span class="score">0.26</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Art exhibit</span>
+          <span class="when">Sun May 17 · 5:00 pm</span>
+          <span class="price">$15</span>
+          <span class="score">0.26</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://redux.givecloud.co/figure-drawing" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sunday Figure Drawing</a></span>
+          <span class="loc">Redux Contemporary Art Center, 1056 King Street, Charleston, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://redux.givecloud.co/figure-drawing" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://redux.givecloud.co/figure-drawing" target="_blank" rel="noopener">Sunday Figure Drawing</a></h3>
-      <div class="loc">Redux Contemporary Art Center, 1056 King Street, Charleston, SC · Charleston</div>
-      <p class="desc">Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
     </section>
 
     <section class="panel" id="next">
       <div class="empty">No events scored above the threshold yet for next weekend.</div>
       <h2>Heads-up — weekdays next week</h2>
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Brewery</span>
-        <span class="when">Wed May 20 · 6:30 pm</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.41</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Brewery</span>
+          <span class="when">Wed May 20 · 6:30 pm</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.41</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Exotic Pet Meetup</a></span>
+          <span class="loc">Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC · North Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">You and your pets are invited! Join us at the Snafu taproom May 20th for an exotic pet meetup hosted by All Creatures Veterinary Clinic - enjoy a pint while you meet other pet owners and learn from the experts themselves All pets are welcome *in their respective carriers and/or o…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Exotic Pet Meetup</a></h3>
-      <div class="loc">Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC · North Charleston</div>
-      <p class="desc">You and your pets are invited! Join us at the Snafu taproom May 20th for an exotic pet meetup hosted by All Creatures Veterinary Clinic - enjoy a pint while you meet other pet owners and learn from the experts themselves All pets are welcom</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Festival</span>
-        <span class="when">Tue May 19 · 8:30 am</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.39</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Festival</span>
+          <span class="when">Tue May 19 · 8:30 am</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.39</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://eventbrite.com/e/novel-strategies-coffee-conversations-tickets-1988915796688?aff=oddtdtcreator&amp;keep_tld=true" target="_blank" rel="noopener" onclick="event.stopPropagation()">Novel Strategies – Coffee &amp; Conversations</a></span>
+          <span class="loc">Basic Kitchen · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">A discussion with Spoleto&#x27;s Mena Mark Hanna &amp; Charleston&#x27;s Rochelle Riley ahead of Spoleto Festival and Piccolo Spoleto 2026! Join us on Tuesday, May 19 for coffee and breakfast bites with Mena Mark Hanna, General Director of Spoleto Festival USA, and Rochelle Riley, Director of…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://eventbrite.com/e/novel-strategies-coffee-conversations-tickets-1988915796688?aff=oddtdtcreator&amp;keep_tld=true" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://eventbrite.com/e/novel-strategies-coffee-conversations-tickets-1988915796688?aff=oddtdtcreator&amp;keep_tld=true" target="_blank" rel="noopener">Novel Strategies – Coffee &amp; Conversations</a></h3>
-      <div class="loc">Basic Kitchen · Charleston</div>
-      <p class="desc">A discussion with Spoleto&#x27;s Mena Mark Hanna &amp; Charleston&#x27;s Rochelle Riley ahead of Spoleto Festival and Piccolo Spoleto 2026! Join us on Tuesday, May 19 for coffee and breakfast bites with Mena Mark Hanna, General Director of Spoleto Festiv</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Tue May 19 · 8:00 am</span>
-        <span class="price">$10</span>
-        <span class="score">0.37</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Tue May 19 · 8:00 am</span>
+          <span class="price">$10</span>
+          <span class="score">0.37</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D199077446" target="_blank" rel="noopener" onclick="event.stopPropagation()">Kanika Moore &amp; The Brown Eyed Bois</a></span>
+          <span class="loc">Charleston Pour House, 1977 Maybank Hwy, James Island, SC · James Island</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Kanika Moore &amp; The Brown Eyed Bois &gt; featuring Sean Bing (Doom Flamingo, Runaway Gin, Psycodelics) Corey Stephens (Motown Throwdown, Broken Speakers, Josh Roberts and the Hinges) Noah Jones (Psycodelics, Little Bird) James Rubush (Psycodelics, Whut? , Little Bird ) *Tuesday April…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D199077446" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D199077446" target="_blank" rel="noopener">Kanika Moore &amp; The Brown Eyed Bois</a></h3>
-      <div class="loc">Charleston Pour House, 1977 Maybank Hwy, James Island, SC · James Island</div>
-      <p class="desc">Kanika Moore &amp; The Brown Eyed Bois &gt; featuring Sean Bing (Doom Flamingo, Runaway Gin, Psycodelics) Corey Stephens (Motown Throwdown, Broken Speakers, Josh Roberts and the Hinges) Noah Jones (Psycodelics, Little Bird) James Rubush (Psycodeli</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Mon May 18 · 6:30 pm</span>
-        <span class="price">Free</span>
-        <span class="score">0.35</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Mon May 18 · 6:30 pm</span>
+          <span class="price">Free</span>
+          <span class="score">0.35</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D199483571" target="_blank" rel="noopener" onclick="event.stopPropagation()">Acoustic Muffin Duo w/ special guests</a></span>
+          <span class="loc">Charleston Pour House, 1977 Maybank Hwy, James Island, SC · James Island</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Acoustic Muffin Duo w/ special guests Mondays &gt;&gt;&gt; April 13th , May 18th June 1st, June 8th 2026 CHS Pour House (deck stage) FREE SHOWS 5pm doors 630pm shows 2 x sets</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D199483571" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D199483571" target="_blank" rel="noopener">Acoustic Muffin Duo w/ special guests</a></h3>
-      <div class="loc">Charleston Pour House, 1977 Maybank Hwy, James Island, SC · James Island</div>
-      <p class="desc">Acoustic Muffin Duo w/ special guests Mondays &gt;&gt;&gt; April 13th , May 18th June 1st, June 8th 2026 CHS Pour House (deck stage) FREE SHOWS 5pm doors 630pm shows 2 x sets</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Farmers market</span>
-        <span class="when">Wed May 20 · 3:00 pm</span>
-        <span class="price">Free</span>
-        <span class="score">0.34</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Farmers market</span>
+          <span class="when">Wed May 20 · 3:00 pm</span>
+          <span class="price">Free</span>
+          <span class="score">0.34</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/food-bev/west-ashley-farmers-market-opens-april-1-for-2026-season/" target="_blank" rel="noopener" onclick="event.stopPropagation()">West Ashley Farmers Market</a></span>
+          <span class="loc">Ackerman Park, 55 Sycamore Avenue, Charleston, SC · West Ashley</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">The West Ashley Farmers Market opened for the 2026 season Wednesday, April 1, at Ackerman Park, marking the earliest opening in the market’s history. The market will run every Wednesday from 3 to 7 p.m. through Oct. 14, with a special Thanksgiving Market on Sunday, Nov.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/food-bev/west-ashley-farmers-market-opens-april-1-for-2026-season/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/food-bev/west-ashley-farmers-market-opens-april-1-for-2026-season/" target="_blank" rel="noopener">West Ashley Farmers Market</a></h3>
-      <div class="loc">Ackerman Park, 55 Sycamore Avenue, Charleston, SC · West Ashley</div>
-      <p class="desc">The West Ashley Farmers Market opened for the 2026 season Wednesday, April 1, at Ackerman Park, marking the earliest opening in the market’s history. The market will run every Wednesday from 3 to 7 p.m. through Oct. 14, with a special Thank</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Tue May 19 · 6:00 pm</span>
-        <span class="price">Free</span>
-        <span class="score">0.34</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Tue May 19 · 6:00 pm</span>
+          <span class="price">Free</span>
+          <span class="score">0.34</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://holycitysinner.com/entertainment/north-charleston-pops-announces-2026-jazz-in-the-park-series/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Jazz in the Park: The Kleztonians</a></span>
+          <span class="loc">Riverfront Park, 1061 Everglades Ave, North Charleston, SC · North Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">The North Charleston POPS! is excited to announce the return of its popular Jazz in the Park series for 2026.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://holycitysinner.com/entertainment/north-charleston-pops-announces-2026-jazz-in-the-park-series/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://holycitysinner.com/entertainment/north-charleston-pops-announces-2026-jazz-in-the-park-series/" target="_blank" rel="noopener">Jazz in the Park: The Kleztonians</a></h3>
-      <div class="loc">Riverfront Park, 1061 Everglades Ave, North Charleston, SC · North Charleston</div>
-      <p class="desc">The North Charleston POPS! is excited to announce the return of its popular Jazz in the Park series for 2026.…</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Outdoor music</span>
-        <span class="when">Wed May 20 · 5:00 pm</span>
-        <span class="price">Price unknown</span>
-        <span class="score">0.32</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Outdoor music</span>
+          <span class="when">Wed May 20 · 5:00 pm</span>
+          <span class="price">Price unknown</span>
+          <span class="score">0.32</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://www.thespectatorhotel.com/bar-the-spectator-hotel" target="_blank" rel="noopener" onclick="event.stopPropagation()">Live Music at The Bar x Gillian Kohn</a></span>
+          <span class="loc">The Spectator Hotel, 67 State St., Charleston, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Enjoy live Jazz at The Bar with Gillian Kohn - The Vintage Vixen of Jazz Bring your friends and nosh on a selection of shared bar bites, sip on handcrafted cocktails and indulge in half-price bottles of wine from The Spectator&#x27;s wine program.</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://www.thespectatorhotel.com/bar-the-spectator-hotel" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://www.thespectatorhotel.com/bar-the-spectator-hotel" target="_blank" rel="noopener">Live Music at The Bar x Gillian Kohn</a></h3>
-      <div class="loc">The Spectator Hotel, 67 State St., Charleston, SC · Charleston</div>
-      <p class="desc">Enjoy live Jazz at The Bar with Gillian Kohn - The Vintage Vixen of Jazz Bring your friends and nosh on a selection of shared bar bites, sip on handcrafted cocktails and indulge in half-price bottles of wine from The Spectator&#x27;s wine progra</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
-    <article class="event " style="--tier:#8a7a5d">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">Brewery</span>
-        <span class="when">Mon May 18 · 4:00 pm</span>
-        <span class="price">Free</span>
-        <span class="score">0.32</span>
+    <details class="event " style="--tier:#8a7a5d">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">Brewery</span>
+          <span class="when">Mon May 18 · 4:00 pm</span>
+          <span class="price">Free</span>
+          <span class="score">0.32</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Kids Eat Free</a></span>
+          <span class="loc">Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC · Charleston</span>
+        </div>
+      </summary>
+      <div class="event-body">
+        <p class="desc">Let us handle dinner! Kids 12 and under now eat for free on MONDAYS from 4–8 PM Up to 2 kids eat free with the purchase of an adult entree. We’ll have cheese or pepperoni little monster pizza slices, single smash burgers and chicken tenders for your little ones.…</p>
+        <div class="event-foot">
+          <span class="src">via Holy City Sinner</span>
+          <a class="visit" href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Visit event page →</a>
+        </div>
       </div>
-      <h3 class="title"><a href="https://www.holycitysinner.com/charleston-weekend-events/" target="_blank" rel="noopener">Kids Eat Free</a></h3>
-      <div class="loc">Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC · Charleston</div>
-      <p class="desc">Let us handle dinner! Kids 12 and under now eat for free on MONDAYS from 4–8 PM Up to 2 kids eat free with the purchase of an adult entree. We’ll have cheese or pepperoni little monster pizza slices, single smash burgers and chicken tenders</p>
-      <div class="src">via Holy City Sinner</div>
-    </article>
+    </details>
     
       
     </section>
