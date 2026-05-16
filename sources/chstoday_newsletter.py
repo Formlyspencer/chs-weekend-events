@@ -1,24 +1,30 @@
 """CHStoday newsletter — pulled from Spencer's personal Gmail via IMAP.
 
 CHStoday's website is a JavaScript SPA we can't scrape, but the daily
-email newsletter has the same content as plain HTML. This source connects
-to Gmail's IMAP server with an App Password (no OAuth, no expiring tokens)
-and extracts event mentions from each newsletter body.
+email newsletter has the same content as plain HTML and (better still)
+a tidy structured "Events" section.
 
-Why IMAP instead of the Gmail API:
-  Google's Gmail API expires refresh tokens after 7 days for apps in
-  "Testing" status with sensitive scopes — so OAuth would require weekly
-  re-auth. App Passwords don't expire, are revocable independently, and
-  IMAP is a 30-year-old protocol that just works.
+Format (verified against a real newsletter):
+    Events
+    Friday, May 15
+    Tiny Lawn Music Series | 6-8 p.m. | Darby Building, Mount Pleasant | Free
 
-If the env vars aren't set, this scraper silently returns [] so the
-pipeline keeps working before setup.
+    Charleston Riverdogs vs. Kannapolis | 7:05 p.m. | Joe Riley Stadium | $25+
 
-Required env vars (or GitHub Secrets):
-    IMAP_USERNAME — full personal Gmail address
-    IMAP_PASSWORD — 16-char App Password generated at
-                    https://myaccount.google.com/apppasswords
-                    (requires 2FA enabled on the Google account)
+    Saturday, May 16
+    Farmers Market | 9:30 a.m.-1 p.m. | Ravenel Depot | Price of purchase
+    ...
+    AtomaCon | Saturday, May 16-Sunday, May 17 | Trident Tech, N Chas | $20+
+    ...
+    Sunday, May 17
+    Sunday Bazaar | 10:30 a.m.-2:30 p.m. | American Gardens | Price of purchase
+    ...
+
+Each event is a single line, pipe-delimited: title | time | venue | price.
+A date header line (`Friday, May 15`) precedes a day's group; multi-day
+events embed their own date range in the time column.
+
+Auth: IMAP with an App Password, env vars IMAP_USERNAME / IMAP_PASSWORD.
 """
 from __future__ import annotations
 
@@ -28,7 +34,7 @@ import imaplib
 import logging
 import os
 import re
-from datetime import date, datetime, timedelta
+from datetime import date, timedelta
 from email.message import EmailMessage
 
 from bs4 import BeautifulSoup
@@ -41,30 +47,33 @@ SOURCE = "CHStoday (newsletter)"
 IMAP_HOST = "imap.gmail.com"
 IMAP_PORT = 993
 
-# Gmail-specific extended search — same syntax as the Gmail web UI.
-# Gives us OR support and `newer_than:`.
 GMAIL_QUERY = "from:chstoday OR from:6amcity newer_than:14d"
-
-# Standard IMAP fallback (used if X-GM-RAW isn't honored for some reason).
 FALLBACK_SINCE_DAYS = 14
-
-# Cap on emails we'll pull per run.
 MAX_EMAILS = 10
 
+# Fallback URL when we can't extract a per-event link from the email HTML.
+EVENTS_CALENDAR_URL = "https://6amcity.com/sc/charleston/events"
 
-_DATE_RE = re.compile(
-    r"\b(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*,?\s+"
+# A day header looks like "Friday, May 15" (no year). Optional comma.
+_DAY_HEADER_RE = re.compile(
+    r"^(?P<dow>mon|tue|wed|thu|fri|sat|sun)[a-z]*,?\s+"
     r"(?P<month>jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*"
-    r"\s+(?P<day>\d{1,2})",
+    r"\s+(?P<day>\d{1,2})\s*$",
     re.IGNORECASE,
 )
 _MONTHS = {m: i + 1 for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 )}
+# Multi-day events embed dates in the time column:
+#   "Saturday, May 16-Sunday, May 17"  or  "May 16 - May 17"
+_INLINE_DATE_RE = re.compile(
+    r"(?P<month>jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*"
+    r"\s+(?P<day>\d{1,2})",
+    re.IGNORECASE,
+)
 
 
 def _connect() -> imaplib.IMAP4_SSL | None:
-    """Return an authenticated IMAP connection, or None if env vars missing."""
     user = os.environ.get("IMAP_USERNAME")
     pwd = os.environ.get("IMAP_PASSWORD")
     if not (user and pwd):
@@ -83,19 +92,13 @@ def _connect() -> imaplib.IMAP4_SSL | None:
 
 
 def _list_message_ids(conn: imaplib.IMAP4_SSL) -> list[bytes]:
-    """List recent CHStoday message UIDs. Tries Gmail's extended search
-    first; falls back to standard IMAP if that's not supported.
-    """
     conn.select("INBOX", readonly=True)
-    # Gmail X-GM-RAW: supports Gmail's web-search syntax (OR, newer_than:, etc.)
     try:
         typ, data = conn.uid("SEARCH", "X-GM-RAW", f'"{GMAIL_QUERY}"')
         if typ == "OK" and data and data[0]:
             return data[0].split()
     except imaplib.IMAP4.error:
         pass
-
-    # Fallback: basic IMAP search (single FROM, SINCE only).
     since = (date.today() - timedelta(days=FALLBACK_SINCE_DAYS)).strftime("%d-%b-%Y")
     try:
         typ, data = conn.uid("SEARCH", None, "FROM", "chstoday", "SINCE", since)
@@ -111,83 +114,147 @@ def _fetch_message(conn: imaplib.IMAP4_SSL, uid: bytes) -> EmailMessage | None:
         typ, data = conn.uid("FETCH", uid, "(RFC822)")
         if typ != "OK" or not data or not data[0]:
             return None
-        raw = data[0][1]
-        return email.message_from_bytes(raw, policy=email.policy.default)
+        return email.message_from_bytes(data[0][1], policy=email.policy.default)
     except Exception as e:
         log.warning("CHStoday newsletter: fetch uid=%s failed: %s", uid, e)
         return None
 
 
-def _email_body(msg: EmailMessage) -> str:
-    """Get the best text representation of an email's body."""
-    # Prefer HTML (newsletters always send HTML, and BeautifulSoup gives a
-    # cleaner extraction than the auto-generated text/plain part).
-    html_part = msg.get_body(preferencelist=("html",))
-    if html_part is not None:
+def _email_html(msg: EmailMessage) -> str:
+    """Return the HTML body of the message (preferred) or empty string."""
+    part = msg.get_body(preferencelist=("html",))
+    if part is not None:
         try:
-            html = html_part.get_content()
-        except Exception:
-            html = ""
-        if html:
-            soup = BeautifulSoup(html, "html.parser")
-            for tag in soup(["script", "style"]):
-                tag.decompose()
-            return soup.get_text("\n", strip=True)
-    text_part = msg.get_body(preferencelist=("plain",))
-    if text_part is not None:
-        try:
-            return text_part.get_content()
+            return part.get_content()
         except Exception:
             return ""
     return ""
 
 
-def _parse_events_from_body(body: str, source_url: str) -> list[dict]:
-    """Extract events from a newsletter body. Heuristic — looks for chunks
-    with a date phrase and pulls the first heading-ish line as the title.
+def _norm_text(s: str) -> str:
+    return re.sub(r"\s+", " ", (s or "").strip().lower())
 
-    Will likely need tuning once we see real CHStoday newsletter samples.
+
+def _build_url_map(soup: BeautifulSoup) -> dict[str, str]:
+    """{normalized-link-text: href} for every <a> in the email — used to
+    recover per-event URLs since the newsletter wraps each event title in
+    a link.
     """
-    if not body:
-        return []
-    out: list[dict] = []
+    out: dict[str, str] = {}
+    for a in soup.find_all("a", href=True):
+        text = _norm_text(a.get_text(" ", strip=True))
+        if text and text not in out:
+            out[text] = a["href"]
+    return out
+
+
+def _date_from_inline(text: str) -> date | None:
+    """Pick the earliest upcoming month/day mentioned in `text`."""
     today = date.today()
-    chunks = re.split(r"\n\s*\n", body)
-    for chunk in chunks:
-        chunk = chunk.strip()
-        if len(chunk) < 30 or len(chunk) > 1200:
-            continue
-        dm = _DATE_RE.search(chunk)
-        if not dm:
-            continue
-        month = _MONTHS[dm.group("month").lower()[:3]]
-        day = int(dm.group("day"))
-        ev_date: date | None = None
-        for year_offset in (0, 1):
+    for m in _INLINE_DATE_RE.finditer(text):
+        month = _MONTHS[m.group("month").lower()[:3]]
+        day = int(m.group("day"))
+        for offset in (0, 1):
             try:
-                cand = date(today.year + year_offset, month, day)
+                cand = date(today.year + offset, month, day)
             except ValueError:
                 continue
             if cand >= today:
-                ev_date = cand
-                break
-        if ev_date is None or not _common.within_horizon(ev_date):
+                return cand
+    return None
+
+
+def _parse_events_section(body_text: str, url_map: dict[str, str]) -> list[dict]:
+    """Walk the `Events` section of the newsletter and yield event dicts."""
+    # Find the Events section — bracketed by "Events" header and the next
+    # major heading ("News Notes", "The Wrap", "The Buy") or the "See our
+    # full events calendar" footer line.
+    start_match = re.search(r"(?m)^\s*Events\s*$", body_text)
+    if not start_match:
+        return []
+    section = body_text[start_match.end():]
+    for end_marker in (
+        r"(?m)^\s*See our full events calendar",
+        r"(?m)^\s*News Notes\s*$",
+        r"(?m)^\s*The Wrap\s*$",
+        r"(?m)^\s*The Buy\s*$",
+        r"(?m)^\s*News\s*$",
+    ):
+        m = re.search(end_marker, section)
+        if m:
+            section = section[: m.start()]
+            break
+
+    today = date.today()
+    out: list[dict] = []
+    current_date: date | None = None
+
+    for raw_line in section.splitlines():
+        line = raw_line.strip()
+        if not line:
             continue
-        lines = [ln.strip() for ln in chunk.splitlines() if ln.strip()]
-        title = lines[0] if lines else ""
+        # Skip "Feature your event here" promo lines etc.
+        if line.startswith("Feature your event"):
+            continue
+
+        # Day header?
+        m = _DAY_HEADER_RE.match(line)
+        if m:
+            month = _MONTHS[m.group("month").lower()[:3]]
+            day = int(m.group("day"))
+            new_date: date | None = None
+            for offset in (0, 1):
+                try:
+                    cand = date(today.year + offset, month, day)
+                except ValueError:
+                    continue
+                if cand >= today - timedelta(days=2):  # allow today even after midnight
+                    new_date = cand
+                    break
+            if new_date:
+                current_date = new_date
+            continue
+
+        # Event line — pipe-delimited.
+        if "|" not in line:
+            continue
+        parts = [p.strip() for p in line.split("|")]
+        if len(parts) < 3:
+            continue
+        title = parts[0]
         if len(title) < 4 or len(title) > 140:
             continue
-        if title.lower() in {"events", "this weekend", "things to do", "what's happening"}:
+        # Skip promo / ad-style lines that creep into the section.
+        if any(skip in title.lower() for skip in ("subscribe", "advertise", "support us")):
             continue
-        body_text = " ".join(lines[1:])[:400]
-        if not _common.is_in_area(body_text) and not _common.is_in_area(title):
+
+        time_col = parts[1] if len(parts) >= 2 else ""
+        venue_col = parts[2] if len(parts) >= 3 else ""
+        price_col = parts[3] if len(parts) >= 4 else ""
+
+        # If the time column contains an explicit date (multi-day event),
+        # use that. Otherwise fall back to the current day-header date.
+        ev_date = _date_from_inline(time_col) or current_date
+        if ev_date is None or not _common.within_horizon(ev_date):
             continue
+
+        # Venue can include the neighborhood in parens or after a comma:
+        #   "West Marine (West Ashley)"
+        #   "Holy City Brewing (The Porter Room), North Charleston"
+        if not _common.is_in_area(venue_col) and not _common.is_in_area(title):
+            continue
+
+        price = _common.parse_price(price_col)
+        url = url_map.get(_norm_text(title)) or EVENTS_CALENDAR_URL
+
+        description = " · ".join(p for p in (time_col, venue_col, price_col) if p)
         out.append(_common.event(
             title=title,
             start=ev_date,
-            description=body_text or None,
-            url=source_url,
-            price=_common.parse_price(body_text),
+            venue=venue_col or None,
+            url=url,
+            description=description,
+            price=price,
             source=SOURCE,
         ))
     return out
@@ -201,16 +268,20 @@ def fetch() -> list[dict]:
         uids = _list_message_ids(conn)
         log.info("CHStoday newsletter: %d emails matched query", len(uids))
         out: list[dict] = []
-        for uid in uids[-MAX_EMAILS:]:   # most recent N
+        for uid in uids[-MAX_EMAILS:]:
             msg = _fetch_message(conn, uid)
             if msg is None:
                 continue
-            body = _email_body(msg)
+            html = _email_html(msg)
+            if not html:
+                continue
+            soup = BeautifulSoup(html, "html.parser")
+            for tag in soup(["script", "style"]):
+                tag.decompose()
+            url_map = _build_url_map(soup)
+            body_text = soup.get_text("\n", strip=True)
             try:
-                events = _parse_events_from_body(
-                    body,
-                    source_url="https://chstoday.6amcity.com/",
-                )
+                events = _parse_events_section(body_text, url_map)
             except Exception as e:
                 log.warning("CHStoday newsletter: parse uid=%s failed: %s", uid, e)
                 continue
