@@ -259,9 +259,12 @@ def _parse_events_section(body_text: str, url_map: dict[str, str]) -> list[dict]
         if ev_date is None or not _common.within_horizon(ev_date):
             continue
 
-        # Venue can include the neighborhood in parens or after a comma:
-        #   "West Marine (West Ashley)"
-        #   "Holy City Brewing (The Porter Room), North Charleston"
+        # Strict drop if the venue or title names an excluded town
+        # (Summerville etc.) — these are authoritative signals.
+        if _common.is_explicitly_excluded(venue_col) or _common.is_explicitly_excluded(title):
+            continue
+        # Otherwise: keep if at least one field reads as Charleston-area,
+        # or both are silent (we'd rather surface an unlocated event).
         if not _common.is_in_area(venue_col) and not _common.is_in_area(title):
             continue
 

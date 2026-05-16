@@ -157,6 +157,8 @@ def _parse_weekend_post(html: str) -> list[dict]:
         d = _parse_first_date(body) or _parse_first_date(name)
         if not d:
             continue
+        if _common.is_explicitly_excluded(name) or _common.is_explicitly_excluded(body):
+            continue
         if not _common.is_in_area(body) and not _common.is_in_area(name):
             continue
         events.append(_common.event(

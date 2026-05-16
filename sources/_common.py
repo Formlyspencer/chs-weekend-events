@@ -108,6 +108,19 @@ def is_in_area(text: str | None) -> bool:
     return True  # included or ambiguous → keep
 
 
+def is_explicitly_excluded(text: str | None) -> bool:
+    """True if `text` names an excluded area (Summerville, Goose Creek, etc.)
+
+    Use this for venue-specific checks where the field is authoritative —
+    even if a description elsewhere mentions Charleston, a venue in
+    Summerville is in Summerville.
+    """
+    if not text:
+        return False
+    low = text.lower()
+    return any(p in low for p in _EXCLUDE_PHRASES)
+
+
 def within_horizon(dt: datetime | date | None) -> bool:
     if dt is None:
         return False
