@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-05-16 18:29 UTC",
+  "fetched_at": "2026-05-16 18:36 UTC",
   "counts": {
     "raw": 179,
-    "scored": 74,
-    "this_weekend": 18,
+    "scored": 68,
+    "this_weekend": 17,
     "next_weekend": 0
   },
   "buckets": {
@@ -67,21 +67,6 @@
           "neighborhood": "Charleston",
           "url": "https://holycitysinner.com/entertainment/soul-fly-chs-announces-lineup-and-debut-event-on-may-16-at-t/",
           "description": "Soul Fly CHS Presented by Marsh Wear Saturday, May 16 Save the date! Soul Fly is back at The Refinery on May 16th for a day of good vibes, great music, and a shared passion for conservation.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.782,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Bat Out Of Hell \u2013 The Musical",
-          "start": "2026-05-16T19:30:00",
-          "end": null,
-          "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/bat-out-of-hell-the-musical-comes-to-the-north-charleston/",
-          "description": "Bat Out of Hell \u2013 The Musical, featuring the music of Jim Steinman and Meat Loaf, will take the stage at the North Charleston Performing Arts Center for one night only on May 16. Tickets go on sale Friday, March 20, at 10 a.m.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -215,7 +200,7 @@
           "end": null,
           "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.northcharlestoncoliseumpac.com/events/detail/choir-showcase-7",
           "description": "Choir Showcase Sunday, May 17, 5:30 PM North Charleston Performing Arts Center Tickets Now On Sale!",
           "price": null,
           "source": "Holy City Sinner",
