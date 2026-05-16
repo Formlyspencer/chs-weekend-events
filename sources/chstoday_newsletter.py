@@ -131,6 +131,30 @@ def _email_html(msg: EmailMessage) -> str:
     return ""
 
 
+def _html_to_text(soup: BeautifulSoup) -> str:
+    """Convert email HTML to text, keeping each block element on its own line.
+
+    BeautifulSoup's `get_text("\\n")` inserts a newline between EVERY text
+    node, which splits a pipe-delimited line like
+        <a>Title</a> | 6-8 p.m. | Venue | Free
+    into four separate lines and breaks the event parser.
+
+    We work around it by appending a marker newline to each block-level tag
+    before calling `get_text(" ")` with a space separator. Inline content
+    (links, spans, etc.) stays joined; block boundaries get one newline.
+    """
+    BLOCK_TAGS = ("p", "div", "h1", "h2", "h3", "h4", "h5", "tr", "li", "br", "section")
+    for tag in soup.find_all(BLOCK_TAGS):
+        tag.append("\n")
+    text = soup.get_text(" ", strip=False)
+    # Normalize whitespace: collapse spaces, single newlines, drop blank-line padding.
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n[ \t]+", "\n", text)
+    text = re.sub(r"[ \t]+\n", "\n", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
 def _norm_text(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip().lower())
 
@@ -303,12 +327,23 @@ def fetch() -> list[dict]:
             for tag in soup(["script", "style"]):
                 tag.decompose()
             url_map = _build_url_map(soup)
-            body_text = soup.get_text("\n", strip=True)
+            body_text = _html_to_text(soup)
             try:
                 events = _parse_events_section(body_text, url_map)
             except Exception as e:
                 log.warning("CHStoday newsletter: parse uid=%s failed: %s", uid, e)
                 continue
+            # Diagnostic: when parsing finds nothing, surface a hint about
+            # what the body looked like so we can iterate without guessing.
+            if not events:
+                has_events_heading = bool(re.search(r"(?m)^\s*Events\s*$", body_text))
+                pipe_lines = sum(1 for line in body_text.splitlines() if "|" in line)
+                log.info(
+                    "CHStoday newsletter: uid=%s extracted 0 — "
+                    "events_heading=%s, pipe_lines=%d, body_len=%d",
+                    uid.decode() if isinstance(uid, bytes) else uid,
+                    has_events_heading, pipe_lines, len(body_text),
+                )
             out.extend(events)
         log.info("CHStoday newsletter: %d events extracted", len(out))
         return out
