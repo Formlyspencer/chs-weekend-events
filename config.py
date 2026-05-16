@@ -260,6 +260,34 @@ MUSIC_VENUE_HINTS = [
     "north charleston performing arts",
 ]
 
+# Frequency-based "uniqueness" boost. Events that happen rarely — annual
+# festivals, galas, inaugural editions, anniversaries — get the same
+# treatment as brand-sponsored events: base weight floored at 1.0 so they
+# don't get out-ranked by routine weekly stuff at lower-weight categories.
+# Word-boundary matched; matches in title or description trigger the bump.
+UNIQUE_KEYWORDS = [
+    "annual",            # "18th annual Chef's Potluck", "annual fundraiser"
+    "annually",
+    "biennial",
+    "biennially",
+    "inaugural",
+    "first annual",
+    "first-ever",
+    "first ever",
+    "gala",              # almost always annual
+    "anniversary",
+    "kickoff",
+    "kick-off",
+    "premiere",
+    "one night only",
+    "one-night-only",
+    "debut",
+    "limited engagement",
+    "fundraiser",        # usually annual
+    "benefit concert",
+]
+
+
 # Brands Spencer actively follows — events that mention them (in title,
 # description, or venue) get an automatic bump to weight 1.0 regardless of
 # category. Use lowercase. Treat any mention as a positive signal.

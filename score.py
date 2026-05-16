@@ -228,12 +228,16 @@ def score(ev: dict) -> dict:
     # Brand boost — events that mention a brand Spencer follows get
     # category weight floored at 1.0 (so a Hed Hi screening or McKevlin's
     # surf comp lands in the top tier even if its category weight is lower).
-    if getattr(config, "BRAND_KEYWORDS", None):
-        haystack = " ".join(filter(None, [
-            ev.get("title"), ev.get("description"), ev.get("venue"),
-        ])).lower()
-        if _matches_any(haystack, config.BRAND_KEYWORDS):
-            base = max(base, 1.0)
+    haystack = " ".join(filter(None, [
+        ev.get("title"), ev.get("description"), ev.get("venue"),
+    ])).lower()
+    if getattr(config, "BRAND_KEYWORDS", None) and _matches_any(haystack, config.BRAND_KEYWORDS):
+        base = max(base, 1.0)
+
+    # Uniqueness boost — rare/annual/inaugural events deserve a bump because
+    # you don't see them every weekend. Same effect as the brand floor.
+    if getattr(config, "UNIQUE_KEYWORDS", None) and _matches_any(haystack, config.UNIQUE_KEYWORDS):
+        base = max(base, 1.0)
 
     s = base * day_mult * price_mult * distance_mult * repeat_mult
     if s >= config.TIER_HIGH:
