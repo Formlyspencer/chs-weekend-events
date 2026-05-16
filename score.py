@@ -412,6 +412,42 @@ def _dedupe_by_venue_date(events: list[dict]) -> list[dict]:
         if not merged:
             out.append(ev)
 
+    # Consolidation pass: a single-pass dedup misses chains. Example:
+    #   out starts empty. We add N (newsletter "Front Paige Media Book Fair").
+    #   Then FVV ("Firefly Vendor Village & Book Fair", Trumba) arrives —
+    #   different title, no description overlap → appended, out=[N, FVV].
+    #   Then FPM (Trumba "Front Paige Media") arrives — matches N via
+    #   title-substring → merged with N (replaces slot 0), then we BREAK.
+    #   FPM and FVV both stay in out, never compared against each other.
+    # Re-running dedup over the survivors catches the FPM-vs-FVV match.
+    changed = True
+    while changed:
+        changed = False
+        i = 0
+        while i < len(out):
+            j = i + 1
+            while j < len(out):
+                try:
+                    dup = _is_duplicate(out[i], out[j])
+                except Exception:
+                    dup = False
+                if dup:
+                    winner = _prefer(out[i], out[j])
+                    msg = (
+                        f"consolidate '{(out[i].get('title') or '')[:35]}' + "
+                        f"'{(out[j].get('title') or '')[:35]}' "
+                        f"@ {_venue_root(out[i].get('venue'))} "
+                        f"-> kept '{(winner.get('title') or '')[:35]}'"
+                    )
+                    DEDUP_DEBUG.append(msg)
+                    print("DEDUP " + msg, flush=True)
+                    out[i] = winner
+                    del out[j]
+                    changed = True
+                else:
+                    j += 1
+            i += 1
+
     # Final survivor groups by (venue, date).
     post_groups: dict[tuple, list[str]] = {}
     for ev in out:
