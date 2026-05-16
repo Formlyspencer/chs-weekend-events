@@ -58,7 +58,7 @@ def _event_card(ev: dict, *, hero: bool = False) -> str:
     title = html.escape(ev.get("title") or "Untitled")
     venue = html.escape(ev.get("venue") or "") if ev.get("venue") else ""
     neighborhood = html.escape(ev.get("neighborhood") or "") if ev.get("neighborhood") else ""
-    desc = html.escape((ev.get("description") or "")[:240])
+    desc_full = html.escape(ev.get("description") or "")
     url = ev.get("url")
     when = _fmt_date(ev.get("start"))
     price = _fmt_price(ev.get("price"))
@@ -67,20 +67,49 @@ def _event_card(ev: dict, *, hero: bool = False) -> str:
 
     loc_bits = " · ".join(b for b in [venue, neighborhood] if b)
 
+    # Title is a link if we have a URL. Inline `onclick` stops the click
+    # from bubbling up to the <summary> so opening the link doesn't also
+    # toggle the card's expanded state.
+    if url:
+        title_html = (
+            f'<a href="{html.escape(url, quote=True)}" target="_blank" '
+            f'rel="noopener" onclick="event.stopPropagation()">{title}</a>'
+        )
+    else:
+        title_html = title
+
+    # Visit-event button shown inside the expanded body — explicit affordance
+    # for users who opened the card via the chevron and now want to go through.
+    visit_link = ""
+    if url:
+        visit_link = (
+            f'<a class="visit" href="{html.escape(url, quote=True)}" '
+            f'target="_blank" rel="noopener">Visit event page →</a>'
+        )
+
     return f"""
-    <article class="event {'hero' if hero else ''}" style="--tier:{color}">
-      <div class="event-head">
-        <span class="tier-dot"></span>
-        <span class="cat">{html.escape(cat)}</span>
-        <span class="when">{html.escape(when)}</span>
-        <span class="price">{html.escape(price)}</span>
-        <span class="score">{score:.2f}</span>
+    <details class="event {'hero' if hero else ''}" style="--tier:{color}">
+      <summary>
+        <div class="event-meta">
+          <span class="tier-dot"></span>
+          <span class="cat">{html.escape(cat)}</span>
+          <span class="when">{html.escape(when)}</span>
+          <span class="price">{html.escape(price)}</span>
+          <span class="score">{score:.2f}</span>
+        </div>
+        <div class="event-title-row">
+          <span class="title">{title_html}</span>
+          {f'<span class="loc">{loc_bits}</span>' if loc_bits else ''}
+        </div>
+      </summary>
+      <div class="event-body">
+        {f'<p class="desc">{desc_full}</p>' if desc_full else ''}
+        <div class="event-foot">
+          <span class="src">via {source}</span>
+          {visit_link}
+        </div>
       </div>
-      <h3 class="title">{f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener">{title}</a>' if url else title}</h3>
-      {f'<div class="loc">{loc_bits}</div>' if loc_bits else ''}
-      {f'<p class="desc">{desc}</p>' if desc else ''}
-      <div class="src">via {source}</div>
-    </article>
+    </details>
     """
 
 
@@ -215,39 +244,85 @@ def render(*, buckets: dict, fetched_at: str) -> str:
     font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
     color: var(--primary); margin: 32px 0 12px; font-weight: 700;
   }}
-  .hero-grid {{ display: grid; gap: 12px; }}
+  .hero-grid {{ display: grid; gap: 8px; }}
   .event {{
     background: var(--panel);
     border: 1px solid var(--panel-edge);
     border-left: 5px solid var(--tier);
     border-radius: 4px;
-    padding: 14px 16px;
-    margin: 0 0 10px;
+    margin: 0 0 8px;
     box-shadow: 0 1px 2px rgba(26, 34, 40, 0.06);
+    overflow: hidden;
   }}
-  .event.hero {{ padding: 18px 20px; background: var(--panel-hero); }}
-  .event-head {{ display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
-                 font-size: 12px; color: var(--muted); margin-bottom: 6px; }}
-  .tier-dot {{ width: 9px; height: 9px; border-radius: 50%; background: var(--tier); }}
-  .cat {{ font-weight: 700; color: var(--primary); text-transform: uppercase;
-          letter-spacing: 0.06em; font-size: 11px; }}
-  .when {{ }}
-  .price {{ }}
-  .score {{ margin-left: auto; font-variant-numeric: tabular-nums;
-            color: var(--accent); font-weight: 700; font-size: 13px; }}
-  .title {{ margin: 4px 0 6px; font-size: 17px; line-height: 1.3; font-weight: 700; }}
-  .event.hero .title {{ font-size: 20px; }}
+  .event.hero {{ background: var(--panel-hero); }}
+  .event[open] {{ box-shadow: 0 2px 5px rgba(26, 34, 40, 0.10); }}
+  /* Compact summary — two short rows of metadata + title, click to expand */
+  .event > summary {{
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 14px;
+    display: grid;
+    grid-template-columns: 1fr 18px;
+    gap: 4px 12px;
+    align-items: center;
+  }}
+  .event > summary::-webkit-details-marker {{ display: none; }}
+  .event > summary::after {{
+    content: "▾";
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    color: var(--muted);
+    font-size: 14px;
+    transition: transform 0.15s ease;
+    align-self: center;
+    text-align: center;
+  }}
+  .event[open] > summary::after {{ transform: rotate(180deg); }}
+  .event > summary:hover {{ background: rgba(45, 67, 50, 0.04); }}
+  .event-meta {{
+    grid-column: 1;
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    font-size: 12px; color: var(--muted);
+  }}
+  .event-title-row {{
+    grid-column: 1;
+    display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline;
+  }}
+  .tier-dot {{
+    width: 9px; height: 9px; border-radius: 50%;
+    background: var(--tier); flex-shrink: 0;
+  }}
+  .cat {{
+    font-weight: 700; color: var(--primary); text-transform: uppercase;
+    letter-spacing: 0.06em; font-size: 11px;
+  }}
+  .score {{
+    margin-left: auto;
+    font-variant-numeric: tabular-nums;
+    color: var(--accent); font-weight: 700; font-size: 13px;
+  }}
+  .title {{ font-size: 15px; line-height: 1.3; font-weight: 700; color: var(--text); }}
+  .event.hero .title {{ font-size: 16px; }}
   .title a {{ color: var(--text); text-decoration: none; }}
   .title a:hover {{ color: var(--accent); text-decoration: underline; }}
-  .loc {{ color: var(--muted); font-size: 13px; margin-bottom: 6px; }}
-  .desc {{ margin: 6px 0 4px; font-size: 14px; color: #3a3528; }}
-  .src {{ font-size: 11px; color: var(--muted); margin-top: 8px; font-style: italic; }}
-  .stale-badge {{
-    font-size: 10px; color: var(--accent);
-    border: 1px solid var(--accent);
-    padding: 2px 6px; border-radius: 10px;
-    text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  .loc {{ color: var(--muted); font-size: 13px; }}
+  .loc::before {{ content: "· "; }}
+  .event-body {{
+    padding: 12px 14px 14px;
+    border-top: 1px solid rgba(168, 146, 116, 0.25);
+    background: rgba(0, 0, 0, 0.015);
   }}
+  .desc {{ margin: 0 0 10px; font-size: 14px; color: #3a3528; line-height: 1.5; }}
+  .event-foot {{
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+    align-items: center; gap: 12px;
+  }}
+  .src {{ font-size: 11px; color: var(--muted); font-style: italic; }}
+  .visit {{
+    font-size: 13px; color: var(--accent); font-weight: 600;
+    text-decoration: none;
+  }}
+  .visit:hover {{ text-decoration: underline; }}
   .empty {{ color: var(--muted); padding: 30px 0; text-align: center; font-style: italic; }}
 </style>
 </head>
