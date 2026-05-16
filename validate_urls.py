@@ -112,9 +112,17 @@ def validate(events: list[dict]) -> list[dict]:
     """Mutate-and-return: events with broken URLs get their URL swapped to the
     source's landing page. Logs each repair so we can see what's flaky.
     """
+    # Manual-source events are user-curated and trusted — they bypass URL
+    # validation entirely (their URLs may be intentionally homepage-ish or
+    # gov-site stable links that fail our heuristics).
+    trusted = [ev for ev in events if ev.get("source") == "Manual"]
+    others = [ev for ev in events if ev.get("source") != "Manual"]
+    if trusted:
+        log.info("Skipping URL validation for %d manual events", len(trusted))
+
     # Dedupe URLs first so we don't hit the same one repeatedly.
-    unique_urls = {ev["url"] for ev in events if ev.get("url")}
-    log.info("Validating %d unique URLs across %d events", len(unique_urls), len(events))
+    unique_urls = {ev["url"] for ev in others if ev.get("url")}
+    log.info("Validating %d unique URLs across %d non-manual events", len(unique_urls), len(others))
 
     results: dict[str, bool] = {}
     with ThreadPoolExecutor(max_workers=12) as pool:
@@ -126,7 +134,7 @@ def validate(events: list[dict]) -> list[dict]:
     broken = sum(1 for ok in results.values() if not ok)
     log.info("URL check: %d ok, %d broken", len(results) - broken, broken)
 
-    for ev in events:
+    for ev in others:
         url = ev.get("url")
         if not url:
             continue
@@ -146,9 +154,10 @@ def validate(events: list[dict]) -> list[dict]:
 
     # For recurring events specifically, do a freshness check on the linked
     # page. Any event we can't confirm is current gets DROPPED — not flagged.
-    # User policy: if we can't verify it, we don't show it.
+    # User policy: if we can't verify it, we don't show it. Manual events
+    # are exempt (already filtered out above).
     recurring_urls = {
-        ev["url"] for ev in events
+        ev["url"] for ev in others
         if ev.get("recurring") and ev.get("url")
         and ev["url"] not in _SOURCE_LANDING_URLS
     }
@@ -160,9 +169,9 @@ def validate(events: list[dict]) -> list[dict]:
             for fut in as_completed(futs):
                 fresh[futs[fut]] = fut.result()
 
-        before = len(events)
+        before = len(others)
         kept: list[dict] = []
-        for ev in events:
+        for ev in others:
             if not ev.get("recurring"):
                 kept.append(ev)
                 continue
@@ -176,7 +185,10 @@ def validate(events: list[dict]) -> list[dict]:
                          ev.get("title", "")[:50], url)
                 continue
             kept.append(ev)
-        events = kept
-        if before != len(events):
-            log.info("Dropped %d unverifiable recurring events", before - len(events))
-    return events
+        others = kept
+        if before != len(others):
+            log.info("Dropped %d unverifiable recurring events", before - len(others))
+
+    # Recombine: trusted manual events + validated others, preserving the
+    # input order (trusted first since that's the order we collected).
+    return trusted + others

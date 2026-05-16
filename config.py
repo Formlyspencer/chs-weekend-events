@@ -276,6 +276,9 @@ EXCLUDED_KEYWORDS = [
     "bachelorette",
     "speed dating",
     "singles mixer",
+    # Cars & Coffee monthly meet — not Spencer's thing
+    "cars & coffee",
+    "cars and coffee",
     # Spencer doesn't go to rap shows
     "rap show",
     "rap concert",
@@ -402,8 +405,9 @@ SOURCE_LANDING_URLS = {
 # Sources. Each entry is a module name in sources/ that exposes fetch().
 # ---------------------------------------------------------------------------
 SOURCES = [
+    "sources.manual",                # hand-curated weekly events
     "sources.chstoday",
-    "sources.chstoday_newsletter",   # Gmail-based, no-op until OAuth set up
+    "sources.chstoday_newsletter",   # Gmail IMAP
     "sources.holy_city_sinner",
     "sources.charleston_city_paper",
     "sources.eventbrite",

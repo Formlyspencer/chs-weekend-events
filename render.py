@@ -52,12 +52,49 @@ def _fmt_price(p) -> str:
     return f"${p:.0f}"
 
 
+_STATE_TOKENS = {"sc", "s.c.", "south carolina"}
+
+
+def _compact_venue(venue: str | None) -> str:
+    """Short display name for the collapsed card.
+
+    - "The Refinery, 1640 Meeting Street Rd., Charleston, SC" → "The Refinery"
+    - "1630 Folly Road, Charleston, SC"                       → "1630 Folly Road, Charleston"
+    - "Folly Beach Pier"                                       → "Folly Beach Pier"
+
+    The rule: if the first comma-separated chunk looks like a named place
+    (no leading digit), use it alone. If it's an address (digit-led), keep
+    the street and the first city-like chunk, dropping the state.
+    """
+    if not venue:
+        return ""
+    parts = [p.strip() for p in venue.split(",") if p.strip()]
+    if not parts:
+        return ""
+    first = parts[0]
+    if first and first[0].isdigit():
+        for p in parts[1:]:
+            if p.lower().replace(".", "").strip() in _STATE_TOKENS:
+                break
+            return f"{first}, {p}"
+        return first
+    return first
+
+
+def _venue_differs(full: str | None, short: str) -> bool:
+    """True iff the full venue carries info beyond what `short` already showed."""
+    if not full:
+        return False
+    return full.strip() != short.strip()
+
+
 def _event_card(ev: dict, *, hero: bool = False) -> str:
     color = TIER_COLORS.get(ev.get("tier", "low"), "#718096")
     cat = CATEGORY_LABELS.get(ev.get("category") or "", ev.get("category") or "—")
     title = html.escape(ev.get("title") or "Untitled")
-    venue = html.escape(ev.get("venue") or "") if ev.get("venue") else ""
-    neighborhood = html.escape(ev.get("neighborhood") or "") if ev.get("neighborhood") else ""
+    full_venue_raw = ev.get("venue") or ""
+    short_venue = _compact_venue(full_venue_raw)
+    neighborhood = ev.get("neighborhood") or ""
     desc_full = html.escape(ev.get("description") or "")
     url = ev.get("url")
     when = _fmt_date(ev.get("start"))
@@ -65,11 +102,17 @@ def _event_card(ev: dict, *, hero: bool = False) -> str:
     source = html.escape(ev.get("source") or "")
     score = ev.get("score", 0)
 
-    loc_bits = " · ".join(b for b in [venue, neighborhood] if b)
+    # Collapsed-card location line: compact venue + neighborhood, deduped
+    # if the neighborhood is already embedded in the short venue.
+    loc_parts = []
+    if short_venue:
+        loc_parts.append(html.escape(short_venue))
+    if neighborhood and neighborhood.lower() not in short_venue.lower():
+        loc_parts.append(html.escape(neighborhood))
+    loc_bits = " · ".join(loc_parts)
 
-    # Title is a link if we have a URL. Inline `onclick` stops the click
-    # from bubbling up to the <summary> so opening the link doesn't also
-    # toggle the card's expanded state.
+    # Title link. Inline stopPropagation so clicking the title navigates
+    # without also toggling the card.
     if url:
         title_html = (
             f'<a href="{html.escape(url, quote=True)}" target="_blank" '
@@ -78,14 +121,18 @@ def _event_card(ev: dict, *, hero: bool = False) -> str:
     else:
         title_html = title
 
-    # Visit-event button shown inside the expanded body — explicit affordance
-    # for users who opened the card via the chevron and now want to go through.
     visit_link = ""
     if url:
         visit_link = (
             f'<a class="visit" href="{html.escape(url, quote=True)}" '
             f'target="_blank" rel="noopener">Visit event page →</a>'
         )
+
+    # Full venue address shown inside the expansion only when it adds info
+    # beyond what the collapsed line already displayed.
+    full_venue_html = ""
+    if _venue_differs(full_venue_raw, short_venue):
+        full_venue_html = f'<div class="venue-full">{html.escape(full_venue_raw)}</div>'
 
     return f"""
     <details class="event {'hero' if hero else ''}" style="--tier:{color}">
@@ -103,6 +150,7 @@ def _event_card(ev: dict, *, hero: bool = False) -> str:
         </div>
       </summary>
       <div class="event-body">
+        {full_venue_html}
         {f'<p class="desc">{desc_full}</p>' if desc_full else ''}
         <div class="event-foot">
           <span class="src">via {source}</span>
@@ -134,7 +182,14 @@ def _recurring_section(events: list[dict], *, label: str) -> str:
         return ""
     top = events[:5]   # show the top 5 recurring picks
     cards = "".join(_event_card(e) for e in top)
-    return f'<h2>Routine weekly / monthly — {html.escape(label)}</h2>{cards}'
+    # Collapsed by default — routine markets etc. don't need to be in the
+    # main scroll, but stay one click away.
+    return f"""
+    <details class="recurring-section">
+      <summary><h2>Routine weekly / monthly — {html.escape(label)} ({len(top)})</h2></summary>
+      <div class="recurring-list">{cards}</div>
+    </details>
+    """
 
 
 def render(*, buckets: dict, fetched_at: str) -> str:
@@ -312,6 +367,7 @@ def render(*, buckets: dict, fetched_at: str) -> str:
     border-top: 1px solid rgba(168, 146, 116, 0.25);
     background: rgba(0, 0, 0, 0.015);
   }}
+  .venue-full {{ font-size: 13px; color: var(--muted); margin: 0 0 8px; }}
   .desc {{ margin: 0 0 10px; font-size: 14px; color: #3a3528; line-height: 1.5; }}
   .event-foot {{
     display: flex; flex-wrap: wrap; justify-content: space-between;
@@ -324,6 +380,27 @@ def render(*, buckets: dict, fetched_at: str) -> str:
   }}
   .visit:hover {{ text-decoration: underline; }}
   .empty {{ color: var(--muted); padding: 30px 0; text-align: center; font-style: italic; }}
+  /* Routine-events drawer */
+  .recurring-section {{ margin-top: 32px; }}
+  .recurring-section > summary {{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }}
+  .recurring-section > summary::-webkit-details-marker {{ display: none; }}
+  .recurring-section > summary > h2 {{
+    margin: 0; display: inline-flex; align-items: center; gap: 8px;
+  }}
+  .recurring-section > summary::after {{
+    content: "▾";
+    color: var(--muted);
+    font-size: 12px;
+    transition: transform 0.15s ease;
+  }}
+  .recurring-section[open] > summary::after {{ transform: rotate(180deg); }}
+  .recurring-list {{ margin-top: 10px; }}
 </style>
 </head>
 <body>
