@@ -23,10 +23,15 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Opt into Node.js 24 for JS-based actions (checkout, setup-python).
+    # GitHub is forcing this default on 2026-06-02; opting in now silences
+    # the deprecation warning and avoids any surprise on flip day.
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: 'pip'
