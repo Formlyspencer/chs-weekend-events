@@ -363,44 +363,70 @@ def pick_featured(events: list[dict], n: int = 3) -> list[dict]:
     return picked
 
 
+# Diagnostic record accumulated during the most recent dedup pass.
+# Read by main.py and written to docs/events.json so we can post-mortem
+# CI behavior without needing access to workflow logs.
+DEDUP_DEBUG: list[str] = []
+
+
 def _dedupe_by_venue_date(events: list[dict]) -> list[dict]:
+    DEDUP_DEBUG.clear()
+    DEDUP_DEBUG.append(f"input_count={len(events)}")
+
+    # Group every event by (venue, date) so we can see the raw clustering
+    # before dedup logic runs.
+    pre_groups: dict[tuple, list[str]] = {}
+    for ev in events:
+        v = _venue_root(ev.get("venue"))
+        d = _to_date(ev["start"])
+        if v and d:
+            pre_groups.setdefault((v, d.isoformat()), []).append(
+                f"{(ev.get('title') or '')[:35]}@{ev.get('start')}|src={ev.get('source')}"
+            )
+    for key, members in pre_groups.items():
+        if len(members) > 1:
+            DEDUP_DEBUG.append(f"pre_dup_group venue={key[0]} date={key[1]}: {members}")
+
     out: list[dict] = []
     for ev in events:
         merged = False
         for i, kept in enumerate(out):
-            if _is_duplicate(ev, kept):
+            try:
+                dup = _is_duplicate(ev, kept)
+            except Exception as e:
+                DEDUP_DEBUG.append(f"_is_duplicate raised: {type(e).__name__}: {e}")
+                dup = False
+            if dup:
                 winner = _prefer(ev, kept)
-                # Use print so output is unbuffered and shows in CI logs
-                # regardless of logging config.
-                print(
-                    f"DEDUP merge: '{(ev.get('title') or '')[:40]}' + "
-                    f"'{(kept.get('title') or '')[:40]}' "
-                    f"(venue={_venue_root(ev.get('venue'))}) "
-                    f"-> kept '{(winner.get('title') or '')[:40]}'",
-                    flush=True,
+                msg = (
+                    f"merge '{(ev.get('title') or '')[:35]}' + "
+                    f"'{(kept.get('title') or '')[:35]}' "
+                    f"@ {_venue_root(ev.get('venue'))} "
+                    f"-> kept '{(winner.get('title') or '')[:35]}'"
                 )
+                DEDUP_DEBUG.append(msg)
+                print("DEDUP " + msg, flush=True)
                 out[i] = winner
                 merged = True
                 break
         if not merged:
             out.append(ev)
 
-    # Flag any same-(venue,date) survivors so we can spot regressions.
-    seen: dict[tuple, list[tuple[str, object]]] = {}
+    # Final survivor groups by (venue, date).
+    post_groups: dict[tuple, list[str]] = {}
     for ev in out:
         v = _venue_root(ev.get("venue"))
         d = _to_date(ev["start"])
-        if not v or not d:
-            continue
-        seen.setdefault((v, d.isoformat()), []).append(
-            ((ev.get("title") or "")[:40], ev.get("start"))
-        )
-    for key, entries in seen.items():
-        if len(entries) > 1:
-            print(
-                f"DEDUP survivors at venue={key[0]} date={key[1]}: {entries}",
-                flush=True,
+        if v and d:
+            post_groups.setdefault((v, d.isoformat()), []).append(
+                f"{(ev.get('title') or '')[:35]}@{ev.get('start')}"
             )
+    for key, members in post_groups.items():
+        if len(members) > 1:
+            msg = f"survivor venue={key[0]} date={key[1]}: {members}"
+            DEDUP_DEBUG.append(msg)
+            print("DEDUP " + msg, flush=True)
+    DEDUP_DEBUG.append(f"output_count={len(out)}")
     return out
 
 

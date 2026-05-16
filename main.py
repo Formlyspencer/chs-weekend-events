@@ -53,6 +53,7 @@ def main() -> None:
             "this_weekend": len(buckets["this_weekend"]["events"]),
             "next_weekend": len(buckets["next_weekend"]["events"]),
         },
+        "dedup_log": list(score.DEDUP_DEBUG),
         "buckets": _jsonable(buckets),
     }
     (out_dir / "events.json").write_text(
