@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16 05:54 PM EDT",
+  "fetched_at": "2026-05-16 07:15 PM EDT",
   "counts": {
     "raw": 179,
     "scored": 67,
@@ -49,6 +49,21 @@
           "source": "Holy City Sinner",
           "category": "surf_event",
           "score": 1.0,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "18th annual Chef's Potluck",
+          "start": "2026-05-17",
+          "end": null,
+          "venue": "Holy City Brewing (The Porter Room), North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/45726653.27771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy8xOHRoLWFubnVhbC1jaGVmcy1wb3RsdWNrLzE4Mjk3NzQ0LzIwMjYtMDUtMTdUMTY/62f733efd173ab15f0e89340Bd2e42fe9",
+          "description": "4-7 p.m. \u00b7 Holy City Brewing (The Porter Room), North Charleston \u00b7 $145+",
+          "price": 145.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.92,
           "tier": "high",
           "recurring": false
         },
@@ -118,7 +133,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/gasolina-party/",
           "description": "Gasolina is dedicated to creating a community within the reggaet\u00f3n and latin-music scene across the United States through exciting and innovative events.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -229,21 +244,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.411,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "18th annual Chef's Potluck",
-          "start": "2026-05-17",
-          "end": null,
-          "venue": "Holy City Brewing (The Porter Room), North Charleston",
-          "neighborhood": "North Charleston",
-          "url": "https://link.6amcity.com/click/45726653.27771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy8xOHRoLWFubnVhbC1jaGVmcy1wb3RsdWNrLzE4Mjk3NzQ0LzIwMjYtMDUtMTdUMTY/62f733efd173ab15f0e89340Bd2e42fe9",
-          "description": "4-7 p.m. \u00b7 Holy City Brewing (The Porter Room), North Charleston \u00b7 $145+",
-          "price": 145.0,
-          "source": "CHStoday (newsletter)",
-          "category": "brewery_event",
-          "score": 0.368,
           "tier": "low",
           "recurring": false
         },
