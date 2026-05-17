@@ -14,6 +14,8 @@
   const STORAGE = {
     PREFS:   "chs_events_prefs_v1",
     STARRED: "chs_events_starred_v1",
+    HIDDEN:  "chs_events_hidden_v1",
+    SORT:    "chs_events_sort_v1",
   };
 
   // ---------------------------------------------------------------------
@@ -44,6 +46,9 @@
       unique_skips_price: true,
       price_cap: 50,
       hide_over_cap: false,
+      free_only: false,
+      indoor_outdoor: "all",   // "all" | "outdoor" | "indoor"
+      hide_drinking: false,
       show_kid_friendly: true,
       kid_only: false,
       hide_adult_only: false,
@@ -148,14 +153,13 @@
     return best;
   }
 
-  function isExcluded(ev, prefs) {
+  function isExcluded(ev, prefs, hiddenIds) {
     const m = ev.matches;
+    if (hiddenIds && hiddenIds.has(ev.id)) return true;
     if (prefs.hide_adult_only && m.adult_only) return true;
     if (prefs.kid_only && (m.kid_friendly || []).length === 0) return true;
     if (!prefs.show_kid_friendly) {
-      // If user has turned off kid-friendly entirely, hide events whose
-      // ONLY appeal is the kid-friendly tag. Pragmatic: hide events that
-      // have kid_friendly matches AND no other strong signal.
+      // Hide events whose ONLY appeal is the kid-friendly tag.
       if ((m.kid_friendly || []).length && m.unique_strong.length === 0
           && m.brand_keywords.length === 0) {
         return true;
@@ -163,6 +167,22 @@
     }
     if (prefs.hide_over_cap && ev.price !== null && ev.price > prefs.price_cap) {
       return true;
+    }
+    if (prefs.free_only && ev.price !== 0) return true;
+    if (prefs.hide_drinking) {
+      const cat = ev._score && ev._score.category;
+      if (cat === "brewery_event" || cat === "other_drinking") return true;
+      if ((m.drinking_signals || []).length) return true;
+    }
+    if (prefs.indoor_outdoor !== "all") {
+      const out = (m.outdoor_signals || []).length;
+      const ind = (m.indoor_signals || []).length;
+      if (prefs.indoor_outdoor === "outdoor") {
+        // Drop events that clearly read as indoor and have no outdoor signal.
+        if (ind && !out) return true;
+      } else if (prefs.indoor_outdoor === "indoor") {
+        if (out && !ind) return true;
+      }
     }
     return false;
   }
@@ -423,6 +443,7 @@
               <button class="cal-btn" data-cal="ics" data-id="${escapeAttr(ev.id)}">+ Calendar (.ics)</button>
               <button class="cal-btn" data-cal="gcal" data-id="${escapeAttr(ev.id)}">+ Google Calendar</button>
               ${ev.url ? `<a class="cal-btn" href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Visit event page →</a>` : ""}
+              <button class="cal-btn" data-hide="${escapeAttr(ev.id)}" style="color:var(--muted)">Don't show again</button>
             </div>
           </div>
         </div>
@@ -567,24 +588,31 @@
   let RAW = null;          // events.json contents
   let PREFS = null;        // user prefs object
   let STARRED = new Set(); // set of starred event ids
+  let HIDDEN = new Set();  // set of hidden event ids ("not interested")
   let STARRED_ONLY = false;
   let ACTIVE_TAB = "this";
+  let SORT_MODE = "score"; // "score" | "date"
 
   function applyPrefsToScore() {
     if (!RAW) return [];
     const out = [];
     for (const ev of RAW.events) {
-      if (isExcluded(ev, PREFS)) continue;
       const sc = scoreEvent(ev, PREFS, RAW.defaults);
       if (sc.category === null) continue;     // uncategorized → drop
       const copy = Object.assign({}, ev, { _score: sc });
+      // isExcluded reads _score (for drinking category filter), so attach
+      // before checking.
+      if (isExcluded(copy, PREFS, HIDDEN)) continue;
       out.push(copy);
     }
-    // Sort by score desc, then date asc.
-    out.sort((a, b) => {
-      if (b._score.score !== a._score.score) return b._score.score - a._score.score;
-      return (a.start || "").localeCompare(b.start || "");
-    });
+    if (SORT_MODE === "date") {
+      out.sort((a, b) => (a.start || "").localeCompare(b.start || ""));
+    } else {
+      out.sort((a, b) => {
+        if (b._score.score !== a._score.score) return b._score.score - a._score.score;
+        return (a.start || "").localeCompare(b.start || "");
+      });
+    }
     return out;
   }
 
@@ -635,6 +663,9 @@
 
     function syncFromPrefs() {
       document.getElementById("pref-home").value = PREFS.home;
+      document.getElementById("pref-free-only").checked = PREFS.free_only;
+      document.getElementById("pref-indoor-outdoor").value = PREFS.indoor_outdoor;
+      document.getElementById("pref-hide-drinking").checked = PREFS.hide_drinking;
       document.getElementById("pref-brand-boost").checked = PREFS.brand_boost;
       document.getElementById("pref-unique-strong-boost").checked = PREFS.unique_strong_boost;
       document.getElementById("pref-unique-soft-boost").checked = PREFS.unique_soft_boost;
@@ -673,6 +704,9 @@
     drawer.addEventListener("input", (e) => {
       const t = e.target;
       if (t.id === "pref-home") PREFS.home = t.value;
+      else if (t.id === "pref-free-only") PREFS.free_only = t.checked;
+      else if (t.id === "pref-indoor-outdoor") PREFS.indoor_outdoor = t.value;
+      else if (t.id === "pref-hide-drinking") PREFS.hide_drinking = t.checked;
       else if (t.id === "pref-brand-boost") PREFS.brand_boost = t.checked;
       else if (t.id === "pref-unique-strong-boost") PREFS.unique_strong_boost = t.checked;
       else if (t.id === "pref-unique-soft-boost") PREFS.unique_soft_boost = t.checked;
@@ -717,6 +751,37 @@
       syncFromPrefs();
       render();
     });
+
+    document.getElementById("pref-unhide-all").addEventListener("click", () => {
+      HIDDEN.clear();
+      saveJson(STORAGE.HIDDEN, []);
+      refreshHiddenListUI();
+      render();
+    });
+  }
+
+  // Update the hidden-events list panel in the settings drawer.
+  function refreshHiddenListUI() {
+    const wrap = document.getElementById("hidden-list");
+    const unhideAll = document.getElementById("pref-unhide-all");
+    if (!RAW || !HIDDEN.size) {
+      wrap.textContent = "None hidden.";
+      unhideAll.style.display = "none";
+      return;
+    }
+    const items = [];
+    for (const id of HIDDEN) {
+      const ev = RAW.events.find(x => x.id === id);
+      const title = ev ? ev.title : "(unknown)";
+      items.push(
+        `<div style="display:flex;justify-content:space-between;gap:8px;align-items:center;margin:4px 0">
+          <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escapeHtml(title.slice(0,40))}</span>
+          <button class="cal-btn" data-unhide="${escapeAttr(id)}" style="color:var(--accent)">unhide</button>
+        </div>`
+      );
+    }
+    wrap.innerHTML = items.join("");
+    unhideAll.style.display = "inline-block";
   }
 
   function wireOtherUI() {
@@ -728,7 +793,7 @@
       render();
     });
 
-    // Star toggle + calendar buttons (delegated)
+    // Star toggle + calendar buttons + hide button (delegated)
     document.addEventListener("click", (e) => {
       const star = e.target.closest(".star-btn");
       if (star) {
@@ -736,6 +801,23 @@
         if (STARRED.has(id)) STARRED.delete(id);
         else STARRED.add(id);
         saveJson(STORAGE.STARRED, Array.from(STARRED));
+        render();
+        return;
+      }
+      const hideBtn = e.target.closest("[data-hide]");
+      if (hideBtn) {
+        const id = hideBtn.dataset.hide;
+        HIDDEN.add(id);
+        saveJson(STORAGE.HIDDEN, Array.from(HIDDEN));
+        refreshHiddenListUI();
+        render();
+        return;
+      }
+      const unhideBtn = e.target.closest("[data-unhide]");
+      if (unhideBtn) {
+        HIDDEN.delete(unhideBtn.dataset.unhide);
+        saveJson(STORAGE.HIDDEN, Array.from(HIDDEN));
+        refreshHiddenListUI();
         render();
         return;
       }
@@ -748,6 +830,15 @@
         if (kind === "ics") downloadIcs(ev);
         else if (kind === "gcal") window.open(gcalUrl(ev), "_blank", "noopener");
       }
+    });
+
+    // Sort dropdown
+    const sortSelect = document.getElementById("sort-mode");
+    sortSelect.value = SORT_MODE;
+    sortSelect.addEventListener("change", (e) => {
+      SORT_MODE = e.target.value;
+      try { localStorage.setItem(STORAGE.SORT, SORT_MODE); } catch (_) {}
+      render();
     });
 
     const starredBtn = document.getElementById("starred-btn");
@@ -783,9 +874,12 @@
     }
 
     STARRED = new Set(loadJson(STORAGE.STARRED, []) || []);
+    HIDDEN  = new Set(loadJson(STORAGE.HIDDEN,  []) || []);
+    try { SORT_MODE = localStorage.getItem(STORAGE.SORT) || "score"; } catch (_) {}
 
     wireSettings(RAW.defaults);
     wireOtherUI();
+    refreshHiddenListUI();
     render();
   }
 

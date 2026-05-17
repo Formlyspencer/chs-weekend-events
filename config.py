@@ -328,6 +328,38 @@ ADULT_ONLY_KEYWORDS = [
     "must be 21",
 ]
 
+# Outdoor / indoor signals — for the v2 outdoor/indoor toggle. Detected once
+# in Python, surfaced as flags so the browser can filter cleanly.
+OUTDOOR_KEYWORDS = [
+    "outdoor", "outdoors", "open air", "open-air",
+    "rooftop", "patio", "lawn", "garden",
+    "park", "pier", "beach", "waterfront",
+    "marina", "courtyard", "plaza",
+    "street fair", "block party",
+    "tailgate", "outside stage",
+]
+INDOOR_KEYWORDS = [
+    "indoor", "indoors", "inside stage",
+    "theater", "theatre", "music hall",
+    "gallery", "museum", "library",
+    "auditorium", "ballroom", "cinema",
+    "warehouse",
+]
+
+# Alcohol-centric / drinking-event signals — for the v2 toggle. Categories
+# brewery_event / other_drinking already imply drinking, but we surface
+# keyword hits too so the browser can hide them even when the category
+# vote went elsewhere.
+DRINKING_KEYWORDS = [
+    "beer release", "beer fest", "beer tasting", "tap takeover",
+    "wine tasting", "wine dinner", "wine pairing",
+    "cocktail class", "cocktail dinner", "cocktail competition",
+    "happy hour",
+    "rum tasting", "bourbon tasting", "whiskey tasting", "champagne tasting",
+    "byob", "open bar",
+    "boozy brunch", "cocktail crawl",
+]
+
 
 # Brands Spencer actively follows — events that mention them (in title,
 # description, or venue) get an automatic bump to weight 1.0 regardless of

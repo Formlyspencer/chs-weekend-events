@@ -189,6 +189,13 @@
       <button class="tool-btn" id="settings-btn">⚙ Settings</button>
       <button class="tool-btn" id="starred-btn">★ Starred</button>
     </div>
+    <div class="tool-row" style="margin-top:4px">
+      <label style="font-size:12px;color:var(--muted)">Sort:</label>
+      <select id="sort-mode" style="font:inherit;font-size:12px;border:1px solid var(--panel-edge);border-radius:6px;padding:4px 6px;background:var(--panel)">
+        <option value="score">Score</option>
+        <option value="date">Date</option>
+      </select>
+    </div>
   </header>
 
   <main class="content">
@@ -206,6 +213,24 @@
     <select id="pref-home" style="width:100%">
     </select>
   </div>
+
+  <h3>Quick filters</h3>
+  <label class="settings-row">
+    <input type="checkbox" id="pref-free-only">
+    <span>Free events only</span>
+  </label>
+  <div class="settings-row">
+    <label>Indoor / outdoor</label>
+    <select id="pref-indoor-outdoor" style="flex:1;font:inherit;padding:4px;border:1px solid var(--panel-edge);border-radius:4px;background:var(--panel)">
+      <option value="all">All</option>
+      <option value="outdoor">Outdoor only</option>
+      <option value="indoor">Indoor only</option>
+    </select>
+  </div>
+  <label class="settings-row">
+    <input type="checkbox" id="pref-hide-drinking">
+    <span>Hide drinking/alcohol events</span>
+  </label>
 
   <h3>Family</h3>
   <label class="settings-row">
@@ -275,6 +300,10 @@
     <input type="range" id="pref-tier-high" min="0.3" max="1.0" step="0.05" value="0.8">
     <span class="val" id="pref-tier-high-val">0.80</span>
   </div>
+
+  <h3>Hidden events</h3>
+  <div id="hidden-list" style="font-size:12px;color:var(--muted)">None hidden.</div>
+  <button class="tool-btn" id="pref-unhide-all" style="margin-top:8px;display:none">Unhide all</button>
 
   <div class="settings-actions">
     <button class="tool-btn" id="pref-reset">Reset to defaults</button>

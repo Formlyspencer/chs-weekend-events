@@ -133,6 +133,9 @@ def _analyze_event(ev: dict) -> dict:
         "adult_only":         bool(_hits(haystack, config.ADULT_ONLY_KEYWORDS)),
         "attended_before":    _hits(haystack, config.ATTENDED_BEFORE),
         "recurring":          bool(ev.get("recurring")),
+        "outdoor_signals":    _hits(haystack, getattr(config, "OUTDOOR_KEYWORDS", []) or []),
+        "indoor_signals":     _hits(haystack, getattr(config, "INDOOR_KEYWORDS", []) or []),
+        "drinking_signals":   _hits(haystack, getattr(config, "DRINKING_KEYWORDS", []) or []),
     }
 
 
