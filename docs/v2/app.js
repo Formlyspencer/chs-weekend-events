@@ -12,9 +12,8 @@
   "use strict";
 
   const STORAGE = {
-    PREFS:  "chs_events_prefs_v1",
-    HIDDEN: "chs_events_hidden_v1",
-    SORT:   "chs_events_sort_v1",
+    PREFS: "chs_events_prefs_v1",
+    SORT:  "chs_events_sort_v1",
   };
 
   // ---------------------------------------------------------------------
@@ -154,9 +153,8 @@
     return best;
   }
 
-  function isExcluded(ev, prefs, hiddenIds) {
+  function isExcluded(ev, prefs) {
     const m = ev.matches;
-    if (hiddenIds && hiddenIds.has(ev.id)) return true;
     // Hard-exclude keywords (rap, musicals, civil war reenactment, etc.).
     // The Python pipeline used to drop these; v2 keeps them in the json
     // and the user can toggle them on.
@@ -469,7 +467,6 @@
               <button class="cal-btn" data-cal="ics" data-id="${escapeAttr(ev.id)}">+ Calendar (.ics)</button>
               <button class="cal-btn" data-cal="gcal" data-id="${escapeAttr(ev.id)}">+ Google Calendar</button>
               ${ev.url ? `<a class="cal-btn" href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Visit event page →</a>` : ""}
-              <button class="cal-btn" data-hide="${escapeAttr(ev.id)}" style="color:var(--muted)">Don't show again</button>
             </div>
           </div>
         </div>
@@ -610,7 +607,6 @@
   // ---------------------------------------------------------------------
   let RAW = null;          // events.json contents
   let PREFS = null;        // user prefs object
-  let HIDDEN = new Set();  // set of hidden event ids ("not interested")
   let ACTIVE_TAB = "this";
   let SORT_MODE = "score"; // "score" | "date"
 
@@ -623,7 +619,7 @@
       const copy = Object.assign({}, ev, { _score: sc });
       // isExcluded reads _score (for drinking category filter), so attach
       // before checking.
-      if (isExcluded(copy, PREFS, HIDDEN)) continue;
+      if (isExcluded(copy, PREFS)) continue;
       out.push(copy);
     }
     if (SORT_MODE === "date") {
@@ -776,37 +772,6 @@
       syncFromPrefs();
       render();
     });
-
-    document.getElementById("pref-unhide-all").addEventListener("click", () => {
-      HIDDEN.clear();
-      saveJson(STORAGE.HIDDEN, []);
-      refreshHiddenListUI();
-      render();
-    });
-  }
-
-  // Update the hidden-events list panel in the settings drawer.
-  function refreshHiddenListUI() {
-    const wrap = document.getElementById("hidden-list");
-    const unhideAll = document.getElementById("pref-unhide-all");
-    if (!RAW || !HIDDEN.size) {
-      wrap.textContent = "None hidden.";
-      unhideAll.style.display = "none";
-      return;
-    }
-    const items = [];
-    for (const id of HIDDEN) {
-      const ev = RAW.events.find(x => x.id === id);
-      const title = ev ? ev.title : "(unknown)";
-      items.push(
-        `<div style="display:flex;justify-content:space-between;gap:8px;align-items:center;margin:4px 0">
-          <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escapeHtml(title.slice(0,40))}</span>
-          <button class="cal-btn" data-unhide="${escapeAttr(id)}" style="color:var(--accent)">unhide</button>
-        </div>`
-      );
-    }
-    wrap.innerHTML = items.join("");
-    unhideAll.style.display = "inline-block";
   }
 
   function wireOtherUI() {
@@ -819,8 +784,8 @@
     });
 
     // Capture-phase click delegation: runs BEFORE inline stopPropagation
-    // so the calendar/hide/unhide buttons inside <summary> still fire
-    // without prematurely opening the card.
+    // so the calendar icon inside <summary> still fires without
+    // prematurely opening the card.
     document.addEventListener("click", (e) => {
       const cal = e.target.closest("[data-cal]");
       if (cal) {
@@ -836,24 +801,6 @@
         } else if (kind === "gcal") {
           window.open(gcalUrl(ev), "_blank", "noopener");
         }
-        return;
-      }
-      const hideBtn = e.target.closest("[data-hide]");
-      if (hideBtn) {
-        e.stopPropagation();
-        HIDDEN.add(hideBtn.dataset.hide);
-        saveJson(STORAGE.HIDDEN, Array.from(HIDDEN));
-        refreshHiddenListUI();
-        render();
-        return;
-      }
-      const unhideBtn = e.target.closest("[data-unhide]");
-      if (unhideBtn) {
-        e.stopPropagation();
-        HIDDEN.delete(unhideBtn.dataset.unhide);
-        saveJson(STORAGE.HIDDEN, Array.from(HIDDEN));
-        refreshHiddenListUI();
-        render();
         return;
       }
     }, true);
@@ -892,12 +839,10 @@
       if (PREFS[k] === undefined) PREFS[k] = fresh[k];
     }
 
-    HIDDEN  = new Set(loadJson(STORAGE.HIDDEN,  []) || []);
     try { SORT_MODE = localStorage.getItem(STORAGE.SORT) || "score"; } catch (_) {}
 
     wireSettings(RAW.defaults);
     wireOtherUI();
-    refreshHiddenListUI();
     render();
   }
 
