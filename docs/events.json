@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-05-17 12:03 PM EDT",
+  "fetched_at": "2026-05-17 03:15 PM EDT",
   "counts": {
     "raw": 162,
-    "scored": 69,
+    "scored": 68,
     "this_weekend": 9,
-    "next_weekend": 3
+    "next_weekend": 2
   },
   "dedup_log": [
-    "input_count=69",
+    "input_count=68",
     "pre_dup_group venue=charleston pour house date=2026-05-17: ['Pour House Farmers Market@2026-05-17 11:00:00|src=Manual', \"JUICE w/ S'way@2026-05-17 20:30:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00|src=Holy City Sinner', 'Grayson Little on the inside stage@2026-05-21 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-05-17: ['Pour House Farmers Market@2026-05-17 11:00:00', \"JUICE w/ S'way@2026-05-17 20:30:00\"]",
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
-    "output_count=69"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-05-17",
@@ -243,21 +243,6 @@
           "category": "outdoor_festival",
           "score": 0.704,
           "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Fairies & Flowers",
-          "start": "2026-05-22T09:00:00",
-          "end": null,
-          "venue": "Magnolia Plantation & Garden, 3550 Ashley River Road, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/magnolia-plantation-gardens-welcomes-a-fairy-village-this-su/",
-          "description": "Magnolia Plantation & Gardens announces Fairies & Flowers, a new summer exhibition featuring 20+ handcrafted fairy dwellings installed throughout the historic gardens by 30 Tri-County artists, on view May 22 through July 12, 2026.\u2026",
-          "price": 32.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.282,
-          "tier": "low",
           "recurring": false
         }
       ],
