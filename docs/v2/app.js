@@ -12,10 +12,9 @@
   "use strict";
 
   const STORAGE = {
-    PREFS:   "chs_events_prefs_v1",
-    STARRED: "chs_events_starred_v1",
-    HIDDEN:  "chs_events_hidden_v1",
-    SORT:    "chs_events_sort_v1",
+    PREFS:  "chs_events_prefs_v1",
+    HIDDEN: "chs_events_hidden_v1",
+    SORT:   "chs_events_sort_v1",
   };
 
   // ---------------------------------------------------------------------
@@ -396,7 +395,7 @@
     return first;
   }
 
-  function eventCardHTML(ev, isHero, starredIds) {
+  function eventCardHTML(ev, isHero) {
     const sc = ev._score;
     const color = TIER_COLORS[sc.tier] || "#8a7a5d";
     const cat = CAT_LABELS[sc.category] || sc.category || "—";
@@ -408,8 +407,10 @@
         ? escapeHtml(neighborhood) : null,
     ].filter(Boolean).join('</span><span class="loc">');
 
-    const isStarred = starredIds.has(ev.id);
-    const starHtml = `<button class="star-btn ${isStarred ? "starred" : ""}" data-id="${escapeAttr(ev.id)}" title="${isStarred ? "Unstar" : "Star"}" onclick="event.stopPropagation()">${isStarred ? "★" : "☆"}</button>`;
+    // Calendar icon — clicking downloads an .ics file (Apple Calendar /
+    // Outlook / any iCal-compatible). Google Calendar option is still
+    // available inside the expanded body.
+    const calIconHtml = `<button class="cal-icon-btn" data-cal="ics" data-id="${escapeAttr(ev.id)}" title="Add to calendar (.ics)">📅</button>`;
 
     const titleLink = ev.url
       ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(ev.title)}</a>`
@@ -432,7 +433,7 @@
             <span class="title">${titleLink}</span>
             ${loc ? `<span class="loc">${loc}</span>` : ""}
           </div>
-          ${starHtml}
+          ${calIconHtml}
         </summary>
         <div class="event-body">
           ${venueFullHtml}
@@ -450,17 +451,12 @@
       </details>`;
   }
 
-  function renderTab(panel, bucket, label, starredIds, starredOnly, maxPerVenue, maxPerCategory) {
-    // bucket.events arrives already scored, sorted, deduped by venue+date.
-    let evs = bucket.events;
-    if (starredOnly) evs = evs.filter(e => starredIds.has(e.id));
-    evs = collapseSameRun(evs);
+  function renderTab(panel, bucket, label, maxPerVenue, maxPerCategory) {
+    let evs = collapseSameRun(bucket.events);
     evs = capPerVenue(evs, maxPerVenue);
     evs = capPerCategory(evs, maxPerCategory);
 
-    let recur = bucket.recurring;
-    if (starredOnly) recur = recur.filter(e => starredIds.has(e.id));
-    recur = collapseSameRun(recur);
+    let recur = collapseSameRun(bucket.recurring);
     recur = capPerVenue(recur, maxPerVenue);
     recur = capPerCategory(recur, maxPerCategory);
 
@@ -476,17 +472,17 @@
     let html = "";
     if (top.length) {
       html += `<h2>Top picks — ${label}</h2>`;
-      html += top.map(e => eventCardHTML(e, true, starredIds)).join("");
+      html += top.map(e => eventCardHTML(e, true)).join("");
     }
     if (rest.length) {
       html += `<h2>More for ${label}</h2>`;
-      html += rest.map(e => eventCardHTML(e, false, starredIds)).join("");
+      html += rest.map(e => eventCardHTML(e, false)).join("");
     }
     if (recur.length) {
       html += `
         <details class="recurring-section">
           <summary><h2>Routine weekly / monthly — ${label} (${recur.length})</h2></summary>
-          <div class="recurring-list">${recur.map(e => eventCardHTML(e, false, starredIds)).join("")}</div>
+          <div class="recurring-list">${recur.map(e => eventCardHTML(e, false)).join("")}</div>
         </details>`;
     }
     panel.innerHTML = html;
@@ -587,9 +583,7 @@
   // ---------------------------------------------------------------------
   let RAW = null;          // events.json contents
   let PREFS = null;        // user prefs object
-  let STARRED = new Set(); // set of starred event ids
   let HIDDEN = new Set();  // set of hidden event ids ("not interested")
-  let STARRED_ONLY = false;
   let ACTIVE_TAB = "this";
   let SORT_MODE = "score"; // "score" | "date"
 
@@ -637,9 +631,9 @@
     const capMap = Object.assign({}, PREFS.max_per_category, { art_event: maxArt });
 
     renderTab(document.getElementById("panel-this"), buckets.this,
-              "this weekend", STARRED, STARRED_ONLY, PREFS.max_per_venue, capMap);
+              "this weekend", PREFS.max_per_venue, capMap);
     renderTab(document.getElementById("panel-next"), buckets.next,
-              "next weekend", STARRED, STARRED_ONLY, PREFS.max_per_venue, capMap);
+              "next weekend", PREFS.max_per_venue, capMap);
 
     // Reflect active tab visibility
     document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
@@ -793,21 +787,30 @@
       render();
     });
 
-    // Star toggle + calendar buttons + hide button (delegated)
+    // Capture-phase click delegation: runs BEFORE inline stopPropagation
+    // so the calendar/hide/unhide buttons inside <summary> still fire
+    // without prematurely opening the card.
     document.addEventListener("click", (e) => {
-      const star = e.target.closest(".star-btn");
-      if (star) {
-        const id = star.dataset.id;
-        if (STARRED.has(id)) STARRED.delete(id);
-        else STARRED.add(id);
-        saveJson(STORAGE.STARRED, Array.from(STARRED));
-        render();
+      const cal = e.target.closest("[data-cal]");
+      if (cal) {
+        e.stopPropagation();   // don't toggle the parent <details>
+        const id = cal.dataset.id;
+        const kind = cal.dataset.cal;
+        const ev = RAW.events.find(x => x.id === id);
+        if (!ev) return;
+        if (kind === "ics") {
+          downloadIcs(ev);
+          cal.classList.add("added");
+          setTimeout(() => cal.classList.remove("added"), 1500);
+        } else if (kind === "gcal") {
+          window.open(gcalUrl(ev), "_blank", "noopener");
+        }
         return;
       }
       const hideBtn = e.target.closest("[data-hide]");
       if (hideBtn) {
-        const id = hideBtn.dataset.hide;
-        HIDDEN.add(id);
+        e.stopPropagation();
+        HIDDEN.add(hideBtn.dataset.hide);
         saveJson(STORAGE.HIDDEN, Array.from(HIDDEN));
         refreshHiddenListUI();
         render();
@@ -815,22 +818,14 @@
       }
       const unhideBtn = e.target.closest("[data-unhide]");
       if (unhideBtn) {
+        e.stopPropagation();
         HIDDEN.delete(unhideBtn.dataset.unhide);
         saveJson(STORAGE.HIDDEN, Array.from(HIDDEN));
         refreshHiddenListUI();
         render();
         return;
       }
-      const cal = e.target.closest("[data-cal]");
-      if (cal) {
-        const id = cal.dataset.id;
-        const kind = cal.dataset.cal;
-        const ev = RAW.events.find(x => x.id === id);
-        if (!ev) return;
-        if (kind === "ics") downloadIcs(ev);
-        else if (kind === "gcal") window.open(gcalUrl(ev), "_blank", "noopener");
-      }
-    });
+    }, true);
 
     // Sort dropdown
     const sortSelect = document.getElementById("sort-mode");
@@ -841,13 +836,6 @@
       render();
     });
 
-    const starredBtn = document.getElementById("starred-btn");
-    starredBtn.addEventListener("click", () => {
-      STARRED_ONLY = !STARRED_ONLY;
-      starredBtn.classList.toggle("active", STARRED_ONLY);
-      starredBtn.textContent = STARRED_ONLY ? "★ Starred only" : "★ Starred";
-      render();
-    });
   }
 
   // ---------------------------------------------------------------------
@@ -873,7 +861,6 @@
       if (PREFS[k] === undefined) PREFS[k] = fresh[k];
     }
 
-    STARRED = new Set(loadJson(STORAGE.STARRED, []) || []);
     HIDDEN  = new Set(loadJson(STORAGE.HIDDEN,  []) || []);
     try { SORT_MODE = localStorage.getItem(STORAGE.SORT) || "score"; } catch (_) {}
 
