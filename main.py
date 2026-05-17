@@ -29,6 +29,12 @@ def main() -> None:
     # by the time v2 gets it. Modifies events in place; both raw and the
     # subset that score_all returns share the same dicts.
     raw = validate_urls.validate(raw)
+    # Venue+date+content dedup BEFORE scoring, so v2's full event pool
+    # also benefits from it. (score_all also runs this pass internally,
+    # but on the already-deduped list it becomes a no-op.) Front Paige
+    # Media vs. Firefly Vendor Village & Book Fair would otherwise both
+    # land in v2/events.json because v2 ships the unfiltered list.
+    raw = score._dedupe_by_venue_date(raw)
     scored = score.score_all(raw)
     buckets = score.bucket(scored)
 
