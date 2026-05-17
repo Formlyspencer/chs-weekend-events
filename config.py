@@ -295,6 +295,40 @@ UNIQUE_KEYWORDS_SOFT = [
 ]
 
 
+# Kid-friendliness signals. Detected once in Python, surfaced as flags in
+# events.json so the browser can filter without re-doing regex work. Age
+# buckets approximate; users can choose which apply.
+KID_FRIENDLY_KEYWORDS = [
+    "family-friendly", "family friendly",
+    "kid-friendly", "kid friendly",
+    "kids", "for kids", "kids'",
+    "children", "childrens", "children's",
+    "family fun", "family day",
+    "all ages", "ages welcome",
+]
+
+# Maps a phrase to one or more age buckets:
+#   "toddler"     → 0-3
+#   "preschool"   → 3-5
+#   "elementary"  → 6-10
+#   "tween"       → 11-13
+#   "teen"        → 14-17
+KID_AGE_KEYWORDS = {
+    "toddler":       ["toddler", "toddlers", "babies", "infants"],
+    "preschool":     ["preschool", "preschoolers", "pre-k", "pre k", "ages 3-5"],
+    "elementary":    ["elementary", "ages 5-10", "ages 6-10", "school-age", "school age"],
+    "tween":         ["tween", "tweens", "ages 9-12", "ages 11-13", "pre-teen", "preteen"],
+    "teen":          ["teen", "teens", "teenager", "high school", "ages 13+", "ages 14+"],
+}
+
+# Hard adult-only markers — kid filters should hide these when active.
+ADULT_ONLY_KEYWORDS = [
+    "21+", "21 and over", "21 and up",
+    "18+", "adults only", "adult only",
+    "must be 21",
+]
+
+
 # Brands Spencer actively follows — events that mention them (in title,
 # description, or venue) get an automatic bump to weight 1.0 regardless of
 # category. Use lowercase. Treat any mention as a positive signal.

@@ -10,6 +10,7 @@ import fetch
 import score
 import render
 import validate_urls
+import v2_emit
 
 try:
     # zoneinfo is stdlib on Python 3.9+; the CI runner has it.
@@ -59,6 +60,12 @@ def main() -> None:
     (out_dir / "events.json").write_text(
         json.dumps(debug_payload, indent=2, default=str), encoding="utf-8"
     )
+
+    # v2 payload (rich per-event match flags for browser-side filtering).
+    # The HTML at docs/v2/index.html loads this. Lives alongside v1 so the
+    # current dashboard keeps working until we swap the default URL.
+    v2_payload = v2_emit.build_payload(scored, fetched_at)
+    v2_emit.write_payload(v2_payload, out_dir / "v2" / "events.json")
 
     print(
         f"Wrote docs/index.html — raw={len(raw)} scored={len(scored)} "
