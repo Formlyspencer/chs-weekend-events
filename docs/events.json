@@ -1,30 +1,20 @@
 {
-  "fetched_at": "2026-05-17 12:01 PM EDT",
+  "fetched_at": "2026-05-17 12:03 PM EDT",
   "counts": {
-    "raw": 169,
-    "scored": 70,
+    "raw": 162,
+    "scored": 69,
     "this_weekend": 9,
     "next_weekend": 3
   },
   "dedup_log": [
-    "input_count=75",
+    "input_count=69",
     "pre_dup_group venue=charleston pour house date=2026-05-17: ['Pour House Farmers Market@2026-05-17 11:00:00|src=Manual', \"JUICE w/ S'way@2026-05-17 20:30:00|src=Holy City Sinner\"]",
-    "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-05-17: ['\"In Kyoung Chun: Make Room\\ufeff\"@2026-05-17 11:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-05-17 11:00:00|src=Holy City Sinner']",
-    "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-05-18: ['\"In Kyoung Chun: Make Room\\ufeff\"@2026-05-18 11:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-05-18 11:00:00|src=Holy City Sinner']",
-    "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-05-19: ['\"In Kyoung Chun: Make Room\\ufeff\"@2026-05-19 11:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-05-19 11:00:00|src=Holy City Sinner']",
-    "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-05-20: ['\"In Kyoung Chun: Make Room\\ufeff\"@2026-05-20 11:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-05-20 11:00:00|src=Holy City Sinner']",
-    "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-05-21: ['\"In Kyoung Chun: Make Room\\ufeff\"@2026-05-21 11:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-05-21 11:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00|src=Holy City Sinner', 'Grayson Little on the inside stage@2026-05-21 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
-    "merge '\"Maria Britton: Second Sleep\ufeff\"' + '\"In Kyoung Chun: Make Room\ufeff\"' @ halsey institute of contemporary art at the college of charleston -> kept '\"Maria Britton: Second Sleep\ufeff\"'",
-    "merge '\"Maria Britton: Second Sleep\ufeff\"' + '\"In Kyoung Chun: Make Room\ufeff\"' @ halsey institute of contemporary art at the college of charleston -> kept '\"Maria Britton: Second Sleep\ufeff\"'",
-    "merge '\"Maria Britton: Second Sleep\ufeff\"' + '\"In Kyoung Chun: Make Room\ufeff\"' @ halsey institute of contemporary art at the college of charleston -> kept '\"Maria Britton: Second Sleep\ufeff\"'",
-    "merge '\"Maria Britton: Second Sleep\ufeff\"' + '\"In Kyoung Chun: Make Room\ufeff\"' @ halsey institute of contemporary art at the college of charleston -> kept '\"Maria Britton: Second Sleep\ufeff\"'",
-    "merge '\"Maria Britton: Second Sleep\ufeff\"' + '\"In Kyoung Chun: Make Room\ufeff\"' @ halsey institute of contemporary art at the college of charleston -> kept '\"Maria Britton: Second Sleep\ufeff\"'",
     "survivor venue=charleston pour house date=2026-05-17: ['Pour House Farmers Market@2026-05-17 11:00:00', \"JUICE w/ S'way@2026-05-17 20:30:00\"]",
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
-    "output_count=70"
+    "output_count=69"
   ],
   "buckets": {
     "today": "2026-05-17",
@@ -115,7 +105,7 @@
           "end": null,
           "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.northcharlestoncoliseumpac.com/events/detail/choir-showcase-7",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Choir Showcase Sunday, May 17, 5:30 PM North Charleston Performing Arts Center Tickets Now On Sale!",
           "price": null,
           "source": "Holy City Sinner",
@@ -466,21 +456,6 @@
           "score": 0.323,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "SOUL NITE: Live Music at The Burgundy Lounge",
-          "start": "2026-05-20T21:00:00",
-          "end": null,
-          "venue": "Starlight Motor Inn, 3245 Rivers Ave., North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "http://soulnite.eventbrite.com",
-          "description": "Live music every Wednesday night-- Never a Cover, Always a Vibe The Burgundy Lounge presents Soul Nite featuring some of Charleston's best musical acts, like Bill Wilson & The Ingredients, Jeff Caldwell, Kanika Moore and more.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.323,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Kids Eat Free",
