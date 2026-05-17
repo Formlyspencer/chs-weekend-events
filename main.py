@@ -24,11 +24,12 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(messag
 
 def main() -> None:
     raw = fetch.fetch_all()
+    # Run URL validation against the FULL deduped list. This way every event
+    # — including ones that v1's hard-excludes would drop — has clean URLs
+    # by the time v2 gets it. Modifies events in place; both raw and the
+    # subset that score_all returns share the same dicts.
+    raw = validate_urls.validate(raw)
     scored = score.score_all(raw)
-    # Validate URLs *after* scoring/dedup so we only check the events that
-    # will actually be displayed. Broken URLs get swapped for the source's
-    # landing page; if no fallback is available the link is dropped.
-    scored = validate_urls.validate(scored)
     buckets = score.bucket(scored)
 
     # Display the dashboard's "updated" timestamp in Charleston local time
@@ -61,10 +62,11 @@ def main() -> None:
         json.dumps(debug_payload, indent=2, default=str), encoding="utf-8"
     )
 
-    # v2 payload (rich per-event match flags for browser-side filtering).
-    # The HTML at docs/v2/index.html loads this. Lives alongside v1 so the
-    # current dashboard keeps working until we swap the default URL.
-    v2_payload = v2_emit.build_payload(scored, fetched_at)
+    # v2 payload — ships the FULL deduped + URL-validated event list, not
+    # just the post-exclusion subset. v2's browser-side filters can show or
+    # hide rap shows / musicals / uncategorized events on demand. Defaults
+    # in the JS still hide the same things v1 hides.
+    v2_payload = v2_emit.build_payload(raw, fetched_at)
     v2_emit.write_payload(v2_payload, out_dir / "v2" / "events.json")
 
     print(

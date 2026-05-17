@@ -48,6 +48,8 @@
       free_only: false,
       indoor_outdoor: "all",   // "all" | "outdoor" | "indoor"
       hide_drinking: false,
+      show_normally_hidden: false, // override v1's hard-excludes (rap, musicals, etc.)
+      show_uncategorized: false,   // events with no category match
       show_kid_friendly: true,
       kid_only: false,
       hide_adult_only: false,
@@ -155,6 +157,17 @@
   function isExcluded(ev, prefs, hiddenIds) {
     const m = ev.matches;
     if (hiddenIds && hiddenIds.has(ev.id)) return true;
+    // Hard-exclude keywords (rap, musicals, civil war reenactment, etc.).
+    // The Python pipeline used to drop these; v2 keeps them in the json
+    // and the user can toggle them on.
+    if (!prefs.show_normally_hidden && (m.excluded_keyword_hits || []).length) {
+      return true;
+    }
+    // Uncategorized events (no keyword match anywhere). Off by default —
+    // they're usually noise, but a user might want to see EVERYTHING.
+    if (!prefs.show_uncategorized && m.has_any_category === false) {
+      return true;
+    }
     if (prefs.hide_adult_only && m.adult_only) return true;
     if (prefs.kid_only && (m.kid_friendly || []).length === 0) return true;
     if (!prefs.show_kid_friendly) {
@@ -162,6 +175,18 @@
       if ((m.kid_friendly || []).length && m.unique_strong.length === 0
           && m.brand_keywords.length === 0) {
         return true;
+      }
+    }
+    // Age-bucket filter: if user has selected one or more buckets, drop
+    // events whose age signals explicitly target a DIFFERENT bucket
+    // (e.g. "teen" event when user selected "toddler"). Events with no
+    // age signal stay — most general family events are unlabeled.
+    const selectedAges = prefs.kid_ages || [];
+    if (selectedAges.length) {
+      const eventAges = m.kid_age_buckets || [];
+      if (eventAges.length) {
+        const hit = eventAges.some(a => selectedAges.indexOf(a) !== -1);
+        if (!hit) return true;
       }
     }
     if (prefs.hide_over_cap && ev.price !== null && ev.price > prefs.price_cap) {
@@ -560,9 +585,11 @@
   // Settings drawer
   // ---------------------------------------------------------------------
   function populateHomes(selectEl, defaults) {
-    const items = defaults.priority_areas;
-    selectEl.innerHTML = items.map(a =>
-      `<option value="${escapeAttr(a)}">${escapeHtml(a.replace(/\b\w/g, c => c.toUpperCase()))}</option>`
+    const items = defaults.home_choices || defaults.priority_areas.map(a => ({
+      value: a, label: a.replace(/\b\w/g, c => c.toUpperCase())
+    }));
+    selectEl.innerHTML = items.map(it =>
+      `<option value="${escapeAttr(it.value)}">${escapeHtml(it.label)}</option>`
     ).join("");
   }
 
@@ -660,6 +687,8 @@
       document.getElementById("pref-free-only").checked = PREFS.free_only;
       document.getElementById("pref-indoor-outdoor").value = PREFS.indoor_outdoor;
       document.getElementById("pref-hide-drinking").checked = PREFS.hide_drinking;
+      document.getElementById("pref-show-normally-hidden").checked = PREFS.show_normally_hidden;
+      document.getElementById("pref-show-uncategorized").checked = PREFS.show_uncategorized;
       document.getElementById("pref-brand-boost").checked = PREFS.brand_boost;
       document.getElementById("pref-unique-strong-boost").checked = PREFS.unique_strong_boost;
       document.getElementById("pref-unique-soft-boost").checked = PREFS.unique_soft_boost;
@@ -701,6 +730,8 @@
       else if (t.id === "pref-free-only") PREFS.free_only = t.checked;
       else if (t.id === "pref-indoor-outdoor") PREFS.indoor_outdoor = t.value;
       else if (t.id === "pref-hide-drinking") PREFS.hide_drinking = t.checked;
+      else if (t.id === "pref-show-normally-hidden") PREFS.show_normally_hidden = t.checked;
+      else if (t.id === "pref-show-uncategorized") PREFS.show_uncategorized = t.checked;
       else if (t.id === "pref-brand-boost") PREFS.brand_boost = t.checked;
       else if (t.id === "pref-unique-strong-boost") PREFS.unique_strong_boost = t.checked;
       else if (t.id === "pref-unique-soft-boost") PREFS.unique_soft_boost = t.checked;

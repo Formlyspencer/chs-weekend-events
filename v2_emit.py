@@ -120,22 +120,30 @@ def _analyze_event(ev: dict) -> dict:
     venue = ev.get("venue") or ""
     haystack = (title_desc + " " + venue)
 
+    cat_kw = _category_keyword_hits(title_desc)
+    venue_cats = _venue_category_hits(venue)
+    excluded_hits = _hits(haystack, config.EXCLUDED_KEYWORDS)
+
     return {
-        "category_keywords":  _category_keyword_hits(title_desc),
-        "venue_categories":   _venue_category_hits(venue),
-        "brand_keywords":     _hits(haystack, config.BRAND_KEYWORDS),
-        "music_keywords":     _hits(venue + " " + title_desc, config.MUSIC_KEYWORDS),
-        "music_venue_hints":  _hits(venue, getattr(config, "MUSIC_VENUE_HINTS", []) or []),
-        "unique_strong":      _hits(haystack, config.UNIQUE_KEYWORDS),
-        "unique_soft":        _hits(haystack, config.UNIQUE_KEYWORDS_SOFT),
-        "kid_friendly":       _hits(haystack, config.KID_FRIENDLY_KEYWORDS),
-        "kid_age_buckets":    _detect_kid_age_signals(haystack),
-        "adult_only":         bool(_hits(haystack, config.ADULT_ONLY_KEYWORDS)),
-        "attended_before":    _hits(haystack, config.ATTENDED_BEFORE),
-        "recurring":          bool(ev.get("recurring")),
-        "outdoor_signals":    _hits(haystack, getattr(config, "OUTDOOR_KEYWORDS", []) or []),
-        "indoor_signals":     _hits(haystack, getattr(config, "INDOOR_KEYWORDS", []) or []),
-        "drinking_signals":   _hits(haystack, getattr(config, "DRINKING_KEYWORDS", []) or []),
+        "category_keywords":     cat_kw,
+        "venue_categories":      venue_cats,
+        "brand_keywords":        _hits(haystack, config.BRAND_KEYWORDS),
+        "music_keywords":        _hits(venue + " " + title_desc, config.MUSIC_KEYWORDS),
+        "music_venue_hints":     _hits(venue, getattr(config, "MUSIC_VENUE_HINTS", []) or []),
+        "unique_strong":         _hits(haystack, config.UNIQUE_KEYWORDS),
+        "unique_soft":           _hits(haystack, config.UNIQUE_KEYWORDS_SOFT),
+        "kid_friendly":          _hits(haystack, config.KID_FRIENDLY_KEYWORDS),
+        "kid_age_buckets":       _detect_kid_age_signals(haystack),
+        "adult_only":            bool(_hits(haystack, config.ADULT_ONLY_KEYWORDS)),
+        "attended_before":       _hits(haystack, config.ATTENDED_BEFORE),
+        "recurring":             bool(ev.get("recurring")),
+        "outdoor_signals":       _hits(haystack, getattr(config, "OUTDOOR_KEYWORDS", []) or []),
+        "indoor_signals":        _hits(haystack, getattr(config, "INDOOR_KEYWORDS", []) or []),
+        "drinking_signals":      _hits(haystack, getattr(config, "DRINKING_KEYWORDS", []) or []),
+        # Flags that let the v2 JS reproduce v1's hard-exclude / uncategorized
+        # filtering on the client side — and override it when the user wants.
+        "excluded_keyword_hits": excluded_hits,
+        "has_any_category":      bool(cat_kw) or bool(venue_cats),
     }
 
 
@@ -145,9 +153,26 @@ def _analyze_event(ev: dict) -> dict:
 def _defaults() -> dict:
     cats = {k: spec["weight"] for k, spec in config.CATEGORIES.items()}
     loc = {phrase: mult for phrase, mult in config._LOCATION_MULTIPLIERS}
+    # Canonical home-neighborhood choices (deduped — priority_areas has every
+    # spelling variant which clutters the dropdown).
+    home_choices = [
+        {"value": "folly",            "label": "Folly Beach"},
+        {"value": "james island",     "label": "James Island"},
+        {"value": "johns island",     "label": "Johns Island"},
+        {"value": "kiawah",           "label": "Kiawah Island"},
+        {"value": "wadmalaw",         "label": "Wadmalaw Island"},
+        {"value": "charleston",       "label": "Charleston (downtown)"},
+        {"value": "west ashley",      "label": "West Ashley"},
+        {"value": "north charleston", "label": "North Charleston"},
+        {"value": "mount pleasant",   "label": "Mount Pleasant"},
+        {"value": "isle of palms",    "label": "Isle of Palms"},
+        {"value": "sullivans island", "label": "Sullivan's Island"},
+        {"value": "daniel island",    "label": "Daniel Island"},
+    ]
     return {
         "category_weights": cats,
         "priority_areas":   _PRIORITY_AREAS,
+        "home_choices":     home_choices,
         "location_multipliers": loc,
         "default_home":     "folly",
         "default_unknown_location_multiplier": 0.85,
