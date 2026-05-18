@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-05-18 12:03 AM EDT",
+  "fetched_at": "2026-05-18 06:13 AM EDT",
   "counts": {
-    "raw": 154,
-    "scored": 68,
+    "raw": 159,
+    "scored": 69,
     "this_weekend": 8,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=68",
+    "input_count=69",
     "pre_dup_group venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00|src=Holy City Sinner', 'Grayson Little on the inside stage@2026-05-21 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
-    "output_count=68"
+    "output_count=69"
   ],
   "buckets": {
     "today": "2026-05-18",
