@@ -1,21 +1,21 @@
 {
-  "fetched_at": "2026-05-18 06:06 PM EDT",
+  "fetched_at": "2026-05-18 11:57 PM EDT",
   "counts": {
-    "raw": 159,
-    "scored": 69,
+    "raw": 141,
+    "scored": 60,
     "this_weekend": 8,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=69",
+    "input_count=60",
     "pre_dup_group venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00|src=Holy City Sinner', 'Grayson Little on the inside stage@2026-05-21 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
-    "output_count=69"
+    "output_count=60"
   ],
   "buckets": {
-    "today": "2026-05-18",
+    "today": "2026-05-19",
     "this_weekend": {
       "range": [
         "2026-05-22",
@@ -255,7 +255,7 @@
           "end": null,
           "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
           "description": "Karaoke every Thursday from 6-9 p.m.",
           "price": null,
           "source": "Holy City Sinner",
@@ -355,21 +355,6 @@
           "recurring": false
         },
         {
-          "title": "Kids Eat Free",
-          "start": "2026-05-18T16:00:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Let us handle dinner! Kids 12 and under now eat for free on MONDAYS from 4\u20138 PM Up to 2 kids eat free with the purchase of an adult entree. We\u2019ll have cheese or pepperoni little monster pizza slices, single smash burgers and chicken tenders for your little ones.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.32,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Dwight Yoakam & ZZ Top: Dos Amigos Tour",
           "start": "2026-05-21T19:00:00",
           "end": null,
@@ -383,21 +368,6 @@
           "score": 0.308,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-05-18T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Cold",
