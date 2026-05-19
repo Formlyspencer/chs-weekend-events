@@ -22,8 +22,87 @@ except Exception:
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
 
+def _load_archive(path: Path, max_age_days: int = 21) -> list[dict]:
+    """Reload events from the previous run's events.json.
+
+    Trumba's iCal feed (our biggest source) only ships events from the
+    current date forward — past events disappear from the source the
+    moment they happen. To keep the 'Last weekend' tab populated through
+    the week, we re-read the events we wrote on the previous run and
+    merge them with the new fetch.
+
+    Drops anything older than `max_age_days`. Reconstructs Python
+    datetime/date objects from the ISO strings so downstream code keeps
+    working unchanged.
+    """
+    from datetime import datetime, date, timedelta
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    cutoff = date.today() - timedelta(days=max_age_days)
+    out: list[dict] = []
+    for ev in data.get("events", []):
+        start_str = ev.get("start") or ""
+        if not start_str:
+            continue
+        try:
+            if "T" in start_str:
+                start_dt = datetime.fromisoformat(start_str)
+                ev_date = start_dt.date()
+            else:
+                ev_date = date.fromisoformat(start_str[:10])
+                start_dt = ev_date
+        except Exception:
+            continue
+        if ev_date < cutoff:
+            continue
+        out.append({
+            "title":        ev.get("title"),
+            "start":        start_dt,
+            "end":          ev.get("end"),
+            "venue":        ev.get("venue"),
+            "neighborhood": ev.get("neighborhood"),
+            "url":          ev.get("url"),
+            "description":  ev.get("description"),
+            "price":        ev.get("price"),
+            "source":       ev.get("source"),
+        })
+    return out
+
+
+def _merge_with_archive(fresh: list[dict], archived: list[dict]) -> list[dict]:
+    """Combine the newly-fetched events with the archived (past) ones,
+    deduping by stable id so re-fetches don't create duplicates."""
+    seen: set[str] = set()
+    out: list[dict] = []
+    for ev in fresh:
+        sid = v2_emit._stable_id(ev)
+        seen.add(sid)
+        out.append(ev)
+    for ev in archived:
+        sid = v2_emit._stable_id(ev)
+        if sid in seen:
+            continue
+        seen.add(sid)
+        out.append(ev)
+    return out
+
+
 def main() -> None:
+    out_dir = Path(__file__).parent / "docs"
+
+    # Load archived events from the previous run, then fetch new ones,
+    # then merge. This keeps the 'Last weekend' tab populated even after
+    # the source iCal stops shipping those dates.
+    archived = _load_archive(out_dir / "v2" / "events.json")
+    if archived:
+        print(f"Loaded {len(archived)} archived events from previous run", flush=True)
+
     raw = fetch.fetch_all()
+    raw = _merge_with_archive(raw, archived)
     # Run URL validation against the FULL deduped list. This way every event
     # — including ones that v1's hard-excludes would drop — has clean URLs
     # by the time v2 gets it. Modifies events in place; both raw and the
@@ -48,7 +127,6 @@ def main() -> None:
         fetched_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     html = render.render(buckets=buckets, fetched_at=fetched_at)
 
-    out_dir = Path(__file__).parent / "docs"
     out_dir.mkdir(exist_ok=True)
     (out_dir / "index.html").write_text(html, encoding="utf-8")
 
