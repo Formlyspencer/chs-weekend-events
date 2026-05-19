@@ -195,14 +195,27 @@ def _recurring_section(events: list[dict], *, label: str) -> str:
 def render(*, buckets: dict, fetched_at: str) -> str:
     this_w = buckets["this_weekend"]
     next_w = buckets["next_weekend"]
+    last_w = buckets.get("last_weekend") or {}
+    show_last = bool(buckets.get("show_last_weekend"))
 
     this_label = f"{_fmt_date(date.fromisoformat(this_w['range'][0]))} – {_fmt_date(date.fromisoformat(this_w['range'][1]))}"
     next_label = f"{_fmt_date(date.fromisoformat(next_w['range'][0]))} – {_fmt_date(date.fromisoformat(next_w['range'][1]))}"
+    last_label = ""
+    last_tab_html = ""
+    last_panel_html = ""
+    if show_last and last_w.get("range"):
+        last_label = f"{_fmt_date(date.fromisoformat(last_w['range'][0]))} – {_fmt_date(date.fromisoformat(last_w['range'][1]))}"
+        last_tab_html = f"""
+      <button class="tab" data-target="last">
+        Last weekend
+        <span class="tab-range">{html.escape(last_label)}</span>
+      </button>"""
+        last_panel_html = f"""
+    <section class="panel" id="last">
+      {_section(last_w.get("events", []), label="last weekend", empty_msg="No events landed in last weekend's window.")}
+      {_recurring_section(last_w.get("recurring", []), label="last weekend")}
+    </section>"""
 
-    # Weekday previews were getting noisy (Mon/Tue events under the
-    # "Next weekend" tab made no sense). Keep the bucketing in score.py
-    # in case we want a separate weekday tab later, but don't render
-    # them in the weekend tabs.
     this_weekday_html = ""
     next_weekday_html = ""
 
@@ -415,7 +428,7 @@ def render(*, buckets: dict, fetched_at: str) -> str:
       <button class="tab" data-target="next">
         Next weekend
         <span class="tab-range">{html.escape(next_label)}</span>
-      </button>
+      </button>{last_tab_html}
     </nav>
 
     <section class="panel active" id="this">
@@ -428,7 +441,7 @@ def render(*, buckets: dict, fetched_at: str) -> str:
       {_section(next_w["events"], label="next weekend", empty_msg="No events scored above the threshold yet for next weekend.")}
       {next_weekday_html}
       {_recurring_section(next_w.get("recurring", []), label="next weekend")}
-    </section>
+    </section>{last_panel_html}
   </main>
 </div>
 

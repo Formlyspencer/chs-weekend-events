@@ -253,14 +253,14 @@
   // ---------------------------------------------------------------------
   // Bucketing + dedup helpers
   // ---------------------------------------------------------------------
-  function weekendRange(today, offset) {
-    const wd = (today.getDay() + 6) % 7; // 0=Mon
+  function weekendRange(reference, offset) {
+    const wd = (reference.getDay() + 6) % 7; // 0=Mon
     let daysToFri;
     if (wd <= 3)      daysToFri = 4 - wd;
     else if (wd === 4) daysToFri = 0;
     else               daysToFri = -(wd - 4);
-    const fri = new Date(today);
-    fri.setDate(today.getDate() + daysToFri + 7 * offset);
+    const fri = new Date(reference);
+    fri.setDate(reference.getDate() + daysToFri + 7 * offset);
     const sun = new Date(fri);
     sun.setDate(fri.getDate() + 2);
     return [fri, sun];
@@ -272,15 +272,50 @@
     return x;
   }
 
+  // Return {weekday: 'Mon'..'Sun', hour: 0..23} in Charleston time so
+  // the Monday-9AM-EST rollover behaves consistently for visitors in
+  // any timezone.
+  function charlestonNow() {
+    try {
+      const parts = new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/New_York",
+        weekday: "short",
+        hour: "2-digit",
+        hour12: false,
+      }).formatToParts(new Date());
+      const p = {};
+      for (const x of parts) p[x.type] = x.value;
+      return { weekday: p.weekday, hour: parseInt(p.hour, 10) };
+    } catch (_) {
+      // Fallback to browser local time.
+      const d = new Date();
+      const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+      return { weekday: days[d.getDay()], hour: d.getHours() };
+    }
+  }
+
   function bucketize(events) {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    const [thisFri, thisSun] = weekendRange(today, 0);
-    const [nextFri, nextSun] = weekendRange(today, 1);
+
+    // Rollover rule: until Monday 9 AM Charleston time, the "This
+    // weekend" tab still points at the just-finished Fri–Sun and the
+    // "Last weekend" tab is hidden. At 9 AM Monday, This becomes the
+    // upcoming Fri–Sun and Last appears on the right.
+    const ct = charlestonNow();
+    const beforeMon9 = ct.weekday === "Mon" && ct.hour < 9;
+    const effToday = new Date(today);
+    if (beforeMon9) effToday.setDate(effToday.getDate() - 1);
+
+    const [thisFri, thisSun] = weekendRange(effToday, 0);
+    const [nextFri, nextSun] = weekendRange(effToday, 1);
+    const [lastFri, lastSun] = weekendRange(effToday, -1);
     const out = {
       today: today.toISOString().slice(0, 10),
+      showLast: !beforeMon9,
       this: { range: [thisFri, thisSun], events: [], recurring: [] },
       next: { range: [nextFri, nextSun], events: [], recurring: [] },
+      last: { range: [lastFri, lastSun], events: [], recurring: [] },
     };
     for (const ev of events) {
       if (!ev.start) continue;
@@ -290,6 +325,8 @@
         (isRecur ? out.this.recurring : out.this.events).push(ev);
       } else if (d >= nextFri && d <= nextSun) {
         (isRecur ? out.next.recurring : out.next.events).push(ev);
+      } else if (d >= lastFri && d <= lastSun) {
+        (isRecur ? out.last.recurring : out.last.events).push(ev);
       }
     }
     return out;
@@ -638,13 +675,19 @@
     const scored = applyPrefsToScore();
     const buckets = bucketize(scored);
 
-    // Tabs
+    // Tabs — show "Last weekend" only after the Monday-9AM-EST rollover.
     const tabsEl = document.getElementById("tabs");
     const fmt = (d) => DAYS[(d.getDay()+6)%7] + " " + d.toLocaleString("en-US",{month:"short", day:"numeric"});
-    tabsEl.innerHTML = [
+    const tabSpec = [
       ["this", "This weekend", buckets.this.range],
       ["next", "Next weekend", buckets.next.range],
-    ].map(([key, label, [start, end]]) => `
+    ];
+    if (buckets.showLast) {
+      tabSpec.push(["last", "Last weekend", buckets.last.range]);
+    } else if (ACTIVE_TAB === "last") {
+      ACTIVE_TAB = "this";
+    }
+    tabsEl.innerHTML = tabSpec.map(([key, label, [start, end]]) => `
       <button class="tab ${ACTIVE_TAB===key?"active":""}" data-tab="${key}">
         ${label}<span class="tab-range">${fmt(start)} – ${fmt(end)}</span>
       </button>
@@ -657,6 +700,14 @@
               "this weekend", PREFS.max_per_venue, capMap);
     renderTab(document.getElementById("panel-next"), buckets.next,
               "next weekend", PREFS.max_per_venue, capMap);
+    const lastPanel = document.getElementById("panel-last");
+    if (buckets.showLast) {
+      renderTab(lastPanel, buckets.last, "last weekend", PREFS.max_per_venue, capMap);
+      lastPanel.style.display = "";
+    } else {
+      lastPanel.innerHTML = "";
+      lastPanel.style.display = "none";
+    }
 
     // Reflect active tab visibility
     document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));

@@ -122,6 +122,12 @@ def is_explicitly_excluded(text: str | None) -> bool:
 
 
 def within_horizon(dt: datetime | date | None) -> bool:
+    """True if `dt` is within the window we care about.
+
+    Now includes the previous 14 days so the dashboard's 'Last weekend'
+    tab has data after the Monday-9am-EST rollover. Forward horizon stays
+    at HORIZON_DAYS.
+    """
     if dt is None:
         return False
     if isinstance(dt, datetime):
@@ -129,7 +135,7 @@ def within_horizon(dt: datetime | date | None) -> bool:
     else:
         d = dt
     today = date.today()
-    return today <= d <= today + timedelta(days=config.HORIZON_DAYS)
+    return today - timedelta(days=14) <= d <= today + timedelta(days=config.HORIZON_DAYS)
 
 
 def event(

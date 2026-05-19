@@ -499,6 +499,31 @@ def score_all(events: list[dict]) -> list[dict]:
 # ---------------------------------------------------------------------------
 # Weekend bucketing
 # ---------------------------------------------------------------------------
+try:
+    from zoneinfo import ZoneInfo
+    _CHS_TZ = ZoneInfo("America/New_York")
+except Exception:
+    _CHS_TZ = None
+
+
+def _effective_today_charleston() -> tuple[date, bool]:
+    """Return (effective_today, show_last_weekend).
+
+    Rollover rule: until Monday 9 AM Charleston time, the "This weekend"
+    tab still points at the just-finished weekend. At 9 AM Monday the
+    default rolls forward to the upcoming weekend and a "Last weekend"
+    tab appears on the right.
+    """
+    if _CHS_TZ is not None:
+        now_local = datetime.now(_CHS_TZ)
+    else:
+        now_local = datetime.now()
+    today_local = now_local.date()
+    if today_local.weekday() == 0 and now_local.hour < 9:   # Mon before 9 AM
+        return today_local - timedelta(days=1), False
+    return today_local, True
+
+
 def _weekend_range(reference: date, offset_weeks: int = 0) -> tuple[date, date]:
     """Return (fri, sun) for the weekend N weeks out from `reference`.
 
@@ -590,16 +615,21 @@ def _norm_title(t: str) -> str:
 
 
 def bucket(events: list[dict], today: date | None = None) -> dict:
-    today = today or date.today()
+    show_last = True
+    if today is None:
+        today, show_last = _effective_today_charleston()
     this_fri, this_sun = _weekend_range(today, 0)
     next_fri, next_sun = _weekend_range(today, 1)
+    last_fri, last_sun = _weekend_range(today, -1)
 
     this_weekend: list[dict] = []
     next_weekend: list[dict] = []
+    last_weekend: list[dict] = []
     this_weekdays: list[dict] = []
     next_weekdays: list[dict] = []
     this_recurring: list[dict] = []
     next_recurring: list[dict] = []
+    last_recurring: list[dict] = []
 
     for ev in events:
         d = _to_date(ev["start"])
@@ -610,49 +640,34 @@ def bucket(events: list[dict], today: date | None = None) -> dict:
             (this_recurring if is_recur else this_weekend).append(ev)
         elif next_fri <= d <= next_sun:
             (next_recurring if is_recur else next_weekend).append(ev)
+        elif last_fri <= d <= last_sun:
+            (last_recurring if is_recur else last_weekend).append(ev)
         elif today <= d < this_fri:
             this_weekdays.append(ev)
         elif this_sun < d < next_fri:
             next_weekdays.append(ev)
 
-    # Collapse multi-day runs (same title + venue on different days) within
-    # each bucket — an exhibition that runs Sat AND Sun shouldn't appear
-    # twice in the weekend list.
-    this_weekend  = _collapse_same_run(this_weekend)
-    next_weekend  = _collapse_same_run(next_weekend)
-    this_weekdays = _collapse_same_run(this_weekdays)
-    next_weekdays = _collapse_same_run(next_weekdays)
-    this_recurring = _collapse_same_run(this_recurring)
-    next_recurring = _collapse_same_run(next_recurring)
-
-    # Cap each list at MAX_PER_VENUE so one busy venue can't dominate.
-    this_weekend  = _cap_per_venue(this_weekend)
-    next_weekend  = _cap_per_venue(next_weekend)
-    this_weekdays = _cap_per_venue(this_weekdays)
-    next_weekdays = _cap_per_venue(next_weekdays)
-    this_recurring = _cap_per_venue(this_recurring)
-    next_recurring = _cap_per_venue(next_recurring)
-
-    # Apply per-category caps (art events capped tight per user pref).
-    this_weekend  = _cap_per_category(this_weekend)
-    next_weekend  = _cap_per_category(next_weekend)
-    this_weekdays = _cap_per_category(this_weekdays)
-    next_weekdays = _cap_per_category(next_weekdays)
-    this_recurring = _cap_per_category(this_recurring)
-    next_recurring = _cap_per_category(next_recurring)
+    def _polish(lst):
+        return _cap_per_category(_cap_per_venue(_collapse_same_run(lst)))
 
     return {
         "today": today.isoformat(),
+        "show_last_weekend": show_last,
         "this_weekend": {
             "range": (this_fri.isoformat(), this_sun.isoformat()),
-            "events": this_weekend,
-            "weekdays": this_weekdays,
-            "recurring": this_recurring,
+            "events": _polish(this_weekend),
+            "weekdays": _polish(this_weekdays),
+            "recurring": _polish(this_recurring),
         },
         "next_weekend": {
             "range": (next_fri.isoformat(), next_sun.isoformat()),
-            "events": next_weekend,
-            "weekdays": next_weekdays,
-            "recurring": next_recurring,
+            "events": _polish(next_weekend),
+            "weekdays": _polish(next_weekdays),
+            "recurring": _polish(next_recurring),
+        },
+        "last_weekend": {
+            "range": (last_fri.isoformat(), last_sun.isoformat()),
+            "events": _polish(last_weekend),
+            "recurring": _polish(last_recurring),
         },
     }
