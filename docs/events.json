@@ -1,18 +1,22 @@
 {
-  "fetched_at": "2026-05-18 11:57 PM EDT",
+  "fetched_at": "2026-05-19 05:54 AM EDT",
   "counts": {
-    "raw": 141,
-    "scored": 60,
-    "this_weekend": 8,
+    "raw": 154,
+    "scored": 68,
+    "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=60",
+    "input_count=68",
     "pre_dup_group venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00|src=Holy City Sinner', 'Grayson Little on the inside stage@2026-05-21 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00|src=Holy City Sinner', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-23|src=Holy City Sinner']",
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
-    "output_count=60"
+    "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
+    "survivor venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23', 'Spoleto Festival USA 2026@2026-05-23']",
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-05-19",
@@ -22,6 +26,21 @@
         "2026-05-24"
       ],
       "events": [
+        {
+          "title": "SUP Yoga at Trophy Lakes",
+          "start": "2026-05-23T08:15:00",
+          "end": null,
+          "venue": "Charleston Aqua Park, 3050 Marlin Rd., Johns Island, SC",
+          "neighborhood": "Johns Island",
+          "url": "https://eventvesta.com/events/145811/t/tickets",
+          "description": "Come join us on the beautiful, peaceful Trophy Lakes for SUP Yoga with Erin. Take advanatage our laid back yoga practice that is ideal for beginners and frequent yogis throughout October! These are the dates: May 23, June 13, July 11, July 25 -- 8:15 - 9:30am Call 843-259-2645 or\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.775,
+          "tier": "medium",
+          "recurring": false
+        },
         {
           "title": "Brewery Blast Laser Tag",
           "start": "2026-05-22T17:00:00",
@@ -98,6 +117,36 @@
           "recurring": false
         },
         {
+          "title": "Bubble Burlesque",
+          "start": "2026-05-22T21:00:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://musicfarm.com/event/bubble-burlesque-a-cheeky-nod-to-a-yellow-underwater-square/",
+          "description": "After the smashing success of the Get Out Me Swamp Burlesque show, we are thrilled to bring you: Bubble Burlesque! Dive into a sea of sparkle, sass, and subaquatic silliness with Bubble Burlesque \u2014 a splashy, tongue-in-cheek tribute to everyone\u2019s favorite absorbent, optimistic oc\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "The Back Porch Band \u2013 on the inside stage",
+          "start": "2026-05-22T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com",
+          "description": "$10 or FREE with a Ian Munsick Ticket May 22, 2026 Doors at 9:30 pm 21Up ARTIST WEBSITE www.instagram.com\u2026 Spring 2026 is officially on the books From Clemson to Charleston and everywhere in between, this semester is already shaping up to be a good one.",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Ian Munsick \u2013 on the N\u00dcTRL Beach Stage",
           "start": "2026-05-22T18:00:00",
           "end": null,
@@ -113,32 +162,32 @@
           "recurring": false
         },
         {
-          "title": "The Classics: Black & White",
-          "start": "2026-05-22T10:00:00",
+          "title": "Family Fun Day",
+          "start": "2026-05-23T10:00:00",
           "end": null,
-          "venue": "Charleston Crafts Gallery, 140 E Bay St, Charleston, SC",
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/the-classics-black-white-opens-at-charleston-crafts-gallery-/",
-          "description": "Charleston Crafts Gallery, an artist-owned cooperative in downtown Charleston, will present its May exhibition, The Classics: Black & White, opening with a public reception Friday, May 1, from 5 to 8 p.m.\u2026",
+          "url": "https://reduxstudios.org/",
+          "description": "Join us for a FREE Family Fun Day! We'll have vendors doing activities, a giant cardboard city, and an exhibition of art from local schools k-5. If your school is interested in joining us, let us know!",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.297,
+          "score": 0.35,
           "tier": "low",
           "recurring": false
         },
         {
-          "title": "Charleston in Bloom",
-          "start": "2026-05-22T10:30:00",
+          "title": "Fairies & Flowers",
+          "start": "2026-05-23T09:00:00",
           "end": null,
-          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
+          "venue": "Magnolia Plantation & Garden, 3550 Ashley River Road, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-present-charleston-in-bloom/",
-          "description": "Charleston has been described as a \u201ccity set in a garden,\u201d and there is no better time than spring to admire the beauty of window boxes spilling over with flowers and gardens filled with vibrant blooms. This exhibition was inspired by the arrival of spring in the Lowcountry.\u2026",
-          "price": 0.0,
+          "url": "https://holycitysinner.com/entertainment/magnolia-plantation-gardens-welcomes-a-fairy-village-this-su/",
+          "description": "Magnolia Plantation & Gardens announces Fairies & Flowers, a new summer exhibition featuring 20+ handcrafted fairy dwellings installed throughout the historic gardens by 30 Tri-County artists, on view May 22 through July 12, 2026.\u2026",
+          "price": 32.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.297,
+          "score": 0.331,
           "tier": "low",
           "recurring": false
         }
@@ -375,7 +424,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/cold/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "True life transpires, and music results. COLD is : Scooter Ward \u2013 Vocals/piano/Guitar Lindsay Manfredi \u2013 Bass Guitar Tony Kruszka \u2013 Drums Ed Cuozzo \u2013 Guitar Angelo Maruzzelli \u2013 Guitar",
           "price": null,
           "source": "Holy City Sinner",
@@ -533,6 +582,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.641,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-05-23T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
