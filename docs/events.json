@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-05-19 06:19 PM EDT",
+  "fetched_at": "2026-05-19 11:58 PM EDT",
   "counts": {
-    "raw": 169,
-    "scored": 73,
+    "raw": 167,
+    "scored": 72,
     "this_weekend": 12,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=73",
+    "input_count=72",
     "pre_dup_group venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00|src=Holy City Sinner', 'Grayson Little on the inside stage@2026-05-21 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00|src=Holy City Sinner', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
     "survivor venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23', 'Spoleto Festival USA 2026@2026-05-23']",
-    "output_count=73"
+    "output_count=72"
   ],
   "buckets": {
     "today": "2026-05-19",
@@ -93,7 +93,7 @@
           "end": null,
           "venue": "Various",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "http://piccolospoleto.com/",
           "description": "2026 Piccolo Spoleto Festival runs May 22 \u2013 June 7, 2026 Coinciding with Spoleto Festival USA, produced by the City of Charleston Office of Cultural Affairs.",
           "price": null,
           "source": "Holy City Sinner",
@@ -678,23 +678,7 @@
         "2026-05-15",
         "2026-05-17"
       ],
-      "events": [
-        {
-          "title": "18th annual Chef's Potluck",
-          "start": "2026-05-17",
-          "end": null,
-          "venue": "Holy City Brewing (The Porter Room), North Charleston",
-          "neighborhood": "North Charleston",
-          "url": "https://link.6amcity.com/click/45726653.27771/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy8xOHRoLWFubnVhbC1jaGVmcy1wb3RsdWNrLzE4Mjk3NzQ0LzIwMjYtMDUtMTdUMTY/62f733efd173ab15f0e89340Bd2e42fe9",
-          "description": "4-7 p.m. \u00b7 Holy City Brewing (The Porter Room), North Charleston \u00b7 $145+",
-          "price": 145.0,
-          "source": "CHStoday (newsletter)",
-          "category": "brewery_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        }
-      ],
+      "events": [],
       "recurring": []
     }
   }
