@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-05-21 11:38 AM EDT",
+  "fetched_at": "2026-05-21 03:59 PM EDT",
   "counts": {
     "raw": 238,
-    "scored": 108,
+    "scored": 107,
     "this_weekend": 22,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=108",
+    "input_count=107",
     "pre_dup_group venue=music farm date=2026-05-23: ['Golden: A K-Pop Kids Party@2026-05-23|src=CHStoday (newsletter)', 'All Your Friends@2026-05-23 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00|src=Holy City Sinner', 'Grayson Little on the inside stage@2026-05-21 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
@@ -22,7 +22,7 @@
     "survivor venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23', 'Spoleto Festival USA 2026@2026-05-23']",
     "survivor venue=the windjammer date=2026-05-23: ['Futurebirds on the N\u00dcTRL Beach Stag@2026-05-23 18:00:00', 'Darren Desse on the inside stage@2026-05-23 21:30:00']",
     "survivor venue=various date=2026-05-24: ['Piccolo Spoleto@2026-05-24', 'Spoleto Festival USA 2026@2026-05-24']",
-    "output_count=108"
+    "output_count=107"
   ],
   "buckets": {
     "today": "2026-05-21",
@@ -250,7 +250,7 @@
           "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
           "neighborhood": "North Charleston",
           "url": "https://stripedpigdistillery.com/barrel-tasting-experience/",
-          "description": "Step into a premium bourbon tasting experience designed for enthusiasts. \u2022Explore our distillery \u2022Taste four hand-selected cask-strength 9-year-old barrels \u2022Discover what makes our bourbon award-worthy \u2022Take home a bottle of your favorite \u2014 a rare opportunity usually reserved for\u2026",
+          "description": "Step into a premium bourbon tasting experience designed for enthusiasts. Explore our distillery Taste four hand-selected cask-strength 9-year-old barrels Discover what makes our bourbon award-worthy Take home a bottle of your favorite \u2014 a rare opportunity usually reserved for lar\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "other_drinking",
@@ -264,7 +264,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/all-your-friends/",
           "description": "An indie dance party for the ones who still romanticize a scratched iPod, American Spirits, and a blurry night scored by Bloc Party and Crystal Castles.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -740,21 +740,6 @@
           "category": "farmers_market",
           "score": 0.587,
           "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-05-24T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
           "recurring": true
         },
         {
