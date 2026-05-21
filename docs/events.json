@@ -1,28 +1,28 @@
 {
-  "fetched_at": "2026-05-21 05:51 AM EDT",
+  "fetched_at": "2026-05-21 11:38 AM EDT",
   "counts": {
-    "raw": 230,
-    "scored": 104,
-    "this_weekend": 20,
+    "raw": 238,
+    "scored": 108,
+    "this_weekend": 22,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=104",
+    "input_count=108",
+    "pre_dup_group venue=music farm date=2026-05-23: ['Golden: A K-Pop Kids Party@2026-05-23|src=CHStoday (newsletter)', 'All Your Friends@2026-05-23 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00|src=Holy City Sinner', 'Grayson Little on the inside stage@2026-05-21 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00|src=Holy City Sinner', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-23|src=Holy City Sinner']",
-    "pre_dup_group venue=music farm date=2026-05-23: ['Golden: a K-Pop Kids Party!@2026-05-23 11:00:00|src=Holy City Sinner', 'All Your Friends@2026-05-23 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-23: ['Futurebirds on the N\u00dcTRL Beach Stag@2026-05-23 18:00:00|src=Holy City Sinner', 'Darren Desse on the inside stage@2026-05-23 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-24: ['Piccolo Spoleto@2026-05-24|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-24|src=Holy City Sinner']",
+    "survivor venue=music farm date=2026-05-23: ['Golden: A K-Pop Kids Party@2026-05-23', 'All Your Friends@2026-05-23 21:30:00']",
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
     "survivor venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23', 'Spoleto Festival USA 2026@2026-05-23']",
-    "survivor venue=music farm date=2026-05-23: ['Golden: a K-Pop Kids Party!@2026-05-23 11:00:00', 'All Your Friends@2026-05-23 21:30:00']",
     "survivor venue=the windjammer date=2026-05-23: ['Futurebirds on the N\u00dcTRL Beach Stag@2026-05-23 18:00:00', 'Darren Desse on the inside stage@2026-05-23 21:30:00']",
     "survivor venue=various date=2026-05-24: ['Piccolo Spoleto@2026-05-24', 'Spoleto Festival USA 2026@2026-05-24']",
-    "output_count=104"
+    "output_count=108"
   ],
   "buckets": {
     "today": "2026-05-21",
@@ -33,6 +33,21 @@
         "2026-05-24"
       ],
       "events": [
+        {
+          "title": "Party at the Point: Dave Matthews Tribute Band",
+          "start": "2026-05-22",
+          "end": null,
+          "venue": "Charleston Harbor Resort and Marina",
+          "neighborhood": "Charleston",
+          "url": "https://link.6amcity.com/click/45805740.24769/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9wYXJ0eS1hdC10aGUtcG9pbnQvMTg1ODkwMDMvMjAyNi0wNS0yMlQwMA/62f733efd173ab15f0e89340Bedb59bd8",
+          "description": "5-9 p.m. \u00b7 Charleston Harbor Resort and Marina \u00b7 $15",
+          "price": 15.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_music",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
         {
           "title": "NIKO MOON",
           "start": "2026-05-23T16:00:00",
@@ -46,6 +61,21 @@
           "category": "outdoor_festival",
           "score": 0.828,
           "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Spoleto Opening Ceremony",
+          "start": "2026-05-22",
+          "end": null,
+          "venue": "Charleston City Hall",
+          "neighborhood": "Charleston",
+          "url": "https://link.6amcity.com/click/45805740.24769/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zcG9sZXRvLW9wZW5pbmctY2VyZW1vbnkvMTg5MzYwMzEvMjAyNi0wNS0yMlQxMg/62f733efd173ab15f0e89340Ba3d97b38",
+          "description": "12 p.m. \u00b7 Charleston City Hall \u00b7 Free",
+          "price": 0.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_festival",
+          "score": 0.787,
+          "tier": "medium",
           "recurring": false
         },
         {
@@ -214,21 +244,6 @@
           "recurring": false
         },
         {
-          "title": "Golden: a K-Pop Kids Party!",
-          "start": "2026-05-23T11:00:00",
-          "end": null,
-          "venue": "Music Farm, 32 Ann St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Prepare yourselves for a family-friendly dance party featuring remixes inspired by familiar soundtracks, K-Pop songs, remixes, and iconic pop anthems from the movies. Costumes, dancing, and shining bright are encouraged! Brought to you by @thekawaiirave.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Single Barrel Tasting Experience",
           "start": "2026-05-23T15:00:00",
           "end": null,
@@ -239,6 +254,21 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "other_drinking",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "All Your Friends",
+          "start": "2026-05-23T21:30:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "An indie dance party for the ones who still romanticize a scratched iPod, American Spirits, and a blurry night scored by Bloc Party and Crystal Castles.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
           "score": 0.547,
           "tier": "low",
           "recurring": false
@@ -363,6 +393,21 @@
           "category": "brewery_event",
           "score": 0.557,
           "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Dumpling Class",
+          "start": "2026-05-21",
+          "end": null,
+          "venue": "Charles Towne Fermentory, James Island",
+          "neighborhood": "James Island",
+          "url": "https://link.6amcity.com/click/45805740.24769/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9kdW1wbGluZy1jbGFzcy8xODgyMjM5Ni8yMDI2LTA1LTIxVDE4/62f733efd173ab15f0e89340B23416d85",
+          "description": "6:30-8:30 p.m. \u00b7 Charles Towne Fermentory, James Island \u00b7 $60",
+          "price": 60.0,
+          "source": "CHStoday (newsletter)",
+          "category": "food_festival",
+          "score": 0.54,
+          "tier": "low",
           "recurring": false
         },
         {
