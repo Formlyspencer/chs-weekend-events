@@ -1,25 +1,31 @@
 {
-  "fetched_at": "2026-05-20 06:25 PM EDT",
+  "fetched_at": "2026-05-21 12:07 AM EDT",
   "counts": {
-    "raw": 198,
-    "scored": 90,
-    "this_weekend": 19,
+    "raw": 230,
+    "scored": 104,
+    "this_weekend": 20,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=90",
+    "input_count=104",
     "pre_dup_group venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00|src=Holy City Sinner', 'Grayson Little on the inside stage@2026-05-21 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00|src=Holy City Sinner', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-23|src=Holy City Sinner']",
+    "pre_dup_group venue=music farm date=2026-05-23: ['Golden: a K-Pop Kids Party!@2026-05-23 11:00:00|src=Holy City Sinner', 'All Your Friends@2026-05-23 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-05-23: ['Futurebirds on the N\u00dcTRL Beach Stag@2026-05-23 18:00:00|src=Holy City Sinner', 'Darren Desse on the inside stage@2026-05-23 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=various date=2026-05-24: ['Piccolo Spoleto@2026-05-24|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-24|src=Holy City Sinner']",
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
     "survivor venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23', 'Spoleto Festival USA 2026@2026-05-23']",
-    "output_count=90"
+    "survivor venue=music farm date=2026-05-23: ['Golden: a K-Pop Kids Party!@2026-05-23 11:00:00', 'All Your Friends@2026-05-23 21:30:00']",
+    "survivor venue=the windjammer date=2026-05-23: ['Futurebirds on the N\u00dcTRL Beach Stag@2026-05-23 18:00:00', 'Darren Desse on the inside stage@2026-05-23 21:30:00']",
+    "survivor venue=various date=2026-05-24: ['Piccolo Spoleto@2026-05-24', 'Spoleto Festival USA 2026@2026-05-24']",
+    "output_count=104"
   ],
   "buckets": {
-    "today": "2026-05-20",
+    "today": "2026-05-21",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -283,6 +289,21 @@
           "recurring": false
         },
         {
+          "title": "Headstrings Collective",
+          "start": "2026-05-23T18:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Headstrings Collective feat. Scott Baston Bill Jarrett Charlie Kendall Oleg Terentiev Ben Mossman Saturday May 23rd 2026 Charleston Pour House Deck Stage pre- perpetual groove's amber nights * a celebration of 25 years of pgroove* 5pm doors /6pm show 2 x sets $10 @ the door",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Family Fun Day",
           "start": "2026-05-23T10:00:00",
           "end": null,
@@ -435,21 +456,6 @@
           "recurring": false
         },
         {
-          "title": "Exotic Pet Meetup",
-          "start": "2026-05-20T18:30:00",
-          "end": null,
-          "venue": "Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "You and your pets are invited! Join us at the Snafu taproom May 20th for an exotic pet meetup hosted by All Creatures Veterinary Clinic - enjoy a pint while you meet other pet owners and learn from the experts themselves All pets are welcome *in their respective carriers and/or o\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.409,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Karaoke",
           "start": "2026-05-21T18:00:00",
           "end": null,
@@ -495,21 +501,6 @@
           "recurring": false
         },
         {
-          "title": "West Ashley Farmers Market",
-          "start": "2026-05-20T15:00:00",
-          "end": null,
-          "venue": "Ackerman Park, 55 Sycamore Avenue, Charleston, SC",
-          "neighborhood": "West Ashley",
-          "url": "https://holycitysinner.com/food-bev/west-ashley-farmers-market-opens-april-1-for-2026-season/",
-          "description": "The West Ashley Farmers Market opened for the 2026 season Wednesday, April 1, at Ackerman Park, marking the earliest opening in the market\u2019s history. The market will run every Wednesday from 3 to 7 p.m. through Oct. 14, with a special Thanksgiving Market on Sunday, Nov.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.345,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Redferrin \u2013 on the N\u00dcTRL Beach Stage",
           "start": "2026-05-21T18:00:00",
           "end": null,
@@ -525,21 +516,6 @@
           "recurring": false
         },
         {
-          "title": "Live Music at The Bar x Gillian Kohn",
-          "start": "2026-05-20T17:00:00",
-          "end": null,
-          "venue": "The Spectator Hotel, 67 State St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.thespectatorhotel.com/bar-the-spectator-hotel",
-          "description": "Enjoy live Jazz at The Bar with Gillian Kohn - The Vintage Vixen of Jazz Bring your friends and nosh on a selection of shared bar bites, sip on handcrafted cocktails and indulge in half-price bottles of wine from The Spectator's wine program.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.323,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Dwight Yoakam & ZZ Top: Dos Amigos Tour",
           "start": "2026-05-21T19:00:00",
           "end": null,
@@ -551,36 +527,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.308,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Cold",
-          "start": "2026-05-20T20:00:00",
-          "end": null,
-          "venue": "Music Farm, 32 Ann St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "True life transpires, and music results. COLD is : Scooter Ward \u2013 Vocals/piano/Guitar Lindsay Manfredi \u2013 Bass Guitar Tony Kruszka \u2013 Drums Ed Cuozzo \u2013 Guitar Angelo Maruzzelli \u2013 Guitar",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Mug Club Night",
-          "start": "2026-05-20T11:30:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "West Ashley",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Join the Frothy Beard Mug Club! For just $100/year, you\u2019ll unlock exclusive perks at both our West Ashley & Summerville locations: 20 oz pours at 16 oz pricing $2 off mug pours on Mug Club Night \u2013 Tuesdays in Summerville \u2013 Wednesdays in West Ashley 15% off all merchandise 10% off\u2026",
-          "price": 100.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.276,
           "tier": "low",
           "recurring": false
         },
@@ -734,6 +680,36 @@
           "category": "farmers_market",
           "score": 0.587,
           "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sunday Bazaar",
+          "start": "2026-05-24T10:30:00",
+          "end": null,
+          "venue": "American Gardens, 174 King St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/american-gardens-launches-sunday-bazaar-series-may-10/",
+          "description": "On Sunday, May 10, American Gardens will kick off its Sunday Bazaar series, a weekly flower and farmers market running through the end of June. Taking place every Sunday from 10:30 a.m.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sunday Figure Drawing",
+          "start": "2026-05-24T17:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://redux.givecloud.co/figure-drawing",
+          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.258,
+          "tier": "low",
           "recurring": true
         },
         {
