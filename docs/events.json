@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-05-22 05:36 AM EDT",
+  "fetched_at": "2026-05-22 10:47 AM EDT",
   "counts": {
-    "raw": 252,
-    "scored": 118,
-    "this_weekend": 19,
+    "raw": 257,
+    "scored": 120,
+    "this_weekend": 22,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=118",
+    "input_count=120",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00|src=Holy City Sinner', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-23|src=Holy City Sinner']",
@@ -28,7 +28,7 @@
     "survivor venue=various date=2026-05-25: [\"L'Organo's FREE Organ Concert Serie@2026-05-25 08:00:00\", 'Spoleto Festival USA 2026@2026-05-25']",
     "survivor venue=various date=2026-05-26: [\"L'Organo's FREE Organ Concert Serie@2026-05-26 08:00:00\", 'Spoleto Festival USA 2026@2026-05-26']",
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
-    "output_count=118"
+    "output_count=120"
   ],
   "buckets": {
     "today": "2026-05-22",
@@ -41,7 +41,7 @@
       "events": [
         {
           "title": "NIKO MOON",
-          "start": "2026-05-23T16:00:00",
+          "start": "2026-05-24T16:00:00",
           "end": null,
           "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
           "neighborhood": "Charleston",
@@ -56,16 +56,31 @@
         },
         {
           "title": "SUP Yoga at Trophy Lakes",
-          "start": "2026-05-23T08:15:00",
+          "start": "2026-05-23",
           "end": null,
-          "venue": "Charleston Aqua Park, 3050 Marlin Rd., Johns Island, SC",
+          "venue": "Charleston Aqua Park, Johns Island",
           "neighborhood": "Johns Island",
-          "url": "https://eventvesta.com/events/145811/t/tickets",
-          "description": "Come join us on the beautiful, peaceful Trophy Lakes for SUP Yoga with Erin. Take advanatage our laid back yoga practice that is ideal for beginners and frequent yogis throughout October! These are the dates: May 23, June 13, July 11, July 25 -- 8:15 - 9:30am Call 843-259-2645 or\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
+          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zdXAteW9nYS1hdC10cm9waHktbGFrZXMvMTg4MjUxNDAvMjAyNi0wNS0yM1QwOA/62f733efd173ab15f0e89340B6d81e5e4",
+          "description": "8:15-9:30 a.m. \u00b7 Charleston Aqua Park, Johns Island \u00b7 $25",
+          "price": 25.0,
+          "source": "CHStoday (newsletter)",
           "category": "brewery_event",
-          "score": 0.775,
+          "score": 0.821,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Spoleto Opening Ceremony",
+          "start": "2026-05-22",
+          "end": null,
+          "venue": "Charleston City Hall",
+          "neighborhood": "Charleston",
+          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zcG9sZXRvLW9wZW5pbmctY2VyZW1vbnkvMTg5MzYwMzEvMjAyNi0wNS0yMlQxMg/62f733efd173ab15f0e89340B5065e855",
+          "description": "12 p.m. \u00b7 Charleston City Hall \u00b7 Free",
+          "price": 0.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_festival",
+          "score": 0.787,
           "tier": "medium",
           "recurring": false
         },
@@ -77,21 +92,6 @@
           "neighborhood": "North Charleston",
           "url": "https://eventvesta.com/events/133363/t/tickets",
           "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Willie Nelson & Family",
-          "start": "2026-05-24T19:00:00",
-          "end": null,
-          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/willie-nelson-family-to-perform-at-firefly-distillery-in-may/",
-          "description": "Country music icon Willie Nelson will make a stop in North Charleston next month. On Friday, May 24, Willie Nelson & Family will perform at the Firefly Distillery starting at 7 pm.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "brewery_event",
@@ -175,6 +175,36 @@
           "recurring": false
         },
         {
+          "title": "Single Barrel Tasting Experience",
+          "start": "2026-05-23",
+          "end": null,
+          "venue": "Striped Pig Distillery, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zaW5nbGUtYmFycmVsLXRhc3RpbmctZXhwZXJpZW5jZS8xODc4MzkyNS8yMDI2LTA1LTIzVDE1/62f733efd173ab15f0e89340Bef428d0e",
+          "description": "3-4 p.m. \u00b7 Striped Pig Distillery, North Charleston \u00b7 $50",
+          "price": 50.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.655,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Martha Graham Dance Company: Graham 100",
+          "start": "2026-05-22",
+          "end": null,
+          "venue": "Festival Hall",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9tYXJ0aGEtZ3JhaGFtLWRhbmNlLWNvbXBhbnktZ3JhaGFtLTEwMC8xODkxMDM4OS8yMDI2LTA1LTIyVDE5/62f733efd173ab15f0e89340B4c659c8e",
+          "description": "Times vary \u00b7 Festival Hall \u00b7 $55+",
+          "price": 55.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_festival",
+          "score": 0.574,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Party at The Point",
           "start": "2026-05-22T18:00:00",
           "end": null,
@@ -220,21 +250,6 @@
           "recurring": false
         },
         {
-          "title": "Single Barrel Tasting Experience",
-          "start": "2026-05-23T15:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://stripedpigdistillery.com/barrel-tasting-experience/",
-          "description": "Step into a premium bourbon tasting experience designed for enthusiasts. Explore our distillery Taste four hand-selected cask-strength 9-year-old barrels Discover what makes our bourbon award-worthy Take home a bottle of your favorite \u2014 a rare opportunity usually reserved for lar\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Charleston Spring Wine Festival",
           "start": "2026-05-23T13:00:00",
           "end": null,
@@ -246,6 +261,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.527,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Willie Nelson + Family",
+          "start": "2026-05-24",
+          "end": null,
+          "venue": "Firefly Distillery, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9saXZlLWF0LWZpcmVmbHktd2l0aC13aWxsaWUtbmVsc29uLWZhbWlseS8xODU4NzI0Ni8yMDI2LTA1LTI0VDE5/62f733efd173ab15f0e89340Bec738872",
+          "description": "7 p.m. \u00b7 Firefly Distillery, North Charleston \u00b7 $92+",
+          "price": 92.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.524,
           "tier": "low",
           "recurring": false
         },
@@ -321,6 +351,21 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Niko Moon's Good Time Fest",
+          "start": "2026-05-23",
+          "end": null,
+          "venue": "The Refinery",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9uaWtvLW1vb25zLWdvb2QtdGltZS1mZXN0LTIvMTc1NDg4NDYvMjAyNi0wNS0yM1QxNQ/62f733efd173ab15f0e89340Bcb5ac2cb",
+          "description": "Times vary \u00b7 The Refinery \u00b7 $147+",
+          "price": 147.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_festival",
+          "score": 0.306,
           "tier": "low",
           "recurring": false
         }
@@ -423,7 +468,7 @@
           "end": null,
           "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.seaislandfarmersmarket.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
           "price": null,
           "source": "Holy City Sinner",
