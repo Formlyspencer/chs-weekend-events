@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-05-22 01:11 PM EDT",
+  "fetched_at": "2026-05-22 03:53 PM EDT",
   "counts": {
-    "raw": 257,
-    "scored": 120,
+    "raw": 258,
+    "scored": 122,
     "this_weekend": 22,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=120",
+    "input_count=122",
     "pre_dup_group venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-22|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00|src=Holy City Sinner', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-23|src=Holy City Sinner']",
@@ -28,7 +28,7 @@
     "survivor venue=various date=2026-05-25: [\"L'Organo's FREE Organ Concert Serie@2026-05-25 08:00:00\", 'Spoleto Festival USA 2026@2026-05-25']",
     "survivor venue=various date=2026-05-26: [\"L'Organo's FREE Organ Concert Serie@2026-05-26 08:00:00\", 'Spoleto Festival USA 2026@2026-05-26']",
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
-    "output_count=120"
+    "output_count=122"
   ],
   "buckets": {
     "today": "2026-05-22",
@@ -270,7 +270,7 @@
           "end": null,
           "venue": "Firefly Distillery, North Charleston",
           "neighborhood": "North Charleston",
-          "url": null,
+          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9saXZlLWF0LWZpcmVmbHktd2l0aC13aWxsaWUtbmVsc29uLWZhbWlseS8xODU4NzI0Ni8yMDI2LTA1LTI0VDE5/62f733efd173ab15f0e89340Bec738872",
           "description": "7 p.m. \u00b7 Firefly Distillery, North Charleston \u00b7 $92+",
           "price": 92.0,
           "source": "CHStoday (newsletter)",
