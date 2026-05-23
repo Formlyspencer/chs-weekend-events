@@ -407,6 +407,7 @@
     outdoor_festival: "Festival",
     outdoor_music:    "Outdoor music",
     other_drinking:   "Drinking",
+    holiday_event:    "Holiday",
   };
   const TIER_COLORS = { high: "#2d4332", medium: "#c8542a", low: "#8a7a5d" };
   const DAYS = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];

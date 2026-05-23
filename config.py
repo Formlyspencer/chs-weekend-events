@@ -92,10 +92,28 @@ CATEGORIES = {
             "farm-to-table", "produce market",
         ],
     },
+    "holiday_event": {
+        # Holiday-themed events — they're inherently rare (once a year) and
+        # often the centerpiece of a weekend. Promotes Memorial Day weekend
+        # wine event, July 4th festivals, etc. that don't otherwise fit a
+        # specific category but should still surface.
+        "weight": 1.0,
+        "keywords": [
+            "memorial day", "labor day",
+            "fourth of july", "july 4th", "july fourth", "independence day",
+            "halloween", "thanksgiving",
+            "new year's eve", "new years eve", "nye",
+            "valentine's day", "valentines day",
+            "mother's day", "mothers day",
+            "father's day", "fathers day",
+            "easter",
+            "st. patrick's day", "saint patrick's day", "st patricks day",
+            "juneteenth",
+        ],
+    },
     "surf_event": {
         # Surf comps, surf film screenings, surf clinics, plus adjacent
-        # outdoor / on-water competitions Spencer's into (fishing tourneys,
-        # paddle races, etc.).
+        # outdoor / on-water / beach competitions Spencer's into.
         "weight": 1.0,
         "keywords": [
             "surf comp", "surf competition", "surf contest", "surf premiere",
@@ -105,6 +123,11 @@ CATEGORIES = {
             "kayak race", "carolina cup", "follypalooza",
             "fishing tournament", "fishing tourney", "fishing classic",
             "tarpon tournament", "redfish tournament",
+            # Beach / outdoor sports tournaments — Beach Putt, Volleyball
+            # Tournament at the Wild Dunes / Folly type events.
+            "beach tournament", "beach putt", "putt tournament",
+            "volleyball tournament", "cornhole tournament",
+            "beach festival", "beach run",
         ],
     },
     "skate_event": {
@@ -209,6 +232,8 @@ CATEGORIES = {
             # Winery / vineyard / wine-themed events
             "winery", "vineyard", "wine-down", "wine down", "wine flight",
             "wine and dine", "wine pairing", "sparkling wine",
+            "wine event", "wine weekend", "wine festival",
+            "cigar event", "cigar tasting", "cigar dinner",
         ],
     },
 }
@@ -286,6 +311,21 @@ UNIQUE_KEYWORDS = [
     "one-night-only",
     "limited engagement",
     "benefit concert",
+    # Major US holidays — only happen once a year. Holiday-themed weekend
+    # events deserve to surface even if the rest of the event description
+    # doesn't otherwise hit a strong rarity keyword.
+    "memorial day",
+    "labor day",
+    "fourth of july", "july 4th", "july fourth", "independence day",
+    "halloween",
+    "thanksgiving",
+    "new year's eve", "new years eve", "nye",
+    "valentine's day", "valentines day",
+    "mother's day", "mothers day",
+    "father's day", "fathers day",
+    "easter",
+    "st. patrick's day", "saint patrick's day", "st patricks day",
+    "juneteenth",
 ]
 
 UNIQUE_KEYWORDS_SOFT = [
@@ -408,6 +448,8 @@ EXCLUDED_KEYWORDS = [
     "the musical",
     "broadway",
     "national tour of",
+    # Burlesque shows — explicit user no
+    "burlesque",
 ]
 
 # Events already attended — dampen but don't drop. Substring match in title.

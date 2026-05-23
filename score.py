@@ -587,22 +587,36 @@ def _cap_per_category(events: list[dict]) -> list[dict]:
 
 
 def _collapse_same_run(events: list[dict]) -> list[dict]:
-    """Within a single weekend bucket, collapse repeated entries for the same
-    (title, venue) on different days — e.g. an art exhibition that has one
-    iCal entry per day of its run. Keep the highest-scoring instance only.
+    """Within a single weekend bucket, collapse repeated entries for events
+    that share a venue AND whose titles are close enough — exact normalized
+    match, or one title is a substring of the other after normalization.
+
+    Catches:
+      • An art exhibition with one iCal entry per day of its run.
+      • Same band advertised as 'Nico Moon' on Saturday and 'Nico Moon Band'
+        on Sunday at the same venue.
+      • Two performance times of the same act on the same day at the same
+        venue (the venue+date+content dedup misses these when they're > 2h
+        apart because we treat that as 'different sessions').
     """
-    seen: dict[tuple[str, str], dict] = {}
+    seen: list[tuple[str, str, dict]] = []  # (norm_title, venue_root, ev)
     out: list[dict] = []
     for ev in events:
         t = _norm_title(ev.get("title") or "")
         v = _venue_root(ev.get("venue")) or ""
-        key = (t, v)
         if not t or not v:
             out.append(ev)
             continue
-        if key in seen:
+        match = False
+        for (st, sv, _) in seen:
+            if sv != v:
+                continue
+            if t == st or t in st or st in t:
+                match = True
+                break
+        if match:
             continue
-        seen[key] = ev
+        seen.append((t, v, ev))
         out.append(ev)
     return out
 

@@ -27,6 +27,7 @@ CATEGORY_LABELS = {
     "outdoor_festival": "Festival",
     "outdoor_music":    "Outdoor music",
     "other_drinking":   "Drinking",
+    "holiday_event":    "Holiday",
 }
 
 WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
