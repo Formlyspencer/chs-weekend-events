@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-05-22 06:11 PM EDT",
+  "fetched_at": "2026-05-22 11:39 PM EDT",
   "counts": {
     "raw": 258,
     "scored": 122,
-    "this_weekend": 22,
+    "this_weekend": 21,
     "next_weekend": 0
   },
   "dedup_log": [
@@ -186,21 +186,6 @@
           "source": "CHStoday (newsletter)",
           "category": "brewery_event",
           "score": 0.655,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Martha Graham Dance Company: Graham 100",
-          "start": "2026-05-22",
-          "end": null,
-          "venue": "Festival Hall",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9tYXJ0aGEtZ3JhaGFtLWRhbmNlLWNvbXBhbnktZ3JhaGFtLTEwMC8xODkxMDM4OS8yMDI2LTA1LTIyVDE5/62f733efd173ab15f0e89340B4c659c8e",
-          "description": "Times vary \u00b7 Festival Hall \u00b7 $55+",
-          "price": 55.0,
-          "source": "CHStoday (newsletter)",
-          "category": "outdoor_festival",
-          "score": 0.574,
           "tier": "medium",
           "recurring": false
         },
@@ -575,6 +560,21 @@
           "score": 0.32,
           "tier": "low",
           "recurring": true
+        },
+        {
+          "title": "Martha Graham Dance Company: Graham 100",
+          "start": "2026-05-25",
+          "end": null,
+          "venue": "Festival Hall",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9tYXJ0aGEtZ3JhaGFtLWRhbmNlLWNvbXBhbnktZ3JhaGFtLTEwMC8xODkxMDM4OS8yMDI2LTA1LTIyVDE5/62f733efd173ab15f0e89340B4c659c8e",
+          "description": "Times vary \u00b7 Festival Hall \u00b7 $55+",
+          "price": 55.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_festival",
+          "score": 0.316,
+          "tier": "low",
+          "recurring": false
         },
         {
           "title": "Seafood Tower Hour",
