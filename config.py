@@ -448,8 +448,17 @@ EXCLUDED_KEYWORDS = [
     "the musical",
     "broadway",
     "national tour of",
-    # Burlesque shows — explicit user no
+    # Burlesque + adult-variety shows — explicit user no
     "burlesque",
+    "boylesque",
+    "neo-burlesque",
+    "striptease",
+    "boudoir",
+    "exotic dance",
+    "exotic dancer",
+    "go-go",
+    "pole dancing",
+    "pasties and pearls",
 ]
 
 # Events already attended — dampen but don't drop. Substring match in title.
