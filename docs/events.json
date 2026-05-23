@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-05-23 06:38 AM EDT",
+  "fetched_at": "2026-05-23 07:15 AM EDT",
   "counts": {
     "raw": 289,
-    "scored": 139,
-    "this_weekend": 21,
+    "scored": 144,
+    "this_weekend": 22,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=139",
+    "input_count=144",
     "pre_dup_group venue=various date=2026-05-23: ['Piccolo Spoleto@2026-05-23|src=Holy City Sinner', 'Spoleto Festival USA 2026@2026-05-23|src=Holy City Sinner']",
     "pre_dup_group venue=music farm date=2026-05-23: ['Golden: a K-Pop Kids Party!@2026-05-23 11:00:00|src=Holy City Sinner', 'All Your Friends@2026-05-23 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-23: ['Futurebirds on the N\u00dcTRL Beach Stag@2026-05-23 18:00:00|src=Holy City Sinner', 'Darren Desse on the inside stage@2026-05-23 21:30:00|src=Holy City Sinner']",
@@ -30,7 +30,7 @@
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
-    "output_count=139"
+    "output_count=144"
   ],
   "buckets": {
     "today": "2026-05-23",
@@ -41,6 +41,36 @@
         "2026-05-24"
       ],
       "events": [
+        {
+          "title": "Memorial Day Weekend Event",
+          "start": "2026-05-23T12:00:00",
+          "end": null,
+          "venue": "King's Leaf Cigars, 826 Foundation Street, Ste. 102, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/kings-leaf-to-host-memorial-day-weekend-wine-event/",
+          "description": "King\u2019s Leaf will host a Memorial Day weekend event from noon to midnight Saturday, May 23, through Monday, May 25, at its Point Hope location (826 Foundation St.).\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Beach Putt Tournament",
+          "start": "2026-05-23T10:00:00",
+          "end": null,
+          "venue": "Wild Dunes Resort",
+          "neighborhood": null,
+          "url": "https://www.wilddunesresort.com/resort/events-calendar/#!/e/beach-putt-tournament-8a4bda88",
+          "description": "Back by popular demand, this guest-favorite beach tournament returns for its third year at Wild Dunes Resort! The fun unfolds on the beach just in front of the Grand Pavilion, setting the scene for a lively morning of competition.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "surf_event",
+          "score": 0.85,
+          "tier": "high",
+          "recurring": false
+        },
         {
           "title": "NIKO MOON",
           "start": "2026-05-24T16:00:00",
@@ -207,21 +237,6 @@
           "recurring": false
         },
         {
-          "title": "Bubble Burlesque",
-          "start": "2026-05-22T21:00:00",
-          "end": null,
-          "venue": "Music Farm, 32 Ann St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "After the smashing success of the Get Out Me Swamp Burlesque show, we are thrilled to bring you: Bubble Burlesque! Dive into a sea of sparkle, sass, and subaquatic silliness with Bubble Burlesque \u2014 a splashy, tongue-in-cheek tribute to everyone\u2019s favorite absorbent, optimistic oc\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Golden: a K-Pop Kids Party!",
           "start": "2026-05-23T11:00:00",
           "end": null,
@@ -237,17 +252,17 @@
           "recurring": false
         },
         {
-          "title": "Charleston Spring Wine Festival",
-          "start": "2026-05-23T13:00:00",
+          "title": "All Your Friends",
+          "start": "2026-05-23T21:30:00",
           "end": null,
-          "venue": "Omar Shrine Temple, 176 Patriots Point Rd, Mt. Pleasant, SC",
-          "neighborhood": "Mt. Pleasant",
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
           "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Charleston Wine Festivals presents: Charleston Spring Wine Festival The Shriners Center on Patriots Point, Mt. Pleasant Saturday, May 23rd, 2026 1pm-5pm Join us for a variety of wines, mimosas and a small beer selection. Plus, live music and a DJ.\u2026",
-          "price": 50.0,
+          "description": "An indie dance party for the ones who still romanticize a scratched iPod, American Spirits, and a blurry night scored by Bloc Party and Crystal Castles.\u2026",
+          "price": null,
           "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.527,
+          "category": "outdoor_music",
+          "score": 0.547,
           "tier": "low",
           "recurring": false
         },
@@ -312,6 +327,21 @@
           "recurring": false
         },
         {
+          "title": "Charleston Spring Wine Festival",
+          "start": "2026-05-23T13:00:00",
+          "end": null,
+          "venue": "Omar Shrine Temple, 176 Patriots Point Rd, Mt. Pleasant, SC",
+          "neighborhood": "Mt. Pleasant",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Charleston Wine Festivals presents: Charleston Spring Wine Festival The Shriners Center on Patriots Point, Mt. Pleasant Saturday, May 23rd, 2026 1pm-5pm Join us for a variety of wines, mimosas and a small beer selection. Plus, live music and a DJ.\u2026",
+          "price": 50.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.409,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Family Fun Day",
           "start": "2026-05-23T10:00:00",
           "end": null,
@@ -338,21 +368,6 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Niko Moon's Good Time Fest",
-          "start": "2026-05-23",
-          "end": null,
-          "venue": "The Refinery",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/45832409.28767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9uaWtvLW1vb25zLWdvb2QtdGltZS1mZXN0LTIvMTc1NDg4NDYvMjAyNi0wNS0yM1QxNQ/62f733efd173ab15f0e89340Bcb5ac2cb",
-          "description": "Times vary \u00b7 The Refinery \u00b7 $147+",
-          "price": 147.0,
-          "source": "CHStoday (newsletter)",
-          "category": "outdoor_festival",
-          "score": 0.306,
           "tier": "low",
           "recurring": false
         }
@@ -518,6 +533,36 @@
       ],
       "events": [],
       "weekdays": [
+        {
+          "title": "Memorial Day Jump",
+          "start": "2026-05-25T10:00:00",
+          "end": null,
+          "venue": "Charleston Aqua Park, 3050 Marlin Rd., Johns Island, SC",
+          "neighborhood": "Johns Island",
+          "url": "https://eventvesta.com/events/145813/t/tickets",
+          "description": "We are kicking off our busy summer season with Memorial Day! Join us between 10:00 am and 6:00pm. Memorial Day special: Purchase a 2nd session for only $9.99 on top of the regular admission for the 1st session (Aqua Park and Ropes Course can be combined).\u2026",
+          "price": 9.99,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.528,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Memorial Day Weekend Event",
+          "start": "2026-05-25T12:00:00",
+          "end": null,
+          "venue": "King's Leaf Cigars, 826 Foundation Street, Ste. 102, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/kings-leaf-to-host-memorial-day-weekend-wine-event/",
+          "description": "King\u2019s Leaf will host a Memorial Day weekend event from noon to midnight Saturday, May 23, through Monday, May 25, at its Point Hope location (826 Foundation St.).\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.506,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "IAAM x Spoleto: Monuments to Joy: The Making of \u201cHOMEGOING\u201d",
           "start": "2026-05-26T12:00:00",
