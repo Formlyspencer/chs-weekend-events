@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-24 06:43 AM EDT",
+  "fetched_at": "2026-05-24 08:36 AM EDT",
   "counts": {
     "raw": 337,
     "scored": 158,
@@ -374,6 +374,158 @@
           "recurring": false
         }
       ],
+      "overflow": [
+        {
+          "title": "Darren Desse on the inside stage",
+          "start": "2026-05-23T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com",
+          "description": "$10 or FREE with a Futerbirds Ticket May 23, 2026 Doors at 9:30 pm 21Up Artist Website www.facebook.com\u2026 Darren Deese is a modern country singer and Nashville recording artist hailing from Waxhaw, North Carolina.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "AC Scar & Reverse Cowgirl on the inside stage",
+          "start": "2026-05-24T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com",
+          "description": "$10 or FREE with a Futurebirds Ticket May 24, 2026 Doors at 9:30 pm 21 Up ARTIST WEBSITE www.instagram.com\u2026 Reverse Cowgirl is a brand new Charleston-based project spearheaded by AC Scar, the stage name of local country music songwriter Andrew Scardino.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Ian Munsick \u2013 on the N\u00dcTRL Beach Stage",
+          "start": "2026-05-22T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/event/ian-munsick/",
+          "description": "$45 Advance / $50 DOS / $145 VIP May 22, 2026 Doors at 6:00 pm 21 up or with their parent www.ianmunsick.com Ian Munsick Meet & Greet Package (VIP1) \u2013 One General admission ticket \u2013 Early entry into the venue \u2013 Exclusive meet & greet with Ian Munsick \u2013 Personal photograph with Ia\u2026",
+          "price": 45.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.378,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Charleston in Bloom",
+          "start": "2026-05-23T10:30:00",
+          "end": null,
+          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-present-charleston-in-bloom/",
+          "description": "Charleston has been described as a \u201ccity set in a garden,\u201d and there is no better time than spring to admire the beauty of window boxes spilling over with flowers and gardens filled with vibrant blooms. This exhibition was inspired by the arrival of spring in the Lowcountry.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Fairies & Flowers",
+          "start": "2026-05-23T09:00:00",
+          "end": null,
+          "venue": "Magnolia Plantation & Garden, 3550 Ashley River Road, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/magnolia-plantation-gardens-welcomes-a-fairy-village-this-su/",
+          "description": "Magnolia Plantation & Gardens announces Fairies & Flowers, a new summer exhibition featuring 20+ handcrafted fairy dwellings installed throughout the historic gardens by 30 Tri-County artists, on view May 22 through July 12, 2026.\u2026",
+          "price": 32.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.331,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "A Moveable Feast",
+          "start": "2026-05-23T11:00:00",
+          "end": null,
+          "venue": "Duckworth Gallery, 120 Meeting Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Art Exhibition Featuring Thirteen of Charleston's Most Beloved Artists of the last Three Decades on Display at Duckworth Gallery.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Ancestral Remix",
+          "start": "2026-05-23T11:00:00",
+          "end": null,
+          "venue": "Peter Anthony Fine Art",
+          "neighborhood": null,
+          "url": "https://holycitysinner.com/entertainment/peter-anthony-fine-art-announces-new-solo-exhibition-by-dont/",
+          "description": "Peter Anthony Fine Art is thrilled to present Ancestral Remix, a solo exhibition by award-winning artist Dont\u00e9 K. Hayes from April 25 to May 23 at 15 Broad Street.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.289,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Variety Show\" by Marissa Vogl",
+          "start": "2026-05-22T10:00:00",
+          "end": null,
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-to-host-marissa-vogls-solo-exhibition/",
+          "description": "Meyer Vogl Gallery announced a solo exhibition by artist Marissa Vogl, opening May 1, 2026. The new body of work, titled Variety Show, explores process, experimentation and the freedom of creative expression.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.266,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Sea Song",
+          "start": "2026-05-22T10:00:00",
+          "end": null,
+          "venue": "The Miller Gallery, 1640 Meeting Street Road, Ste. 102, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/sea-song-a-two-person-exhibition-featuring-teresa-roche-and-/",
+          "description": "The Miller Gallery is pleased to present Sea Song, a collaborative duo exhibition featuring artists Teresa Roche and Liz Rundorff Smith.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.266,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Maria Britton: Second Sleep\ufeff\"",
+          "start": "2026-05-23T11:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://halsey.charleston.edu/",
+          "description": "Maria Britton creates abstract paintings, sculptures, and textile-based works by repurposing two everyday materials\u2014bedsheets and newspaper. In transforming these discarded materials, her work engages themes of memory, dreams, accumulation, labor, gender, and value.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.219,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
       "weekdays": [],
       "recurring": [
         {
@@ -442,7 +594,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -534,6 +686,7 @@
         "2026-05-31"
       ],
       "events": [],
+      "overflow": [],
       "weekdays": [
         {
           "title": "Brewery Blast Laser Tag",
@@ -875,6 +1028,7 @@
         "2026-05-17"
       ],
       "events": [],
+      "overflow": [],
       "recurring": []
     }
   }
