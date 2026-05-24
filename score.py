@@ -587,36 +587,40 @@ def _cap_per_category(events: list[dict]) -> list[dict]:
 
 
 def _collapse_same_run(events: list[dict]) -> list[dict]:
-    """Within a single weekend bucket, collapse repeated entries for events
-    that share a venue AND whose titles are close enough — exact normalized
-    match, or one title is a substring of the other after normalization.
+    """Collapse SAME-DAY duplicates only: events sharing a venue, a close
+    title (substring match), AND the same calendar date.
+
+    Multi-day events (Memorial Day Weekend running Sat–Mon, a band booked
+    both Sat and Sun, etc.) intentionally get a separate entry per day so
+    the Sunday tab isn't empty just because the score-sort tiebreaker
+    happened to give Saturday's instance the slot.
 
     Catches:
-      • An art exhibition with one iCal entry per day of its run.
-      • Same band advertised as 'Nico Moon' on Saturday and 'Nico Moon Band'
-        on Sunday at the same venue.
       • Two performance times of the same act on the same day at the same
-        venue (the venue+date+content dedup misses these when they're > 2h
-        apart because we treat that as 'different sessions').
+        venue (often > 2h apart, so the venue+date+content dedup treats
+        them as 'different sessions' and lets both through).
+      • 'Nico Moon' + 'Nico Moon Band' at the same venue on the same day.
     """
-    seen: list[tuple[str, str, dict]] = []  # (norm_title, venue_root, ev)
+    seen: list[tuple[str, str, str, dict]] = []  # (title, venue, date, ev)
     out: list[dict] = []
     for ev in events:
         t = _norm_title(ev.get("title") or "")
         v = _venue_root(ev.get("venue")) or ""
+        d = _to_date(ev.get("start"))
+        d_key = d.isoformat() if d else ""
         if not t or not v:
             out.append(ev)
             continue
         match = False
-        for (st, sv, _) in seen:
-            if sv != v:
+        for (st, sv, sd, _) in seen:
+            if sv != v or sd != d_key:
                 continue
             if t == st or t in st or st in t:
                 match = True
                 break
         if match:
             continue
-        seen.append((t, v, ev))
+        seen.append((t, v, d_key, ev))
         out.append(ev)
     return out
 

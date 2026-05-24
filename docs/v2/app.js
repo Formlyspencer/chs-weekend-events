@@ -333,13 +333,18 @@
   }
 
   function collapseSameRun(events) {
+    // Collapse only same-day duplicates (same title, same venue, same date).
+    // Multi-day events get a separate entry on each day they run, so Sunday
+    // doesn't look empty just because a 3-day event was first listed on
+    // Saturday and lost the score-sort tiebreaker.
     const seen = new Set();
     const out = [];
     for (const ev of events) {
       const t = (ev.title || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
       const v = venueRoot(ev.venue);
       if (!t || !v) { out.push(ev); continue; }
-      const key = t + "|" + v;
+      const dateStr = ev.start ? String(ev.start).slice(0, 10) : "";
+      const key = t + "|" + v + "|" + dateStr;
       if (seen.has(key)) continue;
       seen.add(key);
       out.push(ev);
