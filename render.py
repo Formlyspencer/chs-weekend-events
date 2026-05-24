@@ -193,6 +193,21 @@ def _recurring_section(events: list[dict], *, label: str) -> str:
     """
 
 
+def _overflow_section(events: list[dict], *, label: str) -> str:
+    """Capped-out events that got filtered by the per-venue / per-category
+    caps. Collapsed-by-default so the curated view stays clean but the
+    full event pool is still one click away."""
+    if not events:
+        return ""
+    cards = "".join(_event_card(e) for e in events)
+    return f"""
+    <details class="recurring-section">
+      <summary><h2>More events at the same venues / categories — {html.escape(label)} ({len(events)})</h2></summary>
+      <div class="recurring-list">{cards}</div>
+    </details>
+    """
+
+
 def render(*, buckets: dict, fetched_at: str) -> str:
     this_w = buckets["this_weekend"]
     next_w = buckets["next_weekend"]
@@ -214,6 +229,7 @@ def render(*, buckets: dict, fetched_at: str) -> str:
         last_panel_html = f"""
     <section class="panel" id="last">
       {_section(last_w.get("events", []), label="last weekend", empty_msg="No events landed in last weekend's window.")}
+      {_overflow_section(last_w.get("overflow", []), label="last weekend")}
       {_recurring_section(last_w.get("recurring", []), label="last weekend")}
     </section>"""
 
@@ -435,12 +451,14 @@ def render(*, buckets: dict, fetched_at: str) -> str:
     <section class="panel active" id="this">
       {_section(this_w["events"], label="this weekend", empty_msg="No events scored above the threshold yet — try widening keywords in config.py.")}
       {this_weekday_html}
+      {_overflow_section(this_w.get("overflow", []), label="this weekend")}
       {_recurring_section(this_w.get("recurring", []), label="this weekend")}
     </section>
 
     <section class="panel" id="next">
       {_section(next_w["events"], label="next weekend", empty_msg="No events scored above the threshold yet for next weekend.")}
       {next_weekday_html}
+      {_overflow_section(next_w.get("overflow", []), label="next weekend")}
       {_recurring_section(next_w.get("recurring", []), label="next weekend")}
     </section>{last_panel_html}
   </main>

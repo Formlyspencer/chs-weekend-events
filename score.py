@@ -661,27 +661,44 @@ def bucket(events: list[dict], today: date | None = None) -> dict:
         elif this_sun < d < next_fri:
             next_weekdays.append(ev)
 
-    def _polish(lst):
-        return _cap_per_category(_cap_per_venue(_collapse_same_run(lst)))
+    def _polish_with_overflow(lst):
+        """Returns (kept, overflow): events that survived the venue+category
+        caps and those that got dropped, so the renderer can surface the
+        full pool in a collapsed drawer instead of throwing it away."""
+        collapsed = _collapse_same_run(lst)
+        kept = _cap_per_category(_cap_per_venue(collapsed))
+        kept_ids = {id(e) for e in kept}
+        overflow = [e for e in collapsed if id(e) not in kept_ids]
+        return kept, overflow
+
+    tw, tw_overflow = _polish_with_overflow(this_weekend)
+    nw, nw_overflow = _polish_with_overflow(next_weekend)
+    lw, lw_overflow = _polish_with_overflow(last_weekend)
+    twr, twr_overflow = _polish_with_overflow(this_recurring)
+    nwr, nwr_overflow = _polish_with_overflow(next_recurring)
+    lwr, lwr_overflow = _polish_with_overflow(last_recurring)
 
     return {
         "today": today.isoformat(),
         "show_last_weekend": show_last,
         "this_weekend": {
             "range": (this_fri.isoformat(), this_sun.isoformat()),
-            "events": _polish(this_weekend),
-            "weekdays": _polish(this_weekdays),
-            "recurring": _polish(this_recurring),
+            "events": tw,
+            "overflow": tw_overflow + twr_overflow,
+            "weekdays": _cap_per_category(_cap_per_venue(_collapse_same_run(this_weekdays))),
+            "recurring": twr,
         },
         "next_weekend": {
             "range": (next_fri.isoformat(), next_sun.isoformat()),
-            "events": _polish(next_weekend),
-            "weekdays": _polish(next_weekdays),
-            "recurring": _polish(next_recurring),
+            "events": nw,
+            "overflow": nw_overflow + nwr_overflow,
+            "weekdays": _cap_per_category(_cap_per_venue(_collapse_same_run(next_weekdays))),
+            "recurring": nwr,
         },
         "last_weekend": {
             "range": (last_fri.isoformat(), last_sun.isoformat()),
-            "events": _polish(last_weekend),
-            "recurring": _polish(last_recurring),
+            "events": lw,
+            "overflow": lw_overflow + lwr_overflow,
+            "recurring": lwr,
         },
     }

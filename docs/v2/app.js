@@ -512,15 +512,22 @@
   }
 
   function renderTab(panel, bucket, label, maxPerVenue, maxPerCategory) {
-    let evs = collapseSameRun(bucket.events);
-    evs = capPerVenue(evs, maxPerVenue);
+    // Track which events get capped out (busy venues, art-exhibit cap, etc.)
+    // and surface them in a collapsed drawer at the bottom so the full pool
+    // is still reachable without cluttering the curated view.
+    const allEvs = collapseSameRun(bucket.events);
+    let evs = capPerVenue(allEvs, maxPerVenue);
     evs = capPerCategory(evs, maxPerCategory);
+    const keptIds = new Set(evs.map(e => e.id));
+    const overflow = allEvs.filter(e => !keptIds.has(e.id));
 
-    let recur = collapseSameRun(bucket.recurring);
-    recur = capPerVenue(recur, maxPerVenue);
+    const allRecur = collapseSameRun(bucket.recurring);
+    let recur = capPerVenue(allRecur, maxPerVenue);
     recur = capPerCategory(recur, maxPerCategory);
+    const recurKept = new Set(recur.map(e => e.id));
+    const recurOverflow = allRecur.filter(e => !recurKept.has(e.id));
 
-    if (!evs.length && !recur.length) {
+    if (!evs.length && !recur.length && !overflow.length) {
       panel.innerHTML = `<div class="empty">No events match your filters for ${label}.</div>`;
       return;
     }
@@ -537,6 +544,16 @@
     if (rest.length) {
       html += `<h2>More for ${label}</h2>`;
       html += rest.map(e => eventCardHTML(e, false)).join("");
+    }
+    if (overflow.length || recurOverflow.length) {
+      const total = overflow.length + recurOverflow.length;
+      html += `
+        <details class="recurring-section">
+          <summary><h2>More events at the same venues / categories — ${label} (${total})</h2></summary>
+          <div class="recurring-list">${
+            overflow.concat(recurOverflow).map(e => eventCardHTML(e, false)).join("")
+          }</div>
+        </details>`;
     }
     if (recur.length) {
       html += `
