@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26 04:14 PM EDT",
+  "fetched_at": "2026-05-26 06:23 PM EDT",
   "counts": {
     "raw": 387,
     "scored": 182,
@@ -130,7 +130,7 @@
           "end": null,
           "venue": "James Island County Park",
           "neighborhood": "James Island",
-          "url": null,
+          "url": "https://link.6amcity.com/click/45844491.9767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9yZWdnYWUtbmlnaHRzLXN1bW1lci1jb25jZXJ0LXNlcmllcy8xODU4OTAzMS8yMDI2LTA1LTI5VDE5/62f733efd173ab15f0e89340Bef0aa1d6",
           "description": "7:30-11 p.m. \u00b7 James Island County Park \u00b7 $20+",
           "price": 20.0,
           "source": "CHStoday (newsletter)",
@@ -160,7 +160,7 @@
           "end": null,
           "venue": "Omar Shrine, Mount Pleasant",
           "neighborhood": "Mount Pleasant",
-          "url": null,
+          "url": "https://link.6amcity.com/click/45844491.9767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9jaGFzZS1mZXN0LzE4Nzg3NTc5LzIwMjYtMDUtMjlUMTU/62f733efd173ab15f0e89340Bfde680d1",
           "description": "Times vary \u00b7 Omar Shrine, Mount Pleasant \u00b7 Free",
           "price": 0.0,
           "source": "CHStoday (newsletter)",
@@ -265,7 +265,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D202888194",
           "description": "Teacher Appreciation Happy Hour | Friday, May 29th Join us Friday, May 29th from 4pm to 7pm for a Teacher Appreciation Happy Hour built to give our hardworking teachers the send-off they deserve heading into summer.\u2026",
           "price": null,
           "source": "Holy City Sinner",
