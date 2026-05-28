@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-05-27 06:44 PM EDT",
+  "fetched_at": "2026-05-27 11:59 PM EDT",
   "counts": {
-    "raw": 420,
-    "scored": 199,
+    "raw": 421,
+    "scored": 200,
     "this_weekend": 21,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=199",
+    "input_count=200",
     "pre_dup_group venue=redux contemporary art center date=2026-05-29: ['Summer Exhibition@2026-05-29|src=CHStoday (newsletter)', 'Creative Corridors: Analog@2026-05-29 11:00:00|src=Holy City Sinner', 'Creative Corridors: Analog (Opening@2026-05-29 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=music farm date=2026-05-29: ['Club Slayyy: A Hyperpop Party@2026-05-29|src=CHStoday (newsletter)', 'Drew Sidora@2026-05-29 20:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-27: [\"L'Organo's FREE Organ Concert Serie@2026-05-27 08:00:00|src=Holy City Sinner\", 'Spoleto Festival USA 2026@2026-05-27|src=Holy City Sinner']",
@@ -44,7 +44,7 @@
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
-    "output_count=199"
+    "output_count=200"
   ],
   "buckets": {
     "today": "2026-05-27",
@@ -271,7 +271,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/purple-legacy-a-celebration-of-prince/",
           "description": "Ilana Glazer is a comedian, actor, advocate, and creator best known for co-creating and co-starring in the acclaimed series BROAD CITY. The internationally touring standup comedian debuted her second special, HUMAN MAGIC, on Hulu.\u2026",
           "price": null,
           "source": "Holy City Sinner",
