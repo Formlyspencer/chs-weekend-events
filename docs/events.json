@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-05-28 12:09 PM EDT",
+  "fetched_at": "2026-05-28 04:30 PM EDT",
   "counts": {
-    "raw": 463,
-    "scored": 215,
+    "raw": 461,
+    "scored": 214,
     "this_weekend": 27,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=215",
+    "input_count=214",
     "pre_dup_group venue=redux contemporary art center date=2026-05-29: ['Summer Exhibition@2026-05-29|src=CHStoday (newsletter)', 'Creative Corridors: Analog@2026-05-29 11:00:00|src=Holy City Sinner', 'Creative Corridors: Analog (Opening@2026-05-29 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=music farm date=2026-05-29: ['Club Slayyy: A Hyperpop Party@2026-05-29|src=CHStoday (newsletter)', 'Drew Sidora@2026-05-29 20:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=firefly distillery date=2026-05-29: ['Teacher Appreciation Happy Hour@2026-05-29|src=CHStoday (newsletter)', 'Music Bingo@2026-05-29 19:00:00|src=Holy City Sinner']",
@@ -50,7 +50,7 @@
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
-    "output_count=215"
+    "output_count=214"
   ],
   "buckets": {
     "today": "2026-05-28",
@@ -122,21 +122,6 @@
           "recurring": false
         },
         {
-          "title": "Pickers Hullabaloo",
-          "start": "2026-05-31T10:00:00",
-          "end": null,
-          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
-          "description": "Join us at Firefly Distillery on Sunday, May 31st 2026 , for a one-of-a-kind vintage shopping experience at the Pickers Hullabaloo Flea Market.\u2026",
-          "price": 20.0,
-          "source": "Holy City Sinner",
-          "category": "vintage_market",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
           "title": "Kwei Fei x Low Tide Brewing Beer Release Party",
           "start": "2026-05-29",
           "end": null,
@@ -164,6 +149,21 @@
           "category": "brewery_event",
           "score": 0.83,
           "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Teacher Appreciation Happy Hour",
+          "start": "2026-05-29",
+          "end": null,
+          "venue": "Firefly Distillery, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/45899948.8767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy90ZWFjaGVyLWFwcHJlY2lhdGlvbi1oYXBweS1ob3VyLzE4NzUxMDA0LzIwMjYtMDUtMjlUMTY/62f733efd173ab15f0e89340B69f1437f",
+          "description": "4-9 p.m. \u00b7 Firefly Distillery, North Charleston \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
           "recurring": false
         },
         {
@@ -468,21 +468,6 @@
         }
       ],
       "overflow": [
-        {
-          "title": "Teacher Appreciation Happy Hour",
-          "start": "2026-05-29",
-          "end": null,
-          "venue": "Firefly Distillery, North Charleston",
-          "neighborhood": "North Charleston",
-          "url": "https://link.6amcity.com/click/45899948.8767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy90ZWFjaGVyLWFwcHJlY2lhdGlvbi1oYXBweS1ob3VyLzE4NzUxMDA0LzIwMjYtMDUtMjlUMTY/62f733efd173ab15f0e89340B69f1437f",
-          "description": "4-9 p.m. \u00b7 Firefly Distillery, North Charleston \u00b7 Price of purchase",
-          "price": null,
-          "source": "CHStoday (newsletter)",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
         {
           "title": "Spoleto Festival USA 2026",
           "start": "2026-05-31",
