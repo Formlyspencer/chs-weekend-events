@@ -1,17 +1,18 @@
 {
-  "fetched_at": "2026-05-29 06:00 AM EDT",
+  "fetched_at": "2026-05-29 11:50 AM EDT",
   "counts": {
-    "raw": 499,
-    "scored": 238,
-    "this_weekend": 30,
+    "raw": 505,
+    "scored": 240,
+    "this_weekend": 31,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=238",
+    "input_count=240",
     "pre_dup_group venue=charleston pour house date=2026-05-31: ['Pour House Farmers Market@2026-05-31 11:00:00|src=Manual', 'New Dirty Shoes@2026-05-31 19:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-05-29: ['Summer Exhibition@2026-05-29|src=CHStoday (newsletter)', 'Creative Corridors: Analog@2026-05-29 11:00:00|src=Holy City Sinner', 'Creative Corridors: Analog (Opening@2026-05-29 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=music farm date=2026-05-29: ['Club Slayyy: A Hyperpop Party@2026-05-29|src=CHStoday (newsletter)', 'Drew Sidora@2026-05-29 20:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=firefly distillery date=2026-05-29: ['Teacher Appreciation Happy Hour@2026-05-29|src=CHStoday (newsletter)', 'Music Bingo@2026-05-29 19:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=snafu brewing company date=2026-05-31: ['Sundays at Snafu: Hot Dogs, Flights@2026-05-31|src=CHStoday (newsletter)', 'Sundays at Snafu: Free Hot Dogs + F@2026-05-31 12:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-29: [\"L'Organo's FREE Organ Concert Serie@2026-05-29 08:00:00|src=Holy City Sinner\", 'Spoleto Festival USA 2026@2026-05-29|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-05-29: ['Tyler Braden \u2013 on the N\u00dcTRL Beach S@2026-05-29 18:00:00|src=Holy City Sinner', 'Tanner Beane & Dirty Power on the i@2026-05-29 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-30: [\"L'Organo's FREE Organ Concert Serie@2026-05-30 08:00:00|src=Holy City Sinner\", 'Spoleto Festival USA 2026@2026-05-30|src=Holy City Sinner']",
@@ -36,6 +37,7 @@
     "survivor venue=redux contemporary art center date=2026-05-29: ['Summer Exhibition@2026-05-29', 'Creative Corridors: Analog@2026-05-29 11:00:00', 'Creative Corridors: Analog (Opening@2026-05-29 17:00:00']",
     "survivor venue=music farm date=2026-05-29: ['Club Slayyy: A Hyperpop Party@2026-05-29', 'Drew Sidora@2026-05-29 20:00:00']",
     "survivor venue=firefly distillery date=2026-05-29: ['Teacher Appreciation Happy Hour@2026-05-29', 'Music Bingo@2026-05-29 19:00:00']",
+    "survivor venue=snafu brewing company date=2026-05-31: ['Sundays at Snafu: Hot Dogs, Flights@2026-05-31', 'Sundays at Snafu: Free Hot Dogs + F@2026-05-31 12:00:00']",
     "survivor venue=various date=2026-05-29: [\"L'Organo's FREE Organ Concert Serie@2026-05-29 08:00:00\", 'Spoleto Festival USA 2026@2026-05-29']",
     "survivor venue=the windjammer date=2026-05-29: ['Tyler Braden \u2013 on the N\u00dcTRL Beach S@2026-05-29 18:00:00', 'Tanner Beane & Dirty Power on the i@2026-05-29 21:30:00']",
     "survivor venue=various date=2026-05-30: [\"L'Organo's FREE Organ Concert Serie@2026-05-30 08:00:00\", 'Spoleto Festival USA 2026@2026-05-30']",
@@ -56,7 +58,7 @@
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
-    "output_count=238"
+    "output_count=240"
   ],
   "buckets": {
     "today": "2026-05-29",
@@ -173,6 +175,21 @@
           "recurring": false
         },
         {
+          "title": "Brewery Blast Laser Tag",
+          "start": "2026-05-29",
+          "end": null,
+          "venue": "Holy City Brewing, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/45925906.13767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9icmV3ZXJ5LWJsYXN0LWxhc2VyLXRhZy1hdC1ob2x5LWNpdHktYnJld2luZy8xODEwMDEyNC8yMDI2LTA1LTI5VDE3/62f733efd173ab15f0e89340Bed871d10",
+          "description": "5-9 p.m. \u00b7 Holy City Brewing, North Charleston \u00b7 $19",
+          "price": 19.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.874,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "May the Dogs Be With You \u2013 A Dog Adoption Event",
           "start": "2026-05-30T12:00:00",
           "end": null,
@@ -185,21 +202,6 @@
           "category": "brewery_event",
           "score": 0.83,
           "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Brewery Blast Laser Tag",
-          "start": "2026-05-29T17:00:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://eventvesta.com/events/133363/t/tickets",
-          "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
           "recurring": false
         },
         {
@@ -334,6 +336,21 @@
           "source": "CHStoday (newsletter)",
           "category": "outdoor_festival",
           "score": 0.667,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Piccolo Spoleto Sand Sculpting Competition",
+          "start": "2026-05-30",
+          "end": null,
+          "venue": "Front Beach, IOP",
+          "neighborhood": "Iop",
+          "url": "https://link.6amcity.com/click/45925906.13767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cz91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9waWNjb2xvLXNwb2xldG8tc2FuZC1zY3VscHRpbmctY29tcGV0aXRpb24vMTgyNjA5ODIvMjAyNi0wNS0zMFQwMA/62f733efd173ab15f0e89340B996afc51",
+          "description": "8:30 a.m.-1 p.m. \u00b7 Front Beach, IOP \u00b7 Free",
+          "price": 0.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_festival",
+          "score": 0.616,
           "tier": "medium",
           "recurring": false
         },
@@ -913,6 +930,21 @@
           "recurring": true
         },
         {
+          "title": "Sundays at Snafu: Hot Dogs, Flights, and Flowers",
+          "start": "2026-05-31",
+          "end": null,
+          "venue": "Snafu Brewing Company, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/45925906.13767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zdW5kYXlzLWF0LXNuYWZ1LWZyZWUtaG90LWRvZ3MtZmxpZ2h0cy1hbmQtZmxvd2Vycy8xOTAwOTY4Ny8yMDI2LTA1LTMxVDEy/62f733efd173ab15f0e89340Ba9093668",
+          "description": "12-6 p.m. \u00b7 Snafu Brewing Company, North Charleston \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
           "title": "Pour House Farmers Market",
           "start": "2026-05-31T11:00:00",
           "end": null,
@@ -963,7 +995,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -1008,7 +1040,7 @@
           "end": null,
           "venue": "American Gardens, 174 King St., Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/entertainment/american-gardens-launches-sunday-bazaar-series-may-10/",
           "description": "On Sunday, May 10, American Gardens will kick off its Sunday Bazaar series, a weekly flower and farmers market running through the end of June. Taking place every Sunday from 10:30 a.m.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -2007,7 +2039,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D202888189",
           "description": "Saturdays at the Distillery | Saturday, May 23rd A laid-back Saturday afternoon at Firefly with Brandon Simmons playing live from 2 to 5pm and Halls Signature Events food truck on-site from noon to 4pm. Open-air setting, cold cocktails at the bar, and free admission for all.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -2082,7 +2114,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -2127,7 +2159,7 @@
           "end": null,
           "venue": "American Gardens, 174 King St., Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/entertainment/american-gardens-launches-sunday-bazaar-series-may-10/",
           "description": "On Sunday, May 10, American Gardens will kick off its Sunday Bazaar series, a weekly flower and farmers market running through the end of June. Taking place every Sunday from 10:30 a.m.\u2026",
           "price": null,
           "source": "Holy City Sinner",
