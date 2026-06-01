@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01 01:49 PM EDT",
+  "fetched_at": "2026-06-01 05:39 PM EDT",
   "counts": {
     "raw": 477,
     "scored": 208,
@@ -97,7 +97,7 @@
           "end": null,
           "venue": "Various",
           "neighborhood": null,
-          "url": "https://holycitysinner.com/entertainment/spoleto-festival-usa-announces-2026-season-celebrating-ameri/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Spoleto Festival USA this week announced its 2026 season, running May 22\u2013June 7, featuring more than 110 performances across opera, dance, theater, music, jazz, and community programs.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -337,7 +337,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/glenn-miller-orchestra/",
           "description": "\u201cIn The Mood\u201d for swing music? The most popular and sought after big band of all time returns to Charleston for an afternoon of swing music at the Charleston Music Hall! On May 4, The World-Famous Glenn Miller Orchestra will perform their greatest hits, including \u201cIn The Mood\u201d, \u201c\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -526,7 +526,7 @@
           "end": null,
           "venue": "Snafu Brewing Company, North Charleston",
           "neighborhood": "North Charleston",
-          "url": null,
+          "url": "https://link.6amcity.com/click/45925906.13767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zdW5kYXlzLWF0LXNuYWZ1LWZyZWUtaG90LWRvZ3MtZmxpZ2h0cy1hbmQtZmxvd2Vycy8xOTAwOTY4Ny8yMDI2LTA1LTMxVDEy/62f733efd173ab15f0e89340Ba9093668",
           "description": "12-6 p.m. \u00b7 Snafu Brewing Company, North Charleston \u00b7 Price of purchase",
           "price": null,
           "source": "CHStoday (newsletter)",
