@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-06-02 12:21 AM EDT",
+  "fetched_at": "2026-06-02 06:44 AM EDT",
   "counts": {
-    "raw": 468,
-    "scored": 204,
+    "raw": 473,
+    "scored": 205,
     "this_weekend": 6,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=204",
+    "input_count=205",
     "pre_dup_group venue=various date=2026-06-02: [\"L'Organo's FREE Organ Concert Serie@2026-06-02 08:00:00|src=Holy City Sinner\", 'Spoleto Festival USA 2026@2026-06-02|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-06-02: ['Principles of Art@2026-06-02 09:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-02 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=various date=2026-06-03: [\"L'Organo's FREE Organ Concert Serie@2026-06-03 08:00:00|src=Holy City Sinner\", 'Spoleto Festival USA 2026@2026-06-03|src=Holy City Sinner']",
@@ -48,7 +48,7 @@
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
-    "output_count=204"
+    "output_count=205"
   ],
   "buckets": {
     "today": "2026-06-02",
@@ -279,7 +279,7 @@
           "end": null,
           "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Karaoke every Thursday from 6-9 p.m.",
           "price": null,
           "source": "Holy City Sinner",
@@ -450,6 +450,21 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.248,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Bodhi Grease",
+          "start": "2026-06-02",
+          "end": null,
+          "venue": "Pour House",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/45961459.1766/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9ib2RoaS1ncmVhc2UvMTkwNDUzMzkvMjAyNi0wNi0wMlQxOA/62f733efd173ab15f0e89340B26e55d6c",
+          "description": "6-9 p.m. \u00b7 Pour House \u00b7 $10",
+          "price": 10.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_music",
+          "score": 0.245,
           "tier": "low",
           "recurring": false
         },
