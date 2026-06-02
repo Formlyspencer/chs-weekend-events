@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-02 12:41 PM EDT",
+  "fetched_at": "2026-06-02 04:54 PM EDT",
   "counts": {
     "raw": 473,
     "scored": 205,
@@ -474,7 +474,7 @@
           "end": null,
           "venue": "Duckworth Gallery, 120 Meeting Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://duckworth.gallery/show/duckworth-gallery-a-moveable-feast",
           "description": "Art Exhibition Featuring Thirteen of Charleston's Most Beloved Artists of the last Three Decades on Display at Duckworth Gallery.",
           "price": null,
           "source": "Holy City Sinner",
@@ -572,7 +572,7 @@
           "end": null,
           "venue": "Snafu Brewing Company, North Charleston",
           "neighborhood": "North Charleston",
-          "url": null,
+          "url": "https://link.6amcity.com/click/45925906.13767/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zdW5kYXlzLWF0LXNuYWZ1LWZyZWUtaG90LWRvZ3MtZmxpZ2h0cy1hbmQtZmxvd2Vycy8xOTAwOTY4Ny8yMDI2LTA1LTMxVDEy/62f733efd173ab15f0e89340Ba9093668",
           "description": "12-6 p.m. \u00b7 Snafu Brewing Company, North Charleston \u00b7 Price of purchase",
           "price": null,
           "source": "CHStoday (newsletter)",
