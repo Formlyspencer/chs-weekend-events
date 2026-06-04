@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-06-04 11:24 AM EDT",
+  "fetched_at": "2026-06-04 04:10 PM EDT",
   "counts": {
     "raw": 496,
-    "scored": 235,
+    "scored": 234,
     "this_weekend": 22,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=235",
+    "input_count=234",
     "pre_dup_group venue=the windjammer date=2026-06-04: ['Rumours ATL: A Fleetwood Mac Tribut@2026-06-04 18:00:00|src=Holy City Sinner', 'Gator Food on the inside stage@2026-06-04 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-06-04: [\"L'Organo's FREE Organ Concert Serie@2026-06-04 08:00:00|src=Holy City Sinner\", 'Spoleto Festival USA 2026@2026-06-04|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-06-04: ['Principles of Art@2026-06-04 09:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-04 11:00:00|src=Holy City Sinner\"]",
@@ -56,7 +56,7 @@
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
-    "output_count=235"
+    "output_count=234"
   ],
   "buckets": {
     "today": "2026-06-04",
@@ -158,21 +158,6 @@
           "recurring": false
         },
         {
-          "title": "Harp competition",
-          "start": "2026-06-06T13:00:00",
-          "end": null,
-          "venue": "South Carolina Society Hall, 72 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/the-robert-burns-society-of-charleston-brings-four-acclaimed/",
-          "description": "The Robert Burns Society of Charleston, a nonprofit that supports and promotes Scottish American history, heritage and culture, announced that it will bring four Scottish prize competitions for bagpipes, harp and fiddle to Charleston\u2019s Piccolo Spoleto on June 5 and June 6, 2026,\u2026",
-          "price": 35.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.745,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Friday Live Music",
           "start": "2026-06-05T16:00:00",
           "end": null,
@@ -265,6 +250,21 @@
         {
           "title": "Bagpipe competitions: Angus Katie McDonald Memorial Prize for Ceol Beag",
           "start": "2026-06-05T13:30:00",
+          "end": null,
+          "venue": "South Carolina Society Hall, 72 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/the-robert-burns-society-of-charleston-brings-four-acclaimed/",
+          "description": "The Robert Burns Society of Charleston, a nonprofit that supports and promotes Scottish American history, heritage and culture, announced that it will bring four Scottish prize competitions for bagpipes, harp and fiddle to Charleston\u2019s Piccolo Spoleto on June 5 and June 6, 2026,\u2026",
+          "price": 35.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.633,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Bagpipe competitions: Joseph MacDonald Memorial Prize for Piobaireachd",
+          "start": "2026-06-05T16:30:00",
           "end": null,
           "venue": "South Carolina Society Hall, 72 Meeting St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -411,21 +411,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.704,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Bagpipe competitions: Joseph MacDonald Memorial Prize for Piobaireachd",
-          "start": "2026-06-05T16:30:00",
-          "end": null,
-          "venue": "South Carolina Society Hall, 72 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/the-robert-burns-society-of-charleston-brings-four-acclaimed/",
-          "description": "The Robert Burns Society of Charleston, a nonprofit that supports and promotes Scottish American history, heritage and culture, announced that it will bring four Scottish prize competitions for bagpipes, harp and fiddle to Charleston\u2019s Piccolo Spoleto on June 5 and June 6, 2026,\u2026",
-          "price": 35.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.633,
           "tier": "medium",
           "recurring": false
         },
@@ -1039,7 +1024,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -1069,7 +1054,7 @@
           "end": null,
           "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.seaislandfarmersmarket.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
           "price": null,
           "source": "Holy City Sinner",
