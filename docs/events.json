@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-06-05 05:59 AM EDT",
+  "fetched_at": "2026-06-05 11:13 AM EDT",
   "counts": {
-    "raw": 505,
-    "scored": 240,
-    "this_weekend": 28,
+    "raw": 512,
+    "scored": 241,
+    "this_weekend": 29,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=240",
+    "input_count=241",
     "pre_dup_group venue=various date=2026-06-05: [\"L'Organo's FREE Organ Concert Serie@2026-06-05 08:00:00|src=Holy City Sinner\", 'Spoleto Festival USA 2026@2026-06-05|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-06-05: ['Principles of Art@2026-06-05 09:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-05 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=the miller gallery date=2026-06-05: ['Resonance, a duet exhibition featur@2026-06-05 10:00:00|src=Holy City Sinner', 'Resonance, a duet exhibition featur@2026-06-05 17:00:00|src=Holy City Sinner']",
@@ -56,7 +56,7 @@
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
-    "output_count=240"
+    "output_count=241"
   ],
   "buckets": {
     "today": "2026-06-05",
@@ -124,6 +124,21 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Bourbon Bash",
+          "start": "2026-06-06",
+          "end": null,
+          "venue": "Striped Pig Distillery, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/46025373.13766/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9ib3VyYm9uLWJhc2gvMTg3ODM5MTQvMjAyNi0wNi0wNlQxNA/62f733efd173ab15f0e89340B569be964",
+          "description": "2-8 p.m. \u00b7 Striped Pig Distillery, North Charleston \u00b7 Free",
+          "price": 0.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.83,
           "tier": "high",
           "recurring": false
         },
@@ -323,21 +338,6 @@
           "recurring": false
         },
         {
-          "title": "Bourbon Bash",
-          "start": "2026-06-06T14:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.eventbrite.com/e/birthday-bourbon-bash-tickets-1988354831827",
-          "description": "Join us June 6 for our Bourbon Bash General admission is free, so come out and enjoy an afternoon packed with live music from 3\u20136, plus Hoop Charleston arcade basketball from 2\u20136. We\u2019ll have food from The Pitt and bourbon specials flowing all day.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.581,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Ladybird Books X Chloe Redmond Warner Signing Event",
           "start": "2026-06-05T16:00:00",
           "end": null,
@@ -408,6 +408,21 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Wild Olive Brunch Raffle Fundraiser",
+          "start": "2026-06-07",
+          "end": null,
+          "venue": "Low Tide Brewing, Johns Island",
+          "neighborhood": "Johns Island",
+          "url": "https://link.6amcity.com/click/46025373.13766/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy93aWxkLW9saXZlLWJydW5jaC1yYWZmbGUtZnVuZHJhaXNlci8xODkyMzAzNC8yMDI2LTA2LTA3VDEw/62f733efd173ab15f0e89340B09213f93",
+          "description": "10 a.m.-12 p.m. \u00b7 Low Tide Brewing, Johns Island \u00b7 $100",
+          "price": 100.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
           "score": 0.547,
           "tier": "low",
           "recurring": false
