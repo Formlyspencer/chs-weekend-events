@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-06 06:56 AM EDT",
+  "fetched_at": "2026-06-06 09:52 AM EDT",
   "counts": {
-    "raw": 480,
+    "raw": 479,
     "scored": 222,
     "this_weekend": 20,
     "next_weekend": 0
@@ -101,21 +101,6 @@
           "recurring": false
         },
         {
-          "title": "Bourbon Bash",
-          "start": "2026-06-06T14:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.eventbrite.com/e/birthday-bourbon-bash-tickets-1988354831827",
-          "description": "Join us for our fourth annual birthday & bourbon bash! 9-Year bourbon, live music, specials and fun! Welcome to the Birthday & Bourbon Bash! Join us on Saturday, June 6th, 2026 starting at 2:00 PM for a day of celebration and fun at the Striped Pig Distillery.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-06-07T13:00:00",
           "end": null,
@@ -151,7 +136,7 @@
           "end": null,
           "venue": "South Carolina Historical Society, 100 Meeting Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://burnscharleston.com/event/scottish-performing-arts-classic-2026/",
           "description": "The Robert Burns Society of Charleston, a local non-profit that supports and promotes Scottish-American history, heritage, and culture, announced today that the charity is bringing four Scottish prize competitions for bagpipes, harp and fiddle to Charleston\u2019s Piccolo Spoleto on J\u2026",
           "price": 35.0,
           "source": "Holy City Sinner",
@@ -277,6 +262,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.665,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Bourbon Bash",
+          "start": "2026-06-06T14:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.eventbrite.com/e/birthday-bourbon-bash-tickets-1988354831827",
+          "description": "Join us June 6 for our Bourbon Bash General admission is free, so come out and enjoy an afternoon packed with live music from 3\u20136, plus Hoop Charleston arcade basketball from 2\u20136. We\u2019ll have food from The Pitt and bourbon specials flowing all day.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.581,
           "tier": "medium",
           "recurring": false
         },
@@ -543,7 +543,7 @@
           "end": null,
           "venue": "Duckworth Gallery, 120 Meeting Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://duckworth.gallery/show/duckworth-gallery-a-moveable-feast",
           "description": "Art Exhibition Featuring Thirteen of Charleston's Most Beloved Artists of the last Three Decades on Display at Duckworth Gallery.",
           "price": null,
           "source": "Holy City Sinner",
