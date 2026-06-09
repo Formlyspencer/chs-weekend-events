@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-06-08 06:42 PM EDT",
+  "fetched_at": "2026-06-08 11:54 PM EDT",
   "counts": {
-    "raw": 469,
-    "scored": 213,
+    "raw": 468,
+    "scored": 212,
     "this_weekend": 0,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=213",
+    "input_count=212",
     "pre_dup_group venue=redux contemporary art center date=2026-06-09: ['Make a Wish for a Fish@2026-06-09 09:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-09 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=redux contemporary art center date=2026-06-10: ['Make a Wish for a Fish@2026-06-10 09:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-10 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=redux contemporary art center date=2026-06-11: ['Make a Wish for a Fish@2026-06-11 09:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-11 11:00:00|src=Holy City Sinner\"]",
@@ -38,7 +38,7 @@
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
-    "output_count=213"
+    "output_count=212"
   ],
   "buckets": {
     "today": "2026-06-08",
