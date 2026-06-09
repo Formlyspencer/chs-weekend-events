@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-06-09 05:53 AM EDT",
+  "fetched_at": "2026-06-09 11:13 AM EDT",
   "counts": {
-    "raw": 474,
-    "scored": 211,
-    "this_weekend": 0,
+    "raw": 482,
+    "scored": 214,
+    "this_weekend": 2,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=211",
+    "input_count=214",
     "pre_dup_group venue=redux contemporary art center date=2026-06-09: ['Make a Wish for a Fish@2026-06-09 09:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-09 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=redux contemporary art center date=2026-06-10: ['Make a Wish for a Fish@2026-06-10 09:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-10 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=redux contemporary art center date=2026-06-11: ['Make a Wish for a Fish@2026-06-11 09:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-11 11:00:00|src=Holy City Sinner\"]",
@@ -42,7 +42,7 @@
     "survivor venue=the windjammer date=2026-05-21: ['Redferrin \u2013 on the N\u00dcTRL Beach Stag@2026-05-21 18:00:00', 'Grayson Little on the inside stage@2026-05-21 21:30:00']",
     "survivor venue=various date=2026-05-22: ['Piccolo Spoleto@2026-05-22', 'Spoleto Festival USA 2026@2026-05-22']",
     "survivor venue=the windjammer date=2026-05-22: ['Ian Munsick \u2013 on the N\u00dcTRL Beach St@2026-05-22 18:00:00', 'The Back Porch Band \u2013 on the inside@2026-05-22 21:30:00']",
-    "output_count=211"
+    "output_count=214"
   ],
   "buckets": {
     "today": "2026-06-09",
@@ -52,7 +52,38 @@
         "2026-06-12",
         "2026-06-14"
       ],
-      "events": [],
+      "events": [
+        {
+          "title": "Father's Day Bourbon Limited Release at Firefly Distillery",
+          "start": "2026-06-12",
+          "end": null,
+          "venue": "Firefly Distillery, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/46055954.27765/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9mYXRoZXJzLWRheS1ib3VyYm9uLWxpbWl0ZWQtcmVsZWFzZS1hdC1maXJlZmx5LWRpc3RpbGxlcnkvMTkwMTk2MDgvMjAyNi0wNi0xMlQxNg/62f733efd173ab15f0e89340B617cabe8",
+          "description": "4-7 p.m. \u00b7 Firefly Distillery, North Charleston \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Friday Night Skate",
+          "start": "2026-06-12",
+          "end": null,
+          "venue": "The Rickhouse at Cannon Distillery",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46055954.27765/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9mcmlkYXktbmlnaHQtc2thdGUtbmlnaHQvMTg5OTI1MjAvMjAyNi0wNi0xMlQxNg/62f733efd173ab15f0e89340B9501b056",
+          "description": "4-10 p.m. \u00b7 The Rickhouse at Cannon Distillery \u00b7 $10+",
+          "price": 10.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.807,
+          "tier": "high",
+          "recurring": false
+        }
+      ],
       "overflow": [],
       "weekdays": [
         {
@@ -159,6 +190,21 @@
           "score": 0.44,
           "tier": "low",
           "recurring": true
+        },
+        {
+          "title": "Brew-oke",
+          "start": "2026-06-10",
+          "end": null,
+          "venue": "New Realm Brewing Co.",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46055954.27765/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9icmV3b2tlLzE3ODY4ODI0LzIwMjYtMDYtMTBUMDA/62f733efd173ab15f0e89340B0111944d",
+          "description": "6-9 p.m. \u00b7 New Realm Brewing Co. \u00b7 Free to sing",
+          "price": 0.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.422,
+          "tier": "low",
+          "recurring": false
         },
         {
           "title": "Joe Russo's Almost Dead",
