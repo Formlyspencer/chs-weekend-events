@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-06-10 11:46 AM EDT",
+  "fetched_at": "2026-06-10 04:35 PM EDT",
   "counts": {
     "raw": 466,
     "scored": 209,
-    "this_weekend": 12,
+    "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
@@ -173,21 +173,6 @@
           "category": "outdoor_music",
           "score": 0.556,
           "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Easy Star All Stars",
-          "start": "2026-06-12T19:30:00",
-          "end": null,
-          "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Get ready for an unforgettable night of reggae-infused tributes as Easy Star All-Stars take over The Refinery on June 12th! Known for their incredible reimaginings of legendary albums, the band will be performing favorites from Dub Side of the Moon, Ziggy Stardub, Radiodread, Lon\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
           "recurring": false
         },
         {
@@ -493,6 +478,21 @@
           "score": 0.411,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-06-11T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "2 Slices, Parris Byars Club, social void",
