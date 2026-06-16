@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-06-16 01:02 PM EDT",
+  "fetched_at": "2026-06-16 04:56 PM EDT",
   "counts": {
     "raw": 256,
-    "scored": 104,
-    "this_weekend": 2,
+    "scored": 103,
+    "this_weekend": 1,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=104",
+    "input_count=103",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-06-16: ['\"Maria Britton: Second Sleep\\ufeff\"@2026-06-16 11:00:00|src=Holy City Sinner', '\"Crooklyn\"@2026-06-16 19:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-06-16: ['World Cup Watch Party@2026-06-16 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-06-16 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-06-18: ['Layton Meacham@2026-06-18 18:00:00|src=Holy City Sinner', 'CANCELLED - Landon McNamara w/ Layt@2026-06-18 20:30:00|src=Holy City Sinner']",
@@ -20,7 +20,7 @@
     "survivor venue=various date=2026-05-26: [\"L'Organo's FREE Organ Concert Serie@2026-05-26 08:00:00\", 'Spoleto Festival USA 2026@2026-05-26']",
     "survivor venue=various date=2026-05-27: [\"L'Organo's FREE Organ Concert Serie@2026-05-27 08:00:00\", 'Spoleto Festival USA 2026@2026-05-27']",
     "survivor venue=various date=2026-05-28: [\"L'Organo's FREE Organ Concert Serie@2026-05-28 08:00:00\", 'Spoleto Festival USA 2026@2026-05-28']",
-    "output_count=104"
+    "output_count=103"
   ],
   "buckets": {
     "today": "2026-06-16",
@@ -44,21 +44,6 @@
           "category": "outdoor_festival",
           "score": 0.704,
           "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Fairies & Flowers",
-          "start": "2026-06-19T09:00:00",
-          "end": null,
-          "venue": "Magnolia Plantation & Garden, 3550 Ashley River Road, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/magnolia-plantation-gardens-welcomes-a-fairy-village-this-su/",
-          "description": "Magnolia Plantation & Gardens announces Fairies & Flowers, a new summer exhibition featuring 20+ handcrafted fairy dwellings installed throughout the historic gardens by 30 Tri-County artists, on view May 22 through July 12, 2026.\u2026",
-          "price": 32.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.282,
-          "tier": "low",
           "recurring": false
         }
       ],
