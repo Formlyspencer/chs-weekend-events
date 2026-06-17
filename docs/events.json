@@ -1,22 +1,24 @@
 {
-  "fetched_at": "2026-06-17 12:28 AM EDT",
+  "fetched_at": "2026-06-17 07:05 AM EDT",
   "counts": {
-    "raw": 227,
-    "scored": 94,
+    "raw": 234,
+    "scored": 96,
     "this_weekend": 15,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=94",
+    "input_count=96",
+    "pre_dup_group venue=redux contemporary art center date=2026-06-19: ['Juneteenth Art Exhibition@2026-06-19|src=CHStoday (newsletter)', \"Bloom Where You're Planted\\ufeff@2026-06-19 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=charleston pour house date=2026-06-18: ['Layton Meacham@2026-06-18 18:00:00|src=Holy City Sinner', 'CANCELLED - Landon McNamara w/ Layt@2026-06-18 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-06-19: ['World Cup Watch Party@2026-06-19 11:30:00|src=Holy City Sinner', 'Next Stop Comedy@2026-06-19 19:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-27: [\"L'Organo's FREE Organ Concert Serie@2026-05-27 08:00:00|src=Holy City Sinner\", 'Spoleto Festival USA 2026@2026-05-27|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-05-28: [\"L'Organo's FREE Organ Concert Serie@2026-05-28 08:00:00|src=Holy City Sinner\", 'Spoleto Festival USA 2026@2026-05-28|src=Holy City Sinner']",
+    "survivor venue=redux contemporary art center date=2026-06-19: ['Juneteenth Art Exhibition@2026-06-19', \"Bloom Where You're Planted\\ufeff@2026-06-19 11:00:00\"]",
     "survivor venue=charleston pour house date=2026-06-18: ['Layton Meacham@2026-06-18 18:00:00', 'CANCELLED - Landon McNamara w/ Layt@2026-06-18 20:30:00']",
     "survivor venue=frothy beard brewing company date=2026-06-19: ['World Cup Watch Party@2026-06-19 11:30:00', 'Next Stop Comedy@2026-06-19 19:30:00']",
     "survivor venue=various date=2026-05-27: [\"L'Organo's FREE Organ Concert Serie@2026-05-27 08:00:00\", 'Spoleto Festival USA 2026@2026-05-27']",
     "survivor venue=various date=2026-05-28: [\"L'Organo's FREE Organ Concert Serie@2026-05-28 08:00:00\", 'Spoleto Festival USA 2026@2026-05-28']",
-    "output_count=94"
+    "output_count=96"
   ],
   "buckets": {
     "today": "2026-06-17",
@@ -27,6 +29,36 @@
         "2026-06-21"
       ],
       "events": [
+        {
+          "title": "Juneteenth Art Exhibition",
+          "start": "2026-06-19",
+          "end": null,
+          "venue": "Redux Contemporary Art Center",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46185750.3754/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9qdW5ldGVlbnRoLWFydC1leGhpYml0aW9uLzE4OTY5MjM2LzIwMjYtMDYtMTlUMTY/62f733efd173ab15f0e89340B7f0cfa5e",
+          "description": "4-7 p.m. \u00b7 Redux Contemporary Art Center \u00b7 Free",
+          "price": 0.0,
+          "source": "CHStoday (newsletter)",
+          "category": "art_event",
+          "score": 0.85,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "J.O.Y. | Juneteenth on the Yard",
+          "start": "2026-06-19T12:00:00",
+          "end": null,
+          "venue": "International African American Museum, 14 Wharfside St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/iaam-to-host-third-annual-juneteenth-celebration-j-o-y-junet/",
+          "description": "The International African American Museum (IAAM) is proud to announce its signature Juneteenth celebration, J.O.Y. | Juneteenth on the Yard, will be taking place on Friday, June 19, from noon to 5 p.m.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
         {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-06-19T10:00:00",
@@ -51,21 +83,6 @@
           "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Happy Father's Day!! One of our favorite pastimes here at the taproom is turning IPA dads into Snafu Sour dads and what better way to keep that trend going than to throw a sweet deal on crowlers for the whole weekend! Friday, June 19 - Sunday, June 21 you can snag any three draft\u2026",
           "price": 33.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.782,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "J.O.Y. | Juneteenth on the Yard",
-          "start": "2026-06-19T12:00:00",
-          "end": null,
-          "venue": "International African American Museum, 14 Wharfside St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/iaam-to-host-third-annual-juneteenth-celebration-j-o-y-junet/",
-          "description": "The International African American Museum (IAAM) is proud to announce its signature Juneteenth celebration, J.O.Y. | Juneteenth on the Yard, will be taking place on Friday, June 19, from noon to 5 p.m.\u2026",
-          "price": 0.0,
           "source": "Holy City Sinner",
           "category": "holiday_event",
           "score": 0.782,
@@ -123,7 +140,7 @@
           "end": null,
           "venue": "Kiawah Island Town Hall, 4475 Betsy Kerrison Pkwy, Johns Island, SC",
           "neighborhood": "Johns Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.kiawahisland.gov/events/food_truck_friday/index.php",
           "description": "From April 17th to June 26th, the Town of Kiawah Island will host a Food Truck Friday series, bringing flavorful foods and diverse selections. From 11:00 a.m.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -168,7 +185,7 @@
           "end": null,
           "venue": "Hat Man Mural, 43 Broad St., Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://walkandtalkchs.as.me/schedule/514dab85",
           "description": "Join us for an exploration of the thriving arts scene in the beautiful French Quarter with Walk & Talk Charleston! Meet us at the Hat Man to visit a series of Charleston's fine art galleries and our favorite shops to pique your creative passions.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -236,7 +253,9 @@
           "score": 0.504,
           "tier": "low",
           "recurring": false
-        },
+        }
+      ],
+      "overflow": [
         {
           "title": "Squaring the Circle",
           "start": "2026-06-19T10:00:00",
@@ -251,9 +270,7 @@
           "score": 0.297,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
         {
           "title": "\u201cChasing the Light\u201d by Merrie McNair",
           "start": "2026-06-19T11:00:00",
@@ -378,14 +395,14 @@
         },
         {
           "title": "Yoga Fest",
-          "start": "2026-06-18T18:00:00",
+          "start": "2026-06-18",
           "end": null,
-          "venue": "James Island County Park",
+          "venue": "James Island County Park's Large Meadow",
           "neighborhood": "James Island",
-          "url": "https://holycitysinner.com/entertainment/james-island-county-parks-yoga-fest-set-for-june-18/",
-          "description": "Embrace the summer solstice during Yoga Fest at James Island County Park! This family-friendly event celebrates summer and community, with activities and entertainment on Thursday, June 18 from 6 \u2013 8:30 p.m.\u2026",
+          "url": "https://link.6amcity.com/click/46185750.3754/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy95b2dhLWZlc3QvMTg4OTkzMzgvMjAyNi0wNi0xOFQxNw/62f733efd173ab15f0e89340B47729c23",
+          "description": "5:30-8:30 p.m. \u00b7 James Island County Park's Large Meadow \u00b7 $30",
           "price": 30.0,
-          "source": "Holy City Sinner",
+          "source": "CHStoday (newsletter)",
           "category": "outdoor_festival",
           "score": 0.583,
           "tier": "medium",
@@ -517,7 +534,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/cowboy-junkies/",
           "description": "\u201cOne of the most unique and enduring bands in alternative rock\u201d All Music \u201cMargo Timmins\u2019s voice is as melancholy and enchanting as ever\u201d The New York Times \u201cThere\u2019s something that is nearly miraculous about the way Margo Timmins\u2019 beautiful voice fits with those pained lyrics wri\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -585,6 +602,21 @@
           "score": 0.378,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "IOP Farmers Market",
+          "start": "2026-06-18",
+          "end": null,
+          "venue": "Isle of Palms",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://link.6amcity.com/click/46185750.3754/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9pb3AtZmFybWVycy1tYXJrZXQvMTg1ODkwMzQvMjAyNi0wNi0xOFQwMA/62f733efd173ab15f0e89340B84cf3ec0",
+          "description": "4-7 p.m. \u00b7 Isle of Palms \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "farmers_market",
+          "score": 0.344,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "Fortunate Youth w/ Joe Samba + Quasi Kings on the N\u00dcTRL Beach Stage",
