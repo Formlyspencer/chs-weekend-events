@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-06-18 11:34 AM EDT",
+  "fetched_at": "2026-06-18 04:30 PM EDT",
   "counts": {
     "raw": 221,
-    "scored": 105,
-    "this_weekend": 31,
+    "scored": 106,
+    "this_weekend": 32,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=105",
+    "input_count=106",
     "pre_dup_group venue=redux contemporary art center date=2026-06-19: ['Juneteenth Art Exhibition@2026-06-19|src=CHStoday (newsletter)', \"Bloom Where You're Planted\\ufeff@2026-06-19 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=firefly distillery date=2026-06-20: ['May the Dogs Be With You Adoption E@2026-06-20|src=CHStoday (newsletter)', 'May the Dogs Be With You \u2014 A Dog Ad@2026-06-20 12:00:00|src=Holy City Sinner', 'Red, White and Booze Bartender Comp@2026-06-20 12:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-06-18: ['Fortunate Youth w/ Joe Samba + Quas@2026-06-18 18:00:00|src=Holy City Sinner', 'Droze & The Drift on the inside Sta@2026-06-18 21:30:00|src=Holy City Sinner']",
@@ -22,7 +22,7 @@
     "survivor venue=frothy beard brewing company date=2026-06-19: ['World Cup Watch Party@2026-06-19 11:30:00', 'Next Stop Comedy@2026-06-19 19:30:00']",
     "survivor venue=the windjammer date=2026-06-19: ['Pandora\u2019s Box (Aerosmith Tribute) o@2026-06-19 18:00:00', 'Lauren Hall on the inside stage@2026-06-19 21:30:00']",
     "survivor venue=various date=2026-05-28: [\"L'Organo's FREE Organ Concert Serie@2026-05-28 08:00:00\", 'Spoleto Festival USA 2026@2026-05-28']",
-    "output_count=105"
+    "output_count=106"
   ],
   "buckets": {
     "today": "2026-06-18",
@@ -192,6 +192,21 @@
           "url": "https://holycitysinner.com/entertainment/iaam-to-host-third-annual-juneteenth-celebration-j-o-y-junet/",
           "description": "The International African American Museum (IAAM) is proud to announce its signature Juneteenth celebration, J.O.Y. | Juneteenth on the Yard, will be taking place on Friday, June 19, from noon to 5 p.m.\u2026",
           "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Juneteenth Rally",
+          "start": "2026-06-19T11:30:00",
+          "end": null,
+          "venue": "North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/news/lowcountry-action-committee-hosts-juneteenth-rally-for-natio/",
+          "description": "On Friday, June 19, at 11:30 a.m., organizers with the Lowcountry Action Committee (LAC), a branch of the National Alliance Against Racist and Political Repression, will hold a rally as part of a National Day of Action to support families impacted by police violence and to defend\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
           "score": 0.782,
