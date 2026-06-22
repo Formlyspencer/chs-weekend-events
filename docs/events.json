@@ -1,18 +1,20 @@
 {
-  "fetched_at": "2026-06-22 12:51 AM EDT",
+  "fetched_at": "2026-06-22 08:12 AM EDT",
   "counts": {
-    "raw": 146,
-    "scored": 66,
+    "raw": 157,
+    "scored": 68,
     "this_weekend": 4,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=66",
+    "input_count=68",
+    "pre_dup_group venue=redux contemporary art center date=2026-06-25: ['June Open Studios@2026-06-25|src=CHStoday (newsletter)', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=frothy beard brewing company date=2026-06-22: ['World Cup Watch Party@2026-06-22 11:30:00|src=Holy City Sinner', 'Kids Eat Free@2026-06-22 16:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-06-23: ['World Cup Watch Party@2026-06-23 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-06-23 18:30:00|src=Holy City Sinner']",
+    "survivor venue=redux contemporary art center date=2026-06-25: ['June Open Studios@2026-06-25', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00\"]",
     "survivor venue=frothy beard brewing company date=2026-06-22: ['World Cup Watch Party@2026-06-22 11:30:00', 'Kids Eat Free@2026-06-22 16:00:00']",
     "survivor venue=frothy beard brewing company date=2026-06-23: ['World Cup Watch Party@2026-06-23 11:30:00', 'Music Bingo@2026-06-23 18:30:00']",
-    "output_count=66"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-06-21",
@@ -319,6 +321,21 @@
           "source": "Holy City Sinner",
           "category": "other_drinking",
           "score": 0.301,
+          "tier": "low",
+          "recurring": true
+        },
+        {
+          "title": "The Hampton Park Farmers Market",
+          "start": "2026-06-24",
+          "end": null,
+          "venue": "Rose Pavilion, Hampton Park",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46222939.16755/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy90aGUtaGFtcHRvbi1wYXJrLWZhcm1lcnMtbWFya2V0LzE5MDgyMjA0LzIwMjYtMDYtMjRUMTU/62f733efd173ab15f0e89340Bc493edbd",
+          "description": "3:30-7 p.m. \u00b7 Rose Pavilion, Hampton Park \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "farmers_market",
+          "score": 0.298,
           "tier": "low",
           "recurring": true
         },
