@@ -1,30 +1,59 @@
 {
-  "fetched_at": "2026-06-22 11:55 PM EDT",
+  "fetched_at": "2026-06-23 05:49 AM EDT",
   "counts": {
-    "raw": 150,
-    "scored": 65,
-    "this_weekend": 0,
+    "raw": 156,
+    "scored": 63,
+    "this_weekend": 2,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=65",
+    "input_count=63",
     "pre_dup_group venue=redux contemporary art center date=2026-06-25: ['June Open Studios@2026-06-25|src=CHStoday (newsletter)', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00|src=Holy City Sinner\"]",
-    "pre_dup_group venue=frothy beard brewing company date=2026-06-22: ['World Cup Watch Party@2026-06-22 11:30:00|src=Holy City Sinner', 'Kids Eat Free@2026-06-22 16:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-06-23: ['World Cup Watch Party@2026-06-23 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-06-23 18:30:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-06-25: ['June Open Studios@2026-06-25', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00\"]",
-    "survivor venue=frothy beard brewing company date=2026-06-22: ['World Cup Watch Party@2026-06-22 11:30:00', 'Kids Eat Free@2026-06-22 16:00:00']",
     "survivor venue=frothy beard brewing company date=2026-06-23: ['World Cup Watch Party@2026-06-23 11:30:00', 'Music Bingo@2026-06-23 18:30:00']",
-    "output_count=65"
+    "output_count=63"
   ],
   "buckets": {
-    "today": "2026-06-22",
+    "today": "2026-06-23",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
         "2026-06-26",
         "2026-06-28"
       ],
-      "events": [],
+      "events": [
+        {
+          "title": "Creative Mornings Charleston: Tim McManus",
+          "start": "2026-06-26T08:00:00",
+          "end": null,
+          "venue": "Hed Hi Studio, 654 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://creativemornings.com/themes/curate-cu-rate-curate",
+          "description": "Our theme for June is CURATE. It was chosen by our Orange County chapter in California, illustrated by Fred Villa , and is presented by Adobe . What it means to the Chapter \u201cTo us, curate is about perspective.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "film_screening",
+          "score": 0.665,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Fairies & Flowers",
+          "start": "2026-06-26T09:00:00",
+          "end": null,
+          "venue": "Magnolia Plantation & Garden, 3550 Ashley River Road, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/magnolia-plantation-gardens-welcomes-a-fairy-village-this-su/",
+          "description": "Magnolia Plantation & Gardens announces Fairies & Flowers, a new summer exhibition featuring 20+ handcrafted fairy dwellings installed throughout the historic gardens by 30 Tri-County artists, on view May 22 through July 12, 2026.\u2026",
+          "price": 32.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.282,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
       "overflow": [],
       "weekdays": [
         {
@@ -88,8 +117,23 @@
           "recurring": false
         },
         {
+          "title": "Summer in the Lowcountry with Kelly Franz",
+          "start": "2026-06-25T18:00:00",
+          "end": null,
+          "venue": "Charleston Wine + Food, 635 Rutledge Ave., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Experience the flavors of the season at Summer in the Lowcountry with Kelly Franz, part of Charleston Wine + Food\u2019s Summer Sizzle series on Thursday, June 25 from 6\u20138 p.m. at the Charleston Wine + Food Test Kitchen.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.528,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-06-22T10:00:00",
+          "start": "2026-06-24T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
           "neighborhood": "Charleston",
@@ -133,8 +177,23 @@
           "recurring": true
         },
         {
+          "title": "Paul Oakenfold and The Crystal Method",
+          "start": "2026-06-25T19:30:00",
+          "end": null,
+          "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/paul-oakenfold-and-the-crystal-method-to-perform-at-the-refi/",
+          "description": "Legendary electronic music acts Paul Oakenfold and The Crystal Method are taking over The Refinery on June 25 at 7:30 p.m. Tickets are on sale now. Oakenfold is a three-time Grammy Award and two-time World Music Awards nominee who was voted the No.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.411,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "World Cup Watch Party",
-          "start": "2026-06-22T11:30:00",
+          "start": "2026-06-23T11:30:00",
           "end": null,
           "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
           "neighborhood": "Charleston",
@@ -193,6 +252,36 @@
           "recurring": false
         },
         {
+          "title": "F.I.S.T.E.R.S\u00a0 (Folly Island Surf Team and Emergency Rescue Squad)",
+          "start": "2026-06-25T18:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "Folly",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "F.I.S.T.E.R.S (Folly Island Surf Team and Emergency Rescue Squad) > Thursday 6.25.26 Charleston Pour House (Deck Stage) $10 @ the door 5pm doors 630pm show",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.394,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-06-25T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Revolutionary Ideas: Origins, Contexts, and Legacies of American Independence",
           "start": "2026-06-24",
           "end": null,
@@ -208,34 +297,19 @@
           "recurring": false
         },
         {
-          "title": "Farmers Market",
-          "start": "2026-06-22T15:00:00",
+          "title": "Dude Perfect: Squad Games Tour",
+          "start": "2026-06-25T19:00:00",
           "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://holycitysinner.com/entertainment/freshfields-village-unveils-2026-summer-events-lineup/",
-          "description": "Mondays, June through August from 3 to 7 p.m. A seasonal favorite that grows each year, the Freshfields Village Farmers Market brings together local vendors offering fresh produce, prepared foods and artisan goods that fill the Village Green for the evening.",
+          "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/dude-perfect-announces-2026-tour-stop-in-north-charleston/",
+          "description": "After a record-breaking 2025 tour, Dude Perfect is taking live entertainment to the next level with the Squad Games Tour with an all-new 360-degree arena layout \u2013 just like your favorite sports matches. This summer, Dude Perfect will hit 22 cities across the U.S.\u2026",
           "price": null,
           "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.316,
+          "category": "outdoor_music",
+          "score": 0.308,
           "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-06-22T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
+          "recurring": false
         },
         {
           "title": "The Hampton Park Farmers Market",
@@ -283,6 +357,21 @@
           "recurring": false
         },
         {
+          "title": "Yacht Rock Revue \u2013 PRIMETIME Presented by CANN \u2013 on the N\u00dcTRL Beach Stage",
+          "start": "2026-06-25T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$55 Advance / $65 DOS Doors at 6:00 pm 21 up or with their parent www.yachtrockrevue.com Embark on a journey through radiant musical waters with Yacht Rock Revue, the band Rolling Stone hails as the \u201cworld\u2019s premier soft-rock party band.\u201d Their repertoire, spanning from the sun-k\u2026",
+          "price": 55.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.283,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Mount Pleasant Farmers Market",
           "start": "2026-06-23T15:30:00",
           "end": null,
@@ -300,21 +389,6 @@
         {
           "title": "Pigeons Playing Ping Pong",
           "start": "2026-06-23T22:30:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Pigeons Playing Ping Pong Tuesday June 23rd and Wednesday June 24th 2026 Charleston Pour House Main Stage 930pm doors 1030pm shows 2 x sets $35 advance / $40 day of show 50 - 2 x day passes at $65",
-          "price": 35.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.249,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Pigeons Playing Ping Pong",
-          "start": "2026-06-24T22:30:00",
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
@@ -429,7 +503,7 @@
           "end": null,
           "venue": "Edmund's Original (Formerly Edmund's Oast)",
           "neighborhood": null,
-          "url": null,
+          "url": "https://link.6amcity.com/click/46196772.755/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9qdW5ldGVlbnRoLXdpdGgtY2hlZi1yb2QteWVhci1maXZlLzE5MDIyMjA0LzIwMjYtMDYtMjFUMTg/62f733efd173ab15f0e89340B1da89d70",
           "description": "6-9 p.m. \u00b7 Edmund's Original (Formerly Edmund's Oast) \u00b7 $85",
           "price": 85.0,
           "source": "CHStoday (newsletter)",
