@@ -1,22 +1,26 @@
 {
-  "fetched_at": "2026-06-23 01:21 PM EDT",
+  "fetched_at": "2026-06-23 04:11 PM EDT",
   "counts": {
-    "raw": 164,
-    "scored": 66,
-    "this_weekend": 3,
+    "raw": 165,
+    "scored": 68,
+    "this_weekend": 2,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=66",
+    "input_count=68",
     "pre_dup_group venue=redux contemporary art center date=2026-06-25: ['June Open Studios@2026-06-25|src=CHStoday (newsletter)', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=two blokes brewing date=2026-06-23: ['Plant Bingo with Roadside Blooms@2026-06-23|src=CHStoday (newsletter)', 'Plant Bingo at Two Blokes Brewing S@2026-06-23 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=north charleston coliseum date=2026-06-25: ['Volunteer with Dude Perfect@2026-06-25|src=CHStoday (newsletter)', 'Dude Perfect: Squad Games Tour@2026-06-25 19:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-06-23: ['World Cup Watch Party@2026-06-23 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-06-23 18:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00|src=Holy City Sinner', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00|src=Holy City Sinner', 'Groove Kitty on the inside stage@2026-06-25 21:30:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-06-25: ['June Open Studios@2026-06-25', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00\"]",
     "survivor venue=two blokes brewing date=2026-06-23: ['Plant Bingo with Roadside Blooms@2026-06-23', 'Plant Bingo at Two Blokes Brewing S@2026-06-23 18:00:00']",
     "survivor venue=north charleston coliseum date=2026-06-25: ['Volunteer with Dude Perfect@2026-06-25', 'Dude Perfect: Squad Games Tour@2026-06-25 19:00:00']",
     "survivor venue=frothy beard brewing company date=2026-06-23: ['World Cup Watch Party@2026-06-23 11:30:00', 'Music Bingo@2026-06-23 18:30:00']",
-    "output_count=66"
+    "survivor venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00']",
+    "survivor venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00', 'Groove Kitty on the inside stage@2026-06-25 21:30:00']",
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-06-23",
@@ -55,21 +59,6 @@
           "category": "outdoor_music",
           "score": 0.585,
           "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Fairies & Flowers",
-          "start": "2026-06-26T09:00:00",
-          "end": null,
-          "venue": "Magnolia Plantation & Garden, 3550 Ashley River Road, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/magnolia-plantation-gardens-welcomes-a-fairy-village-this-su/",
-          "description": "Magnolia Plantation & Gardens announces Fairies & Flowers, a new summer exhibition featuring 20+ handcrafted fairy dwellings installed throughout the historic gardens by 30 Tri-County artists, on view May 22 through July 12, 2026.\u2026",
-          "price": 32.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.282,
-          "tier": "low",
           "recurring": false
         }
       ],
@@ -316,6 +305,21 @@
           "recurring": false
         },
         {
+          "title": "Groove Kitty on the inside stage",
+          "start": "2026-06-25T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "Groove Kitty on the inside stage $10 or FREE with a YRR Ticket June 25, 2026 Doors at 9:30 pm 21 Up https://www.facebook.com/GrooveKittyMusic/ Charleston, SC cover band playing pop and rock dance hits from yesterday to today.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.378,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Plant Bingo with Roadside Blooms",
           "start": "2026-06-23",
           "end": null,
@@ -447,21 +451,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.249,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Yacht Rock Revue \u2013 PRIMETIME Presented by CANN \u2013 on the N\u00dcTRL Beach Stage",
-          "start": "2026-06-24T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "$55 Advance / $65 DOS Doors at 6:00 pm 21 up or with their parent www.yachtrockrevue.com Embark on a journey through radiant musical waters with Yacht Rock Revue, the band Rolling Stone hails as the \u201cworld\u2019s premier soft-rock party band.\u201d Their repertoire, spanning from the sun-k\u2026",
-          "price": 55.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.208,
           "tier": "low",
           "recurring": false
         }
