@@ -1,26 +1,26 @@
 {
-  "fetched_at": "2026-06-23 04:11 PM EDT",
+  "fetched_at": "2026-06-23 06:17 PM EDT",
   "counts": {
-    "raw": 165,
-    "scored": 68,
-    "this_weekend": 2,
+    "raw": 164,
+    "scored": 66,
+    "this_weekend": 1,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=68",
-    "pre_dup_group venue=redux contemporary art center date=2026-06-25: ['June Open Studios@2026-06-25|src=CHStoday (newsletter)', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00|src=Holy City Sinner\"]",
+    "input_count=66",
+    "pre_dup_group venue=redux contemporary art center date=2026-06-25: ['Open Studio and Yar(t) Sale@2026-06-25 18:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=two blokes brewing date=2026-06-23: ['Plant Bingo with Roadside Blooms@2026-06-23|src=CHStoday (newsletter)', 'Plant Bingo at Two Blokes Brewing S@2026-06-23 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=north charleston coliseum date=2026-06-25: ['Volunteer with Dude Perfect@2026-06-25|src=CHStoday (newsletter)', 'Dude Perfect: Squad Games Tour@2026-06-25 19:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-06-23: ['World Cup Watch Party@2026-06-23 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-06-23 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00|src=Holy City Sinner', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00|src=Holy City Sinner', 'Groove Kitty on the inside stage@2026-06-25 21:30:00|src=Holy City Sinner']",
-    "survivor venue=redux contemporary art center date=2026-06-25: ['June Open Studios@2026-06-25', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00\"]",
+    "survivor venue=redux contemporary art center date=2026-06-25: ['Open Studio and Yar(t) Sale@2026-06-25 18:00:00', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00\"]",
     "survivor venue=two blokes brewing date=2026-06-23: ['Plant Bingo with Roadside Blooms@2026-06-23', 'Plant Bingo at Two Blokes Brewing S@2026-06-23 18:00:00']",
     "survivor venue=north charleston coliseum date=2026-06-25: ['Volunteer with Dude Perfect@2026-06-25', 'Dude Perfect: Squad Games Tour@2026-06-25 19:00:00']",
     "survivor venue=frothy beard brewing company date=2026-06-23: ['World Cup Watch Party@2026-06-23 11:30:00', 'Music Bingo@2026-06-23 18:30:00']",
     "survivor venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00']",
     "survivor venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00', 'Groove Kitty on the inside stage@2026-06-25 21:30:00']",
-    "output_count=68"
+    "output_count=66"
   ],
   "buckets": {
     "today": "2026-06-23",
@@ -31,21 +31,6 @@
         "2026-06-28"
       ],
       "events": [
-        {
-          "title": "Creative Mornings Charleston: Tim McManus",
-          "start": "2026-06-26T08:00:00",
-          "end": null,
-          "venue": "Hed Hi Studio, 654 King St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://creativemornings.com/themes/curate-cu-rate-curate",
-          "description": "Our theme for June is CURATE. It was chosen by our Orange County chapter in California, illustrated by Fred Villa , and is presented by Adobe . What it means to the Chapter \u201cTo us, curate is about perspective.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "film_screening",
-          "score": 0.665,
-          "tier": "medium",
-          "recurring": false
-        },
         {
           "title": "Party at the Point: Highway Boys Zach Bryan Tribute Band",
           "start": "2026-06-26",
@@ -273,21 +258,6 @@
           "score": 0.394,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Karaoke",
-          "start": "2026-06-25T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Revolutionary Ideas: Origins, Contexts, and Legacies of American Independence",
