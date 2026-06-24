@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-06-23 06:17 PM EDT",
+  "fetched_at": "2026-06-23 11:57 PM EDT",
   "counts": {
-    "raw": 164,
-    "scored": 66,
+    "raw": 160,
+    "scored": 64,
     "this_weekend": 1,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=66",
+    "input_count=64",
     "pre_dup_group venue=redux contemporary art center date=2026-06-25: ['Open Studio and Yar(t) Sale@2026-06-25 18:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=two blokes brewing date=2026-06-23: ['Plant Bingo with Roadside Blooms@2026-06-23|src=CHStoday (newsletter)', 'Plant Bingo at Two Blokes Brewing S@2026-06-23 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=north charleston coliseum date=2026-06-25: ['Volunteer with Dude Perfect@2026-06-25|src=CHStoday (newsletter)', 'Dude Perfect: Squad Games Tour@2026-06-25 19:00:00|src=Holy City Sinner']",
@@ -20,7 +20,7 @@
     "survivor venue=frothy beard brewing company date=2026-06-23: ['World Cup Watch Party@2026-06-23 11:30:00', 'Music Bingo@2026-06-23 18:30:00']",
     "survivor venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00']",
     "survivor venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00', 'Groove Kitty on the inside stage@2026-06-25 21:30:00']",
-    "output_count=66"
+    "output_count=64"
   ],
   "buckets": {
     "today": "2026-06-23",
@@ -504,38 +504,7 @@
         "2026-06-19",
         "2026-06-21"
       ],
-      "events": [
-        {
-          "title": "Juneteenth With Chef Rod",
-          "start": "2026-06-21",
-          "end": null,
-          "venue": "Edmund's Original (Formerly Edmund's Oast)",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46196772.755/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9qdW5ldGVlbnRoLXdpdGgtY2hlZi1yb2QteWVhci1maXZlLzE5MDIyMjA0LzIwMjYtMDYtMjFUMTg/62f733efd173ab15f0e89340B1da89d70",
-          "description": "6-9 p.m. \u00b7 Edmund's Original (Formerly Edmund's Oast) \u00b7 $85",
-          "price": 85.0,
-          "source": "CHStoday (newsletter)",
-          "category": "holiday_event",
-          "score": 0.85,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Father's Day Par-tee",
-          "start": "2026-06-21",
-          "end": null,
-          "venue": "New Realm Brewing Co.",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46222937.2755/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9mYXRoZXJzLWRheS1wYXJ0ZWUvMTkyMDg2MTcvMjAyNi0wNi0yMVQxNA/62f733efd173ab15f0e89340Bc693b217",
-          "description": "2-6 p.m. \u00b7 New Realm Brewing Co. \u00b7 Price of purchase",
-          "price": null,
-          "source": "CHStoday (newsletter)",
-          "category": "holiday_event",
-          "score": 0.85,
-          "tier": "high",
-          "recurring": false
-        }
-      ],
+      "events": [],
       "overflow": [],
       "recurring": []
     }
