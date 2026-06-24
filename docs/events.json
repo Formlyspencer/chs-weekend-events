@@ -1,19 +1,17 @@
 {
-  "fetched_at": "2026-06-24 05:38 AM EDT",
+  "fetched_at": "2026-06-24 10:40 AM EDT",
   "counts": {
-    "raw": 161,
+    "raw": 169,
     "scored": 69,
-    "this_weekend": 11,
+    "this_weekend": 12,
     "next_weekend": 0
   },
   "dedup_log": [
     "input_count=69",
     "pre_dup_group venue=redux contemporary art center date=2026-06-25: ['Open Studio and Yar(t) Sale@2026-06-25 18:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00|src=Holy City Sinner\"]",
-    "pre_dup_group venue=north charleston coliseum date=2026-06-25: ['Volunteer with Dude Perfect@2026-06-25|src=CHStoday (newsletter)', 'Dude Perfect: Squad Games Tour@2026-06-25 19:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00|src=Holy City Sinner', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00|src=Holy City Sinner', 'Groove Kitty on the inside stage@2026-06-25 21:30:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-06-25: ['Open Studio and Yar(t) Sale@2026-06-25 18:00:00', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00\"]",
-    "survivor venue=north charleston coliseum date=2026-06-25: ['Volunteer with Dude Perfect@2026-06-25', 'Dude Perfect: Squad Games Tour@2026-06-25 19:00:00']",
     "survivor venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00']",
     "survivor venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00', 'Groove Kitty on the inside stage@2026-06-25 21:30:00']",
     "output_count=69"
@@ -27,6 +25,21 @@
         "2026-06-28"
       ],
       "events": [
+        {
+          "title": "LO-FI Luau Summer Party with Folly Buble",
+          "start": "2026-06-26",
+          "end": null,
+          "venue": "LO-FI Brewing, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/46281582.30652/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9sb2ZpLWx1YXUtc3VtbWVyLXBhcnR5LXctZm9sbHktYnVibC8xOTIwODYzNS8yMDI2LTA2LTI2VDE4/62f733efd173ab15f0e89340B0285ac36",
+          "description": "6-10 p.m. \u00b7 LO-FI Brewing, North Charleston \u00b7 $12",
+          "price": 12.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.874,
+          "tier": "high",
+          "recurring": false
+        },
         {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-06-26T10:00:00",
@@ -347,21 +360,6 @@
           "recurring": false
         },
         {
-          "title": "Summer in the Lowcountry with Kelly Franz",
-          "start": "2026-06-25T18:00:00",
-          "end": null,
-          "venue": "Charleston Wine + Food, 635 Rutledge Ave., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Experience the flavors of the season at Summer in the Lowcountry with Kelly Franz, part of Charleston Wine + Food\u2019s Summer Sizzle series on Thursday, June 25 from 6\u20138 p.m. at the Charleston Wine + Food Test Kitchen.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.528,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-06-24T10:00:00",
           "end": null,
@@ -512,32 +510,17 @@
           "recurring": false
         },
         {
-          "title": "Volunteer with Dude Perfect",
+          "title": "Dude Perfect: Squad Games Tour",
           "start": "2026-06-25",
           "end": null,
           "venue": "North Charleston Coliseum",
           "neighborhood": "North Charleston",
-          "url": "https://link.6amcity.com/click/46195682.10755/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9kdWRlLXBlcmZlY3Qtdm9sdW50ZWVycy1jaGFybGVzdG9uLXNjLzE5MTQ5MTkzLzIwMjYtMDYtMjVUMTU/62f733efd173ab15f0e89340B719b36e0",
-          "description": "3:30 p.m. \u00b7 North Charleston Coliseum \u00b7 Volunteer",
-          "price": null,
+          "url": "https://link.6amcity.com/click/46281582.30652/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9kdWRlLXBlcmZlY3Qtc3F1YWQtZ2FtZXMtdG91ci0yMDI2LzE3NDg0MjU5LzIwMjYtMDYtMjVUMTk/62f733efd173ab15f0e89340Bc5868793",
+          "description": "7 p.m. \u00b7 North Charleston Coliseum \u00b7 $28+",
+          "price": 28.0,
           "source": "CHStoday (newsletter)",
           "category": "outdoor_music",
-          "score": 0.308,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Dude Perfect: Squad Games Tour",
-          "start": "2026-06-25T19:00:00",
-          "end": null,
-          "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/dude-perfect-announces-2026-tour-stop-in-north-charleston/",
-          "description": "After a record-breaking 2025 tour, Dude Perfect is taking live entertainment to the next level with the Squad Games Tour with an all-new 360-degree arena layout \u2013 just like your favorite sports matches. This summer, Dude Perfect will hit 22 cities across the U.S.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.308,
+          "score": 0.326,
           "tier": "low",
           "recurring": false
         },
@@ -613,6 +596,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.249,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Summer in the Lowcountry with Kelly Franz",
+          "start": "2026-06-25",
+          "end": null,
+          "venue": "Charleston Wine + Food Test Kitchen",
+          "neighborhood": "Charleston",
+          "url": "https://link.6amcity.com/click/46281582.30652/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zdW1tZXItaW4tdGhlLWxvd2NvdW50cnktd2l0aC1rZWxseS1mcmFuei8xODk1NDMyOC8yMDI2LTA2LTI1VDE4/62f733efd173ab15f0e89340B6e0c4db1",
+          "description": "6-8 p.m. \u00b7 Charleston Wine + Food Test Kitchen \u00b7 $158",
+          "price": 158.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_festival",
+          "score": 0.248,
           "tier": "low",
           "recurring": false
         }
