@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-06-24 01:08 PM EDT",
+  "fetched_at": "2026-06-24 03:51 PM EDT",
   "counts": {
-    "raw": 169,
-    "scored": 69,
-    "this_weekend": 12,
+    "raw": 167,
+    "scored": 68,
+    "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=69",
+    "input_count=68",
     "pre_dup_group venue=redux contemporary art center date=2026-06-25: ['Open Studio and Yar(t) Sale@2026-06-25 18:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00|src=Holy City Sinner', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00|src=Holy City Sinner', 'Groove Kitty on the inside stage@2026-06-25 21:30:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-06-25: ['Open Studio and Yar(t) Sale@2026-06-25 18:00:00', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00\"]",
     "survivor venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00']",
     "survivor venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00', 'Groove Kitty on the inside stage@2026-06-25 21:30:00']",
-    "output_count=69"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-06-24",
@@ -78,21 +78,6 @@
           "neighborhood": "North Charleston",
           "url": "https://eventvesta.com/events/133363/t/tickets",
           "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Seinfeld Trivia",
-          "start": "2026-06-26T19:00:00",
-          "end": null,
-          "venue": "Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "What's the deal with brewery trivia? They want you to answer questions but you get drunker in the process? Join us Friday, June 26th at 7pm for Seinfeld Trivia! We can't wait to test your knowledge with Publik Education Trivia while you enjoy a sour beer - whether you've only wat\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "brewery_event",
