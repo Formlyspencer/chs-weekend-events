@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-06-24 06:21 PM EDT",
+  "fetched_at": "2026-06-24 11:57 PM EDT",
   "counts": {
-    "raw": 167,
-    "scored": 68,
+    "raw": 166,
+    "scored": 69,
     "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=68",
+    "input_count=69",
     "pre_dup_group venue=redux contemporary art center date=2026-06-25: ['Open Studio and Yar(t) Sale@2026-06-25 18:00:00|src=Holy City Sinner', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00|src=Holy City Sinner', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00|src=Holy City Sinner', 'Groove Kitty on the inside stage@2026-06-25 21:30:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-06-25: ['Open Studio and Yar(t) Sale@2026-06-25 18:00:00', \"Bloom Where You're Planted\\ufeff@2026-06-25 11:00:00\"]",
     "survivor venue=the windjammer date=2026-06-24: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-24 18:00:00', 'DJ MEDIC \u2013 on the inside stage@2026-06-24 21:30:00']",
     "survivor venue=the windjammer date=2026-06-25: ['Yacht Rock Revue \u2013 PRIMETIME Presen@2026-06-25 18:00:00', 'Groove Kitty on the inside stage@2026-06-25 21:30:00']",
-    "output_count=68"
+    "output_count=69"
   ],
   "buckets": {
     "today": "2026-06-24",
