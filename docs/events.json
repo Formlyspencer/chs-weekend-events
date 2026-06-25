@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-25 05:29 AM EDT",
+  "fetched_at": "2026-06-25 10:40 AM EDT",
   "counts": {
-    "raw": 172,
+    "raw": 178,
     "scored": 75,
     "this_weekend": 19,
     "next_weekend": 0
@@ -591,21 +591,6 @@
           "recurring": false
         },
         {
-          "title": "World Cup Watch Party",
-          "start": "2026-06-25T11:30:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Join us in the taproom to watch the 2026 World Cup, June 11 through July 19!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.557,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Brewery Blast Laser Tag",
           "start": "2026-06-25T17:00:00",
           "end": null,
@@ -634,6 +619,21 @@
           "score": 0.528,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "North Charleston Farmers Market",
+          "start": "2026-06-25",
+          "end": null,
+          "venue": "Park Circle Pavilion, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/46293234.26652/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9ub3J0aC1jaGFybGVzdG9uLWZhcm1lcnMtbWFya2V0LzE4NTk4MTk4LzIwMjYtMDYtMjVUMTU/62f733efd173ab15f0e89340B2cad94f3",
+          "description": "3-7 p.m. \u00b7 Park Circle Pavilion, North Charleston \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "farmers_market",
+          "score": 0.44,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "City Lights Nights",
