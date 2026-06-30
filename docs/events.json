@@ -1,19 +1,17 @@
 {
-  "fetched_at": "2026-06-30 12:00 AM EDT",
+  "fetched_at": "2026-06-30 05:45 AM EDT",
   "counts": {
-    "raw": 142,
+    "raw": 143,
     "scored": 55,
-    "this_weekend": 0,
+    "this_weekend": 5,
     "next_weekend": 0
   },
   "dedup_log": [
     "input_count=55",
-    "pre_dup_group venue=frothy beard brewing company date=2026-06-29: ['World Cup Watch Party@2026-06-29 11:30:00|src=Holy City Sinner', 'Kids Eat Free@2026-06-29 16:00:00|src=Holy City Sinner']",
-    "pre_dup_group venue=charleston pour house date=2026-06-29: ['Droze & the Drift@2026-06-29 17:30:00|src=Holy City Sinner', 'Badfish - A Tribute to Sublime - Th@2026-06-29 20:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-06-30: ['World Cup Watch Party@2026-06-30 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-06-30 18:30:00|src=Holy City Sinner']",
-    "survivor venue=frothy beard brewing company date=2026-06-29: ['World Cup Watch Party@2026-06-29 11:30:00', 'Kids Eat Free@2026-06-29 16:00:00']",
-    "survivor venue=charleston pour house date=2026-06-29: ['Droze & the Drift@2026-06-29 17:30:00', 'Badfish - A Tribute to Sublime - Th@2026-06-29 20:00:00']",
+    "pre_dup_group venue=charleston crafts gallery date=2026-07-03: ['\"By the Sea\"@2026-07-03 10:00:00|src=Holy City Sinner', 'July Exhibition By the Sea Opens at@2026-07-03 17:00:00|src=Holy City Sinner']",
     "survivor venue=frothy beard brewing company date=2026-06-30: ['World Cup Watch Party@2026-06-30 11:30:00', 'Music Bingo@2026-06-30 18:30:00']",
+    "survivor venue=charleston crafts gallery date=2026-07-03: ['\"By the Sea\"@2026-07-03 10:00:00', 'July Exhibition By the Sea Opens at@2026-07-03 17:00:00']",
     "output_count=55"
   ],
   "buckets": {
@@ -24,8 +22,145 @@
         "2026-07-03",
         "2026-07-05"
       ],
-      "events": [],
-      "overflow": [],
+      "events": [
+        {
+          "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-07-03T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Brewery Blast Laser Tag",
+          "start": "2026-07-03T17:00:00",
+          "end": null,
+          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://eventvesta.com/events/133363/t/tickets",
+          "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "World Cup Watch Party",
+          "start": "2026-07-03T11:30:00",
+          "end": null,
+          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Join us in the taproom to watch the 2026 World Cup, June 11 through July 19!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.631,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Broken\u00a0Skyline: A Bluegrass Tribute to Tom Petty\u00a0feat. members of The Reckoning, New Ghost Town &\u00a0Broken\u00a0Speakers",
+          "start": "2026-07-03T18:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Broken Skyline A Bluegrass Tribute to Tom Petty feat. members of The Reckoning, New Ghost Town & Broken Speakers Friday 7.3.26 Charleston Pour House Deck Stage 5pm doors 6pm show 2 sets $15 advance /$15 day of show genres: Tom Petty, Bluegrass Website www.brokenskyline.com About\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "July Exhibition By the Sea Opens at Charleston Crafts Gallery",
+          "start": "2026-07-03T17:00:00",
+          "end": null,
+          "venue": "Charleston Crafts Gallery, 140 E Bay St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "http://www.charlestoncraftsgallery.com",
+          "description": "Charleston Crafts Gallery, an artist-owned cooperative in the heart of downtown Charleston, is pleased to present its July exhibition, By the Sea, which opens with a public reception on Friday, July 3, from 5pm to 8pm.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
+      "overflow": [
+        {
+          "title": "\"SHAPERS II\"",
+          "start": "2026-07-03T10:30:00",
+          "end": null,
+          "venue": "Park Circle Gallery, 4820 Jenkins Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/park-circle-gallery-to-feature-group-ceramics-exhibition/",
+          "description": "The City of North Charleston\u2019s Cultural Arts Department is pleased to announce that a group exhibition of ceramic sculptures curated by local artist and educator Cristina Victor will be on display at Park Circle Gallery from July 1 to Aug. 1, 2026.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.297,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Fairies & Flowers",
+          "start": "2026-07-03T09:00:00",
+          "end": null,
+          "venue": "Magnolia Plantation & Garden, 3550 Ashley River Road, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/magnolia-plantation-gardens-welcomes-a-fairy-village-this-su/",
+          "description": "Magnolia Plantation & Gardens announces Fairies & Flowers, a new summer exhibition featuring 20+ handcrafted fairy dwellings installed throughout the historic gardens by 30 Tri-County artists, on view May 22 through July 12, 2026.\u2026",
+          "price": 32.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.282,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Bloom Where You're Planted\ufeff",
+          "start": "2026-07-03T11:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://reduxstudios.org/",
+          "description": "Gallery 1056: Bloom Where You're Planted \ufeff Opening Friday, May 29th 5-8PM Artist Talk Saturday July 25",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.266,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Maria Britton: Second Sleep\ufeff\"",
+          "start": "2026-07-03T11:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://halsey.charleston.edu/",
+          "description": "Maria Britton creates abstract paintings, sculptures, and textile-based works by repurposing two everyday materials\u2014bedsheets and newspaper. In transforming these discarded materials, her work engages themes of memory, dreams, accumulation, labor, gender, and value.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.186,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
       "weekdays": [
         {
           "title": "Mary Whyte: Salt of the Earth",
@@ -315,6 +450,21 @@
       ],
       "recurring": [
         {
+          "title": "Food Truck Friday",
+          "start": "2026-07-03T11:00:00",
+          "end": null,
+          "venue": "Kiawah Island Town Hall, 4475 Betsy Kerrison Pkwy, Johns Island, SC",
+          "neighborhood": "Johns Island",
+          "url": "https://www.kiawahisland.gov/events/food_truck_friday/index.php",
+          "description": "UPDATE: Due to popular demand, we\u2019ve decided to extend Food Truck Fridays to the end of August\u2014how yum! This tasty event will continue every Friday (except July 3) from 11:00 a.m. to 2:00 p.m. through Aug. 28. The updated lineup can be found here .\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.694,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
           "title": "Pour House Farmers Market",
           "start": "2026-07-05T11:00:00",
           "end": null,
@@ -342,6 +492,21 @@
           "category": "farmers_market",
           "score": 0.655,
           "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Tipsy Tour",
+          "start": "2026-07-03T11:30:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Every Friday Grab your friends (or make some new ones) in this unique way to explore the Lowcountry. You\u2019ll be picked up at the visitor\u2019s center downtown on Fridays at 11:30 AM, from there you\u2019ll travel to the home of Charleston\u2019s only domestic winery and vineyard, Deep Water Vin\u2026",
+          "price": 105.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.214,
+          "tier": "low",
           "recurring": true
         }
       ]
