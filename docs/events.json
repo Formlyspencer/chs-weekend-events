@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-01 01:20 PM EDT",
+  "fetched_at": "2026-07-01 04:01 PM EDT",
   "counts": {
     "raw": 160,
-    "scored": 68,
-    "this_weekend": 16,
+    "scored": 70,
+    "this_weekend": 18,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=68",
+    "input_count=70",
     "pre_dup_group venue=charleston crafts gallery date=2026-07-03: ['\"By the Sea\"@2026-07-03 10:00:00|src=Holy City Sinner', 'July Exhibition By the Sea Opens at@2026-07-03 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-07-03: ['Rock the 90\u2019s on the N\u00dcTRL Beach St@2026-07-03 18:00:00|src=Holy City Sinner', 'AC Scar & Reverse Cowgirl on the in@2026-07-03 22:00:00|src=Holy City Sinner']",
     "survivor venue=charleston crafts gallery date=2026-07-03: ['\"By the Sea\"@2026-07-03 10:00:00', 'July Exhibition By the Sea Opens at@2026-07-03 17:00:00']",
     "survivor venue=the windjammer date=2026-07-03: ['Rock the 90\u2019s on the N\u00dcTRL Beach St@2026-07-03 18:00:00', 'AC Scar & Reverse Cowgirl on the in@2026-07-03 22:00:00']",
-    "output_count=68"
+    "output_count=70"
   ],
   "buckets": {
     "today": "2026-07-01",
@@ -114,6 +114,21 @@
           "recurring": false
         },
         {
+          "title": "4th of July Weekend To-Go Specials",
+          "start": "2026-07-04T12:00:00",
+          "end": null,
+          "venue": "Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "All weekend long, come by the taproom to grab $5 16oz to-go beer slushies, 3 crowlers for $33, and $20 4-packs! No matter what your fave beer is, we've got the perfect deal for you to spend the holiday weekend the right way. Happy 4th of July!",
+          "price": 5.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.874,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "Dan's Tramp Stamp & The Money Bags",
           "start": "2026-07-03T19:00:00",
           "end": null,
@@ -125,6 +140,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.765,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "4th of July Weekend To-Go Specials",
+          "start": "2026-07-03T12:00:00",
+          "end": null,
+          "venue": "Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "All weekend long, come by the taproom to grab $5 16oz to-go beer slushies, 3 crowlers for $33, and $20 4-packs! No matter what your fave beer is, we've got the perfect deal for you to spend the holiday weekend the right way. Happy 4th of July!",
+          "price": 5.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
           "tier": "medium",
           "recurring": false
         },
@@ -346,7 +376,7 @@
           "end": null,
           "venue": "Duckworth Gallery, 120 Meeting Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://duckworth.gallery/show/duckworth-gallery-a-moveable-feast",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Art Exhibition Featuring Thirteen of Charleston's Most Beloved Artists of the last Three Decades on Display at Duckworth Gallery.",
           "price": null,
           "source": "Holy City Sinner",
@@ -628,6 +658,21 @@
           "recurring": false
         },
         {
+          "title": "Karaoke",
+          "start": "2026-07-02T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Christopher Cross",
           "start": "2026-07-01T19:30:00",
           "end": null,
@@ -780,21 +825,6 @@
           "recurring": true
         },
         {
-          "title": "Folly Beach Farmer's Market",
-          "start": "2026-07-04T12:00:00",
-          "end": null,
-          "venue": "1630 Folly Road, Charleston, SC",
-          "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.637,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
           "title": "Weekend Wine-Down",
           "start": "2026-07-04T10:00:00",
           "end": null,
@@ -815,7 +845,7 @@
           "end": null,
           "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.seaislandfarmersmarket.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
           "price": null,
           "source": "Holy City Sinner",
