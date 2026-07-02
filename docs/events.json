@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-01 06:20 PM EDT",
+  "fetched_at": "2026-07-01 11:55 PM EDT",
   "counts": {
-    "raw": 160,
-    "scored": 70,
+    "raw": 159,
+    "scored": 71,
     "this_weekend": 18,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=70",
+    "input_count=71",
     "pre_dup_group venue=charleston crafts gallery date=2026-07-03: ['\"By the Sea\"@2026-07-03 10:00:00|src=Holy City Sinner', 'July Exhibition By the Sea Opens at@2026-07-03 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-07-03: ['Rock the 90\u2019s on the N\u00dcTRL Beach St@2026-07-03 18:00:00|src=Holy City Sinner', 'AC Scar & Reverse Cowgirl on the in@2026-07-03 22:00:00|src=Holy City Sinner']",
     "survivor venue=charleston crafts gallery date=2026-07-03: ['\"By the Sea\"@2026-07-03 10:00:00', 'July Exhibition By the Sea Opens at@2026-07-03 17:00:00']",
     "survivor venue=the windjammer date=2026-07-03: ['Rock the 90\u2019s on the N\u00dcTRL Beach St@2026-07-03 18:00:00', 'AC Scar & Reverse Cowgirl on the in@2026-07-03 22:00:00']",
-    "output_count=70"
+    "output_count=71"
   ],
   "buckets": {
     "today": "2026-07-01",
@@ -493,6 +493,21 @@
           "recurring": false
         },
         {
+          "title": "American Idiot: A Pre-Independence Day Dance Party",
+          "start": "2026-07-02T20:00:00",
+          "end": null,
+          "venue": "Mother's Ruin, 474 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/food-bev/mother-s-ruin-kicks-off-fourth-of-july-weekend-with-two-nigh/",
+          "description": "Mother's Ruin is celebrating the lead-up to Independence Day with two events this week: a USA World Cup Watch Party on Wednesday, July 1, at 8 p.m., followed by American Idiot: A Pre-Independence Day Dance Party on Thursday, July 2, at 8 p.m.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.69,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Malin Wagnon Duo",
           "start": "2026-07-02T19:00:00",
           "end": null,
@@ -678,7 +693,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/christopher-cross/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Christopher Cross burst onto the music scene with his 1980 self-titled debut album, winning five Grammy Awards, including\u2014for the first time in Grammy history\u2014the \u201cBig Four\u201d most prestigious awards: Record of the Year (for the single \u201cSailing\u201d), Album of the Year, Song of the Yea\u2026",
           "price": null,
           "source": "Holy City Sinner",
