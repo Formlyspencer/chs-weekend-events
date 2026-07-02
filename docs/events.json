@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-02 05:18 AM EDT",
+  "fetched_at": "2026-07-02 10:11 AM EDT",
   "counts": {
-    "raw": 162,
-    "scored": 79,
+    "raw": 172,
+    "scored": 78,
     "this_weekend": 28,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=79",
+    "input_count=78",
     "pre_dup_group venue=riverfront park date=2026-07-04: ['City of North Charleston July 4th F@2026-07-04|src=CHStoday (newsletter)', 'North Charleston\u2019s July 4th Festiva@2026-07-04 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston crafts gallery date=2026-07-03: ['\"By the Sea\"@2026-07-03 10:00:00|src=Holy City Sinner', 'July Exhibition By the Sea Opens at@2026-07-03 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-07-03: ['Rock the 90\u2019s on the N\u00dcTRL Beach St@2026-07-03 18:00:00|src=Holy City Sinner', 'AC Scar & Reverse Cowgirl on the in@2026-07-03 22:00:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=charleston crafts gallery date=2026-07-03: ['\"By the Sea\"@2026-07-03 10:00:00', 'July Exhibition By the Sea Opens at@2026-07-03 17:00:00']",
     "survivor venue=the windjammer date=2026-07-03: ['Rock the 90\u2019s on the N\u00dcTRL Beach St@2026-07-03 18:00:00', 'AC Scar & Reverse Cowgirl on the in@2026-07-03 22:00:00']",
     "survivor venue=the windjammer date=2026-07-04: ['An Intimate Evening with JJ Grey & @2026-07-04 18:00:00', 'Macelyn Batten on the inside stage@2026-07-04 22:00:00']",
-    "output_count=79"
+    "output_count=78"
   ],
   "buckets": {
     "today": "2026-07-02",
@@ -181,10 +181,10 @@
           "title": "Red, White & Palm",
           "start": "2026-07-04T18:00:00",
           "end": null,
-          "venue": "The Ryder, 237 Meeting Street, Charleston, SC",
+          "venue": "Little Palm, 237 Meeting Street Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.theryderhotel.com/discover/featured-experiences/#!/e/red-white-palm-94748c56",
-          "description": "Celebrate the Fourth of July with a pre-fireworks gathering at Little Palm. Enjoy a live DJ, tropical bites, and chilled cocktails before you watch fireworks light up the Charleston sky. Table reservations and cabana rentals are limited and highly encouraged.\u2026",
+          "url": "https://holycitysinner.com/entertainment/celebrate-the-fourth-in-style-at-the-ryder-hotel%E2%80%99s-red-white/",
+          "description": "This Fourth of July, The Ryder Hotel is bringing Charleston charm and fun with Red, White & Palm, an evening celebration at its poolside, Little Palm . From 6 p.m. - 9 p.m., guests are invited to a pre-fireworks party featuring a live DJ, tropical bites, and festive cocktails.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
@@ -466,21 +466,6 @@
         },
         {
           "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-07-05T13:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-07-03T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
@@ -650,7 +635,7 @@
           "end": null,
           "venue": "Duckworth Gallery, 120 Meeting Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://duckworth.gallery/show/duckworth-gallery-a-moveable-feast",
           "description": "Art Exhibition Featuring Thirteen of Charleston's Most Beloved Artists of the last Three Decades on Display at Duckworth Gallery.",
           "price": null,
           "source": "Holy City Sinner",
@@ -887,6 +872,21 @@
           "recurring": false
         },
         {
+          "title": "Karaoke",
+          "start": "2026-07-02T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Dylan Marlowe on the N\u00dcTRL Beach Stage",
           "start": "2026-07-02T18:00:00",
           "end": null,
@@ -902,17 +902,17 @@
           "recurring": false
         },
         {
-          "title": "\"SHAPERS II\"",
-          "start": "2026-07-02T10:30:00",
+          "title": "Fairies & Flowers",
+          "start": "2026-07-02T09:00:00",
           "end": null,
-          "venue": "Park Circle Gallery, 4820 Jenkins Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/park-circle-gallery-to-feature-group-ceramics-exhibition/",
-          "description": "The City of North Charleston\u2019s Cultural Arts Department is pleased to announce that a group exhibition of ceramic sculptures curated by local artist and educator Cristina Victor will be on display at Park Circle Gallery from July 1 to Aug. 1, 2026.\u2026",
-          "price": 0.0,
+          "venue": "Magnolia Plantation & Garden, 3550 Ashley River Road, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/magnolia-plantation-gardens-welcomes-a-fairy-village-this-su/",
+          "description": "Magnolia Plantation & Gardens announces Fairies & Flowers, a new summer exhibition featuring 20+ handcrafted fairy dwellings installed throughout the historic gardens by 30 Tri-County artists, on view May 22 through July 12, 2026.\u2026",
+          "price": 32.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.262,
+          "score": 0.248,
           "tier": "low",
           "recurring": false
         }
