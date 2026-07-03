@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-03 05:24 AM EDT",
+  "fetched_at": "2026-07-03 10:16 AM EDT",
   "counts": {
-    "raw": 173,
+    "raw": 178,
     "scored": 84,
     "this_weekend": 29,
     "next_weekend": 0
@@ -75,6 +75,21 @@
           "recurring": false
         },
         {
+          "title": "Waterfront Independence Day Celebration",
+          "start": "2026-07-04T16:00:00",
+          "end": null,
+          "venue": "Waterfront Park, Vendue Range, Concord St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://sc250charleston.org/events/waterfront-independence-day-celebration",
+          "description": "A waterfront Independence Day celebration featuring family-friendly, patriotic programming and a coordinated, peninsula-wide fireworks display.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-07-04T10:00:00",
           "end": null,
@@ -113,21 +128,6 @@
           "url": "https://www.middletonplace.org/news-and-events/event/carolina-days-independence-day/",
           "description": "Date: July 4 Time: 12:00 pm - 2:00 pm We join the South Carolina Sestercentennial Commission community in celebrating Carolina Days at Middleton Place. We take today to recognize the 250th anniversary of the Declaration of Independence. Free with General Admission.\u2026",
           "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Waterfront Independence Day Celebration",
-          "start": "2026-07-04T16:00:00",
-          "end": null,
-          "venue": "Waterfront Park, Vendue Range, Concord St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://sc250charleston.org/events/waterfront-independence-day-celebration",
-          "description": "A waterfront Independence Day celebration featuring family-friendly, patriotic programming and a coordinated, peninsula-wide fireworks display.\u2026",
-          "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
           "score": 0.92,
