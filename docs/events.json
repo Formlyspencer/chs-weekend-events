@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-03 06:08 PM EDT",
+  "fetched_at": "2026-07-03 11:31 PM EDT",
   "counts": {
-    "raw": 180,
-    "scored": 87,
+    "raw": 173,
+    "scored": 84,
     "this_weekend": 31,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=87",
+    "input_count=84",
     "pre_dup_group venue=riverfront park date=2026-07-04: ['City of North Charleston July 4th F@2026-07-04|src=CHStoday (newsletter)', 'North Charleston\u2019s July 4th Festiva@2026-07-04 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston crafts gallery date=2026-07-03: ['\"By the Sea\"@2026-07-03 10:00:00|src=Holy City Sinner', 'July Exhibition By the Sea Opens at@2026-07-03 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-07-03: ['Rock the 90\u2019s on the N\u00dcTRL Beach St@2026-07-03 18:00:00|src=Holy City Sinner', 'AC Scar & Reverse Cowgirl on the in@2026-07-03 22:00:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=the windjammer date=2026-07-03: ['Rock the 90\u2019s on the N\u00dcTRL Beach St@2026-07-03 18:00:00', 'AC Scar & Reverse Cowgirl on the in@2026-07-03 22:00:00']",
     "survivor venue=the windjammer date=2026-07-04: ['An Intimate Evening with JJ Grey & @2026-07-04 18:00:00', 'Macelyn Batten on the inside stage@2026-07-04 22:00:00']",
     "survivor venue=frothy beard brewing company date=2026-07-06: ['World Cup Watch Party@2026-07-06 11:30:00', 'Kids Eat Free@2026-07-06 16:00:00']",
-    "output_count=87"
+    "output_count=84"
   ],
   "buckets": {
     "today": "2026-07-03",
@@ -940,7 +940,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
