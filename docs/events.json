@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-07-05 12:12 PM EDT",
+  "fetched_at": "2026-07-05 03:23 PM EDT",
   "counts": {
-    "raw": 161,
-    "scored": 71,
+    "raw": 163,
+    "scored": 72,
     "this_weekend": 12,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=71",
+    "input_count=72",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-06: ['World Cup Watch Party@2026-07-06 11:30:00|src=Holy City Sinner', 'Kids Eat Free@2026-07-06 16:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-07: ['World Cup Watch Party@2026-07-07 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-07-07 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00|src=Holy City Sinner\", 'The Great American Songbook featuri@2026-07-09 19:00:00|src=Holy City Sinner']",
     "survivor venue=frothy beard brewing company date=2026-07-06: ['World Cup Watch Party@2026-07-06 11:30:00', 'Kids Eat Free@2026-07-06 16:00:00']",
     "survivor venue=frothy beard brewing company date=2026-07-07: ['World Cup Watch Party@2026-07-07 11:30:00', 'Music Bingo@2026-07-07 18:30:00']",
     "survivor venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00\", 'The Great American Songbook featuri@2026-07-09 19:00:00']",
-    "output_count=71"
+    "output_count=72"
   ],
   "buckets": {
     "today": "2026-07-05",
@@ -61,7 +61,7 @@
           "end": null,
           "venue": "Storehouse 8,\u00a02154 Noisette Blvd.,\u00a0Suite 207, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/fletcher-williams-iii-presents-250-years-from-mr-freedman-at/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "250 Years from Mr. Freedman is a solo exhibition by Fletcher Williams III, held in historic Storehouse 8 at Navy Yard Charleston in conjunction with the 250th anniversary of the United States.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -331,7 +331,7 @@
           "end": null,
           "venue": "Storehouse 8,\u00a02154 Noisette Blvd.,\u00a0Suite 207, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/fletcher-williams-iii-presents-250-years-from-mr-freedman-at/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "250 Years from Mr. Freedman is a solo exhibition by Fletcher Williams III, held in historic Storehouse 8 at Navy Yard Charleston in conjunction with the 250th anniversary of the United States.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -474,6 +474,21 @@
           "score": 0.409,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-07-09T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "Bombargo on the N\u00dcTRL Beach Stage",
