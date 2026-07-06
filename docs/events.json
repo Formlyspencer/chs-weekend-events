@@ -1,24 +1,26 @@
 {
-  "fetched_at": "2026-07-05 11:56 PM EDT",
+  "fetched_at": "2026-07-06 06:44 AM EDT",
   "counts": {
-    "raw": 154,
-    "scored": 71,
-    "this_weekend": 12,
-    "next_weekend": 0
+    "raw": 151,
+    "scored": 66,
+    "this_weekend": 4,
+    "next_weekend": 2
   },
   "dedup_log": [
-    "input_count=71",
+    "input_count=66",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-06: ['World Cup Watch Party@2026-07-06 11:30:00|src=Holy City Sinner', 'Kids Eat Free@2026-07-06 16:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-07: ['World Cup Watch Party@2026-07-07 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-07-07 18:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-07-09: ['Bombargo on the N\u00dcTRL Beach Stage@2026-07-09 18:00:00|src=Holy City Sinner', 'The Novatones on the inside stage@2026-07-09 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00|src=Holy City Sinner\", 'The Great American Songbook featuri@2026-07-09 19:00:00|src=Holy City Sinner']",
     "survivor venue=frothy beard brewing company date=2026-07-06: ['World Cup Watch Party@2026-07-06 11:30:00', 'Kids Eat Free@2026-07-06 16:00:00']",
     "survivor venue=frothy beard brewing company date=2026-07-07: ['World Cup Watch Party@2026-07-07 11:30:00', 'Music Bingo@2026-07-07 18:30:00']",
+    "survivor venue=the windjammer date=2026-07-09: ['Bombargo on the N\u00dcTRL Beach Stage@2026-07-09 18:00:00', 'The Novatones on the inside stage@2026-07-09 21:30:00']",
     "survivor venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00\", 'The Great American Songbook featuri@2026-07-09 19:00:00']",
-    "output_count=71"
+    "output_count=66"
   ],
   "buckets": {
     "today": "2026-07-05",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-07-03",
@@ -56,51 +58,6 @@
           "recurring": false
         },
         {
-          "title": "\"250 Years from Mr. Freedman\" by Fletcher Williams III (Opening Reception)",
-          "start": "2026-07-05T12:00:00",
-          "end": null,
-          "venue": "Storehouse 8,\u00a02154 Noisette Blvd.,\u00a0Suite 207, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/fletcher-williams-iii-presents-250-years-from-mr-freedman-at/",
-          "description": "250 Years from Mr. Freedman is a solo exhibition by Fletcher Williams III, held in historic Storehouse 8 at Navy Yard Charleston in conjunction with the 250th anniversary of the United States.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-07-05T13:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "4th of July Weekend To-Go Specials",
-          "start": "2026-07-05T12:00:00",
-          "end": null,
-          "venue": "Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "All weekend long, come by the taproom to grab $5 16oz to-go beer slushies, 3 crowlers for $33, and $20 4-packs! No matter what your fave beer is, we've got the perfect deal for you to spend the holiday weekend the right way. Happy 4th of July!",
-          "price": 5.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.874,
-          "tier": "high",
-          "recurring": false
-        },
-        {
           "title": "Waterfront Independence Day Celebration",
           "start": "2026-07-04",
           "end": null,
@@ -113,66 +70,6 @@
           "category": "holiday_event",
           "score": 0.85,
           "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Morris Island Lighthouse will be lit up for Independence Day",
-          "start": "2026-07-05T19:00:00",
-          "end": null,
-          "venue": "Morris Island Lighthouse",
-          "neighborhood": null,
-          "url": "https://holycitysinner.com/news/morris-island-lighthouse-to-be-illuminated-for-fourth-of-jul/",
-          "description": "Save The Light, the preservation group for the Morris Island Lighthouse, announced that the iconic structure will be illuminated in celebration of the Fourth of July. According to an Instagram post from the organization, the lighthouse will be lit July 3-5 from 7 to 11 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.85,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Reggae Sunday",
-          "start": "2026-07-05T18:00:00",
-          "end": null,
-          "venue": "The Washout, 41 Center St, Folly Beach, SC",
-          "neighborhood": "Folly Beach",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Live Music Times: Wednesday's 6-9pm Thursday's: 7-10pm Friday & Saturday: 8-11pm Reggae Sundays: 6-9pm 2 nd - Malin Wagnon Duo 3 rd - Dan's Tramp Stamp & The Money Bags 4 th - Outlaw Country Fest 5-11pm 9th- Dans Tramp Stamp Duo 10th - Malin Wagnon & Friends 11 th - Johnny Hollid\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.765,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "World Cup Watch Party",
-          "start": "2026-07-05T11:30:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Join us in the taproom to watch the 2026 World Cup, June 11 through July 19!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Brewery Blast Laser Tag",
-          "start": "2026-07-05T17:00:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://eventvesta.com/events/133363/t/tickets",
-          "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
           "recurring": false
         },
         {
@@ -189,27 +86,36 @@
           "score": 0.72,
           "tier": "medium",
           "recurring": false
-        },
-        {
-          "title": "An Intimate Evening with JJ Grey & Mofro \u2013 on the N\u00dcTRL Beach Stage",
-          "start": "2026-07-05T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/event/jj05/",
-          "description": "$50 Advance / $60 DOS July 5, 2026 Doors at 6:00 pm 21 up or with their parent JJ GREY & MOFRO From his early days playing cover music behind chicken wire at a west side Jacksonville juke joint while still working at a lumberyard, to playing sold-out shows at some of the largest\u2026",
-          "price": 50.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.378,
-          "tier": "low",
-          "recurring": false
         }
       ],
-      "overflow": [
+      "overflow": [],
+      "weekdays": [],
+      "recurring": []
+    },
+    "next_weekend": {
+      "range": [
+        "2026-07-10",
+        "2026-07-12"
+      ],
+      "events": [
+        {
+          "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-07-10T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
         {
           "title": "\"By the Sea\"",
-          "start": "2026-07-05T10:00:00",
+          "start": "2026-07-10T10:00:00",
           "end": null,
           "venue": "Charleston Crafts Gallery, 140 E Bay St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -218,13 +124,30 @@
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.35,
+          "score": 0.297,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
+      "overflow": [
+        {
+          "title": "\"SHAPERS II\"",
+          "start": "2026-07-10T10:30:00",
+          "end": null,
+          "venue": "Park Circle Gallery, 4820 Jenkins Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/park-circle-gallery-to-feature-group-ceramics-exhibition/",
+          "description": "The City of North Charleston\u2019s Cultural Arts Department is pleased to announce that a group exhibition of ceramic sculptures curated by local artist and educator Cristina Victor will be on display at Park Circle Gallery from July 1 to Aug. 1, 2026.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.297,
           "tier": "low",
           "recurring": false
         },
         {
           "title": "Fairies & Flowers",
-          "start": "2026-07-05T09:00:00",
+          "start": "2026-07-10T09:00:00",
           "end": null,
           "venue": "Magnolia Plantation & Garden, 3550 Ashley River Road, Charleston, SC",
           "neighborhood": "Charleston",
@@ -233,13 +156,28 @@
           "price": 32.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.331,
+          "score": 0.282,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Bloom Where You're Planted\ufeff",
+          "start": "2026-07-10T11:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://reduxstudios.org/",
+          "description": "Gallery 1056: Bloom Where You're Planted \ufeff Opening Friday, May 29th 5-8PM Artist Talk Saturday July 25",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.266,
           "tier": "low",
           "recurring": false
         },
         {
           "title": "\"Maria Britton: Second Sleep\ufeff\"",
-          "start": "2026-07-05T11:00:00",
+          "start": "2026-07-10T11:00:00",
           "end": null,
           "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -248,37 +186,11 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.219,
+          "score": 0.186,
           "tier": "low",
           "recurring": false
         }
       ],
-      "weekdays": [],
-      "recurring": [
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-07-05T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
-    },
-    "next_weekend": {
-      "range": [
-        "2026-07-10",
-        "2026-07-12"
-      ],
-      "events": [],
-      "overflow": [],
       "weekdays": [
         {
           "title": "FOXY G'S 4th Annual Birthday Bash: The Hopeaholics\u00a0 w/\u00a0 Jeff Caldwell, David Vaughan, Joan Hale, and More",
@@ -321,21 +233,6 @@
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.69,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Shake Up the Taste",
-          "start": "2026-07-09T17:00:00",
-          "end": null,
-          "venue": "Little Palm, 237 Meeting Street Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Turn up the energy at Shake Up the Taste, a one-night-only Charleston Wine + Food Summer Sizzle event hosted at Little Palm on Thursday, July 9 from 5\u20136:30 p.m.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
           "score": 0.69,
           "tier": "medium",
           "recurring": false
@@ -431,6 +328,21 @@
           "recurring": true
         },
         {
+          "title": "Fish Fest Fishmas In July",
+          "start": "2026-07-07",
+          "end": null,
+          "venue": "Charleston Visitor Center",
+          "neighborhood": "Charleston",
+          "url": "https://link.6amcity.com/click/46419819.21645/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9maXNoLWZlc3QtZmlzaG1hcy1pbi1qdWx5LzE5MTAyNDg4LzIwMjYtMDctMDdUMDA/62f733efd173ab15f0e89340B5bccea73",
+          "description": "11 a.m.-1 p.m. \u00b7 Charleston Visitor Center \u00b7 Free",
+          "price": 0.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_festival",
+          "score": 0.433,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Live Music",
           "start": "2026-07-08T18:00:00",
           "end": null,
@@ -491,6 +403,21 @@
           "recurring": false
         },
         {
+          "title": "The Novatones on the inside stage",
+          "start": "2026-07-09T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "The Novatones on the inside stage $10 or FREE with a Bombargo Ticket July 9, 2026 Doors at 9:30 pm 21 Up ARTIST WESITE https://www.thenovatones.com/ \u201cThe Novatones are a high-energy, party rock band built for one purpose: keeping the crowd dancing all night long.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.378,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Community Matinee Film Screening and Conversation: Join or Die",
           "start": "2026-07-08T13:00:00",
           "end": null,
@@ -521,6 +448,21 @@
           "recurring": true
         },
         {
+          "title": "FreshFields Farmers Market",
+          "start": "2026-07-06",
+          "end": null,
+          "venue": "Freshfields Village, Johns Island",
+          "neighborhood": "Johns Island",
+          "url": "https://link.6amcity.com/click/46419819.21645/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9mcmVzaGZpZWxkcy1mYXJtZXJzLW1hcmtldC8xOTA3NDQzOS8yMDI2LTA3LTA2VDE1/62f733efd173ab15f0e89340Bf66c7128",
+          "description": "3-7 p.m. \u00b7 Freshfields Village, Johns Island \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "farmers_market",
+          "score": 0.337,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "The Great American Songbook featuring Joe Clarke",
           "start": "2026-07-09T19:00:00",
           "end": null,
@@ -534,21 +476,6 @@
           "score": 0.321,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Farmers Market",
-          "start": "2026-07-06T15:00:00",
-          "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://holycitysinner.com/entertainment/freshfields-village-unveils-2026-summer-events-lineup/",
-          "description": "Mondays, June through August from 3 to 7 p.m. A seasonal favorite that grows each year, the Freshfields Village Farmers Market brings together local vendors offering fresh produce, prepared foods and artisan goods that fill the Village Green for the evening.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.316,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Seafood Tower Hour",
