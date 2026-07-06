@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-07-05 06:04 PM EDT",
+  "fetched_at": "2026-07-05 11:56 PM EDT",
   "counts": {
-    "raw": 163,
-    "scored": 72,
+    "raw": 154,
+    "scored": 71,
     "this_weekend": 12,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=72",
+    "input_count=71",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-06: ['World Cup Watch Party@2026-07-06 11:30:00|src=Holy City Sinner', 'Kids Eat Free@2026-07-06 16:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-07: ['World Cup Watch Party@2026-07-07 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-07-07 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00|src=Holy City Sinner\", 'The Great American Songbook featuri@2026-07-09 19:00:00|src=Holy City Sinner']",
     "survivor venue=frothy beard brewing company date=2026-07-06: ['World Cup Watch Party@2026-07-06 11:30:00', 'Kids Eat Free@2026-07-06 16:00:00']",
     "survivor venue=frothy beard brewing company date=2026-07-07: ['World Cup Watch Party@2026-07-07 11:30:00', 'Music Bingo@2026-07-07 18:30:00']",
     "survivor venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00\", 'The Great American Songbook featuri@2026-07-09 19:00:00']",
-    "output_count=72"
+    "output_count=71"
   ],
   "buckets": {
     "today": "2026-07-05",
@@ -255,21 +255,6 @@
       ],
       "weekdays": [],
       "recurring": [
-        {
-          "title": "Pour House Farmers Market",
-          "start": "2026-07-05T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
         {
           "title": "Sunday Figure Drawing",
           "start": "2026-07-05T17:00:00",
