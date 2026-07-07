@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-06 06:16 PM EDT",
+  "fetched_at": "2026-07-06 11:46 PM EDT",
   "counts": {
-    "raw": 151,
-    "scored": 66,
+    "raw": 140,
+    "scored": 62,
     "this_weekend": 2,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=66",
+    "input_count=62",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-06: ['World Cup Watch Party@2026-07-06 11:30:00|src=Holy City Sinner', 'Kids Eat Free@2026-07-06 16:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-07: ['World Cup Watch Party@2026-07-07 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-07-07 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-07-09: ['Bombargo on the N\u00dcTRL Beach Stage@2026-07-09 18:00:00|src=Holy City Sinner', 'The Novatones on the inside stage@2026-07-09 21:30:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=frothy beard brewing company date=2026-07-07: ['World Cup Watch Party@2026-07-07 11:30:00', 'Music Bingo@2026-07-07 18:30:00']",
     "survivor venue=the windjammer date=2026-07-09: ['Bombargo on the N\u00dcTRL Beach Stage@2026-07-09 18:00:00', 'The Novatones on the inside stage@2026-07-09 21:30:00']",
     "survivor venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00\", 'The Great American Songbook featuri@2026-07-09 19:00:00']",
-    "output_count=66"
+    "output_count=62"
   ],
   "buckets": {
     "today": "2026-07-06",
@@ -561,68 +561,7 @@
         "2026-07-03",
         "2026-07-05"
       ],
-      "events": [
-        {
-          "title": "July 4th Fireworks Celebration",
-          "start": "2026-07-04",
-          "end": null,
-          "venue": "Folly Beach",
-          "neighborhood": "Folly Beach",
-          "url": "https://link.6amcity.com/click/46381193.24649/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9mb2xseS1iZWFjaC1qdWx5LTR0aC1maXJld29ya3MtY2VsZWJyYXRpb24tYW1lcmljYXMtMjUwdGgtYmlydGhkYXkvMTkwNzkwNTgvMjAyNi0wNy0wNFQyMQ/62f733efd173ab15f0e89340B25e01170",
-          "description": "9 p.m. \u00b7 Folly Beach \u00b7 Free",
-          "price": 0.0,
-          "source": "CHStoday (newsletter)",
-          "category": "holiday_event",
-          "score": 1.0,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "City of North Charleston July 4th Festival + Celebration",
-          "start": "2026-07-04",
-          "end": null,
-          "venue": "Riverfront Park, North Charleston",
-          "neighborhood": "North Charleston",
-          "url": "https://link.6amcity.com/click/46355681.1652/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9jaXR5LW9mLW5vcnRoLWNoYXJsZXN0b24tanVseS00dGgtZmVzdGl2YWwtY2VsZWJyYXRpb24vMTkxMDI0ODQvMjAyNi0wNy0wNFQwMA/62f733efd173ab15f0e89340B8d25ddce",
-          "description": "5-9:30 p.m. \u00b7 Riverfront Park, North Charleston \u00b7 Free",
-          "price": 0.0,
-          "source": "CHStoday (newsletter)",
-          "category": "holiday_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Waterfront Independence Day Celebration",
-          "start": "2026-07-04",
-          "end": null,
-          "venue": "The Cooper and Joseph Riley Waterfront Park",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46419818.9648/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy93YXRlcmZyb250LWluZGVwZW5kZW5jZS1kYXktY2VsZWJyYXRpb24vMTgyNjA5ODMvMjAyNi0wNy0wNFQwMA/62f733efd173ab15f0e89340Bf3166d62",
-          "description": "4-10 p.m. (fireworks at 9:40 p.m.) \u00b7 The Cooper and Joseph Riley Waterfront Park \u00b7 Free",
-          "price": 0.0,
-          "source": "CHStoday (newsletter)",
-          "category": "holiday_event",
-          "score": 0.85,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Fourth of July Isle of Palms",
-          "start": "2026-07-04",
-          "end": null,
-          "venue": "Front Beach, Isle of Palms",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://link.6amcity.com/click/46381193.24649/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9mb3VydGgtb2YtanVseS1pc2xlLW9mLXBhbG1zLzE5MjI5NDUzLzIwMjYtMDctMDRUMDA/62f733efd173ab15f0e89340B93797530",
-          "description": "9 p.m. \u00b7 Front Beach, Isle of Palms \u00b7 Free",
-          "price": 0.0,
-          "source": "CHStoday (newsletter)",
-          "category": "holiday_event",
-          "score": 0.72,
-          "tier": "medium",
-          "recurring": false
-        }
-      ],
+      "events": [],
       "overflow": [],
       "recurring": []
     }
