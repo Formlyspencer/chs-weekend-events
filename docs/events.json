@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-07 01:20 PM EDT",
+  "fetched_at": "2026-07-07 04:01 PM EDT",
   "counts": {
-    "raw": 150,
-    "scored": 68,
+    "raw": 152,
+    "scored": 69,
     "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=68",
+    "input_count=69",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-07: ['World Cup Watch Party@2026-07-07 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-07-07 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-07-09: ['Bombargo on the N\u00dcTRL Beach Stage@2026-07-09 18:00:00|src=Holy City Sinner', 'The Novatones on the inside stage@2026-07-09 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00|src=Holy City Sinner\", 'The Great American Songbook featuri@2026-07-09 19:00:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00\", 'The Great American Songbook featuri@2026-07-09 19:00:00']",
     "survivor venue=park circle gallery date=2026-07-10: ['\"SHAPERS II\"@2026-07-10 10:30:00', '\"SHAPERS II\" (Free Reception)@2026-07-10 17:00:00']",
     "survivor venue=charleston pour house date=2026-07-10: ['Coyote Rodeo@2026-07-10 18:00:00', 'Love Songs through the Decades star@2026-07-10 19:00:00']",
-    "output_count=68"
+    "output_count=69"
   ],
   "buckets": {
     "today": "2026-07-07",
@@ -454,21 +454,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-07-09T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Bombargo on the N\u00dcTRL Beach Stage",
           "start": "2026-07-09T18:00:00",
           "end": null,
@@ -564,7 +549,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/matt-maeson/",
           "description": "Matt Maeson makes songs for those moments when you need them the most. No matter how fast life goes, he can get a grip on it and slow it down just enough to sing about it.\u2026",
           "price": null,
           "source": "Holy City Sinner",
