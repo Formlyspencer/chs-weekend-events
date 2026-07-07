@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-07 05:49 AM EDT",
+  "fetched_at": "2026-07-07 10:45 AM EDT",
   "counts": {
-    "raw": 145,
+    "raw": 150,
     "scored": 68,
     "this_weekend": 11,
     "next_weekend": 0
@@ -75,17 +75,17 @@
           "recurring": false
         },
         {
-          "title": "Wilco",
-          "start": "2026-07-10T19:00:00",
+          "title": "Fins, Friends, and 30 Years of Fun: Lowcountry Parrothead Party",
+          "start": "2026-07-11",
           "end": null,
-          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/wilco-to-perform-at-firefly-distillery-in-july/",
-          "description": "Indie rock band Wilco will perform at Firefly Distillery on Friday, July 10, at 7 p.m. Fans can enjoy two full sets with one intermission for a night dedicated entirely to the group\u2019s signature sound. Singer-songwriter Jeff Tweedy formed the group in 1994 in Chicago.\u2026",
+          "venue": "Fam's Brewing Co.",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46456064.27640/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9maW5zLWZyaWVuZHMtYW5kLTMwLXllYXJzLW9mLWZ1bi1sb3djb3VudHJ5LXBhcnJvdGhlYWQtcGFydHkvMTkxOTM5OTIvMjAyNi0wNy0xMVQxNw/62f733efd173ab15f0e89340Bb48efa99",
+          "description": "5-8 p.m. \u00b7 Fam's Brewing Co. \u00b7 Price of purchase",
           "price": null,
-          "source": "Holy City Sinner",
+          "source": "CHStoday (newsletter)",
           "category": "brewery_event",
-          "score": 0.743,
+          "score": 0.686,
           "tier": "medium",
           "recurring": false
         },
@@ -120,17 +120,17 @@
           "recurring": false
         },
         {
-          "title": "The Darling Oyster Bar Wine Lunch",
-          "start": "2026-07-10T12:00:00",
+          "title": "An Evening with Wilco",
+          "start": "2026-07-10",
           "end": null,
-          "venue": "The Darling Oyster Bar, 513 King St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Kick off your weekend with Charleston Wine + Food\u2019s Summer Sizzle at The Darling Oyster Bar on Friday, July 10 from 12\u20132 p.m.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.598,
+          "venue": "Firefly Distillery",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46456064.27640/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9hbi1ldmVuaW5nLXdpdGgtd2lsY28vMTgzMjI5NDcvMjAyNi0wNy0xMFQxOQ/62f733efd173ab15f0e89340Bb11abccc",
+          "description": "7 p.m. \u00b7 Firefly Distillery \u00b7 $69+",
+          "price": 69.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.606,
           "tier": "medium",
           "recurring": false
         },
