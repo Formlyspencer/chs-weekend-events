@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-08 04:35 AM EDT",
+  "fetched_at": "2026-07-08 07:08 AM EDT",
   "counts": {
-    "raw": 151,
-    "scored": 76,
-    "this_weekend": 16,
+    "raw": 155,
+    "scored": 75,
+    "this_weekend": 15,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=76",
+    "input_count=75",
     "pre_dup_group venue=the windjammer date=2026-07-09: ['Bombargo on the N\u00dcTRL Beach Stage@2026-07-09 18:00:00|src=Holy City Sinner', 'The Novatones on the inside stage@2026-07-09 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-09: [\"FOXY G'S 4th Annual Birthday Bash: @2026-07-09 18:00:00|src=Holy City Sinner\", 'The Great American Songbook featuri@2026-07-09 19:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=park circle gallery date=2026-07-10: ['\"SHAPERS II\"@2026-07-10 10:30:00|src=Holy City Sinner', '\"SHAPERS II\" (Free Reception)@2026-07-10 17:00:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=park circle gallery date=2026-07-10: ['\"SHAPERS II\"@2026-07-10 10:30:00', '\"SHAPERS II\" (Free Reception)@2026-07-10 17:00:00']",
     "survivor venue=charleston pour house date=2026-07-10: ['Coyote Rodeo@2026-07-10 18:00:00', 'Love Songs through the Decades star@2026-07-10 19:00:00', 'Travelin Kine@2026-07-10 21:00:00']",
     "survivor venue=the windjammer date=2026-07-10: ['The Midnight City \u2013 on the N\u00dcTRL Be@2026-07-10 18:00:00', 'VYNL on the inside Stage@2026-07-10 21:45:00']",
-    "output_count=76"
+    "output_count=75"
   ],
   "buckets": {
     "today": "2026-07-08",
@@ -195,27 +195,12 @@
           "recurring": false
         },
         {
-          "title": "Party at The Point",
-          "start": "2026-07-10T18:00:00",
-          "end": null,
-          "venue": "Charleston Harbor Resort & Marina, 20 Patriots Point Rd, Mt Pleasant, SC",
-          "neighborhood": "Mount Pleasant",
-          "url": "https://holycitysinner.com/entertainment/party-at-the-point-announces-2026-lineup/",
-          "description": "Party at The Point, the Happy Hour concert series, returns this April to the Charleston Harbor Resort and Marina in Mount Pleasant.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.556,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "AQUA: A Wet \u2018N Wild Foam Party Experience",
           "start": "2026-07-10T21:00:00",
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/aqua-a-wet-n-wild-foam-party-experience/",
           "description": "Summer in Charleston is about to get a whole lot wetter. AQUA: Wet n\u2019 Wild Foam Party floods Music Farm in downtown Charleston on Friday, July 10.\u2026",
           "price": null,
           "source": "Holy City Sinner",
