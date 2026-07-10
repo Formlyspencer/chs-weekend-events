@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-10 05:42 AM EDT",
+  "fetched_at": "2026-07-10 10:36 AM EDT",
   "counts": {
-    "raw": 169,
+    "raw": 171,
     "scored": 83,
     "this_weekend": 24,
     "next_weekend": 0
@@ -81,6 +81,21 @@
           "recurring": false
         },
         {
+          "title": "SUP Yoga at Trophy Lakes",
+          "start": "2026-07-11",
+          "end": null,
+          "venue": "Charleston Aqua Park, Johns Island",
+          "neighborhood": "Johns Island",
+          "url": "https://link.6amcity.com/click/46518350.14637/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zdXAteW9nYS1hdC10cm9waHktbGFrZXMvMTg4MjUxNDAvMjAyNi0wNy0xMVQwOA/62f733efd173ab15f0e89340B760ae2b2",
+          "description": "8:15-9:30 a.m. \u00b7 Charleston Aqua Park, Johns Island \u00b7 $25",
+          "price": 25.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.821,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "Family Movie Night: Merrily We Roll Along",
           "start": "2026-07-11T18:00:00",
           "end": null,
@@ -122,21 +137,6 @@
           "source": "Holy City Sinner",
           "category": "food_festival",
           "score": 0.78,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "SUP Yoga at Trophy Lakes",
-          "start": "2026-07-11T08:15:00",
-          "end": null,
-          "venue": "Charleston Aqua Park, 3050 Marlin Rd., Johns Island, SC",
-          "neighborhood": "Johns Island",
-          "url": "https://eventvesta.com/events/145811/t/tickets",
-          "description": "Come join us on the beautiful, peaceful Trophy Lakes for SUP Yoga with Erin. Take advanatage our laid back yoga practice that is ideal for beginners and frequent yogis throughout October! These are the dates: May 23, June 13, July 11, July 25 -- 8:15 - 9:30am Call 843-259-2645 or\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.775,
           "tier": "medium",
           "recurring": false
         },
