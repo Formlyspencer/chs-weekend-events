@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-09 06:25 PM EDT",
+  "fetched_at": "2026-07-09 11:40 PM EDT",
   "counts": {
-    "raw": 167,
+    "raw": 164,
     "scored": 81,
     "this_weekend": 21,
     "next_weekend": 0
@@ -281,7 +281,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/aqua-a-wet-n-wild-foam-party-experience/",
           "description": "Summer in Charleston is about to get a whole lot wetter. AQUA: Wet n\u2019 Wild Foam Party floods Music Farm in downtown Charleston on Friday, July 10.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -1022,7 +1022,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
