@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-11 05:54 PM EDT",
+  "fetched_at": "2026-07-11 11:20 PM EDT",
   "counts": {
-    "raw": 172,
+    "raw": 165,
     "scored": 77,
     "this_weekend": 23,
     "next_weekend": 0
@@ -652,21 +652,6 @@
           "recurring": true
         },
         {
-          "title": "Downtown Charleston Farmers Market",
-          "start": "2026-07-11T08:00:00",
-          "end": null,
-          "venue": "Marion Square, 329 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/Charleston-Farmers-Market-37",
-          "description": "Charleston's flagship downtown farmers market at Marion Square. Local produce, prepared foods, makers, and live music. Saturdays April through November.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.655,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
           "title": "Folly Beach Farmer's Market",
           "start": "2026-07-11T12:00:00",
           "end": null,
@@ -693,6 +678,21 @@
           "source": "Holy City Sinner",
           "category": "other_drinking",
           "score": 0.63,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Charleston Farmers Market",
+          "start": "2026-07-11T08:00:00",
+          "end": null,
+          "venue": "Marion Square",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/food-bev/charleston-farmers-market-adjust-hours-for-july-11-due-to-fo/",
+          "description": "The City of Charleston has modified the operating hours for the Charleston Farmers Market on Saturday, July 11, at Marion Square. Due to the forecasted heat, the market will operate from 8 a.m. to noon, closing two hours earlier than its normal schedule.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
