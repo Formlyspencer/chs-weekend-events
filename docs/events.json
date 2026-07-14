@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-13 06:00 PM EDT",
+  "fetched_at": "2026-07-13 10:47 PM EDT",
   "counts": {
-    "raw": 160,
-    "scored": 64,
+    "raw": 150,
+    "scored": 61,
     "this_weekend": 9,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=64",
+    "input_count=61",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-13: ['World Cup Watch Party@2026-07-13 11:30:00|src=Holy City Sinner', 'Kids Eat Free@2026-07-13 16:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-14: ['World Cup Watch Party@2026-07-14 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-07-14 18:30:00|src=Holy City Sinner']",
     "survivor venue=frothy beard brewing company date=2026-07-13: ['World Cup Watch Party@2026-07-13 11:30:00', 'Kids Eat Free@2026-07-13 16:00:00']",
     "survivor venue=frothy beard brewing company date=2026-07-14: ['World Cup Watch Party@2026-07-14 11:30:00', 'Music Bingo@2026-07-14 18:30:00']",
-    "output_count=64"
+    "output_count=61"
   ],
   "buckets": {
     "today": "2026-07-13",
@@ -647,56 +647,9 @@
         "2026-07-10",
         "2026-07-12"
       ],
-      "events": [
-        {
-          "title": "SUP Yoga at Trophy Lakes",
-          "start": "2026-07-11",
-          "end": null,
-          "venue": "Charleston Aqua Park, Johns Island",
-          "neighborhood": "Johns Island",
-          "url": "https://link.6amcity.com/click/46518350.14637/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zdXAteW9nYS1hdC10cm9waHktbGFrZXMvMTg4MjUxNDAvMjAyNi0wNy0xMVQwOA/62f733efd173ab15f0e89340B760ae2b2",
-          "description": "8:15-9:30 a.m. \u00b7 Charleston Aqua Park, Johns Island \u00b7 $25",
-          "price": 25.0,
-          "source": "CHStoday (newsletter)",
-          "category": "brewery_event",
-          "score": 0.821,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Fins, Friends, and 30 Years of Fun: Lowcountry Parrothead Party",
-          "start": "2026-07-11",
-          "end": null,
-          "venue": "Fam's Brewing Co.",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46456064.27640/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9maW5zLWZyaWVuZHMtYW5kLTMwLXllYXJzLW9mLWZ1bi1sb3djb3VudHJ5LXBhcnJvdGhlYWQtcGFydHkvMTkxOTM5OTIvMjAyNi0wNy0xMVQxNw/62f733efd173ab15f0e89340Bb48efa99",
-          "description": "5-8 p.m. \u00b7 Fam's Brewing Co. \u00b7 Price of purchase",
-          "price": null,
-          "source": "CHStoday (newsletter)",
-          "category": "brewery_event",
-          "score": 0.686,
-          "tier": "medium",
-          "recurring": false
-        }
-      ],
+      "events": [],
       "overflow": [],
-      "recurring": [
-        {
-          "title": "Charleston Farmers Market",
-          "start": "2026-07-11",
-          "end": null,
-          "venue": "Marion Square",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46518350.14637/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9jaGFybGVzdG9uLWZhcm1lcnMtbWFya2V0LTIwMjYvMTc5MzM2NTgvMjAyNi0wNy0xMVQwOA/62f733efd173ab15f0e89340B630f48c7",
-          "description": "8 a.m.-2 p.m. \u00b7 Marion Square \u00b7 Price of purchase",
-          "price": null,
-          "source": "CHStoday (newsletter)",
-          "category": "farmers_market",
-          "score": 0.542,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
+      "recurring": []
     }
   }
 }
