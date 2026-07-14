@@ -1,21 +1,21 @@
 {
-  "fetched_at": "2026-07-13 10:47 PM EDT",
+  "fetched_at": "2026-07-14 01:35 AM EDT",
   "counts": {
-    "raw": 150,
-    "scored": 61,
-    "this_weekend": 9,
+    "raw": 152,
+    "scored": 62,
+    "this_weekend": 15,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=61",
-    "pre_dup_group venue=frothy beard brewing company date=2026-07-13: ['World Cup Watch Party@2026-07-13 11:30:00|src=Holy City Sinner', 'Kids Eat Free@2026-07-13 16:00:00|src=Holy City Sinner']",
+    "input_count=62",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-14: ['World Cup Watch Party@2026-07-14 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-07-14 18:30:00|src=Holy City Sinner']",
-    "survivor venue=frothy beard brewing company date=2026-07-13: ['World Cup Watch Party@2026-07-13 11:30:00', 'Kids Eat Free@2026-07-13 16:00:00']",
+    "pre_dup_group venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00|src=Holy City Sinner', 'Wolph@2026-07-17 21:00:00|src=Holy City Sinner']",
     "survivor venue=frothy beard brewing company date=2026-07-14: ['World Cup Watch Party@2026-07-14 11:30:00', 'Music Bingo@2026-07-14 18:30:00']",
-    "output_count=61"
+    "survivor venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00', 'Wolph@2026-07-17 21:00:00']",
+    "output_count=62"
   ],
   "buckets": {
-    "today": "2026-07-13",
+    "today": "2026-07-14",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -54,6 +54,21 @@
           "recurring": false
         },
         {
+          "title": "Shakin' Martinis",
+          "start": "2026-07-17T20:00:00",
+          "end": null,
+          "venue": "The Washout, 41 Center St, Folly Beach, SC",
+          "neighborhood": "Folly Beach",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Live Music Times: Wednesday's 6-9pm Thursday's: 7-10pm Friday & Saturday: 8-11pm Reggae Sundays: 6-9pm 2 nd - Malin Wagnon Duo 3 rd - Dan's Tramp Stamp & The Money Bags 4 th - Outlaw Country Fest 5-11pm 9th- Dans Tramp Stamp Duo 10th - Malin Wagnon & Friends 11 th - Johnny Hollid\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.765,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Brewery Blast Laser Tag",
           "start": "2026-07-17T17:00:00",
           "end": null,
@@ -61,6 +76,21 @@
           "neighborhood": "North Charleston",
           "url": "https://eventvesta.com/events/133363/t/tickets",
           "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Paint & Sip Event: Boho Sea Turtle",
+          "start": "2026-07-17T18:30:00",
+          "end": null,
+          "venue": "Tideland Brewing, 4155 Dorchester Rd., Unit C, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D204742460",
+          "description": "Tideland has a huge open renovated taproom with 25 indoor taps which contain a beer choice for every taste. They offer 4 pack cans, crowlers, and growlers to go and also have cider, wine, and N/A options.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "brewery_event",
@@ -80,6 +110,21 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.631,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Reggae Nights Summer Concert Series: Mystic Vibrations",
+          "start": "2026-07-17T20:00:00",
+          "end": null,
+          "venue": "James Island County Park, 871 Riverland Dr, Charleston, SC",
+          "neighborhood": "James Island",
+          "url": "https://holycitysinner.com/entertainment/reggae-nights-summer-concert-series-kicks-off-may-29-at-jame/",
+          "description": "Charleston County Parks kicks off the 2026 Reggae Nights Summer Concert Series at James Island County Park on Friday, May 29. The first concert this year will feature locally-based Equal Rights Reggae Band.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.612,
           "tier": "medium",
           "recurring": false
         },
@@ -129,6 +174,21 @@
           "recurring": false
         },
         {
+          "title": "Wolph",
+          "start": "2026-07-17T21:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Wolph Friday 7.17.26 Charleston Pour House Main Stage 8pm doors /9pm show $13 advance / $15 day of show 2 x sets",
+          "price": 13.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Fruit Bats on the N\u00dcTRL Beach Stage",
           "start": "2026-07-17T18:00:00",
           "end": null,
@@ -140,6 +200,36 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Dierks Bentley with special guests Ricky Skaggs & Kentucky Thunder and Cole Goodwin",
+          "start": "2026-07-17T19:00:00",
+          "end": null,
+          "venue": "Credit One Stadium, 161 Seven Farms Drive, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/dierks-bentley-to-perform-on-daniel-island-in-july/",
+          "description": "Multi-platinum country singer-songwriter Dierks Bentley will bring his \u201cOff the Map Tour\u201d to Credit One Stadium on Friday, July 17. He will be joined by Ricky Skaggs & Kentucky Thunder and Cole Goodwin. A ticket presale will run from 10 a.m. to 10 p.m. Thursday, Feb. 19, 2026.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.411,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Miss All American Pageant",
+          "start": "2026-07-17T19:30:00",
+          "end": null,
+          "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Miss All American Pageant July 17 & 18, 2026 North Charleston Performing Arts Center July 17 at 7:30 PM (Preliminary Competition) July 18 at 7:00 PM (Finals Competition) Tickets Now On Sale!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.411,
           "tier": "low",
           "recurring": false
         },
@@ -283,14 +373,14 @@
           "recurring": false
         },
         {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-07-13T10:00:00",
+          "title": "\"250 Years from Mr. Freedman\" by Fletcher Williams III (Opening Reception)",
+          "start": "2026-07-14T12:00:00",
           "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
+          "venue": "Storehouse 8,\u00a02154 Noisette Blvd.,\u00a0Suite 207, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/fletcher-williams-iii-presents-250-years-from-mr-freedman-at/",
+          "description": "250 Years from Mr. Freedman is a solo exhibition by Fletcher Williams III, held in historic Storehouse 8 at Navy Yard Charleston in conjunction with the 250th anniversary of the United States.\u2026",
+          "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.506,
@@ -344,7 +434,7 @@
         },
         {
           "title": "World Cup Watch Party",
-          "start": "2026-07-13T11:30:00",
+          "start": "2026-07-14T11:30:00",
           "end": null,
           "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
           "neighborhood": "Charleston",
@@ -356,6 +446,21 @@
           "score": 0.409,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-07-16T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "West Africa to the Lowcountry with Bintou N\u2019Daw",
@@ -433,42 +538,12 @@
           "recurring": true
         },
         {
-          "title": "FreshFields Farmers Market",
-          "start": "2026-07-13",
-          "end": null,
-          "venue": "Freshfields Village, Johns Island",
-          "neighborhood": "Johns Island",
-          "url": "https://link.6amcity.com/click/46518367.15635/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9mcmVzaGZpZWxkcy1mYXJtZXJzLW1hcmtldC8xOTA3NDQzOS8yMDI2LTA3LTEzVDE1/62f733efd173ab15f0e89340B59f2c106",
-          "description": "3-7 p.m. \u00b7 Freshfields Village, Johns Island \u00b7 Price of purchase",
-          "price": null,
-          "source": "CHStoday (newsletter)",
-          "category": "farmers_market",
-          "score": 0.337,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-07-13T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Toad the Wet Sprocket",
           "start": "2026-07-14T20:00:00",
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/toad-the-wet-sprocket/",
           "description": "Event Date Tuesday, July 14 Event Times Doors Open 7:00 pm Event Starts 8:00 pm All Ages",
           "price": null,
           "source": "Holy City Sinner",
