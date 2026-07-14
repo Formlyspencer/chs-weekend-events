@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14 06:50 AM EDT",
+  "fetched_at": "2026-07-14 09:52 AM EDT",
   "counts": {
     "raw": 160,
     "scored": 64,
@@ -95,21 +95,6 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Dierks Bentley Pre-Party",
-          "start": "2026-07-17",
-          "end": null,
-          "venue": "New Realm Brewing Co.",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46551748.4633/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9kaWVya3MtYmVudGxleS1wcmVwYXJ0eS8xODgzMTg1NS8yMDI2LTA3LTE3VDE2/62f733efd173ab15f0e89340B979dba4a",
-          "description": "4-7 p.m. \u00b7 New Realm Brewing Co. \u00b7 Price of purchase",
-          "price": null,
-          "source": "CHStoday (newsletter)",
-          "category": "brewery_event",
-          "score": 0.686,
           "tier": "medium",
           "recurring": false
         },
@@ -215,6 +200,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Dierks Bentley Pre-Concert Party",
+          "start": "2026-07-17T16:00:00",
+          "end": null,
+          "venue": "New Realm Brewing Co., 880 Island Park Dr, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/meet-dierks-bentley-at-new-realm-brewing-s-official-pre-conc/",
+          "description": "On Friday, July 17, from 4-7 p.m., New Realm Brewing Company will host a pre-concert party featuring country music star Dierks Bentley.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.442,
           "tier": "low",
           "recurring": false
         },
