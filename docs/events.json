@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-14 04:13 AM EDT",
+  "fetched_at": "2026-07-14 06:50 AM EDT",
   "counts": {
-    "raw": 152,
-    "scored": 62,
-    "this_weekend": 15,
+    "raw": 160,
+    "scored": 64,
+    "this_weekend": 16,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=62",
+    "input_count=64",
     "pre_dup_group venue=frothy beard brewing company date=2026-07-14: ['World Cup Watch Party@2026-07-14 11:30:00|src=Holy City Sinner', 'Music Bingo@2026-07-14 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00|src=Holy City Sinner', 'Wolph@2026-07-17 21:00:00|src=Holy City Sinner']",
     "survivor venue=frothy beard brewing company date=2026-07-14: ['World Cup Watch Party@2026-07-14 11:30:00', 'Music Bingo@2026-07-14 18:30:00']",
     "survivor venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00', 'Wolph@2026-07-17 21:00:00']",
-    "output_count=62"
+    "output_count=64"
   ],
   "buckets": {
     "today": "2026-07-14",
@@ -95,6 +95,21 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Dierks Bentley Pre-Party",
+          "start": "2026-07-17",
+          "end": null,
+          "venue": "New Realm Brewing Co.",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46551748.4633/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9kaWVya3MtYmVudGxleS1wcmVwYXJ0eS8xODgzMTg1NS8yMDI2LTA3LTE3VDE2/62f733efd173ab15f0e89340B979dba4a",
+          "description": "4-7 p.m. \u00b7 New Realm Brewing Co. \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.686,
           "tier": "medium",
           "recurring": false
         },
@@ -478,21 +493,6 @@
           "recurring": false
         },
         {
-          "title": "XO Brasserie Signature Dinner",
-          "start": "2026-07-15T18:00:00",
-          "end": null,
-          "venue": "XO Brasserie, 1090 Morrison Dr., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Experience an elevated evening of bold flavors and collaborative cuisine at XO Brasserie with chef Herman Ng and a special guest chef as a part of Charleston Wine + Food\u2019s Summer Sizzle.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.387,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Big Shrimp",
           "start": "2026-07-16T18:00:00",
           "end": null,
@@ -538,6 +538,21 @@
           "recurring": true
         },
         {
+          "title": "IOP Farmers Market",
+          "start": "2026-07-16",
+          "end": null,
+          "venue": "Isle of Palms Recreation Center",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://link.6amcity.com/click/46551748.4633/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9pb3AtZmFybWVycy1tYXJrZXQvMTgwNzM2NzAvMjAyNi0wNy0xNlQwMA/62f733efd173ab15f0e89340B3629ac0a",
+          "description": "4-7 p.m. \u00b7 Isle of Palms Recreation Center \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "farmers_market",
+          "score": 0.344,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Toad the Wet Sprocket",
           "start": "2026-07-14T20:00:00",
           "end": null,
@@ -558,12 +573,27 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/new-world-men-the-sound-of-rush/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "New World Men was formed in the summer of 2014 and has since performed hundreds of shows \u2014 many of them sold out \u2014 earning a reputation as Canada\u2019s most technically precise and musically authentic RUSH tribute act.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.301,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Seafood Tower Hour",
+          "start": "2026-07-14",
+          "end": null,
+          "venue": "Hank's Seafood",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46551748.4633/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zZWFmb29kLXRvd2VyLWhvdXIvMTg0ODMwOTQvMjAyNi0wNy0xNFQxNw/62f733efd173ab15f0e89340B68938222",
+          "description": "5-6 p.m. \u00b7 Hank's Seafood \u00b7 Half-price seafood towers and champagne",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "other_drinking",
+          "score": 0.278,
           "tier": "low",
           "recurring": false
         },
