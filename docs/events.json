@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-07-15 04:21 AM EDT",
+  "fetched_at": "2026-07-15 06:54 AM EDT",
   "counts": {
-    "raw": 156,
-    "scored": 65,
-    "this_weekend": 19,
+    "raw": 162,
+    "scored": 66,
+    "this_weekend": 20,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=65",
+    "input_count=66",
     "pre_dup_group venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00|src=Holy City Sinner', 'Wolph@2026-07-17 21:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00', 'Wolph@2026-07-17 21:00:00']",
-    "output_count=65"
+    "output_count=66"
   ],
   "buckets": {
     "today": "2026-07-15",
@@ -63,6 +63,21 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.874,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Pickers Hullabaloo Flea Market",
+          "start": "2026-07-18",
+          "end": null,
+          "venue": "The Grand",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46577905.7629/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9waWNrZXJzLWh1bGxhYmFsb28tZmxlYS1tYXJrZXQtYXQtdGhlLWdyYW5kLzE5MjUzNDQ5LzIwMjYtMDctMThUMTA/62f733efd173ab15f0e89340Baf6a1bbb",
+          "description": "10 a.m.-4 p.m. \u00b7 The Grand \u00b7 $5+",
+          "price": 5.0,
+          "source": "CHStoday (newsletter)",
+          "category": "vintage_market",
+          "score": 0.85,
           "tier": "high",
           "recurring": false
         },
