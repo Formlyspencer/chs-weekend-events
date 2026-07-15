@@ -1,16 +1,20 @@
 {
-  "fetched_at": "2026-07-15 12:26 PM EDT",
+  "fetched_at": "2026-07-15 03:17 PM EDT",
   "counts": {
     "raw": 163,
-    "scored": 65,
+    "scored": 66,
     "this_weekend": 20,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=65",
+    "input_count=66",
+    "pre_dup_group venue=the windjammer date=2026-07-16: ['Buffalo Traffic Jam \u2013 on the N\u00dcTRL @2026-07-16 18:00:00|src=Holy City Sinner', 'Tanner Beane & Dirty Power on the i@2026-07-16 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-07-17: ['Fruit Bats on the N\u00dcTRL Beach Stage@2026-07-17 18:00:00|src=Holy City Sinner', 'Purple Magnolia on the inside stage@2026-07-17 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00|src=Holy City Sinner', 'Wolph@2026-07-17 21:00:00|src=Holy City Sinner']",
+    "survivor venue=the windjammer date=2026-07-16: ['Buffalo Traffic Jam \u2013 on the N\u00dcTRL @2026-07-16 18:00:00', 'Tanner Beane & Dirty Power on the i@2026-07-16 21:30:00']",
+    "survivor venue=the windjammer date=2026-07-17: ['Fruit Bats on the N\u00dcTRL Beach Stage@2026-07-17 18:00:00', 'Purple Magnolia on the inside stage@2026-07-17 22:00:00']",
     "survivor venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00', 'Wolph@2026-07-17 21:00:00']",
-    "output_count=65"
+    "output_count=66"
   ],
   "buckets": {
     "today": "2026-07-15",
@@ -157,21 +161,6 @@
           "recurring": false
         },
         {
-          "title": "Bonsai Workshop",
-          "start": "2026-07-18T12:00:00",
-          "end": null,
-          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
-          "description": "Bonsai Workshop | Saturday, July 18th Join us at Firefly Distillery for a hands-on bonsai workshop on Saturday, July 18th from 12\u20132 PM. Enjoy live music and food trucks. Spots are limited!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "World Cup Watch Party",
           "start": "2026-07-17T11:30:00",
           "end": null,
@@ -255,6 +244,21 @@
           "url": "https://charlestonpourhouse.com/",
           "description": "Wolph Friday 7.17.26 Charleston Pour House Main Stage 8pm doors /9pm show $13 advance / $15 day of show 2 x sets",
           "price": 13.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Purple Magnolia on the inside stage",
+          "start": "2026-07-17T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "Purple Magnolia on the inside stage $10 or FREE with a Fruit Bats ticket July 17, 2026 Doors at 10:00 pm 21 Up https://www.instagram.com/purplemagnoliamusic/",
+          "price": 10.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
@@ -361,21 +365,6 @@
           "neighborhood": "Charleston",
           "url": "https://duckworth.gallery/show/duckworth-gallery-a-moveable-feast",
           "description": "Art Exhibition Featuring Thirteen of Charleston's Most Beloved Artists of the last Three Decades on Display at Duckworth Gallery.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.313,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Bloom Where You're Planted\ufeff",
-          "start": "2026-07-18T12:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://reduxstudios.org/",
-          "description": "Gallery 1056: Bloom Where You're Planted \ufeff Opening Friday, May 29th 5-8PM Artist Talk Saturday July 25",
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -641,6 +630,21 @@
           "recurring": false
         },
         {
+          "title": "Tanner Beane & Dirty Power on the inside stage",
+          "start": "2026-07-16T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "Tanner Beane & Dirty Power on the inside stage $10 or FREE with a Buffalo Traffic Jam ticket July 16, 2026 Doors at 9:30 pm 21 Up ARTIST WESITE https://tb-dp.com/",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.378,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Bingo and Movie Nights on the Village Green",
           "start": "2026-07-15T18:30:00",
           "end": null,
@@ -676,7 +680,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/new-world-men-the-sound-of-rush/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "New World Men was formed in the summer of 2014 and has since performed hundreds of shows \u2014 many of them sold out \u2014 earning a reputation as Canada\u2019s most technically precise and musically authentic RUSH tribute act.\u2026",
           "price": null,
           "source": "Holy City Sinner",
