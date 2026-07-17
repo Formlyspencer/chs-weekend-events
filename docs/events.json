@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-17 04:16 AM EDT",
+  "fetched_at": "2026-07-17 06:50 AM EDT",
   "counts": {
-    "raw": 171,
-    "scored": 74,
-    "this_weekend": 31,
+    "raw": 175,
+    "scored": 75,
+    "this_weekend": 32,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=74",
+    "input_count=75",
     "pre_dup_group venue=the windjammer date=2026-07-17: ['Fruit Bats on the N\u00dcTRL Beach Stage@2026-07-17 18:00:00|src=Holy City Sinner', 'Purple Magnolia on the inside stage@2026-07-17 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00|src=Holy City Sinner', 'Wolph@2026-07-17 21:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-07-18: ['Feeling 22: A Tribute to Taylor Swi@2026-07-18 18:00:00|src=Holy City Sinner', 'Marshal Horn & The Coverboys on the@2026-07-18 22:00:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=charleston pour house date=2026-07-17: ['The\\xa0Dubplates@2026-07-17 18:00:00', 'Wolph@2026-07-17 21:00:00']",
     "survivor venue=the windjammer date=2026-07-18: ['Feeling 22: A Tribute to Taylor Swi@2026-07-18 18:00:00', 'Marshal Horn & The Coverboys on the@2026-07-18 22:00:00']",
     "survivor venue=charleston pour house date=2026-07-18: ['The Wilson Springs Hotel@2026-07-18 18:00:00', \"Yo\\xa0Mama's\\xa0Big\\xa0Fat\\xa0Booty\\xa0Band\\xa0w/ Los@2026-07-18 21:00:00\"]",
-    "output_count=74"
+    "output_count=75"
   ],
   "buckets": {
     "today": "2026-07-17",
@@ -279,6 +279,21 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Charleston Vintage Market",
+          "start": "2026-07-19",
+          "end": null,
+          "venue": "The Refinery",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46616071.25627/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9jaGFybGVzdG9uLXZpbnRhZ2UtbWFya2V0LzE5NDA3Mzg2LzIwMjYtMDctMTlUMTE/62f733efd173ab15f0e89340B1e64884e",
+          "description": "11 a.m.-4 p.m. \u00b7 The Refinery \u00b7 Price of purchase",
+          "price": null,
+          "source": "CHStoday (newsletter)",
+          "category": "vintage_market",
+          "score": 0.722,
           "tier": "medium",
           "recurring": false
         },
@@ -695,7 +710,7 @@
           "end": null,
           "venue": "Duckworth Gallery, 120 Meeting Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://duckworth.gallery/show/duckworth-gallery-a-moveable-feast",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Art Exhibition Featuring Thirteen of Charleston's Most Beloved Artists of the last Three Decades on Display at Duckworth Gallery.",
           "price": null,
           "source": "Holy City Sinner",
