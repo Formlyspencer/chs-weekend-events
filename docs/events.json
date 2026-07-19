@@ -1,18 +1,16 @@
 {
-  "fetched_at": "2026-07-19 09:24 AM EDT",
+  "fetched_at": "2026-07-19 12:00 PM EDT",
   "counts": {
     "raw": 160,
-    "scored": 60,
+    "scored": 59,
     "this_weekend": 13,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=60",
+    "input_count=59",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
-    "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
-    "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
-    "output_count=60"
+    "output_count=59"
   ],
   "buckets": {
     "today": "2026-07-19",
@@ -444,21 +442,6 @@
           "recurring": true
         },
         {
-          "title": "Mikaela Davis w/ Nic Panken",
-          "start": "2026-07-23T20:30:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Mikaela Davis w/ Nic Panken Thursday 7.23.26 Charleston Pour House Main stage 730 doors /830 show",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.321,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Kids Eat Free",
           "start": "2026-07-20T16:00:00",
           "end": null,
@@ -539,7 +522,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/elmiene/",
           "description": "\u201cThis phase is really the beginning of Elmiene,\u201d says the 24-year-old artist, born Abdala Elamin. \u201c[It] feels like the first time I can really say with full confidence, every single thing I did on this project was intentional.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -577,6 +560,21 @@
           "score": 0.273,
           "tier": "low",
           "recurring": true
+        },
+        {
+          "title": "PoHo Disc Jam",
+          "start": "2026-07-20T18:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "PoHo Disc Jam > during the Monday Muse Live LP shows Monday July 20th , 27th & August 2nd 2027 A PoHo Style Disc Golf Putting League! rolling start > 9 hole course in the lot.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.236,
+          "tier": "low",
+          "recurring": false
         }
       ],
       "recurring": [
