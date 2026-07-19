@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-19 06:37 AM EDT",
+  "fetched_at": "2026-07-19 09:24 AM EDT",
   "counts": {
     "raw": 160,
-    "scored": 61,
+    "scored": 60,
     "this_weekend": 13,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=61",
+    "input_count=60",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
-    "output_count=61"
+    "output_count=60"
   ],
   "buckets": {
     "today": "2026-07-19",
@@ -412,21 +412,6 @@
           "score": 0.421,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Karaoke",
-          "start": "2026-07-23T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Tunnel Vision w/ Capital Dub",
