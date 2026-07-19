@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-18 05:54 PM EDT",
+  "fetched_at": "2026-07-18 11:16 PM EDT",
   "counts": {
-    "raw": 166,
-    "scored": 69,
+    "raw": 157,
+    "scored": 68,
     "this_weekend": 26,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=69",
+    "input_count=68",
     "pre_dup_group venue=the windjammer date=2026-07-18: ['Feeling 22: A Tribute to Taylor Swi@2026-07-18 18:00:00|src=Holy City Sinner', 'Marshal Horn & The Coverboys on the@2026-07-18 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-18: ['The Wilson Springs Hotel@2026-07-18 18:00:00|src=Holy City Sinner', \"Yo\\xa0Mama's\\xa0Big\\xa0Fat\\xa0Booty\\xa0Band\\xa0w/ Los@2026-07-18 21:00:00|src=Holy City Sinner\"]",
     "survivor venue=the windjammer date=2026-07-18: ['Feeling 22: A Tribute to Taylor Swi@2026-07-18 18:00:00', 'Marshal Horn & The Coverboys on the@2026-07-18 22:00:00']",
     "survivor venue=charleston pour house date=2026-07-18: ['The Wilson Springs Hotel@2026-07-18 18:00:00', \"Yo\\xa0Mama's\\xa0Big\\xa0Fat\\xa0Booty\\xa0Band\\xa0w/ Los@2026-07-18 21:00:00\"]",
-    "output_count=69"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-07-18",
@@ -74,7 +74,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/cat-power/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Cat Power is celebrating the 20th anniversary of her milestone 2006 album, The Greatest, with Redux, a three-song EP arriving digitally and on 10\u201d vinyl via Domino Recording Company on Friday, January 23, 2026.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -85,7 +85,7 @@
         },
         {
           "title": "Pickers Hullabaloo Flea Market",
-          "start": "2026-07-18",
+          "start": "2026-07-19",
           "end": null,
           "venue": "The Grand",
           "neighborhood": null,
@@ -269,7 +269,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/world-cup-final/",
           "description": "Experience every thrilling moment on a massive 20-foot video screen with fellow fans as the world\u2019s biggest match takes center stage. Come early to grab a great spot and enjoy food and drink specials all afternoon long.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -554,6 +554,21 @@
       "weekdays": [],
       "recurring": [
         {
+          "title": "Charleston Farmers Market",
+          "start": "2026-07-18T08:00:00",
+          "end": null,
+          "venue": "Marion Square",
+          "neighborhood": "Charleston",
+          "url": "https://charlestonfarmersmarket.com/",
+          "description": "MARION SQUARE 329 Meeting Street, Charleston, SC 29403 Saturdays, 8:00 AM \u2013 2:00 PM April 4 \u2013 November 21, 2026 *CLOSED: July 4th & November 28th Additional Markets: (9:00 AM \u2013 3:00 PM) Sunday, May 31st Saturdays & Sundays, Dec.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": true
+        },
+        {
           "title": "Pour House Farmers Market",
           "start": "2026-07-19T11:00:00",
           "end": null,
@@ -569,27 +584,12 @@
           "recurring": true
         },
         {
-          "title": "Downtown Charleston Farmers Market",
-          "start": "2026-07-18T08:00:00",
-          "end": null,
-          "venue": "Marion Square, 329 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/Charleston-Farmers-Market-37",
-          "description": "Charleston's flagship downtown farmers market at Marion Square. Local produce, prepared foods, makers, and live music. Saturdays April through November.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.655,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
           "title": "Folly Beach Farmer's Market",
           "start": "2026-07-18T12:00:00",
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -619,7 +619,7 @@
           "end": null,
           "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.seaislandfarmersmarket.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
           "price": null,
           "source": "Holy City Sinner",
