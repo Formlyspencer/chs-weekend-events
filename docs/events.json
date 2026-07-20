@@ -1,71 +1,30 @@
 {
-  "fetched_at": "2026-07-19 11:49 PM EDT",
+  "fetched_at": "2026-07-20 05:21 AM EDT",
   "counts": {
-    "raw": 150,
-    "scored": 55,
-    "this_weekend": 10,
-    "next_weekend": 0
+    "raw": 142,
+    "scored": 53,
+    "this_weekend": 3,
+    "next_weekend": 2
   },
   "dedup_log": [
-    "input_count=55",
+    "input_count=53",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
-    "output_count=55"
+    "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
+    "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
+    "output_count=53"
   ],
   "buckets": {
     "today": "2026-07-19",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-07-17",
         "2026-07-19"
       ],
       "events": [
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-07-19T13:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Cat Power",
-          "start": "2026-07-19T20:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Cat Power is celebrating the 20th anniversary of her milestone 2006 album, The Greatest, with Redux, a three-song EP arriving digitally and on 10\u201d vinyl via Domino Recording Company on Friday, January 23, 2026.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Reggae Sunday",
-          "start": "2026-07-19T18:00:00",
-          "end": null,
-          "venue": "The Washout, 41 Center St, Folly Beach, SC",
-          "neighborhood": "Folly Beach",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Live Music Times: Wednesday's 6-9pm Thursday's: 7-10pm Friday & Saturday: 8-11pm Reggae Sundays: 6-9pm 2 nd - Malin Wagnon Duo 3 rd - Dan's Tramp Stamp & The Money Bags 4 th - Outlaw Country Fest 5-11pm 9th- Dans Tramp Stamp Duo 10th - Malin Wagnon & Friends 11 th - Johnny Hollid\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.765,
-          "tier": "medium",
-          "recurring": false
-        },
         {
           "title": "Middleton Made Knives Artisan Market",
           "start": "2026-07-18",
@@ -77,36 +36,6 @@
           "price": null,
           "source": "CHStoday (newsletter)",
           "category": "maker_market",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "World Cup Watch Party",
-          "start": "2026-07-19T11:30:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Join us in the taproom to watch the 2026 World Cup, June 11 through July 19!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Brewery Blast Laser Tag",
-          "start": "2026-07-19T17:00:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://eventvesta.com/events/133363/t/tickets",
-          "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
           "score": 0.743,
           "tier": "medium",
           "recurring": false
@@ -127,38 +56,49 @@
           "recurring": false
         },
         {
-          "title": "World Cup Final (Free Watch Party)",
-          "start": "2026-07-19T15:00:00",
+          "title": "World Cup Final",
+          "start": "2026-07-19",
           "end": null,
-          "venue": "Music Farm, 32 Ann St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Experience every thrilling moment on a massive 20-foot video screen with fellow fans as the world\u2019s biggest match takes center stage. Come early to grab a great spot and enjoy food and drink specials all afternoon long.\u2026",
+          "venue": "Music Farm",
+          "neighborhood": null,
+          "url": "https://link.6amcity.com/click/46616071.25627/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy93b3JsZC1jdXAtZmluYWwvMTkxODU1NDcvMjAyNi0wNy0xOVQxNA/62f733efd173ab15f0e89340Bacb77387",
+          "description": "2 p.m. \u00b7 Music Farm \u00b7 Free",
           "price": 0.0,
-          "source": "Holy City Sinner",
+          "source": "CHStoday (newsletter)",
           "category": "outdoor_music",
-          "score": 0.612,
+          "score": 0.565,
+          "tier": "medium",
+          "recurring": false
+        }
+      ],
+      "overflow": [],
+      "weekdays": [],
+      "recurring": []
+    },
+    "next_weekend": {
+      "range": [
+        "2026-07-24",
+        "2026-07-26"
+      ],
+      "events": [
+        {
+          "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-07-24T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.782,
           "tier": "medium",
           "recurring": false
         },
         {
-          "title": "Grand Tasting & Wine Auction",
-          "start": "2026-07-19T16:00:00",
-          "end": null,
-          "venue": "Dashi Wine Bar and Emporium, 5660 Rivers Ave., Unit J, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://thepointis.org",
-          "description": "Wine lovers, this one is for you \ud83c\udf77\u2728 The Point is teaming up with Dashi Wine Bar & Emporium for an unforgettable evening of wine tasting, bites, and bidding \u2014 all for a great cause.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "\"By the Sea\"",
-          "start": "2026-07-19T10:00:00",
+          "start": "2026-07-24T10:00:00",
           "end": null,
           "venue": "Charleston Crafts Gallery, 140 E Bay St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -167,30 +107,60 @@
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.35,
+          "score": 0.297,
           "tier": "low",
           "recurring": false
         }
       ],
       "overflow": [
         {
-          "title": "Testaments & Revelations: Second Verse",
-          "start": "2026-07-19T12:00:00",
+          "title": "\"SHAPERS II\"",
+          "start": "2026-07-24T10:30:00",
           "end": null,
-          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
-          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
+          "venue": "Park Circle Gallery, 4820 Jenkins Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/park-circle-gallery-to-feature-group-ceramics-exhibition/",
+          "description": "The City of North Charleston\u2019s Cultural Arts Department is pleased to announce that a group exhibition of ceramic sculptures curated by local artist and educator Cristina Victor will be on display at Park Circle Gallery from July 1 to Aug. 1, 2026.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.35,
+          "score": 0.297,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Bloom Where You're Planted\ufeff",
+          "start": "2026-07-24T11:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://reduxstudios.org/",
+          "description": "Gallery 1056: Bloom Where You're Planted \ufeff Opening Friday, May 29th 5-8PM Artist Talk Saturday July 25",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.266,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Creative Mornings Charleston: Charlotte Berger",
+          "start": "2026-07-24T08:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://creativemornings.com/talks/charlotte-berger",
+          "description": "Charlotte Berger is the founder and CEO of CBPR, an award-winning Charleston-based public relations and marketing agency specializing in PR, social media, influencer marketing, and strategic communications for a diverse portfolio of clients ranging from hotels and development gro\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.186,
           "tier": "low",
           "recurring": false
         },
         {
           "title": "\"Maria Britton: Second Sleep\ufeff\"",
-          "start": "2026-07-19T11:00:00",
+          "start": "2026-07-24T11:00:00",
           "end": null,
           "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -199,37 +169,11 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.219,
+          "score": 0.186,
           "tier": "low",
           "recurring": false
         }
       ],
-      "weekdays": [],
-      "recurring": [
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-07-19T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
-    },
-    "next_weekend": {
-      "range": [
-        "2026-07-24",
-        "2026-07-26"
-      ],
-      "events": [],
-      "overflow": [],
       "weekdays": [
         {
           "title": "Mary Whyte: Salt of the Earth",
@@ -382,6 +326,21 @@
           "recurring": true
         },
         {
+          "title": "Mikaela Davis w/ Nic Panken",
+          "start": "2026-07-23T20:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Mikaela Davis w/ Nic Panken Thursday 7.23.26 Charleston Pour House Main stage 730 doors /830 show",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.321,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Kids Eat Free",
           "start": "2026-07-20T16:00:00",
           "end": null,
@@ -432,7 +391,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/homicyde/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Homicyde and Alukah bring The Riff Rampage Tour to The Music Farm! FFO The Black Dahlia Murder, Cattle Decapitation and Gojira.",
           "price": null,
           "source": "Holy City Sinner",
@@ -462,7 +421,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/elmiene/",
           "description": "\u201cThis phase is really the beginning of Elmiene,\u201d says the 24-year-old artist, born Abdala Elamin. \u201c[It] feels like the first time I can really say with full confidence, every single thing I did on this project was intentional.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -500,24 +459,24 @@
           "score": 0.273,
           "tier": "low",
           "recurring": true
-        },
-        {
-          "title": "PoHo Disc Jam",
-          "start": "2026-07-20T18:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "PoHo Disc Jam > during the Monday Muse Live LP shows Monday July 20th , 27th & August 2nd 2027 A PoHo Style Disc Golf Putting League! rolling start > 9 hole course in the lot.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.236,
-          "tier": "low",
-          "recurring": false
         }
       ],
       "recurring": [
+        {
+          "title": "Food Truck Friday",
+          "start": "2026-07-24T11:00:00",
+          "end": null,
+          "venue": "Kiawah Island Town Hall, 4475 Betsy Kerrison Pkwy, Johns Island, SC",
+          "neighborhood": "Johns Island",
+          "url": "https://www.kiawahisland.gov/events/food_truck_friday/index.php",
+          "description": "UPDATE: Due to popular demand, we\u2019ve decided to extend Food Truck Fridays to the end of August\u2014how yum! This tasty event will continue every Friday (except July 3) from 11:00 a.m. to 2:00 p.m. through Aug. 28. The updated lineup can be found here .\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.694,
+          "tier": "medium",
+          "recurring": true
+        },
         {
           "title": "Pour House Farmers Market",
           "start": "2026-07-26T11:00:00",
