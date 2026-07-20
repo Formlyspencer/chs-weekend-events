@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-07-19 05:57 PM EDT",
+  "fetched_at": "2026-07-19 11:49 PM EDT",
   "counts": {
-    "raw": 160,
-    "scored": 59,
-    "this_weekend": 13,
+    "raw": 150,
+    "scored": 55,
+    "this_weekend": 10,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=59",
+    "input_count=55",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
-    "output_count=59"
+    "output_count=55"
   ],
   "buckets": {
     "today": "2026-07-19",
@@ -48,21 +48,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Pickers Hullabaloo Flea Market",
-          "start": "2026-07-19",
-          "end": null,
-          "venue": "The Grand",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46577905.7629/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9waWNrZXJzLWh1bGxhYmFsb28tZmxlYS1tYXJrZXQtYXQtdGhlLWdyYW5kLzE5MjUzNDQ5LzIwMjYtMDctMThUMTA/62f733efd173ab15f0e89340Baf6a1bbb",
-          "description": "10 a.m.-4 p.m. \u00b7 The Grand \u00b7 $5+",
-          "price": 5.0,
-          "source": "CHStoday (newsletter)",
-          "category": "vintage_market",
-          "score": 0.85,
           "tier": "high",
           "recurring": false
         },
@@ -142,21 +127,6 @@
           "recurring": false
         },
         {
-          "title": "Dierks Bentley Pre-Party",
-          "start": "2026-07-17",
-          "end": null,
-          "venue": "New Realm Brewing Co.",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46551748.4633/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9kaWVya3MtYmVudGxleS1wcmVwYXJ0eS8xODgzMTg1NS8yMDI2LTA3LTE3VDE2/62f733efd173ab15f0e89340B979dba4a",
-          "description": "4-7 p.m. \u00b7 New Realm Brewing Co. \u00b7 Price of purchase",
-          "price": null,
-          "source": "CHStoday (newsletter)",
-          "category": "brewery_event",
-          "score": 0.686,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "World Cup Final (Free Watch Party)",
           "start": "2026-07-19T15:00:00",
           "end": null,
@@ -200,21 +170,6 @@
           "score": 0.35,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Dierks Bentley: \"Off The Map Tour 2026\"",
-          "start": "2026-07-17",
-          "end": null,
-          "venue": "Credit One Stadium",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46577905.7629/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9kaWVya3MtYmVudGxleS1vZmYtdGhlLW1hcC10b3VyLTIwMjYvMTgxNzY2MzgvMjAyNi0wNy0xN1QxOQ/62f733efd173ab15f0e89340Bc50e356c",
-          "description": "7 p.m. \u00b7 Credit One Stadium \u00b7 $52+",
-          "price": 52.0,
-          "source": "CHStoday (newsletter)",
-          "category": "outdoor_music",
-          "score": 0.335,
-          "tier": "low",
-          "recurring": false
         }
       ],
       "overflow": [
@@ -251,21 +206,6 @@
       ],
       "weekdays": [],
       "recurring": [
-        {
-          "title": "Pour House Farmers Market",
-          "start": "2026-07-19T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
         {
           "title": "Sunday Figure Drawing",
           "start": "2026-07-19T17:00:00",
@@ -492,7 +432,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/homicyde/",
           "description": "Homicyde and Alukah bring The Riff Rampage Tour to The Music Farm! FFO The Black Dahlia Murder, Cattle Decapitation and Gojira.",
           "price": null,
           "source": "Holy City Sinner",
