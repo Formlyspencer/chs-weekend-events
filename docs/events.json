@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-07-21 02:03 AM EDT",
+  "fetched_at": "2026-07-21 07:11 AM EDT",
   "counts": {
-    "raw": 153,
-    "scored": 57,
+    "raw": 159,
+    "scored": 59,
     "this_weekend": 10,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=57",
+    "input_count=59",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
-    "output_count=57"
+    "output_count=59"
   ],
   "buckets": {
     "today": "2026-07-21",
@@ -326,6 +326,21 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.506,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Terrarium Themed Candle Class",
+          "start": "2026-07-23",
+          "end": null,
+          "venue": "Edmund's Oast Brewing Co., North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/46653087.1625/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy90ZXJyYXJpdW0tdGhlbWVkLWNhbmRsZS1jbGFzcy1lZG11bmRzLW9hc3QtYnJld2luZy1jb21wYW55LzE5MzI1ODU2LzIwMjYtMDctMjNUMTg/62f733efd173ab15f0e89340B758f4ec7",
+          "description": "6:30-8 p.m. \u00b7 Edmund's Oast Brewing Co., North Charleston \u00b7 $45",
+          "price": 45.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.492,
           "tier": "low",
           "recurring": false
         },
