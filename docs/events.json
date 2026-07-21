@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-07-21 12:24 PM EDT",
+  "fetched_at": "2026-07-21 03:36 PM EDT",
   "counts": {
     "raw": 143,
-    "scored": 56,
-    "this_weekend": 9,
+    "scored": 55,
+    "this_weekend": 8,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=56",
+    "input_count=55",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
-    "output_count=56"
+    "output_count=55"
   ],
   "buckets": {
     "today": "2026-07-21",
@@ -98,21 +98,6 @@
           "category": "outdoor_festival",
           "score": 0.621,
           "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "The Caviar Club Experience",
-          "start": "2026-07-24T19:30:00",
-          "end": null,
-          "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/food-bev/the-caviar-club-experience-brings-oysters-caviar-and-vinyl-t/",
-          "description": "On Friday, July 24, at 7:30 p.m., Limbo at The Refinery will host The Caviar Club Experience, a curated culinary and sound experience for guests 21 and older.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
           "recurring": false
         },
         {
