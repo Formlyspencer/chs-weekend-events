@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-07-21 03:36 PM EDT",
+  "fetched_at": "2026-07-21 06:05 PM EDT",
   "counts": {
-    "raw": 143,
-    "scored": 55,
+    "raw": 144,
+    "scored": 59,
     "this_weekend": 8,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=55",
+    "input_count=59",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
-    "output_count=55"
+    "output_count=59"
   ],
   "buckets": {
     "today": "2026-07-21",
@@ -345,6 +345,21 @@
           "recurring": false
         },
         {
+          "title": "Karaoke",
+          "start": "2026-07-23T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Tunnel Vision w/ Capital Dub",
           "start": "2026-07-23T18:00:00",
           "end": null,
@@ -353,6 +368,21 @@
           "url": "https://charlestonpourhouse.com/",
           "description": "Tunnel Vision w/ Capital Dub Thursday 7.23.26 Charleston Pour House Deck Stage 5pm doors /6pm show $20 advance / dos",
           "price": 20.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.378,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Dave Landeo on the inside stage",
+          "start": "2026-07-23T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$10 ADV/DOS July 23, 2026 Doors at 9:00 pm. Show at 10:00 pm. 21 Up ARTIST WEBSITE https://www.davidlandeo.com/ Born And Raised In Nashville, Tennessee, Lived In The Smoky Mountain Area Of Knoxville, Dave Now Resides In The Lowcountry Of Charleston, South Carolina.\u2026",
+          "price": 10.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.378,
@@ -395,7 +425,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/homicyde/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Homicyde and Alukah bring The Riff Rampage Tour to The Music Farm! FFO The Black Dahlia Murder, Cattle Decapitation and Gojira.",
           "price": null,
           "source": "Holy City Sinner",
@@ -476,6 +506,21 @@
           "source": "Holy City Sinner",
           "category": "farmers_market",
           "score": 0.273,
+          "tier": "low",
+          "recurring": true
+        },
+        {
+          "title": "LINE DANCING with Loren",
+          "start": "2026-07-21T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "FREE July 21, 2026 Doors at 6:00 pm 21 Up or with their Parent",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.263,
           "tier": "low",
           "recurring": true
         }
