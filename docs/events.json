@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-07-20 06:03 PM EDT",
+  "fetched_at": "2026-07-20 10:57 PM EDT",
   "counts": {
-    "raw": 153,
-    "scored": 54,
+    "raw": 146,
+    "scored": 53,
     "this_weekend": 3,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=54",
+    "input_count=53",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
-    "output_count=54"
+    "output_count=53"
   ],
   "buckets": {
     "today": "2026-07-20",
@@ -515,21 +515,6 @@
         "2026-07-19"
       ],
       "events": [
-        {
-          "title": "Middleton Made Knives Artisan Market",
-          "start": "2026-07-18",
-          "end": null,
-          "venue": "Storehouse 9, North Charleston",
-          "neighborhood": "North Charleston",
-          "url": "https://link.6amcity.com/click/46589247.7627/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9taWRkbGV0b24tbWFkZS1rbml2ZXMtYXJ0aXNhbi1tYXJrZXQvMTkzMDM0MTMvMjAyNi0wNy0xOFQxMQ/62f733efd173ab15f0e89340Bc0d277f0",
-          "description": "11 a.m.-2 p.m. \u00b7 Storehouse 9, North Charleston \u00b7 Price of purchase",
-          "price": null,
-          "source": "CHStoday (newsletter)",
-          "category": "maker_market",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
         {
           "title": "Charleston Vintage Market",
           "start": "2026-07-19",
