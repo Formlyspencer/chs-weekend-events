@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-07-20 10:57 PM EDT",
+  "fetched_at": "2026-07-21 02:03 AM EDT",
   "counts": {
-    "raw": 146,
-    "scored": 53,
-    "this_weekend": 3,
+    "raw": 153,
+    "scored": 57,
+    "this_weekend": 10,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=53",
+    "input_count=57",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
-    "output_count=53"
+    "output_count=57"
   ],
   "buckets": {
-    "today": "2026-07-20",
+    "today": "2026-07-21",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -41,6 +41,36 @@
           "recurring": false
         },
         {
+          "title": "Family Movie Night: Into the Woods",
+          "start": "2026-07-24T18:00:00",
+          "end": null,
+          "venue": "South of Broadway Theatre Company, 3346 Rivers Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.southofbroadway.com/events",
+          "description": "INTRODUCING FAMILY MOVIE NIGHTS!\u200b June 6, June 26, July 11, and July 24 We are excited to continue our FAMILY MOVIE NIGHTS at SOBTC! Come get cozy at your favorite theatre and watch a pro-shot musical on a big screen.\u2026",
+          "price": 5.0,
+          "source": "Holy City Sinner",
+          "category": "film_screening",
+          "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Brewery Blast Laser Tag",
+          "start": "2026-07-24T17:00:00",
+          "end": null,
+          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://eventvesta.com/events/133363/t/tickets",
+          "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Sweetgrass Festival",
           "start": "2026-07-25",
           "end": null,
@@ -53,6 +83,66 @@
           "category": "outdoor_festival",
           "score": 0.667,
           "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Crisis of the Common Good: U.S. Senator Murphy in conversation with Andy Brack",
+          "start": "2026-07-24T18:00:00",
+          "end": null,
+          "venue": "Circular Congregational Church, 150 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://buxtonbooks.com/events/4995020260724",
+          "description": "Buxton Books is proud to present U.S. Senator Chris Murphy for an author event discussing his new book, Crisis of the Common Good . Senator Murphy will be joined in conversation by Charleston City Paper's Andy Brack! To purchase your ticket, please CLICK HERE .\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_fair",
+          "score": 0.665,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "War on the Shore II",
+          "start": "2026-07-24T18:30:00",
+          "end": null,
+          "venue": "Festival Hall, 56 Beaufain St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/sports/professional-boxing-returns-to-charleston-with-war-on-the-sh/",
+          "description": "Blue Chip will bring professional boxing back to Charleston with War on the Shore II on Friday, July 24, at the historic Festival Hall.\u2026",
+          "price": 55.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.621,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "The Caviar Club Experience",
+          "start": "2026-07-24T19:30:00",
+          "end": null,
+          "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/food-bev/the-caviar-club-experience-brings-oysters-caviar-and-vinyl-t/",
+          "description": "On Friday, July 24, at 7:30 p.m., Limbo at The Refinery will host The Caviar Club Experience, a curated culinary and sound experience for guests 21 and older.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Cowboy Mouth \u2013 on the N\u00dcTRL Beach Stage",
+          "start": "2026-07-24T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$25 ADV / $30 DOS July 24, 2026 Doors at 6:00 pm 21 Up or with their Parent Artist Website https://www.cowboymouth.com Much like gumbo, the famous dish of their hometown, the New Orleans-born Cowboy Mouth uses a potent blend of musical ingredients \u2013 rock, blues, punk, funk, count\u2026",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
+          "tier": "low",
           "recurring": false
         },
         {
@@ -69,6 +159,21 @@
           "score": 0.297,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Halls Bourbon Lunch",
+          "start": "2026-07-24T12:00:00",
+          "end": null,
+          "venue": "Halls Signature Events, 5 Faber St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Enjoy an elevated afternoon of steakhouse classics and curated bourbon pairings at Halls Bourbon Lunch as part of Charleston Wine + Food\u2019s Summer Sizzle on Friday, July 24 from 12\u20132 p.m. at Halls Signature Events.\u2026",
+          "price": 157.95,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.282,
+          "tier": "low",
+          "recurring": false
         }
       ],
       "overflow": [
@@ -80,6 +185,21 @@
           "neighborhood": "North Charleston",
           "url": "https://holycitysinner.com/entertainment/park-circle-gallery-to-feature-group-ceramics-exhibition/",
           "description": "The City of North Charleston\u2019s Cultural Arts Department is pleased to announce that a group exhibition of ceramic sculptures curated by local artist and educator Cristina Victor will be on display at Park Circle Gallery from July 1 to Aug. 1, 2026.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.297,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Testaments & Revelations: Second Verse",
+          "start": "2026-07-24T12:00:00",
+          "end": null,
+          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
+          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -196,7 +316,7 @@
         },
         {
           "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-07-20T10:00:00",
+          "start": "2026-07-22T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
           "neighborhood": "Charleston",
@@ -300,51 +420,6 @@
           "recurring": false
         },
         {
-          "title": "Kids Eat Free",
-          "start": "2026-07-20T16:00:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Let us handle dinner! Kids 12 and under now eat for free on MONDAYS from 4\u20138 PM Up to 2 kids eat free with the purchase of an adult entree. We\u2019ll have cheese or pepperoni little monster pizza slices, single smash burgers and chicken tenders for your little ones.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.32,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Farmers Market",
-          "start": "2026-07-20T15:00:00",
-          "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://holycitysinner.com/entertainment/freshfields-village-unveils-2026-summer-events-lineup/",
-          "description": "Mondays, June through August from 3 to 7 p.m. A seasonal favorite that grows each year, the Freshfields Village Farmers Market brings together local vendors offering fresh produce, prepared foods and artisan goods that fill the Village Green for the evening.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.316,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-07-20T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Homicyde",
           "start": "2026-07-21T20:00:00",
           "end": null,
@@ -403,6 +478,21 @@
           "score": 0.276,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Music Bingo",
+          "start": "2026-07-21T18:30:00",
+          "end": null,
+          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
+          "neighborhood": "West Ashley",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Music + Bingo = Your New Tuesday Night Plans! Join us on Tuesdays at 6:30 PM for Music Bingo here at our West Ashley location! Jam out to your favorite tunes, play along, and win prizes. Bring your friends and grab a pint. See you there!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.274,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "Mount Pleasant Farmers Market",
@@ -464,6 +554,36 @@
           "category": "farmers_market",
           "score": 0.655,
           "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Music on the Green",
+          "start": "2026-07-24T18:00:00",
+          "end": null,
+          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
+          "neighborhood": "Kiawah",
+          "url": "https://freshfieldsvillage.com/event/bingo-and-movie-nights-on-the-village-green/",
+          "description": "Join us for weekly on Friday nights from 6:00 to 9:00 pm. The free, family friendly concerts featuring a variety of music from regional bands including Carolina Beach music, Motown, Top 40, Country and more! Enjoy a summer filled with music, fun, and memories.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.641,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Tipsy Tour",
+          "start": "2026-07-24T11:30:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Every Friday Grab your friends (or make some new ones) in this unique way to explore the Lowcountry. You\u2019ll be picked up at the visitor\u2019s center downtown on Fridays at 11:30 AM, from there you\u2019ll travel to the home of Charleston\u2019s only domestic winery and vineyard, Deep Water Vin\u2026",
+          "price": 105.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.214,
+          "tier": "low",
           "recurring": true
         }
       ]
