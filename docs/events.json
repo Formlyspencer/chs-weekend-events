@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-22 12:21 PM EDT",
+  "fetched_at": "2026-07-22 03:25 PM EDT",
   "counts": {
-    "raw": 150,
-    "scored": 64,
-    "this_weekend": 19,
+    "raw": 151,
+    "scored": 65,
+    "this_weekend": 18,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=64",
+    "input_count=65",
     "pre_dup_group venue=freshfields village date=2026-07-22: ['Bingo and Movie Night: \"Hoppers\"@2026-07-22|src=CHStoday (newsletter)', 'Bingo and Movie Nights on the Villa@2026-07-22 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
     "survivor venue=the windjammer date=2026-07-24: ['Cowboy Mouth \u2013 on the N\u00dcTRL Beach S@2026-07-24 18:00:00', 'Reverse Cowgirl on the inside stage@2026-07-24 22:00:00']",
-    "output_count=64"
+    "output_count=65"
   ],
   "buckets": {
     "today": "2026-07-22",
@@ -60,6 +60,21 @@
           "recurring": false
         },
         {
+          "title": "\"250 Years from Mr. Freedman\" by Fletcher Williams III (Opening Reception)",
+          "start": "2026-07-24T12:00:00",
+          "end": null,
+          "venue": "Storehouse 8,\u00a02154 Noisette Blvd.,\u00a0Suite 207, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/fletcher-williams-iii-presents-250-years-from-mr-freedman-at/",
+          "description": "250 Years from Mr. Freedman is a solo exhibition by Fletcher Williams III, held in historic Storehouse 8 at Navy Yard Charleston in conjunction with the 250th anniversary of the United States.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Family Movie Night: Into the Woods",
           "start": "2026-07-24T18:00:00",
           "end": null,
@@ -86,21 +101,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.782,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "21st Annual Sweetgrass Festival",
-          "start": "2026-07-25T10:00:00",
-          "end": null,
-          "venue": "Mount Pleasant Memorial Waterfront Park, 99 Harry M. Hallman Jr Blvd., Mt Pleasant, SC",
-          "neighborhood": "Mount Pleasant",
-          "url": "https://experiencemountpleasant.com/event/sweetgrass-festival/",
-          "description": "The annual Sweetgrass Festival in Mount Pleasant, founded in 2004, is designed to promote and bring attention to the contributions of the Gullah Geechee people\u2019s history, culture, traditions and their sweetgrass basket art form that originated in Mount Pleasant and continues to e\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.78,
           "tier": "medium",
           "recurring": false
         },
@@ -245,7 +245,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Thurston Howell \u2013 A Premier Yacht Rock Spectacular! Friday July 24th 2026 Charleston Pour House Main Stage 8pm doors /9pm show 2 x sets $20 advance /$25 day of show",
           "price": 20.0,
           "source": "Holy City Sinner",
@@ -285,21 +285,6 @@
           "recurring": false
         },
         {
-          "title": "\"By the Sea\"",
-          "start": "2026-07-25T10:00:00",
-          "end": null,
-          "venue": "Charleston Crafts Gallery, 140 E Bay St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/charleston-crafts-gallery-announces-july-exhibition-by-the-s/",
-          "description": "Charleston Crafts Gallery, an artist-owned cooperative in the heart of downtown Charleston, is pleased to present its July exhibition, By the Sea, which opens with a public reception on Friday, July 3, from 5pm to 8pm.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Halls Bourbon Lunch",
           "start": "2026-07-24T12:00:00",
           "end": null,
@@ -316,6 +301,21 @@
         }
       ],
       "overflow": [
+        {
+          "title": "\"By the Sea\"",
+          "start": "2026-07-25T10:00:00",
+          "end": null,
+          "venue": "Charleston Crafts Gallery, 140 E Bay St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/charleston-crafts-gallery-announces-july-exhibition-by-the-s/",
+          "description": "Charleston Crafts Gallery, an artist-owned cooperative in the heart of downtown Charleston, is pleased to present its July exhibition, By the Sea, which opens with a public reception on Friday, July 3, from 5pm to 8pm.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "\"By the Sea\"",
           "start": "2026-07-24T10:00:00",
@@ -424,6 +424,21 @@
           "recurring": false
         },
         {
+          "title": "\"250 Years from Mr. Freedman\" by Fletcher Williams III (Opening Reception)",
+          "start": "2026-07-23T12:00:00",
+          "end": null,
+          "venue": "Storehouse 8,\u00a02154 Noisette Blvd.,\u00a0Suite 207, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/fletcher-williams-iii-presents-250-years-from-mr-freedman-at/",
+          "description": "250 Years from Mr. Freedman is a solo exhibition by Fletcher Williams III, held in historic Storehouse 8 at Navy Yard Charleston in conjunction with the 250th anniversary of the United States.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.69,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Malin Wagnon Duo",
           "start": "2026-07-23T19:00:00",
           "end": null,
@@ -465,21 +480,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.528,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-07-22T10:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.506,
           "tier": "low",
           "recurring": false
         },
@@ -579,7 +579,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Tunnel Vision w/ Capital Dub Thursday 7.23.26 Charleston Pour House Deck Stage 5pm doors /6pm show $20 advance / dos",
           "price": 20.0,
           "source": "Holy City Sinner",
@@ -624,7 +624,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Mikaela Davis w/ Nic Panken Thursday 7.23.26 Charleston Pour House Main stage 730 doors /830 show",
           "price": null,
           "source": "Holy City Sinner",
@@ -761,7 +761,7 @@
           "end": null,
           "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.seaislandfarmersmarket.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
           "price": null,
           "source": "Holy City Sinner",
