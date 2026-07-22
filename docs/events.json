@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-07-21 06:05 PM EDT",
+  "fetched_at": "2026-07-21 10:55 PM EDT",
   "counts": {
-    "raw": 144,
-    "scored": 59,
+    "raw": 140,
+    "scored": 58,
     "this_weekend": 8,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=59",
+    "input_count=58",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00|src=Holy City Sinner']",
     "survivor venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00', '\"The Art of Craft\"@2026-07-23 15:00:00']",
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
-    "output_count=59"
+    "output_count=58"
   ],
   "buckets": {
     "today": "2026-07-21",
@@ -298,6 +298,21 @@
           "score": 0.506,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Live Music",
+          "start": "2026-07-23T18:00:00",
+          "end": null,
+          "venue": "Taco Boy, 217 Huger Street,\u00a0 Charleston,\u00a0SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.tacoboy.net/event/live-patio-music-at-taco-boy-charleston/",
+          "description": "Live Music at Taco Boy in Downtown Charleston Dates: 7/23/26 6:00pm 8/6/26 6:00pm 8/20/26 6:00pm 9/3/26 6:00pm Price: Free Live music, tacos, and margaritas? Count us in! Catch Liam Murphy every other Thursday from 6:00PM \u20139PM at Taco Boy in Downtown Charleston! We can\u2019t wait to\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.492,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "West Ashley Farmers Market",
@@ -649,38 +664,7 @@
         "2026-07-17",
         "2026-07-19"
       ],
-      "events": [
-        {
-          "title": "Charleston Vintage Market",
-          "start": "2026-07-19",
-          "end": null,
-          "venue": "The Refinery",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46616071.25627/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9jaGFybGVzdG9uLXZpbnRhZ2UtbWFya2V0LzE5NDA3Mzg2LzIwMjYtMDctMTlUMTE/62f733efd173ab15f0e89340B1e64884e",
-          "description": "11 a.m.-4 p.m. \u00b7 The Refinery \u00b7 Price of purchase",
-          "price": null,
-          "source": "CHStoday (newsletter)",
-          "category": "vintage_market",
-          "score": 0.722,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "World Cup Final",
-          "start": "2026-07-19",
-          "end": null,
-          "venue": "Music Farm",
-          "neighborhood": null,
-          "url": "https://link.6amcity.com/click/46616071.25627/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy93b3JsZC1jdXAtZmluYWwvMTkxODU1NDcvMjAyNi0wNy0xOVQxNA/62f733efd173ab15f0e89340Bacb77387",
-          "description": "2 p.m. \u00b7 Music Farm \u00b7 Free",
-          "price": 0.0,
-          "source": "CHStoday (newsletter)",
-          "category": "outdoor_music",
-          "score": 0.565,
-          "tier": "medium",
-          "recurring": false
-        }
-      ],
+      "events": [],
       "overflow": [],
       "recurring": []
     }
