@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-22 06:06 PM EDT",
+  "fetched_at": "2026-07-22 11:16 PM EDT",
   "counts": {
-    "raw": 151,
-    "scored": 65,
+    "raw": 152,
+    "scored": 66,
     "this_weekend": 18,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=65",
+    "input_count=66",
     "pre_dup_group venue=freshfields village date=2026-07-22: ['Bingo and Movie Night: \"Hoppers\"@2026-07-22|src=CHStoday (newsletter)', 'Bingo and Movie Nights on the Villa@2026-07-22 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
     "survivor venue=the windjammer date=2026-07-24: ['Cowboy Mouth \u2013 on the N\u00dcTRL Beach S@2026-07-24 18:00:00', 'Reverse Cowgirl on the inside stage@2026-07-24 22:00:00']",
-    "output_count=65"
+    "output_count=66"
   ],
   "buckets": {
     "today": "2026-07-22",
@@ -245,7 +245,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Thurston Howell \u2013 A Premier Yacht Rock Spectacular! Friday July 24th 2026 Charleston Pour House Main Stage 8pm doors /9pm show 2 x sets $20 advance /$25 day of show",
           "price": 20.0,
           "source": "Holy City Sinner",
@@ -564,7 +564,7 @@
           "end": null,
           "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
           "description": "Karaoke every Thursday from 6-9 p.m.",
           "price": null,
           "source": "Holy City Sinner",
@@ -579,7 +579,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Tunnel Vision w/ Capital Dub Thursday 7.23.26 Charleston Pour House Deck Stage 5pm doors /6pm show $20 advance / dos",
           "price": 20.0,
           "source": "Holy City Sinner",
@@ -624,7 +624,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Mikaela Davis w/ Nic Panken Thursday 7.23.26 Charleston Pour House Main stage 730 doors /830 show",
           "price": null,
           "source": "Holy City Sinner",
@@ -761,7 +761,7 @@
           "end": null,
           "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.seaislandfarmersmarket.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
           "price": null,
           "source": "Holy City Sinner",
