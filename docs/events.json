@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-24 04:32 AM EDT",
+  "fetched_at": "2026-07-24 07:05 AM EDT",
   "counts": {
-    "raw": 167,
-    "scored": 73,
-    "this_weekend": 27,
+    "raw": 173,
+    "scored": 74,
+    "this_weekend": 28,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=73",
+    "input_count=74",
     "pre_dup_group venue=charleston pour house date=2026-07-26: ['Pour House Farmers Market@2026-07-26 11:00:00|src=Manual', 'High Fade: Twice as Nice Tour  w/ D@2026-07-26 20:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-07-24: ['Cowboy Mouth \u2013 on the N\u00dcTRL Beach S@2026-07-24 18:00:00|src=Holy City Sinner', 'Reverse Cowgirl on the inside stage@2026-07-24 22:00:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
     "survivor venue=the windjammer date=2026-07-24: ['Cowboy Mouth \u2013 on the N\u00dcTRL Beach S@2026-07-24 18:00:00', 'Reverse Cowgirl on the inside stage@2026-07-24 22:00:00']",
     "survivor venue=music farm date=2026-07-25: ['Music Farm x Sweat Sanctuary: Sound@2026-07-25 20:00:00', 'Gimme Gimme Disco@2026-07-25 21:30:00']",
-    "output_count=73"
+    "output_count=74"
   ],
   "buckets": {
     "today": "2026-07-24",
@@ -84,6 +84,21 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Taste Of North Charleston: Fork & Flow",
+          "start": "2026-07-26",
+          "end": null,
+          "venue": "Striped Pig Distillery, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/46717948.25612/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy90YXN0ZS1vZi1ub3J0aC1jaGFybGVzdG9uLWZvcmstZmxvdy8xODYwNTYyMy8yMDI2LTA3LTI2VDEz/62f733efd173ab15f0e89340Baf4be8ad",
+          "description": "3:30-7:30 p.m. \u00b7 Striped Pig Distillery, North Charleston \u00b7 $15+",
+          "price": 15.0,
+          "source": "CHStoday (newsletter)",
+          "category": "brewery_event",
+          "score": 0.874,
           "tier": "high",
           "recurring": false
         },
