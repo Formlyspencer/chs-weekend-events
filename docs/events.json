@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-24 07:05 AM EDT",
+  "fetched_at": "2026-07-24 09:52 AM EDT",
   "counts": {
     "raw": 173,
     "scored": 74,
-    "this_weekend": 28,
+    "this_weekend": 29,
     "next_weekend": 0
   },
   "dedup_log": [
@@ -264,6 +264,21 @@
           "source": "Holy City Sinner",
           "category": "art_fair",
           "score": 0.665,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Festival of Hope",
+          "start": "2026-07-25T10:00:00",
+          "end": null,
+          "venue": "Rollins Edwards Community Center",
+          "neighborhood": null,
+          "url": "https://www.instagram.com/p/DbEAEt1lm99/",
+          "description": "This family-friendly event focuses on mental health and substance use awareness. Join us for live music, food trucks, face paintings, community resources, & giveaways July 25th | 10 a.m.- 2 p.m. Rollins Edward Community Center! 301 N. Hickory St, Summerville, SC",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.65,
           "tier": "medium",
           "recurring": false
         },
