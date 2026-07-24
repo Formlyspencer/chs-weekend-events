@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-23 06:07 PM EDT",
+  "fetched_at": "2026-07-23 10:55 PM EDT",
   "counts": {
-    "raw": 163,
-    "scored": 71,
+    "raw": 164,
+    "scored": 72,
     "this_weekend": 25,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=71",
+    "input_count=72",
     "pre_dup_group venue=allegory art collective date=2026-07-23: ['\"The Art of Craft\" (Opening Recepti@2026-07-23 12:00:00|src=Holy City Sinner', '\"The Art of Craft\"@2026-07-23 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00|src=Holy City Sinner', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00|src=Holy City Sinner', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=charleston pour house date=2026-07-23: ['Tunnel Vision w/ Capital Dub@2026-07-23 18:00:00', 'Mikaela Davis w/ Nic Panken@2026-07-23 20:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-07-24: ['Creative Mornings Charleston: Charl@2026-07-24 08:00:00', '\"Maria Britton: Second Sleep\\ufeff\"@2026-07-24 11:00:00']",
     "survivor venue=the windjammer date=2026-07-24: ['Cowboy Mouth \u2013 on the N\u00dcTRL Beach S@2026-07-24 18:00:00', 'Reverse Cowgirl on the inside stage@2026-07-24 22:00:00']",
-    "output_count=71"
+    "output_count=72"
   ],
   "buckets": {
     "today": "2026-07-23",
@@ -288,7 +288,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/soundcheck-sculpt/",
           "description": "Event Date Saturday, July 25 Event Times Session 1: 10:00 am Session 2: 11:00 am All Ages BYOM (Bring your own mat!) Session 1: 10:00 \u2013 10:45 AM Session 2: 11:00 \u2013 11:45 AM The Sweat Sanctuary Bio At Sweat Sanctuary, we offer thoughtfully programmed pilates classes in Charleston\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -303,7 +303,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/the-wildflowers-a-tribute-to-tom-petty-the-heartbreakers/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "The band The Wildflowers are America\u2019s #1 tribute to Tom Petty & The Heartbreakers. \u201cWho doesn\u2019t love Tom Petty?\u201d bassist Darryell Stone asked himself one day in 2012 while listening to the radio.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -864,7 +864,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -894,7 +894,7 @@
           "end": null,
           "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.seaislandfarmersmarket.com/",
           "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
           "price": null,
           "source": "Holy City Sinner",
