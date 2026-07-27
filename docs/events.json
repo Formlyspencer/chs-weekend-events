@@ -1,69 +1,26 @@
 {
-  "fetched_at": "2026-07-26 11:30 PM EDT",
+  "fetched_at": "2026-07-27 05:58 AM EDT",
   "counts": {
-    "raw": 156,
-    "scored": 61,
-    "this_weekend": 10,
-    "next_weekend": 3
+    "raw": 155,
+    "scored": 63,
+    "this_weekend": 3,
+    "next_weekend": 11
   },
   "dedup_log": [
-    "input_count=61",
-    "output_count=61"
+    "input_count=63",
+    "pre_dup_group venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00|src=Holy City Sinner', 'The Reckoning@2026-07-31 21:00:00|src=Holy City Sinner']",
+    "survivor venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00', 'The Reckoning@2026-07-31 21:00:00']",
+    "output_count=63"
   ],
   "buckets": {
     "today": "2026-07-26",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-07-24",
         "2026-07-26"
       ],
       "events": [
-        {
-          "title": "24th Annual Folly Beach Wahine Classic",
-          "start": "2026-07-26",
-          "end": null,
-          "venue": "Folly Beach",
-          "neighborhood": "Folly Beach",
-          "url": "https://follywahine.com/",
-          "description": "Our mission is to share the strength of surfer women (wahines) of all ages and abilities through a fun weekend of surf competition, girl power, and camaraderie.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "surf_event",
-          "score": 1.0,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "\"250 Years from Mr. Freedman\" by Fletcher Williams III (Opening Reception)",
-          "start": "2026-07-26T12:00:00",
-          "end": null,
-          "venue": "Storehouse 8,\u00a02154 Noisette Blvd.,\u00a0Suite 207, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/fletcher-williams-iii-presents-250-years-from-mr-freedman-at/",
-          "description": "250 Years from Mr. Freedman is a solo exhibition by Fletcher Williams III, held in historic Storehouse 8 at Navy Yard Charleston in conjunction with the 250th anniversary of the United States.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-07-26T13:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
         {
           "title": "Taste Of North Charleston: Fork & Flow",
           "start": "2026-07-26",
@@ -95,36 +52,6 @@
           "recurring": false
         },
         {
-          "title": "Reggae Sunday",
-          "start": "2026-07-26T18:00:00",
-          "end": null,
-          "venue": "The Washout, 41 Center St, Folly Beach, SC",
-          "neighborhood": "Folly Beach",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Live Music Times: Wednesday's 6-9pm Thursday's: 7-10pm Friday & Saturday: 8-11pm Reggae Sundays: 6-9pm 2 nd - Malin Wagnon Duo 3 rd - Dan's Tramp Stamp & The Money Bags 4 th - Outlaw Country Fest 5-11pm 9th- Dans Tramp Stamp Duo 10th - Malin Wagnon & Friends 11 th - Johnny Hollid\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.765,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Brewery Blast Laser Tag",
-          "start": "2026-07-26T17:00:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://eventvesta.com/events/133363/t/tickets",
-          "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Sweetgrass Festival",
           "start": "2026-07-25",
           "end": null,
@@ -138,88 +65,11 @@
           "score": 0.667,
           "tier": "medium",
           "recurring": false
-        },
-        {
-          "title": "Red Not Chili Peppers on the N\u00dcTRL Beach Stage",
-          "start": "2026-07-26T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/event/rncp-4/",
-          "description": "$15 ADV / $20 DOS July 26, 2026 Doors at 6:00 pm 21 Up or with their Parent Artist Website https://www.redhotchilipepperstribute.com RED NOT CHILI PEPPERS pay tribute to the ultimate funk rock quartet: a band who has developed one of the largest die-hard followings in the world b\u2026",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "High Fade: Twice as Nice Tour  w/ DeeOhGee",
-          "start": "2026-07-26T20:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "High Fade Twice as Nice Tour w/ DeeOhGee Sunday July 26th 2026 Charleston Pour House Main Stage 7pm doors 8pm show $20 advance /$25 day of show",
-          "price": 20.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
         }
       ],
-      "overflow": [
-        {
-          "title": "\"By the Sea\"",
-          "start": "2026-07-26T10:00:00",
-          "end": null,
-          "venue": "Charleston Crafts Gallery, 140 E Bay St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/charleston-crafts-gallery-announces-july-exhibition-by-the-s/",
-          "description": "Charleston Crafts Gallery, an artist-owned cooperative in the heart of downtown Charleston, is pleased to present its July exhibition, By the Sea, which opens with a public reception on Friday, July 3, from 5pm to 8pm.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Testaments & Revelations: Second Verse",
-          "start": "2026-07-26T12:00:00",
-          "end": null,
-          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
-          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
+      "overflow": [],
       "weekdays": [],
-      "recurring": [
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-07-26T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
+      "recurring": []
     },
     "next_weekend": {
       "range": [
@@ -227,6 +77,66 @@
         "2026-08-02"
       ],
       "events": [
+        {
+          "title": "Grateful Dawg- A Garcia / Grisman Tribute",
+          "start": "2026-07-31T18:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Grateful Dawg- A Garcia / Grisman Tribute ** Charleston Pour House's 19th Annual Garcia Gathering ** Friday July 31st 2026 Charleston Pour House Deck Stage > pre- Reckoning on the Main Stage @ 9pm 5pm doors 6pm show 2 x sets $10 adv/dos",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.96,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "The Reckoning",
+          "start": "2026-07-31T21:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "The Reckoning Friday 7.31.26 Charleston Pour House (Main Stage) **19th Annual Garcia Gathering > Jerry Garcia Birthday Celebration 8pm doors 9pm show 2 x sets $18 advance / $20 day of show",
+          "price": 18.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.96,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "O.A.R.: Three Decades Tour with special guests Gavin DeGraw and Lisa Loeb",
+          "start": "2026-07-31T18:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/o-a-r-to-perform-at-the-firefly-distillery-in-2026-with-gavi/",
+          "description": "O.A.R., the multi-platinum band known for its energetic live shows, will bring The Three Decades Tour to Firefly Distillery on Friday, July 31, 2026, at 6 p.m. The concert celebrates the group\u2019s 30th anniversary and will feature special guests Gavin DeGraw and Lisa Loeb. O.A.R.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Fly Fishing Film Tour",
+          "start": "2026-07-31T19:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "The Fly Fishing Film Tour (F3T) is proud to celebrate its 20th anniversary in 2026, marking two decades of unforgettable stories, breathtaking landscapes, and a community bound by a passion for fly fishing.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
         {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-07-31T10:00:00",
@@ -243,20 +153,97 @@
           "recurring": false
         },
         {
-          "title": "Blood Drive",
-          "start": "2026-07-31T10:00:00",
+          "title": "\"250 Years from Mr. Freedman\" by Fletcher Williams III (Opening Reception)",
+          "start": "2026-07-31T12:00:00",
           "end": null,
-          "venue": "Kiawah Island Town Hall, 4475 Betsy Kerrison Pkwy, Johns Island, SC",
-          "neighborhood": "Johns Island",
-          "url": "https://donate.thebloodconnection.org/donor/schedules/drive_schedule/309844",
-          "description": "TOKI will be partnering with The Blood Connection for a blood drive: Friday, July 31, 2026 (The blood drive will take place alongside our regularly scheduled Food Truck Friday.) 10:00 am - 03:00 pm 4475 Betsy Kerrison Parkway Below is the donor link.\u2026",
-          "price": 70.0,
+          "venue": "Storehouse 8,\u00a02154 Noisette Blvd.,\u00a0Suite 207, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/fletcher-williams-iii-presents-250-years-from-mr-freedman-at/",
+          "description": "250 Years from Mr. Freedman is a solo exhibition by Fletcher Williams III, held in historic Storehouse 8 at Navy Yard Charleston in conjunction with the 250th anniversary of the United States.\u2026",
+          "price": 0.0,
           "source": "Holy City Sinner",
-          "category": "food_festival",
-          "score": 0.612,
+          "category": "art_event",
+          "score": 0.782,
           "tier": "medium",
           "recurring": false
         },
+        {
+          "title": "Brewery Blast Laser Tag",
+          "start": "2026-07-31T17:00:00",
+          "end": null,
+          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://eventvesta.com/events/133363/t/tickets",
+          "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "SpongeBob Squarepants Trivia",
+          "start": "2026-07-31T19:00:00",
+          "end": null,
+          "venue": "Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Arrrrgh, this Summer at Snafu we're feeling like diving deep.. under the sea! Bikini Bottom awaits you at Snafu Brewing for Spongebob Squarepants trivia hosted by Publik Education. We're slinging Diet Dr.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Kawaii Rave",
+          "start": "2026-07-31T21:30:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Kawaii Rave is an anime-inspired dance party and a full-on light-up, jump around rave experience made for adults. Expect to hear EDM, K-Pop, Hyperpop and familiar pop anthems.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Congress the Band on the N\u00dcTRL Beach Stage",
+          "start": "2026-07-31T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/event/congress26fri/",
+          "description": "$25 Early Bird / $29.95 tier 2 / $34.95 tier 3 July 31, 2026 Doors at 6:00 pm 21 Up or with their Parent www.instagram.com\u2026 Congress The Band is one of the Southeast\u2019s most exciting emerging rock acts bring a new wave of rock music out of the Carolinas.\u2026",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Bistronomy by Nico Wine Lunch",
+          "start": "2026-07-31T12:00:00",
+          "end": null,
+          "venue": "Bistronomy by Nico",
+          "neighborhood": "Charleston",
+          "url": "https://www.charlestoncvb.com/events/submit/",
+          "description": "Enjoy an afternoon of French-inspired dining at Bistronomy by Nico Wine Lunch as part of Charleston Wine + Food\u2019s Summer Sizzle on Friday, July 31 from 12\u20132 p.m. at Bistronomy By Nico.\u2026",
+          "price": 157.95,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.282,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
+      "overflow": [
         {
           "title": "\"By the Sea\"",
           "start": "2026-07-31T10:00:00",
@@ -271,9 +258,7 @@
           "score": 0.297,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
         {
           "title": "\"SHAPERS II\"",
           "start": "2026-07-31T10:30:00",
@@ -282,6 +267,21 @@
           "neighborhood": "North Charleston",
           "url": "https://holycitysinner.com/entertainment/park-circle-gallery-to-feature-group-ceramics-exhibition/",
           "description": "The City of North Charleston\u2019s Cultural Arts Department is pleased to announce that a group exhibition of ceramic sculptures curated by local artist and educator Cristina Victor will be on display at Park Circle Gallery from July 1 to Aug. 1, 2026.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.297,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Testaments & Revelations: Second Verse",
+          "start": "2026-07-31T12:00:00",
+          "end": null,
+          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
+          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -442,21 +442,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-07-30T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Bingo and Movie Nights on the Village Green",
           "start": "2026-07-29T18:30:00",
           "end": null,
@@ -552,7 +537,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/aurorawave/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "aurorawave is a boundary-pushing rock band recognized for pioneering a distinct sound they term reggaecore \u2014 a fusion of heavy guitar-driven intensity and rhythmic influences drawn from reggae.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -639,6 +624,21 @@
       ],
       "recurring": [
         {
+          "title": "Food Truck Friday",
+          "start": "2026-07-31T11:00:00",
+          "end": null,
+          "venue": "Kiawah Island Town Hall, 4475 Betsy Kerrison Pkwy, Johns Island, SC",
+          "neighborhood": "Johns Island",
+          "url": "https://www.kiawahisland.gov/events/food_truck_friday/index.php",
+          "description": "UPDATE: Due to popular demand, we\u2019ve decided to extend Food Truck Fridays to the end of August\u2014how yum! This tasty event will continue every Friday (except July 3) from 11:00 a.m. to 2:00 p.m. through Aug. 28. The updated lineup can be found here .\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.694,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
           "title": "Pour House Farmers Market",
           "start": "2026-08-02T11:00:00",
           "end": null,
@@ -666,6 +666,36 @@
           "category": "farmers_market",
           "score": 0.655,
           "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Music on the Green",
+          "start": "2026-07-31T18:00:00",
+          "end": null,
+          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
+          "neighborhood": "Kiawah",
+          "url": "https://freshfieldsvillage.com/event/bingo-and-movie-nights-on-the-village-green/",
+          "description": "Join us for weekly on Friday nights from 6:00 to 9:00 pm. The free, family friendly concerts featuring a variety of music from regional bands including Carolina Beach music, Motown, Top 40, Country and more! Enjoy a summer filled with music, fun, and memories.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.641,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Tipsy Tour",
+          "start": "2026-07-31T11:30:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Every Friday Grab your friends (or make some new ones) in this unique way to explore the Lowcountry. You\u2019ll be picked up at the visitor\u2019s center downtown on Fridays at 11:30 AM, from there you\u2019ll travel to the home of Charleston\u2019s only domestic winery and vineyard, Deep Water Vin\u2026",
+          "price": 105.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.214,
+          "tier": "low",
           "recurring": true
         }
       ]
