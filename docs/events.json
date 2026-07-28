@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-07-28 07:21 AM EDT",
+  "fetched_at": "2026-07-28 10:16 AM EDT",
   "counts": {
-    "raw": 156,
-    "scored": 62,
+    "raw": 152,
+    "scored": 61,
     "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=62",
+    "input_count=61",
     "pre_dup_group venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00|src=Holy City Sinner', 'The Reckoning@2026-07-31 21:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00', 'The Reckoning@2026-07-31 21:00:00']",
-    "output_count=62"
+    "output_count=61"
   ],
   "buckets": {
     "today": "2026-07-28",
@@ -201,21 +201,6 @@
           "category": "art_event",
           "score": 0.782,
           "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "\"Portraits\" by Mary Hoffman",
-          "start": "2026-08-01T10:30:00",
-          "end": null,
-          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-presents-%E2%80%9Cportraits%E2%80%9D-by-mary-h/",
-          "description": "Lowcountry Artists Gallery announced its upcoming exhibition, \"Portraits,\" featuring original oil paintings by Mary Hoffman.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
           "recurring": false
         },
         {
@@ -416,6 +401,21 @@
           "recurring": false
         },
         {
+          "title": "Karaoke",
+          "start": "2026-07-30T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Bingo and Movie Nights on the Village Green",
           "start": "2026-07-29T18:30:00",
           "end": null,
@@ -496,7 +496,7 @@
           "end": null,
           "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
           "neighborhood": "West Ashley",
-          "url": "https://www.facebook.com/events/1110613907845442/1110613974512102/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join the Frothy Beard Mug Club! For just $100/year, you\u2019ll unlock exclusive perks at both our West Ashley & Summerville locations: 20 oz pours at 16 oz pricing $2 off mug pours on Mug Club Night \u2013 Tuesdays in Summerville \u2013 Wednesdays in West Ashley 15% off all merchandise 10% off\u2026",
           "price": 100.0,
           "source": "Holy City Sinner",
@@ -609,21 +609,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.641,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Weekend Wine-Down",
-          "start": "2026-08-01T10:00:00",
-          "end": null,
-          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
-          "neighborhood": "Wadmalaw Island",
-          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
-          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.63,
           "tier": "medium",
           "recurring": true
         },
