@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-07-28 04:39 AM EDT",
+  "fetched_at": "2026-07-28 07:21 AM EDT",
   "counts": {
-    "raw": 151,
-    "scored": 61,
+    "raw": 156,
+    "scored": 62,
     "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=61",
+    "input_count=62",
     "pre_dup_group venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00|src=Holy City Sinner', 'The Reckoning@2026-07-31 21:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00', 'The Reckoning@2026-07-31 21:00:00']",
-    "output_count=61"
+    "output_count=62"
   ],
   "buckets": {
     "today": "2026-07-28",
@@ -62,21 +62,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "brewery_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Fly Fishing Film Tour",
-          "start": "2026-07-31T19:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/fly-fishing-film-tour/",
-          "description": "The Fly Fishing Film Tour (F3T) is proud to celebrate its 20th anniversary in 2026, marking two decades of unforgettable stories, breathtaking landscapes, and a community bound by a passion for fly fishing.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
           "score": 0.92,
           "tier": "high",
           "recurring": false
@@ -138,6 +123,21 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "F3T Fly Fishing Film Tour",
+          "start": "2026-07-31",
+          "end": null,
+          "venue": "Charleston Music Hall",
+          "neighborhood": "Charleston",
+          "url": "https://link.6amcity.com/click/46753428.19608/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9mM3QtZmx5LWZpc2hpbmctZmlsbS10b3VyLzE5NDQyNjcxLzIwMjYtMDctMzFUMTk/62f733efd173ab15f0e89340B1444aacf",
+          "description": "7 p.m. \u00b7 Charleston Music Hall \u00b7 $20",
+          "price": 20.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_music",
+          "score": 0.644,
           "tier": "medium",
           "recurring": false
         },
@@ -496,7 +496,7 @@
           "end": null,
           "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
           "neighborhood": "West Ashley",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.facebook.com/events/1110613907845442/1110613974512102/",
           "description": "Join the Frothy Beard Mug Club! For just $100/year, you\u2019ll unlock exclusive perks at both our West Ashley & Summerville locations: 20 oz pours at 16 oz pricing $2 off mug pours on Mug Club Night \u2013 Tuesdays in Summerville \u2013 Wednesdays in West Ashley 15% off all merchandise 10% off\u2026",
           "price": 100.0,
           "source": "Holy City Sinner",
