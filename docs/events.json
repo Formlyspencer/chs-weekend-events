@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-07-28 06:07 PM EDT",
+  "fetched_at": "2026-07-28 10:54 PM EDT",
   "counts": {
-    "raw": 152,
-    "scored": 61,
+    "raw": 150,
+    "scored": 60,
     "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=61",
+    "input_count=60",
     "pre_dup_group venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00|src=Holy City Sinner', 'The Reckoning@2026-07-31 21:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00', 'The Reckoning@2026-07-31 21:00:00']",
-    "output_count=61"
+    "output_count=60"
   ],
   "buckets": {
     "today": "2026-07-28",
@@ -27,7 +27,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Grateful Dawg- A Garcia / Grisman Tribute ** Charleston Pour House's 19th Annual Garcia Gathering ** Friday July 31st 2026 Charleston Pour House Deck Stage > pre- Reckoning on the Main Stage @ 9pm 5pm doors 6pm show 2 x sets $10 adv/dos",
           "price": 10.0,
           "source": "Holy City Sinner",
@@ -42,7 +42,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "The Reckoning Friday 7.31.26 Charleston Pour House (Main Stage) **19th Annual Garcia Gathering > Jerry Garcia Birthday Celebration 8pm doors 9pm show 2 x sets $18 advance / $20 day of show",
           "price": 18.0,
           "source": "Holy City Sinner",
@@ -147,7 +147,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/kawaii-rave-18/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Kawaii Rave is an anime-inspired dance party and a full-on light-up, jump around rave experience made for adults. Expect to hear EDM, K-Pop, Hyperpop and familiar pop anthems.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -446,7 +446,7 @@
           "recurring": false
         },
         {
-          "title": "Kail Lowry",
+          "title": "CANCELLED - Kail Lowry",
           "start": "2026-07-28T19:30:00",
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
@@ -466,7 +466,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/aurorawave/",
           "description": "aurorawave is a boundary-pushing rock band recognized for pioneering a distinct sound they term reggaecore \u2014 a fusion of heavy guitar-driven intensity and rhythmic influences drawn from reggae.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -481,7 +481,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Jammy Buffet Thursday July 30th 2026 Charleston Pour House Main Stage ticket prices: 18 advance / 22 day of show $60 early bird 4 packs x 25",
           "price": 60.0,
           "source": "Holy City Sinner",
@@ -690,23 +690,7 @@
         "2026-07-24",
         "2026-07-26"
       ],
-      "events": [
-        {
-          "title": "Taste Of North Charleston: Fork & Flow",
-          "start": "2026-07-26",
-          "end": null,
-          "venue": "Striped Pig Distillery, North Charleston",
-          "neighborhood": "North Charleston",
-          "url": "https://link.6amcity.com/click/46717948.25612/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy90YXN0ZS1vZi1ub3J0aC1jaGFybGVzdG9uLWZvcmstZmxvdy8xODYwNTYyMy8yMDI2LTA3LTI2VDEz/62f733efd173ab15f0e89340Baf4be8ad",
-          "description": "3:30-7:30 p.m. \u00b7 Striped Pig Distillery, North Charleston \u00b7 $15+",
-          "price": 15.0,
-          "source": "CHStoday (newsletter)",
-          "category": "brewery_event",
-          "score": 0.874,
-          "tier": "high",
-          "recurring": false
-        }
-      ],
+      "events": [],
       "overflow": [],
       "recurring": []
     }
