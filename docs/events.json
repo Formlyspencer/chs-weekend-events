@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-07-29 10:19 AM EDT",
+  "fetched_at": "2026-07-29 12:24 PM EDT",
   "counts": {
     "raw": 163,
-    "scored": 63,
+    "scored": 64,
     "this_weekend": 13,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=63",
+    "input_count=64",
     "pre_dup_group venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00|src=Holy City Sinner', 'The Reckoning@2026-07-31 21:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00', 'The Reckoning@2026-07-31 21:00:00']",
-    "output_count=63"
+    "output_count=64"
   ],
   "buckets": {
     "today": "2026-07-29",
@@ -596,6 +596,21 @@
           "recurring": false
         },
         {
+          "title": "Karaoke Night",
+          "start": "2026-07-29T20:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "July 22, 2026 21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.236,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Vitamin C(eviche) with El Molino",
           "start": "2026-07-29T18:30:00",
           "end": null,
@@ -693,7 +708,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
