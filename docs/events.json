@@ -1,21 +1,29 @@
 {
-  "fetched_at": "2026-07-29 10:39 PM EDT",
+  "fetched_at": "2026-07-30 01:44 AM EDT",
   "counts": {
-    "raw": 164,
-    "scored": 67,
-    "this_weekend": 13,
+    "raw": 168,
+    "scored": 68,
+    "this_weekend": 16,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=67",
+    "input_count=68",
+    "pre_dup_group venue=charleston pour house date=2026-08-02: ['Pour House Farmers Market@2026-08-02 11:00:00|src=Manual', 'Seven Teller@2026-08-02 19:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-07-31: ['Congress the Band on the N\u00dcTRL Beac@2026-07-31|src=CHStoday (newsletter)', 'Kyle Dills on the inside stage@2026-07-31 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00|src=Holy City Sinner', 'The Reckoning@2026-07-31 21:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=charleston pour house date=2026-08-01: ['19th Annual Garcia Gathering@2026-08-01 18:00:00|src=Holy City Sinner', 'aoxOMIWIMOxoa@2026-08-01 21:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-08-01: ['Congress the Band on the N\u00dcTRL Beac@2026-08-01 18:00:00|src=Holy City Sinner', 'FlashMob on the inside stage@2026-08-01 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-08-02: ['Congress the Band on the N\u00dcTRL Beac@2026-08-02 18:00:00|src=Holy City Sinner', 'Reverse Cowgirl on the inside stage@2026-08-02 22:00:00|src=Holy City Sinner']",
+    "survivor venue=charleston pour house date=2026-08-02: ['Pour House Farmers Market@2026-08-02 11:00:00', 'Seven Teller@2026-08-02 19:00:00']",
     "survivor venue=the windjammer date=2026-07-31: ['Congress the Band on the N\u00dcTRL Beac@2026-07-31', 'Kyle Dills on the inside stage@2026-07-31 22:00:00']",
     "survivor venue=charleston pour house date=2026-07-31: ['Grateful Dawg- A Garcia / Grisman T@2026-07-31 18:00:00', 'The Reckoning@2026-07-31 21:00:00']",
-    "output_count=67"
+    "survivor venue=charleston pour house date=2026-08-01: ['19th Annual Garcia Gathering@2026-08-01 18:00:00', 'aoxOMIWIMOxoa@2026-08-01 21:00:00']",
+    "survivor venue=the windjammer date=2026-08-01: ['Congress the Band on the N\u00dcTRL Beac@2026-08-01 18:00:00', 'FlashMob on the inside stage@2026-08-01 21:30:00']",
+    "survivor venue=the windjammer date=2026-08-02: ['Congress the Band on the N\u00dcTRL Beac@2026-08-02 18:00:00', 'Reverse Cowgirl on the inside stage@2026-08-02 22:00:00']",
+    "output_count=68"
   ],
   "buckets": {
-    "today": "2026-07-29",
+    "today": "2026-07-30",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -99,6 +107,21 @@
           "recurring": false
         },
         {
+          "title": "Hatha & Hops Yoga at The Pool House",
+          "start": "2026-08-02T10:00:00",
+          "end": null,
+          "venue": "Starlight Motor Inn, 3245 Rivers Ave., North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D206147916",
+          "description": "Hatha & Hops yoga goes pool side this August. 45 minutes of asanas that stretch, strengthen, and help you get centered. Stay after class for a refreshing dip in the pool. 10 am Sundays. Tourists, locals, everyone welcome. Pool pass and class just $25.",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.787,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Brewery Blast Laser Tag",
           "start": "2026-07-31T17:00:00",
           "end": null,
@@ -174,6 +197,36 @@
           "recurring": false
         },
         {
+          "title": "The Mavericks & Friends",
+          "start": "2026-08-01T20:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "The music lives on. For three decades, The Mavericks carved out their Grammy-winning sound \u2014 a multicultural version of American roots music, blending stateside influences like country and rock & roll with the border-crossing textures of Cuban grooves, Tex-Mex twang, and Latin sw\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "House Of Heavy",
+          "start": "2026-08-01T21:30:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "House of Heavy is a night built for the fans who crave the pit, the riffs, the breakdowns, and the chaos, but are tired of waiting for the next tour to hit their city.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Kyle Dills on the inside stage",
           "start": "2026-07-31T22:00:00",
           "end": null,
@@ -189,17 +242,17 @@
           "recurring": false
         },
         {
-          "title": "Congress the Band on the N\u00dcTRL Beach Stage",
-          "start": "2026-07-31",
+          "title": "FlashMob on the inside stage",
+          "start": "2026-08-01T21:30:00",
           "end": null,
-          "venue": "The Windjammer, Isle of Palms",
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
           "neighborhood": "Isle Of Palms",
-          "url": "https://link.6amcity.com/click/46780759.23608/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9jb25ncmVzcy10aGUtYmFuZC1vbi10aGUtbnRybC1iZWFjaC1zdGFnZS8xODU0NjExMC8yMDI2LTA3LTMxVDE4/62f733efd173ab15f0e89340B149c6e91",
-          "description": "6 p.m. \u00b7 The Windjammer, Isle of Palms \u00b7 $25+",
-          "price": 25.0,
-          "source": "CHStoday (newsletter)",
+          "url": "https://the-windjammer.com/",
+          "description": "FlashMob on the inside stage $10 or FREE with a Congress The Band Ticket August 1, 2026 Doors at 9:30 pm 21 Up Charleston\u2019s Top 40 Party Band",
+          "price": 10.0,
+          "source": "Holy City Sinner",
           "category": "outdoor_music",
-          "score": 0.454,
+          "score": 0.504,
           "tier": "low",
           "recurring": false
         },
@@ -237,6 +290,21 @@
         },
         {
           "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-08-02T13:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-07-31T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
@@ -266,6 +334,81 @@
           "recurring": false
         },
         {
+          "title": "Brewery Blast Laser Tag",
+          "start": "2026-08-02T17:00:00",
+          "end": null,
+          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://eventvesta.com/events/133363/t/tickets",
+          "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "aoxOMIWIMOxoa",
+          "start": "2026-08-01T21:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D204704543",
+          "description": "aoxOMIWIMOxoa Saturday August 1st 2026 Charleston Pour House (MAIN STAGE) performing select songs from the Aoxomoxoa Album featuring special guests.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Seven Teller",
+          "start": "2026-08-02T19:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Seven Teller Charleston Pour House - Deck Stage 6:30pm Doors/7pm Show 2 x sets $10 Advance/$10 Day of Show Seven Teller is the art-rock brainchild of Baltimore musician and songwriter Sam Cochran, who started the project in 2020.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Reverse Cowgirl on the inside stage",
+          "start": "2026-08-02T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/",
+          "description": "$10 or FREE with a Congress The Band Ticket August 2, 2026 Doors at 9:30 pm. Show at 10:00 pm. 21 Up ARTIST WEBSITE https://www.ac-scar.com/ Reverse Cowgirl is a Charleston-based project spearheaded by AC Scar, the stage name of local country music songwriter Andrew Scardino.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Congress the Band on the N\u00dcTRL Beach Stage",
+          "start": "2026-07-31",
+          "end": null,
+          "venue": "The Windjammer, Isle of Palms",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://link.6amcity.com/click/46780759.23608/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9jb25ncmVzcy10aGUtYmFuZC1vbi10aGUtbnRybC1iZWFjaC1zdGFnZS8xODU0NjExMC8yMDI2LTA3LTMxVDE4/62f733efd173ab15f0e89340B149c6e91",
+          "description": "6 p.m. \u00b7 The Windjammer, Isle of Palms \u00b7 $25+",
+          "price": 25.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_music",
+          "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Congress the Band on the N\u00dcTRL Beach Stage",
           "start": "2026-08-01T18:00:00",
           "end": null,
@@ -273,6 +416,21 @@
           "neighborhood": "Isle Of Palms",
           "url": "https://the-windjammer.com/event/congress26sat/",
           "description": "$25 Early Bird / $29.95 tier 2 / $34.95 tier 3 August 1, 2026 Doors at 6:00 pm 21 Up or with their Parent www.instagram.com\u2026 Congress The Band is one of the Southeast\u2019s most exciting emerging rock acts bring a new wave of rock music out of the Carolinas.\u2026",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Congress the Band on the N\u00dcTRL Beach Stage \u2013 Sunday",
+          "start": "2026-08-02T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$25 Early Bird / $29.95 tier 2 / $34.95 tier 3 / tier is based on how quick tickets are purchased August 2, 2026 Doors at 6:00 pm 21 Up or with their Parent Artist Website https://www.instagram.com/congresstheband/ Congress The Band is one of the Southeast\u2019s most exciting emergin\u2026",
           "price": 25.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -313,6 +471,21 @@
         {
           "title": "Testaments & Revelations: Second Verse",
           "start": "2026-08-01T12:00:00",
+          "end": null,
+          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
+          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Testaments & Revelations: Second Verse",
+          "start": "2026-08-02T12:00:00",
           "end": null,
           "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -478,21 +651,6 @@
           "recurring": false
         },
         {
-          "title": "West Ashley Farmers Market",
-          "start": "2026-07-29T15:00:00",
-          "end": null,
-          "venue": "Ackerman Park, 55 Sycamore Avenue, Charleston, SC",
-          "neighborhood": "West Ashley",
-          "url": "https://holycitysinner.com/food-bev/west-ashley-farmers-market-opens-april-1-for-2026-season/",
-          "description": "The West Ashley Farmers Market opened for the 2026 season Wednesday, April 1, at Ackerman Park, marking the earliest opening in the market\u2019s history. The market will run every Wednesday from 3 to 7 p.m. through Oct. 14, with a special Thanksgiving Market on Sunday, Nov.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.484,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "City Lights Nights",
           "start": "2026-07-30T17:00:00",
           "end": null,
@@ -506,21 +664,6 @@
           "score": 0.44,
           "tier": "low",
           "recurring": true
-        },
-        {
-          "title": "Live Music",
-          "start": "2026-07-29T18:00:00",
-          "end": null,
-          "venue": "The Washout, 41 Center St, Folly Beach, SC",
-          "neighborhood": "Folly Beach",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Live Music Times: Wednesday's 6-9pm Thursday's: 7-10pm Friday & Saturday: 8-11pm Reggae Sundays: 6-9pm 2 nd - Malin Wagnon Duo 3 rd - Dan's Tramp Stamp & The Money Bags 4 th - Outlaw Country Fest 5-11pm 9th- Dans Tramp Stamp Duo 10th - Malin Wagnon & Friends 11 th - Johnny Hollid\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.421,
-          "tier": "low",
-          "recurring": false
         },
         {
           "title": "REPRISE: Recreating 10/29/1994 at Spartanburg Memorial Auditorium",
@@ -538,21 +681,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-07-30T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Bubba LeMacks",
           "start": "2026-07-30T23:00:00",
           "end": null,
@@ -566,21 +694,6 @@
           "score": 0.378,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Bingo and Movie Nights on the Village Green",
-          "start": "2026-07-29T18:30:00",
-          "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://freshfieldsvillage.com/event/bingo-and-movie-nights-on-the-village-green/",
-          "description": "Join Freshfields Village every Wednesday in July for Bingo & Movie Night on the Village Green! The fun begins with Bingo from 6:30\u20137:30 pm. Pick up your bingo card when you arrive and enjoy multiple rounds with great prizes.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "film_screening",
-          "score": 0.358,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "\"First Draft\" Write-in",
@@ -598,21 +711,6 @@
           "recurring": false
         },
         {
-          "title": "aurorawave",
-          "start": "2026-07-29T20:00:00",
-          "end": null,
-          "venue": "Music Farm, 32 Ann St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "aurorawave is a boundary-pushing rock band recognized for pioneering a distinct sound they term reggaecore \u2014 a fusion of heavy guitar-driven intensity and rhythmic influences drawn from reggae.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Jammy Buffet",
           "start": "2026-07-30T21:00:00",
           "end": null,
@@ -624,51 +722,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.283,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Mug Club Night",
-          "start": "2026-07-29T11:30:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "West Ashley",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Join the Frothy Beard Mug Club! For just $100/year, you\u2019ll unlock exclusive perks at both our West Ashley & Summerville locations: 20 oz pours at 16 oz pricing $2 off mug pours on Mug Club Night \u2013 Tuesdays in Summerville \u2013 Wednesdays in West Ashley 15% off all merchandise 10% off\u2026",
-          "price": 100.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.276,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Karaoke Night",
-          "start": "2026-07-29T20:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "July 22, 2026 21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.236,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Vitamin C(eviche) with El Molino",
-          "start": "2026-07-29T18:30:00",
-          "end": null,
-          "venue": "La Taqueria El Molino, 2901 2901 Maybank Hwy., Charleston, SC",
-          "neighborhood": "Johns Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Celebrate the fresh flavors of summer at Vitamin C(eviche) with El Molino as part of Charleston Wine + Food\u2019s Summer Sizzle on Wednesday, July 29 from 6:30\u20138 p.m. at La Taqueria El Molino on Johns Island.\u2026",
-          "price": 137.35,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.19,
           "tier": "low",
           "recurring": false
         }
@@ -755,7 +808,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -795,6 +848,21 @@
           "recurring": true
         },
         {
+          "title": "Sunday Figure Drawing",
+          "start": "2026-08-02T17:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://redux.givecloud.co/figure-drawing",
+          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.258,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Tipsy Tour",
           "start": "2026-07-31T11:30:00",
           "end": null,
@@ -818,7 +886,23 @@
       ],
       "events": [],
       "overflow": [],
-      "weekdays": [],
+      "weekdays": [
+        {
+          "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-08-03T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.506,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
       "recurring": [
         {
           "title": "Pour House Farmers Market",
