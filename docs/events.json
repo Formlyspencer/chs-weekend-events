@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01 04:25 AM EDT",
+  "fetched_at": "2026-08-01 06:43 AM EDT",
   "counts": {
     "raw": 172,
     "scored": 61,
@@ -183,7 +183,7 @@
           "end": null,
           "venue": "Edmund's Oast Brewing Co., North Charleston",
           "neighborhood": "North Charleston",
-          "url": null,
+          "url": "https://link.6amcity.com/click/46793601.30608/aHR0cHM6Ly82YW1jaXR5LmNvbS9zYy9jaGFybGVzdG9uL2V2ZW50cy9lbWJlZD91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheSMvZGV0YWlscy9zaXAtc2N1bHB0LXBvdHRlcnktd29ya3Nob3AvMTkzMjU4NzMvMjAyNi0wOC0wMlQxMg/62f733efd173ab15f0e89340Bd1af1630",
           "description": "12-2 p.m. \u00b7 Edmund's Oast Brewing Co., North Charleston \u00b7 $82",
           "price": 82.0,
           "source": "CHStoday (newsletter)",
@@ -365,7 +365,7 @@
           "end": null,
           "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://reduxstudios.org/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Gallery 1056: Bloom Where You're Planted \ufeff Opening Friday, May 29th 5-8PM Artist Talk Saturday July 25",
           "price": null,
           "source": "Holy City Sinner",
@@ -428,7 +428,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
