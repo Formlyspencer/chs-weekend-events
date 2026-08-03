@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-03 10:46 AM EDT",
+  "fetched_at": "2026-08-03 01:11 PM EDT",
   "counts": {
-    "raw": 141,
+    "raw": 144,
     "scored": 51,
     "this_weekend": 6,
     "next_weekend": 0
@@ -328,6 +328,21 @@
           "recurring": false
         },
         {
+          "title": "Karaoke",
+          "start": "2026-08-06T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Kids Eat Free",
           "start": "2026-08-03T16:00:00",
           "end": null,
@@ -536,21 +551,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.641,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Sea Island Farmers Market",
-          "start": "2026-08-08T09:30:00",
-          "end": null,
-          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
