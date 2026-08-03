@@ -1,153 +1,31 @@
 {
-  "fetched_at": "2026-08-02 11:21 PM EDT",
+  "fetched_at": "2026-08-03 05:52 AM EDT",
   "counts": {
-    "raw": 146,
-    "scored": 57,
-    "this_weekend": 7,
-    "next_weekend": 5
+    "raw": 141,
+    "scored": 51,
+    "this_weekend": 0,
+    "next_weekend": 6
   },
   "dedup_log": [
-    "input_count=57",
-    "pre_dup_group venue=the windjammer date=2026-08-02: ['Congress the Band on the N\u00dcTRL Beac@2026-08-02 18:00:00|src=Holy City Sinner', 'Reverse Cowgirl on the inside stage@2026-08-02 22:00:00|src=Holy City Sinner']",
+    "input_count=51",
     "pre_dup_group venue=lowcountry artists gallery date=2026-08-07: ['\"Portraits\" by Mary Hoffman@2026-08-07 10:30:00|src=Holy City Sinner', '\"Portraits\" by Mary Hoffman (Openin@2026-08-07 17:00:00|src=Holy City Sinner']",
-    "survivor venue=the windjammer date=2026-08-02: ['Congress the Band on the N\u00dcTRL Beac@2026-08-02 18:00:00', 'Reverse Cowgirl on the inside stage@2026-08-02 22:00:00']",
+    "pre_dup_group venue=charleston pour house date=2026-08-07: ['Jerry Garcia Band Cover Band@2026-08-07 18:00:00|src=Holy City Sinner', 'Dumpstaphunk w/ Marvelous Funkshun@2026-08-07 20:30:00|src=Holy City Sinner']",
     "survivor venue=lowcountry artists gallery date=2026-08-07: ['\"Portraits\" by Mary Hoffman@2026-08-07 10:30:00', '\"Portraits\" by Mary Hoffman (Openin@2026-08-07 17:00:00']",
-    "output_count=57"
+    "survivor venue=charleston pour house date=2026-08-07: ['Jerry Garcia Band Cover Band@2026-08-07 18:00:00', 'Dumpstaphunk w/ Marvelous Funkshun@2026-08-07 20:30:00']",
+    "output_count=51"
   ],
   "buckets": {
     "today": "2026-08-02",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-07-31",
         "2026-08-02"
       ],
-      "events": [
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-02T13:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Hatha & Hops Yoga at The Pool House",
-          "start": "2026-08-02T10:00:00",
-          "end": null,
-          "venue": "Starlight Motor Inn, 3245 Rivers Ave., North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D206147916",
-          "description": "Hatha & Hops yoga goes pool side this August. 45 minutes of asanas that stretch, strengthen, and help you get centered. Stay after class for a refreshing dip in the pool. 10 am Sundays. Tourists, locals, everyone welcome. Pool pass and class just $25.",
-          "price": 25.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.787,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Brewery Blast Laser Tag",
-          "start": "2026-08-02T17:00:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://eventvesta.com/events/133363/t/tickets",
-          "description": "Get ready for an electrifying adventure with Brewery Blast - exclusively at Holy City Brewing! Step into an urban battleground where the air crackles with excitement and the pulse-pounding beat of adrenaline fills the air.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Seven Teller",
-          "start": "2026-08-02T19:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Seven Teller Charleston Pour House - Deck Stage 6:30pm Doors/7pm Show 2 x sets $10 Advance/$10 Day of Show Seven Teller is the art-rock brainchild of Baltimore musician and songwriter Sam Cochran, who started the project in 2020.\u2026",
-          "price": 10.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Reverse Cowgirl on the inside stage",
-          "start": "2026-08-02T22:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/",
-          "description": "$10 or FREE with a Congress The Band Ticket August 2, 2026 Doors at 9:30 pm. Show at 10:00 pm. 21 Up ARTIST WEBSITE https://www.ac-scar.com/ Reverse Cowgirl is a Charleston-based project spearheaded by AC Scar, the stage name of local country music songwriter Andrew Scardino.\u2026",
-          "price": 10.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Congress the Band on the N\u00dcTRL Beach Stage \u2013 Sunday",
-          "start": "2026-08-02T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "$25 Early Bird / $29.95 tier 2 / $34.95 tier 3 / tier is based on how quick tickets are purchased August 2, 2026 Doors at 6:00 pm 21 Up or with their Parent Artist Website https://www.instagram.com/congresstheband/ Congress The Band is one of the Southeast\u2019s most exciting emergin\u2026",
-          "price": 25.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.454,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Testaments & Revelations: Second Verse",
-          "start": "2026-08-02T12:00:00",
-          "end": null,
-          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
-          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
+      "events": [],
       "overflow": [],
       "weekdays": [],
-      "recurring": [
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-08-02T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
+      "recurring": []
     },
     "next_weekend": {
       "range": [
@@ -212,6 +90,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Dumpstaphunk w/ Marvelous Funkshun",
+          "start": "2026-08-07T20:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Dumpstaphunk w/ Marvelous Funkshun Friday 8.7.26 Charleston Pour House Main Stage 730 doors /830 show $35 advance / dos",
+          "price": 35.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
           "tier": "low",
           "recurring": false
         },
@@ -330,7 +223,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/nirvani/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Nirvani \u2013 A Nirvana Tribute Experience formed in 2021 with an inspired vision to perform the most accurate and captivating Nirvana live show since the real thing. For Nirvani, it\u2019s much more than simply being a tribute band.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -653,6 +546,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.641,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-08-08T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
