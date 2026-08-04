@@ -1,21 +1,21 @@
 {
-  "fetched_at": "2026-08-03 10:50 PM EDT",
+  "fetched_at": "2026-08-04 01:51 AM EDT",
   "counts": {
-    "raw": 144,
-    "scored": 51,
+    "raw": 143,
+    "scored": 50,
     "this_weekend": 6,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=51",
+    "input_count=50",
     "pre_dup_group venue=lowcountry artists gallery date=2026-08-07: ['\"Portraits\" by Mary Hoffman@2026-08-07 10:30:00|src=Holy City Sinner', '\"Portraits\" by Mary Hoffman (Openin@2026-08-07 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-08-07: ['Jerry Garcia Band Cover Band@2026-08-07 18:00:00|src=Holy City Sinner', 'Dumpstaphunk w/ Marvelous Funkshun@2026-08-07 20:30:00|src=Holy City Sinner']",
     "survivor venue=lowcountry artists gallery date=2026-08-07: ['\"Portraits\" by Mary Hoffman@2026-08-07 10:30:00', '\"Portraits\" by Mary Hoffman (Openin@2026-08-07 17:00:00']",
     "survivor venue=charleston pour house date=2026-08-07: ['Jerry Garcia Band Cover Band@2026-08-07 18:00:00', 'Dumpstaphunk w/ Marvelous Funkshun@2026-08-07 20:30:00']",
-    "output_count=51"
+    "output_count=50"
   ],
   "buckets": {
-    "today": "2026-08-03",
+    "today": "2026-08-04",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -23,6 +23,21 @@
         "2026-08-09"
       ],
       "events": [
+        {
+          "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-08-08T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
         {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-08-07T10:00:00",
@@ -97,7 +112,9 @@
           "score": 0.454,
           "tier": "low",
           "recurring": false
-        },
+        }
+      ],
+      "overflow": [
         {
           "title": "\"A View Through My Lens\" by April Schackman and \"Colors of the Wild\" by Jeleata Nicole (Opening Reception)",
           "start": "2026-08-07T17:00:00",
@@ -112,12 +129,25 @@
           "score": 0.35,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
         {
           "title": "\"Portraits\" by Mary Hoffman (Opening Reception)",
           "start": "2026-08-07T17:00:00",
+          "end": null,
+          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-presents-%E2%80%9Cportraits%E2%80%9D-by-mary-h/",
+          "description": "Lowcountry Artists Gallery announced its upcoming exhibition, \"Portraits,\" featuring original oil paintings by Mary Hoffman.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Portraits\" by Mary Hoffman",
+          "start": "2026-08-08T10:30:00",
           "end": null,
           "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
           "neighborhood": "Charleston",
@@ -239,7 +269,7 @@
         },
         {
           "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-03T10:00:00",
+          "start": "2026-08-05T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
           "neighborhood": "Charleston",
@@ -343,51 +373,6 @@
           "recurring": true
         },
         {
-          "title": "Kids Eat Free",
-          "start": "2026-08-03T16:00:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Let us handle dinner! Kids 12 and under now eat for free on MONDAYS from 4\u20138 PM Up to 2 kids eat free with the purchase of an adult entree. We\u2019ll have cheese or pepperoni little monster pizza slices, single smash burgers and chicken tenders for your little ones.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.32,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Farmers Market",
-          "start": "2026-08-03T15:00:00",
-          "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://holycitysinner.com/entertainment/freshfields-village-unveils-2026-summer-events-lineup/",
-          "description": "Mondays, June through August from 3 to 7 p.m. A seasonal favorite that grows each year, the Freshfields Village Farmers Market brings together local vendors offering fresh produce, prepared foods and artisan goods that fill the Village Green for the evening.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.316,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-08-03T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "The Wallflowers on the N\u00dcTRL Beach Stage",
           "start": "2026-08-06T18:00:00",
           "end": null,
@@ -433,6 +418,21 @@
           "recurring": false
         },
         {
+          "title": "Music Bingo",
+          "start": "2026-08-04T18:30:00",
+          "end": null,
+          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
+          "neighborhood": "West Ashley",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Music + Bingo = Your New Tuesday Night Plans! Join us on Tuesdays at 6:30 PM for Music Bingo here at our West Ashley location! Jam out to your favorite tunes, play along, and win prizes. Bring your friends and grab a pint. See you there!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.274,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Mount Pleasant Farmers Market",
           "start": "2026-08-04T15:30:00",
           "end": null,
@@ -459,21 +459,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.248,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "PoHo Disc Jam",
-          "start": "2026-08-03T18:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "PoHo Disc Jam > during the Monday Muse Live LP shows Monday July 20th , 27th & August 2nd 2027 A PoHo Style Disc Golf Putting League! rolling start > 9 hole course in the lot.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.236,
           "tier": "low",
           "recurring": false
         },
@@ -551,6 +536,36 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.641,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Weekend Wine-Down",
+          "start": "2026-08-08T10:00:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.63,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-08-08T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
