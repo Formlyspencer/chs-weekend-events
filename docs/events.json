@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-08-06 10:20 AM EDT",
+  "fetched_at": "2026-08-06 08:05 PM EDT",
   "counts": {
-    "raw": 154,
-    "scored": 58,
-    "this_weekend": 15,
+    "raw": 156,
+    "scored": 59,
+    "this_weekend": 18,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=58",
+    "input_count=59",
     "pre_dup_group venue=charleston pour house date=2026-08-09: ['Pour House Farmers Market@2026-08-09 11:00:00|src=Manual', 'Organ Fairchild@2026-08-09 19:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=lowcountry artists gallery date=2026-08-07: ['\"Portraits\" by Mary Hoffman@2026-08-07 10:30:00|src=Holy City Sinner', '\"Portraits\" by Mary Hoffman (Openin@2026-08-07 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-08-07: ['Jerry Garcia Band Cover Band@2026-08-07 18:00:00|src=Holy City Sinner', 'Dumpstaphunk w/ Marvelous Funkshun@2026-08-07 20:30:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-08-09: ['Pour House Farmers Market@2026-08-09 11:00:00', 'Organ Fairchild@2026-08-09 19:30:00']",
     "survivor venue=lowcountry artists gallery date=2026-08-07: ['\"Portraits\" by Mary Hoffman@2026-08-07 10:30:00', '\"Portraits\" by Mary Hoffman (Openin@2026-08-07 17:00:00']",
     "survivor venue=charleston pour house date=2026-08-07: ['Jerry Garcia Band Cover Band@2026-08-07 18:00:00', 'Dumpstaphunk w/ Marvelous Funkshun@2026-08-07 20:30:00']",
-    "output_count=58"
+    "output_count=59"
   ],
   "buckets": {
     "today": "2026-08-06",
@@ -71,6 +71,21 @@
           "recurring": false
         },
         {
+          "title": "Chilly Bear Festival",
+          "start": "2026-08-09T13:00:00",
+          "end": null,
+          "venue": "Jenkins on the Ashley, 3923 Azalea Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/food-bev/chilly-bear-festival-to-bring-music-food-and-family-fun-to-n/",
+          "description": "Get ready for the ultimate summer family reunion experience as Charleston comes together for a day full of memories, music, culture, and community at The Chilly Bear Festival! This isn\u2019t just an event \u2014 it\u2019s a whole vibe! Think backyard family reunion meets block party energy wit\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.787,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Holy City Fights: Summer Knockout",
           "start": "2026-08-08T17:00:00",
           "end": null,
@@ -82,6 +97,21 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Reggae Nights Summer Concert Series",
+          "start": "2026-08-07T20:00:00",
+          "end": null,
+          "venue": "James Island County Park, 871 Riverland Dr, Charleston, SC",
+          "neighborhood": "James Island",
+          "url": "https://holycitysinner.com/entertainment/reggae-nights-summer-concert-series-finale-set-for-aug-7/",
+          "description": "The 2026 Reggae Nights Summer Concert Series will host its season finale at James Island County Park on Friday, Aug. 7, with a live performance by Charleston-based band Mystic Vibrations. Charleston-based Mystic Vibrations hails from Jamaica but moved to the U.S. in 1992.\u2026",
+          "price": 20.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.72,
           "tier": "medium",
           "recurring": false
         },
@@ -138,6 +168,21 @@
           "neighborhood": "Charleston",
           "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Get ready to sing, sway, and vibe all night long as I LOVE R&B brings the heat across the country! This is not your average party\u2014this is a full-blown celebration of the greatest era in R&B music.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "School of Rock",
+          "start": "2026-08-09T11:00:00",
+          "end": null,
+          "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.therefinerychs.com/events/school-of-rock",
+          "description": "Aug 09, 2026, 11:00 AM \u2013 9:00 PM The Refinery, 1640 Meeting St. Charleston, SC 29405, USA",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -555,21 +600,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-08-06T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "The Wallflowers on the N\u00dcTRL Beach Stage",
           "start": "2026-08-06T18:00:00",
           "end": null,
@@ -775,38 +805,7 @@
       ],
       "events": [],
       "overflow": [],
-      "weekdays": [
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-10T10:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "\"Portraits\" by Mary Hoffman",
-          "start": "2026-08-10T10:30:00",
-          "end": null,
-          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-presents-%E2%80%9Cportraits%E2%80%9D-by-mary-h/",
-          "description": "Lowcountry Artists Gallery announced its upcoming exhibition, \"Portraits,\" featuring original oil paintings by Mary Hoffman.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.192,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
+      "weekdays": [],
       "recurring": [
         {
           "title": "Pour House Farmers Market",
