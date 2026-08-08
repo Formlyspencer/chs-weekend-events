@@ -1,16 +1,18 @@
 {
-  "fetched_at": "2026-08-08 02:41 PM EDT",
+  "fetched_at": "2026-08-08 05:33 PM EDT",
   "counts": {
     "raw": 141,
-    "scored": 51,
-    "this_weekend": 15,
+    "scored": 53,
+    "this_weekend": 17,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=51",
+    "input_count=53",
     "pre_dup_group venue=charleston pour house date=2026-08-09: ['Pour House Farmers Market@2026-08-09 11:00:00|src=Manual', 'Organ Fairchild@2026-08-09 19:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-08-08: ['Charles Esten presets (Ward Jammer @2026-08-08 18:00:00|src=Holy City Sinner', 'VYNL on the inside Stage@2026-08-08 22:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-08-09: ['Pour House Farmers Market@2026-08-09 11:00:00', 'Organ Fairchild@2026-08-09 19:30:00']",
-    "output_count=51"
+    "survivor venue=the windjammer date=2026-08-08: ['Charles Esten presets (Ward Jammer @2026-08-08 18:00:00', 'VYNL on the inside Stage@2026-08-08 22:00:00']",
+    "output_count=53"
   ],
   "buckets": {
     "today": "2026-08-08",
@@ -117,7 +119,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/i-love-rb-party/",
           "description": "Get ready to sing, sway, and vibe all night long as I LOVE R&B brings the heat across the country! This is not your average party\u2014this is a full-blown celebration of the greatest era in R&B music.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -172,6 +174,21 @@
           "recurring": false
         },
         {
+          "title": "VYNL on the inside Stage",
+          "start": "2026-08-08T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/event/vynl-on-the-inside-stage-4/",
+          "description": "VYNL on the inside Stage $10 or FREE with a Charles Esten ticket August 8, 2026 Doors at 10:00 pm 21Up Artist Website https://www.instagram.com/vynl_chs/",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Organ Fairchild",
           "start": "2026-08-09T19:30:00",
           "end": null,
@@ -183,6 +200,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Live Music",
+          "start": "2026-08-09T18:00:00",
+          "end": null,
+          "venue": "Charleston Harbor Resort & Marina, 20 Patriots Point Rd, Mt Pleasant, SC",
+          "neighborhood": "Mt Pleasant",
+          "url": "https://www.charlestonharborresort.com/",
+          "description": "Live Music 6pm-9pm | At the Reel Bar 8.09 Slacktide 8.14 Jimmy Snyder 8.16 Thomas Champagne 8.20 Weigh Station 8.21 Jeff Houts 8.23 Slacktide 8.27 Thomas Champagne 8.28 Jeff Houts 8.30 Jig Wiggler",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.464,
           "tier": "low",
           "recurring": false
         },
@@ -362,7 +394,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
