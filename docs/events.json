@@ -1,21 +1,21 @@
 {
-  "fetched_at": "2026-08-08 09:59 PM EDT",
+  "fetched_at": "2026-08-09 12:19 AM EDT",
   "counts": {
     "raw": 141,
-    "scored": 53,
-    "this_weekend": 17,
-    "next_weekend": 0
+    "scored": 49,
+    "this_weekend": 9,
+    "next_weekend": 6
   },
   "dedup_log": [
-    "input_count=53",
+    "input_count=49",
     "pre_dup_group venue=charleston pour house date=2026-08-09: ['Pour House Farmers Market@2026-08-09 11:00:00|src=Manual', 'Organ Fairchild@2026-08-09 19:30:00|src=Holy City Sinner']",
-    "pre_dup_group venue=the windjammer date=2026-08-08: ['Charles Esten presets (Ward Jammer @2026-08-08 18:00:00|src=Holy City Sinner', 'VYNL on the inside Stage@2026-08-08 22:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-08-09: ['Pour House Farmers Market@2026-08-09 11:00:00', 'Organ Fairchild@2026-08-09 19:30:00']",
-    "survivor venue=the windjammer date=2026-08-08: ['Charles Esten presets (Ward Jammer @2026-08-08 18:00:00', 'VYNL on the inside Stage@2026-08-08 22:00:00']",
-    "output_count=53"
+    "survivor venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00']",
+    "output_count=49"
   ],
   "buckets": {
-    "today": "2026-08-08",
+    "today": "2026-08-09",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -23,21 +23,6 @@
         "2026-08-09"
       ],
       "events": [
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-08T10:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
         {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-08-09T13:00:00",
@@ -84,21 +69,6 @@
           "recurring": false
         },
         {
-          "title": "Holy City Fights: Summer Knockout",
-          "start": "2026-08-08T17:00:00",
-          "end": null,
-          "venue": "Cannon Distillery, 1750 Signal Point Rd., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/sports/holy-city-fights-brings-summer-knockout-to-charleston-on-aug/",
-          "description": "Charleston is preparing for one of its most unique sporting events of the summer as Holy City Fights: Summer Knockout makes its debut on Saturday, Aug. 8, 2026, at Cannon Distillery.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "2nd Sunday on King Street",
           "start": "2026-08-09T12:00:00",
           "end": null,
@@ -111,21 +81,6 @@
           "category": "outdoor_festival",
           "score": 0.704,
           "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "I Love R&B Party",
-          "start": "2026-08-08T21:00:00",
-          "end": null,
-          "venue": "Music Farm, 32 Ann St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Get ready to sing, sway, and vibe all night long as I LOVE R&B brings the heat across the country! This is not your average party\u2014this is a full-blown celebration of the greatest era in R&B music.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
           "recurring": false
         },
         {
@@ -155,36 +110,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Jon Stickley Trio",
-          "start": "2026-08-08T18:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Jon Stickley Trio Saturday August 8th 2026 Chs Pour House Deck Stage 5pm doors 6pm show 2 x sets $15 advance / day of show Boundary-breaking and genre-defying are handy terms to use in describing musical artists, but while they can lend a certain cachet to a project, music that r\u2026",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "VYNL on the inside Stage",
-          "start": "2026-08-08T22:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/event/vynl-on-the-inside-stage-4/",
-          "description": "VYNL on the inside Stage $10 or FREE with a Charles Esten ticket August 8, 2026 Doors at 10:00 pm 21Up Artist Website https://www.instagram.com/vynl_chs/",
-          "price": 10.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
           "tier": "low",
           "recurring": false
         },
@@ -219,98 +144,6 @@
           "recurring": false
         },
         {
-          "title": "Charles Esten presets (Ward Jammer 6) on the N\u00dcTRL Beach Stage",
-          "start": "2026-08-08T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/event/charles-esten-3/",
-          "description": "$35 Advance / $45 DOS August 8, 2026 Doors at 6:00 pm 21 Up or with their Parent www.charlesesten.com VIP M&G\u2026 1 GA Ticket Intimate group meet and greet that includes a short set Piece of swag Opportunity to take a photo with Chip First entry into the venue ABOUT Charles \u201cChip\u201d E\u2026",
-          "price": 35.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.454,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Shane Gillis & Friends",
-          "start": "2026-08-08T19:00:00",
-          "end": null,
-          "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/shane-gillis-tires-cast-members-to-perform-at-north-charlest/",
-          "description": "Ahead of the Season 3 premiere of the hit Netflix comedy series Tires , Shane Gillis and Rough House today announced Shane and Friends, a one-night event coming to the North Charleston Coliseum on Saturday, Aug. 8.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.411,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Tim McGraw: Pawn Shop Guitar Tour 2026",
-          "start": "2026-08-08T19:00:00",
-          "end": null,
-          "venue": "Credit One Stadium, 161 Seven Farms Drive, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/tim-mcgraw-to-perform-at-credit-one-stadium-in-august/",
-          "description": "Award-winning country music singer and songwriter Tim McGraw will bring his Pawn Shop Guitar Tour 2026 to Credit One Stadium on Saturday, Aug. 8, 2026, at 7 p.m. Tickets go on sale Friday, Feb. 6, at 10 a.m.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.411,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Mariachazo",
-          "start": "2026-08-08T20:00:00",
-          "end": null,
-          "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Mariachazo Saturday, August 8, 8 PM North Charleston Performing Arts Center Tickets Now On Sale!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.411,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
-      "overflow": [
-        {
-          "title": "\"Portraits\" by Mary Hoffman",
-          "start": "2026-08-08T10:30:00",
-          "end": null,
-          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-presents-%E2%80%9Cportraits%E2%80%9D-by-mary-h/",
-          "description": "Lowcountry Artists Gallery announced its upcoming exhibition, \"Portraits,\" featuring original oil paintings by Mary Hoffman.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Testaments & Revelations: Second Verse",
-          "start": "2026-08-08T12:00:00",
-          "end": null,
-          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
-          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Testaments & Revelations: Second Verse",
           "start": "2026-08-09T12:00:00",
           "end": null,
@@ -324,55 +157,11 @@
           "score": 0.35,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Bloom Where You're Planted\ufeff",
-          "start": "2026-08-08T12:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://reduxstudios.org/",
-          "description": "Gallery 1056: Bloom Where You're Planted \ufeff Opening Friday, May 29th 5-8PM Artist Talk Saturday July 25",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.313,
-          "tier": "low",
-          "recurring": false
         }
       ],
+      "overflow": [],
       "weekdays": [],
       "recurring": [
-        {
-          "title": "Charleston Farmers Market",
-          "start": "2026-08-08T08:00:00",
-          "end": null,
-          "venue": "Marion Square",
-          "neighborhood": "Charleston",
-          "url": "https://charlestonfarmersmarket.com/",
-          "description": "MARION SQUARE 329 Meeting Street, Charleston, SC 29403 Saturdays, 8:00 AM \u2013 2:00 PM April 4 \u2013 November 21, 2026 *CLOSED: July 4th & November 28th Additional Markets: (9:00 AM \u2013 3:00 PM) Sunday, May 31st Saturdays & Sundays, Dec.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": true
-        },
-        {
-          "title": "Saturdays at the Distillery",
-          "start": "2026-08-08T12:00:00",
-          "end": null,
-          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
-          "description": "Saturdays at the Distillery | Saturday, August 8th Spend your Saturday afternoon at Firefly with live music, great food, and plenty of room to relax.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": true
-        },
         {
           "title": "Pour House Farmers Market",
           "start": "2026-08-09T11:00:00",
@@ -385,51 +174,6 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Folly Beach Farmer's Market",
-          "start": "2026-08-08T12:00:00",
-          "end": null,
-          "venue": "1630 Folly Road, Charleston, SC",
-          "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.637,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Weekend Wine-Down",
-          "start": "2026-08-08T10:00:00",
-          "end": null,
-          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
-          "neighborhood": "Wadmalaw Island",
-          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
-          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.63,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Sea Island Farmers Market",
-          "start": "2026-08-08T09:30:00",
-          "end": null,
-          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.seaislandfarmersmarket.com/",
-          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
@@ -455,8 +199,115 @@
         "2026-08-14",
         "2026-08-16"
       ],
-      "events": [],
-      "overflow": [],
+      "events": [
+        {
+          "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-08-14T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Friday Live Music",
+          "start": "2026-08-14T16:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://fireflydistillery.com/events/",
+          "description": "Kick off your weekend the right way with Friday Happy Hour at Firefly Distillery! From 4-7 PM, sip on some great cocktails with $4 off all cocktails and $5 16 oz can beers, get some snacks off our happy hour menu all while enjoying live music from Hotel Hugo.",
+          "price": 4.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Full Draw Film Tour",
+          "start": "2026-08-14T19:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Get ready for the 2026 Full Draw Film Tour; presented by ONXHUNT\u2014featuring all-new films packed with bugling bulls, speedgoats, and powerful stories from first-time Full Draw filmmakers. Experience the thrill of bowhunting cinematography on the big screen at a venue near you.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Live Music",
+          "start": "2026-08-14T18:00:00",
+          "end": null,
+          "venue": "Charleston Harbor Resort & Marina, 20 Patriots Point Rd, Mt Pleasant, SC",
+          "neighborhood": "Mt Pleasant",
+          "url": "https://www.charlestonharborresort.com/",
+          "description": "Live Music 6pm-9pm | At the Reel Bar 8.09 Slacktide 8.14 Jimmy Snyder 8.16 Thomas Champagne 8.20 Weigh Station 8.21 Jeff Houts 8.23 Slacktide 8.27 Thomas Champagne 8.28 Jeff Houts 8.30 Jig Wiggler",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.464,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Penelope Road on the N\u00dcTRL Beach Stage",
+          "start": "2026-08-14T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$25 adv August 14, 2026 Doors at 6:00 pm 21 Up or with their Parent Artist Website https://www.instagram.com/peneloperoad/?hl=en Emerging from Atlanta\u2019s thriving music scene, Penelope Road crafts a sound that\u2019s as bold as it is soulful.\u2026",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Testaments & Revelations: Second Verse (Artists' Reception)",
+          "start": "2026-08-14T17:00:00",
+          "end": null,
+          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
+          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
+      "overflow": [
+        {
+          "title": "\"Portraits\" by Mary Hoffman",
+          "start": "2026-08-14T10:30:00",
+          "end": null,
+          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-presents-%E2%80%9Cportraits%E2%80%9D-by-mary-h/",
+          "description": "Lowcountry Artists Gallery announced its upcoming exhibition, \"Portraits,\" featuring original oil paintings by Mary Hoffman.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.297,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
       "weekdays": [
         {
           "title": "Mary Whyte: Salt of the Earth",
@@ -470,6 +321,21 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.69,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Paint & Sip: Twilight Tides",
+          "start": "2026-08-13T19:00:00",
+          "end": null,
+          "venue": "Two Blokes Brewing, 547 Long Point Rd., #101, Mt Pleasant, SC",
+          "neighborhood": "Mount Pleasant",
+          "url": "https://eventvesta.com/events/153484/t/tickets",
+          "description": "Paint & sip night at Two Blokes Brewing in Mount Pleasant! Join us for a relaxed, fun 2-hour guided painting experience\u2014no experience needed.\u2026",
+          "price": 1.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.556,
           "tier": "medium",
           "recurring": false
         },
@@ -517,6 +383,21 @@
           "score": 0.44,
           "tier": "low",
           "recurring": true
+        },
+        {
+          "title": "The Brook & The Bluff \u2013 on the N\u00dcTRL Beach Stage",
+          "start": "2026-08-13T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$35 Advance/ $40 DOS / VIPS - Early entry VIP $85 / Werewolf VIP $145 August 13, 2026 Doors at 6:00 pm 21UP or with their parent ARTIST WEBSITES https://www.brookandbluff.com EARLY ENTRY VIP PACKAGE: ***Purchasers should plan to arrive 30 minutes prior to doors in order to partic\u2026",
+          "price": 35.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.34,
+          "tier": "low",
+          "recurring": false
         },
         {
           "title": "Wine Down Wednesday with Candle Making & Wine Tasting",
@@ -641,6 +522,21 @@
       ],
       "recurring": [
         {
+          "title": "Food Truck Friday",
+          "start": "2026-08-14T11:00:00",
+          "end": null,
+          "venue": "Kiawah Island Town Hall, 4475 Betsy Kerrison Pkwy, Johns Island, SC",
+          "neighborhood": "Johns Island",
+          "url": "https://www.kiawahisland.gov/events/food_truck_friday/index.php",
+          "description": "UPDATE: Due to popular demand, we\u2019ve decided to extend Food Truck Fridays to the end of August\u2014how yum! This tasty event will continue every Friday (except July 3) from 11:00 a.m. to 2:00 p.m. through Aug. 28. The updated lineup can be found here .\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.694,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
           "title": "Pour House Farmers Market",
           "start": "2026-08-16T11:00:00",
           "end": null,
@@ -668,6 +564,36 @@
           "category": "farmers_market",
           "score": 0.655,
           "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Music on the Green",
+          "start": "2026-08-14T18:00:00",
+          "end": null,
+          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
+          "neighborhood": "Kiawah",
+          "url": "https://freshfieldsvillage.com/event/bingo-and-movie-nights-on-the-village-green/",
+          "description": "Join us for weekly on Friday nights from 6:00 to 9:00 pm. The free, family friendly concerts featuring a variety of music from regional bands including Carolina Beach music, Motown, Top 40, Country and more! Enjoy a summer filled with music, fun, and memories.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.641,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Tipsy Tour",
+          "start": "2026-08-14T11:30:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Every Friday Grab your friends (or make some new ones) in this unique way to explore the Lowcountry. You\u2019ll be picked up at the visitor\u2019s center downtown on Fridays at 11:30 AM, from there you\u2019ll travel to the home of Charleston\u2019s only domestic winery and vineyard, Deep Water Vin\u2026",
+          "price": 105.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.214,
+          "tier": "low",
           "recurring": true
         }
       ]
