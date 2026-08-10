@@ -1,29 +1,54 @@
 {
-  "fetched_at": "2026-08-09 10:03 PM EDT",
+  "fetched_at": "2026-08-10 12:41 AM EDT",
   "counts": {
-    "raw": 140,
-    "scored": 48,
-    "this_weekend": 9,
-    "next_weekend": 6
+    "raw": 133,
+    "scored": 45,
+    "this_weekend": 0,
+    "next_weekend": 8
   },
   "dedup_log": [
-    "input_count=48",
+    "input_count=45",
     "pre_dup_group venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00|src=Holy City Sinner']",
     "survivor venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00']",
-    "output_count=48"
+    "output_count=45"
   ],
   "buckets": {
     "today": "2026-08-09",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-08-07",
         "2026-08-09"
       ],
+      "events": [],
+      "overflow": [],
+      "weekdays": [],
+      "recurring": []
+    },
+    "next_weekend": {
+      "range": [
+        "2026-08-14",
+        "2026-08-16"
+      ],
       "events": [
         {
+          "title": "9th Annual\u00a0Everyone\u00a0Orchestra\u00a0Weekend\u00a0Gathering: Everyone Orchestra",
+          "start": "2026-08-14T20:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "9th Annual Everyone Orchestra Weekend Gathering @ Charleston Pour House August 14th + 15th 2026 2 x nights of Everyone Orchestra on the main stage + Everyone's Dead ( deck stage / Saturday ) Conducted by Matt Butler featuring Claude Coleman Jr.\u2026",
+          "price": 23.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.96,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-09T13:00:00",
+          "start": "2026-08-15T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
           "neighborhood": "Charleston",
@@ -36,153 +61,6 @@
           "tier": "high",
           "recurring": false
         },
-        {
-          "title": "Hatha & Hops Yoga at The Pool House",
-          "start": "2026-08-09T10:00:00",
-          "end": null,
-          "venue": "Starlight Motor Inn, 3245 Rivers Ave., North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D206147917",
-          "description": "Hatha & Hops yoga goes pool side this August. 45 minutes of asanas that stretch, strengthen, and help you get centered. Stay after class for a refreshing dip in the pool. 10 am Sundays. Tourists, locals, everyone welcome. Pool pass and class just $25.",
-          "price": 25.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.787,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Chilly Bear Festival",
-          "start": "2026-08-09T13:00:00",
-          "end": null,
-          "venue": "Jenkins on the Ashley, 3923 Azalea Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/food-bev/chilly-bear-festival-to-bring-music-food-and-family-fun-to-n/",
-          "description": "Get ready for the ultimate summer family reunion experience as Charleston comes together for a day full of memories, music, culture, and community at The Chilly Bear Festival! This isn\u2019t just an event \u2014 it\u2019s a whole vibe! Think backyard family reunion meets block party energy wit\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.787,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "2nd Sunday on King Street",
-          "start": "2026-08-09T12:00:00",
-          "end": null,
-          "venue": "Downtown",
-          "neighborhood": "Charleston",
-          "url": "https://www.shop2ndsunday.com/",
-          "description": "If you\u2019re wondering who, what, where, why of 2nd Sunday, here\u2019s the scoop. Every month on the second Sunday the City of Charleston helps us to shut down King Street (our Main Street) from Queen to Calhoun, roughly 1/2 mile, to through traffic and without parked cars, for 5 blissf\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.704,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "School of Rock",
-          "start": "2026-08-09T11:00:00",
-          "end": null,
-          "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.therefinerychs.com/events/school-of-rock",
-          "description": "Aug 09, 2026, 11:00 AM \u2013 9:00 PM The Refinery, 1640 Meeting St. Charleston, SC 29405, USA",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "PJ Morton",
-          "start": "2026-08-09T20:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "PJ Morton is a soul singer, songwriter, performer and producer based in New Orleans. He is a 6x GRAMMY-winner and 22x GRAMMY nominee who has earned numerous nominations for BET, Soul Train and NAACP Image Awards, in addition to selling out countless shows at historic venues like\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Organ Fairchild",
-          "start": "2026-08-09T19:30:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Organ Fairchild Sun. 8.9.26 Charleston Pour House Deck Stage 630 doors /730 show 2 x sets $10 advance / $10 day of show",
-          "price": 10.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Live Music",
-          "start": "2026-08-09T18:00:00",
-          "end": null,
-          "venue": "Charleston Harbor Resort & Marina, 20 Patriots Point Rd, Mt Pleasant, SC",
-          "neighborhood": "Mt Pleasant",
-          "url": "https://www.charlestonharborresort.com/",
-          "description": "Live Music 6pm-9pm | At the Reel Bar 8.09 Slacktide 8.14 Jimmy Snyder 8.16 Thomas Champagne 8.20 Weigh Station 8.21 Jeff Houts 8.23 Slacktide 8.27 Thomas Champagne 8.28 Jeff Houts 8.30 Jig Wiggler",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.464,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Testaments & Revelations: Second Verse",
-          "start": "2026-08-09T12:00:00",
-          "end": null,
-          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
-          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
-      "overflow": [],
-      "weekdays": [],
-      "recurring": [
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-08-09T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
-    },
-    "next_weekend": {
-      "range": [
-        "2026-08-14",
-        "2026-08-16"
-      ],
-      "events": [
         {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-08-14T10:00:00",
@@ -229,6 +107,21 @@
           "recurring": false
         },
         {
+          "title": "UpDating",
+          "start": "2026-08-14T20:00:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "UPDATING is the critically-acclaimed New York City-based live dating & comedy show bringing two singles on blindfolded first dates in front of live audiences.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Live Music",
           "start": "2026-08-14T18:00:00",
           "end": null,
@@ -257,7 +150,9 @@
           "score": 0.454,
           "tier": "low",
           "recurring": false
-        },
+        }
+      ],
+      "overflow": [
         {
           "title": "Testaments & Revelations: Second Verse (Artists' Reception)",
           "start": "2026-08-14T17:00:00",
@@ -272,9 +167,22 @@
           "score": 0.35,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
+        {
+          "title": "\"Portraits\" by Mary Hoffman",
+          "start": "2026-08-15T10:30:00",
+          "end": null,
+          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-presents-%E2%80%9Cportraits%E2%80%9D-by-mary-h/",
+          "description": "Lowcountry Artists Gallery announced its upcoming exhibition, \"Portraits,\" featuring original oil paintings by Mary Hoffman.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "\"Portraits\" by Mary Hoffman",
           "start": "2026-08-14T10:30:00",
@@ -561,6 +469,51 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.641,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Folly Beach Farmer's Market",
+          "start": "2026-08-15T12:00:00",
+          "end": null,
+          "venue": "1630 Folly Road, Charleston, SC",
+          "neighborhood": "Folly",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.637,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Weekend Wine-Down",
+          "start": "2026-08-15T10:00:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.63,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-08-15T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
