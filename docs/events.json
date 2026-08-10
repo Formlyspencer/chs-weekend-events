@@ -1,18 +1,16 @@
 {
-  "fetched_at": "2026-08-09 05:35 PM EDT",
+  "fetched_at": "2026-08-09 10:03 PM EDT",
   "counts": {
-    "raw": 141,
-    "scored": 49,
+    "raw": 140,
+    "scored": 48,
     "this_weekend": 9,
     "next_weekend": 6
   },
   "dedup_log": [
-    "input_count=49",
-    "pre_dup_group venue=charleston pour house date=2026-08-09: ['Pour House Farmers Market@2026-08-09 11:00:00|src=Manual', 'Organ Fairchild@2026-08-09 19:30:00|src=Holy City Sinner']",
+    "input_count=48",
     "pre_dup_group venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00|src=Holy City Sinner']",
-    "survivor venue=charleston pour house date=2026-08-09: ['Pour House Farmers Market@2026-08-09 11:00:00', 'Organ Fairchild@2026-08-09 19:30:00']",
     "survivor venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00']",
-    "output_count=49"
+    "output_count=48"
   ],
   "buckets": {
     "today": "2026-08-09",
@@ -162,21 +160,6 @@
       "overflow": [],
       "weekdays": [],
       "recurring": [
-        {
-          "title": "Pour House Farmers Market",
-          "start": "2026-08-09T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
         {
           "title": "Sunday Figure Drawing",
           "start": "2026-08-09T17:00:00",
