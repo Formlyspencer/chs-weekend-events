@@ -1,18 +1,22 @@
 {
-  "fetched_at": "2026-08-11 03:05 PM EDT",
+  "fetched_at": "2026-08-11 05:52 PM EDT",
   "counts": {
-    "raw": 138,
-    "scored": 46,
-    "this_weekend": 10,
+    "raw": 137,
+    "scored": 48,
+    "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=46",
+    "input_count=48",
+    "pre_dup_group venue=the windjammer date=2026-08-13: ['The Brook & The Bluff \u2013 on the N\u00dcTR@2026-08-13 18:00:00|src=Holy City Sinner', 'DJ MEDIC \u2013 on the inside stage@2026-08-13 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-08-14: ['Penelope Road on the N\u00dcTRL Beach St@2026-08-14 18:00:00|src=Holy City Sinner', 'John Wood Band on the inside stage@2026-08-14 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=city gallery date=2026-08-15: ['Testaments & Revelations: Second Ve@2026-08-15 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-15 14:00:00|src=Holy City Sinner']",
+    "survivor venue=the windjammer date=2026-08-13: ['The Brook & The Bluff \u2013 on the N\u00dcTR@2026-08-13 18:00:00', 'DJ MEDIC \u2013 on the inside stage@2026-08-13 21:30:00']",
     "survivor venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00']",
+    "survivor venue=the windjammer date=2026-08-14: ['Penelope Road on the N\u00dcTRL Beach St@2026-08-14 18:00:00', 'John Wood Band on the inside stage@2026-08-14 22:00:00']",
     "survivor venue=city gallery date=2026-08-15: ['Testaments & Revelations: Second Ve@2026-08-15 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-15 14:00:00']",
-    "output_count=46"
+    "output_count=48"
   ],
   "buckets": {
     "today": "2026-08-11",
@@ -125,6 +129,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "John Wood Band on the inside stage",
+          "start": "2026-08-14T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$10 or FREE with a Penelope Road ticket August 14, 2026 Doors at 10:00 pm 21Up Artist Website https://www.facebook.com/thejohnwoodband The John Wood Band is a soulful six-piece rock band out Wilmington, NC.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
           "tier": "low",
           "recurring": false
         },
@@ -313,19 +332,19 @@
           "recurring": true
         },
         {
-          "title": "Karaoke",
-          "start": "2026-08-13T18:00:00",
+          "title": "DJ MEDIC \u2013 on the inside stage",
+          "start": "2026-08-13T21:30:00",
           "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "DJ MEDIC \u2013 on the inside stage $10 or FREE with a The Brook & The Bluff Ticket August 13, 2026 Doors at 9:30 pm 21 Up Catch DJ MEDIC at The Windjammer on the inside stage, Thursday August 13 after The Brook & The Bluff",
+          "price": 10.0,
           "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
+          "category": "outdoor_music",
+          "score": 0.378,
           "tier": "low",
-          "recurring": true
+          "recurring": false
         },
         {
           "title": "The Brook & The Bluff \u2013 on the N\u00dcTRL Beach Stage",
@@ -500,7 +519,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
