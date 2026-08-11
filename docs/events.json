@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-08-11 09:12 AM EDT",
+  "fetched_at": "2026-08-11 12:02 PM EDT",
   "counts": {
     "raw": 138,
-    "scored": 47,
-    "this_weekend": 11,
+    "scored": 46,
+    "this_weekend": 10,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=47",
+    "input_count=46",
     "pre_dup_group venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=city gallery date=2026-08-15: ['Testaments & Revelations: Second Ve@2026-08-15 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-15 14:00:00|src=Holy City Sinner']",
     "survivor venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00']",
     "survivor venue=city gallery date=2026-08-15: ['Testaments & Revelations: Second Ve@2026-08-15 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-15 14:00:00']",
-    "output_count=47"
+    "output_count=46"
   ],
   "buckets": {
     "today": "2026-08-11",
@@ -170,21 +170,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.454,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Easy Honey on the N\u00dcTRL Beach Stage",
-          "start": "2026-08-15T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/event/easyhoney26/",
-          "description": "August 15, 2026 Doors at 6:00 pm Ages 21 UP or with their Parent easyhoneymusic.com Get ready to catch some waves and some riffs! Charleston\u2019s own Easy Honey is bringing their signature East Coast surf-rock back to the beach.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.428,
           "tier": "low",
           "recurring": false
         }
