@@ -1,19 +1,21 @@
 {
-  "fetched_at": "2026-08-10 09:59 PM EDT",
+  "fetched_at": "2026-08-11 12:22 AM EDT",
   "counts": {
-    "raw": 133,
-    "scored": 45,
-    "this_weekend": 8,
+    "raw": 138,
+    "scored": 47,
+    "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=45",
+    "input_count=47",
     "pre_dup_group venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=city gallery date=2026-08-15: ['Testaments & Revelations: Second Ve@2026-08-15 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-15 14:00:00|src=Holy City Sinner']",
     "survivor venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00']",
-    "output_count=45"
+    "survivor venue=city gallery date=2026-08-15: ['Testaments & Revelations: Second Ve@2026-08-15 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-15 14:00:00']",
+    "output_count=47"
   ],
   "buckets": {
-    "today": "2026-08-10",
+    "today": "2026-08-11",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -24,6 +26,21 @@
         {
           "title": "9th Annual\u00a0Everyone\u00a0Orchestra\u00a0Weekend\u00a0Gathering: Everyone Orchestra",
           "start": "2026-08-14T20:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "9th Annual Everyone Orchestra Weekend Gathering @ Charleston Pour House August 14th + 15th 2026 2 x nights of Everyone Orchestra on the main stage + Everyone's Dead ( deck stage / Saturday ) Conducted by Matt Butler featuring Claude Coleman Jr.\u2026",
+          "price": 23.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.96,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "9th Annual\u00a0Everyone\u00a0Orchestra\u00a0Weekend\u00a0Gathering: Everyone's Dead",
+          "start": "2026-08-15T16:00:00",
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
@@ -112,6 +129,21 @@
           "recurring": false
         },
         {
+          "title": "The Buzz on Honey Cocktails",
+          "start": "2026-08-15T16:00:00",
+          "end": null,
+          "venue": "High Wire Distilling, 311 Huger St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Discover the sweet science behind honey cocktails at The Buzz on Honey Cocktails at High Wire Distilling as part of Charleston Wine + Food\u2019s Summer Sizzle on Saturday, August 15 from 4\u20136 p.m. at High Wire Distilling. Joined by Dr.\u2026",
+          "price": 96.15,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.497,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Live Music",
           "start": "2026-08-14T18:00:00",
           "end": null,
@@ -140,6 +172,21 @@
           "score": 0.454,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Easy Honey on the N\u00dcTRL Beach Stage",
+          "start": "2026-08-15T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/event/easyhoney26/",
+          "description": "August 15, 2026 Doors at 6:00 pm Ages 21 UP or with their Parent easyhoneymusic.com Get ready to catch some waves and some riffs! Charleston\u2019s own Easy Honey is bringing their signature East Coast surf-rock back to the beach.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.428,
+          "tier": "low",
+          "recurring": false
         }
       ],
       "overflow": [
@@ -166,6 +213,21 @@
           "neighborhood": "Charleston",
           "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-presents-%E2%80%9Cportraits%E2%80%9D-by-mary-h/",
           "description": "Lowcountry Artists Gallery announced its upcoming exhibition, \"Portraits,\" featuring original oil paintings by Mary Hoffman.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Testaments & Revelations: Second Verse",
+          "start": "2026-08-15T12:00:00",
+          "end": null,
+          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
+          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -222,7 +284,7 @@
         },
         {
           "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-10T10:00:00",
+          "start": "2026-08-12T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
           "neighborhood": "Charleston",
@@ -266,6 +328,21 @@
           "recurring": true
         },
         {
+          "title": "Karaoke",
+          "start": "2026-08-13T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "The Brook & The Bluff \u2013 on the N\u00dcTRL Beach Stage",
           "start": "2026-08-13T18:00:00",
           "end": null,
@@ -294,51 +371,6 @@
           "score": 0.327,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Kids Eat Free",
-          "start": "2026-08-10T16:00:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Let us handle dinner! Kids 12 and under now eat for free on MONDAYS from 4\u20138 PM Up to 2 kids eat free with the purchase of an adult entree. We\u2019ll have cheese or pepperoni little monster pizza slices, single smash burgers and chicken tenders for your little ones.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.32,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Farmers Market",
-          "start": "2026-08-10T15:00:00",
-          "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://holycitysinner.com/entertainment/freshfields-village-unveils-2026-summer-events-lineup/",
-          "description": "Mondays, June through August from 3 to 7 p.m. A seasonal favorite that grows each year, the Freshfields Village Farmers Market brings together local vendors offering fresh produce, prepared foods and artisan goods that fill the Village Green for the evening.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.316,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-08-10T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Portugal. The Man",
@@ -371,6 +403,21 @@
           "recurring": false
         },
         {
+          "title": "Music Bingo",
+          "start": "2026-08-11T18:30:00",
+          "end": null,
+          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
+          "neighborhood": "West Ashley",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Music + Bingo = Your New Tuesday Night Plans! Join us on Tuesdays at 6:30 PM for Music Bingo here at our West Ashley location! Jam out to your favorite tunes, play along, and win prizes. Bring your friends and grab a pint. See you there!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.274,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Mount Pleasant Farmers Market",
           "start": "2026-08-11T15:30:00",
           "end": null,
@@ -384,24 +431,24 @@
           "score": 0.273,
           "tier": "low",
           "recurring": true
-        },
-        {
-          "title": "Monday Mash-UPs featuring\u00a0 Steven Sandifer, Whitt Algar, Dave Grimm & revolving guests",
-          "start": "2026-08-10T18:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Monday Mash-UPs featuring Steven Sandifer, Whitt Algar, Dave Grimm & revolving guests Monday August 10,17,24,31 Charleston Pour House Deck Stage FREE SHOWS 5pm doors /6pm shows 2 x sets",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.263,
-          "tier": "low",
-          "recurring": false
         }
       ],
       "recurring": [
+        {
+          "title": "Saturdays at the Distillery",
+          "start": "2026-08-15T12:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://fireflydistillery.com/events/",
+          "description": "Saturdays at the Distillery | Saturday, August 1st Spend your Saturday afternoon at Firefly with live music, great food, and plenty of room to relax.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": true
+        },
         {
           "title": "Food Truck Friday",
           "start": "2026-08-14T11:00:00",
@@ -468,7 +515,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
