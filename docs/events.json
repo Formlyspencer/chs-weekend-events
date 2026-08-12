@@ -1,25 +1,29 @@
 {
-  "fetched_at": "2026-08-11 10:12 PM EDT",
+  "fetched_at": "2026-08-12 12:49 AM EDT",
   "counts": {
-    "raw": 137,
-    "scored": 48,
-    "this_weekend": 11,
+    "raw": 141,
+    "scored": 47,
+    "this_weekend": 12,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=48",
+    "input_count=47",
     "pre_dup_group venue=the windjammer date=2026-08-13: ['The Brook & The Bluff \u2013 on the N\u00dcTR@2026-08-13 18:00:00|src=Holy City Sinner', 'DJ MEDIC \u2013 on the inside stage@2026-08-13 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-08-14: ['Penelope Road on the N\u00dcTRL Beach St@2026-08-14 18:00:00|src=Holy City Sinner', 'John Wood Band on the inside stage@2026-08-14 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=city gallery date=2026-08-15: ['Testaments & Revelations: Second Ve@2026-08-15 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-15 14:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=charleston pour house date=2026-08-15: ['9th Annual\\xa0Everyone\\xa0Orchestra\\xa0Weeke@2026-08-15 16:00:00|src=Holy City Sinner', '9th Annual\\xa0Everyone\\xa0Orchestra\\xa0Weeke@2026-08-15 18:30:00|src=Holy City Sinner', '9th Annual\\xa0Everyone\\xa0Orchestra\\xa0Weeke@2026-08-15 20:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-08-15: ['Easy Honey on the N\u00dcTRL Beach Stage@2026-08-15 18:00:00|src=Holy City Sinner', 'The Abbey Elmore Band on the inside@2026-08-15 22:00:00|src=Holy City Sinner']",
     "survivor venue=the windjammer date=2026-08-13: ['The Brook & The Bluff \u2013 on the N\u00dcTR@2026-08-13 18:00:00', 'DJ MEDIC \u2013 on the inside stage@2026-08-13 21:30:00']",
     "survivor venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00']",
     "survivor venue=the windjammer date=2026-08-14: ['Penelope Road on the N\u00dcTRL Beach St@2026-08-14 18:00:00', 'John Wood Band on the inside stage@2026-08-14 22:00:00']",
     "survivor venue=city gallery date=2026-08-15: ['Testaments & Revelations: Second Ve@2026-08-15 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-15 14:00:00']",
-    "output_count=48"
+    "survivor venue=charleston pour house date=2026-08-15: ['9th Annual\\xa0Everyone\\xa0Orchestra\\xa0Weeke@2026-08-15 16:00:00', '9th Annual\\xa0Everyone\\xa0Orchestra\\xa0Weeke@2026-08-15 18:30:00', '9th Annual\\xa0Everyone\\xa0Orchestra\\xa0Weeke@2026-08-15 20:30:00']",
+    "survivor venue=the windjammer date=2026-08-15: ['Easy Honey on the N\u00dcTRL Beach Stage@2026-08-15 18:00:00', 'The Abbey Elmore Band on the inside@2026-08-15 22:00:00']",
+    "output_count=47"
   ],
   "buckets": {
-    "today": "2026-08-11",
+    "today": "2026-08-12",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -133,6 +137,21 @@
           "recurring": false
         },
         {
+          "title": "Holy City Magic\u2019s Misdirection",
+          "start": "2026-08-15T20:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Laugh Hard. Think Twice. Believe Nothing. Get ready for a high-energy theater experience packed with impossible magic, sharp comedy, and mind-bending surprises.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "John Wood Band on the inside stage",
           "start": "2026-08-14T22:00:00",
           "end": null,
@@ -140,6 +159,21 @@
           "neighborhood": "Isle Of Palms",
           "url": "https://the-windjammer.com/events/",
           "description": "$10 or FREE with a Penelope Road ticket August 14, 2026 Doors at 10:00 pm 21Up Artist Website https://www.facebook.com/thejohnwoodband The John Wood Band is a soulful six-piece rock band out Wilmington, NC.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "The Abbey Elmore Band on the inside stage",
+          "start": "2026-08-15T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "The Abbey Elmore Band on the inside stage $10 or FREE with a Easy Honey Ticket August 15, 2026 Doors at 10:00 pm 21Up Artist Website https://theabbeyelmoreband.com We are The Abbey Elmore Band! We write and play our own music.\u2026",
           "price": 10.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -176,6 +210,38 @@
           "score": 0.464,
           "tier": "low",
           "recurring": false
+        }
+      ],
+      "overflow": [
+        {
+          "title": "9th Annual\u00a0Everyone\u00a0Orchestra\u00a0Weekend\u00a0Gathering: North State Grass",
+          "start": "2026-08-15T18:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "9th Annual Everyone Orchestra Weekend Gathering @ Charleston Pour House August 14th + 15th 2026 2 x nights of Everyone Orchestra on the main stage + Everyone's Dead ( deck stage / Saturday ) Conducted by Matt Butler featuring Claude Coleman Jr.\u2026",
+          "price": 23.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.96,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "9th Annual\u00a0Everyone\u00a0Orchestra\u00a0Weekend\u00a0Gathering: Everyone Orchestra",
+          "start": "2026-08-15T20:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "9th Annual Everyone Orchestra Weekend Gathering @ Charleston Pour House August 14th + 15th 2026 2 x nights of Everyone Orchestra on the main stage + Everyone's Dead ( deck stage / Saturday ) Conducted by Matt Butler featuring Claude Coleman Jr.\u2026",
+          "price": 23.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.96,
+          "tier": "high",
+          "recurring": false
         },
         {
           "title": "Penelope Road on the N\u00dcTRL Beach Stage",
@@ -191,9 +257,22 @@
           "score": 0.454,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
+        {
+          "title": "Easy Honey on the N\u00dcTRL Beach Stage",
+          "start": "2026-08-15T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/event/easyhoney26/",
+          "description": "August 15, 2026 Doors at 6:00 pm Ages 21 UP or with their Parent easyhoneymusic.com Get ready to catch some waves and some riffs! Charleston\u2019s own Easy Honey is bringing their signature East Coast surf-rock back to the beach.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.428,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "Testaments & Revelations: Second Verse (Artists' Reception)",
           "start": "2026-08-14T17:00:00",
@@ -377,21 +456,6 @@
           "recurring": false
         },
         {
-          "title": "Portugal. The Man",
-          "start": "2026-08-11T19:30:00",
-          "end": null,
-          "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/portugal-the-man-to-perform-at-the-refinery-on-aug-11/",
-          "description": "On Tuesday, Aug. 11, 2026, Grammy-winning band Portugal. The Man will perform at The Refinery in downtown Charleston at 7:30 p.m. Portugal.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Mug Club Night",
           "start": "2026-08-12T11:30:00",
           "end": null,
@@ -405,36 +469,6 @@
           "score": 0.276,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Music Bingo",
-          "start": "2026-08-11T18:30:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "West Ashley",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Music + Bingo = Your New Tuesday Night Plans! Join us on Tuesdays at 6:30 PM for Music Bingo here at our West Ashley location! Jam out to your favorite tunes, play along, and win prizes. Bring your friends and grab a pint. See you there!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.274,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Mount Pleasant Farmers Market",
-          "start": "2026-08-11T15:30:00",
-          "end": null,
-          "venue": "Mount Pleasant Farmers Market Pavilion, 645 Coleman Blvd., Mt. Pleasant, SC",
-          "neighborhood": "Mount Pleasant",
-          "url": "https://experiencemountpleasant.com/farmers-market/",
-          "description": "The weekly Mount Pleasant Farmers Market, founded in 1998, features vendors selling local farm-fresh produce, meats, sauces, baked goods, and other specialty foods in a festival atmosphere! You can also browse prepared food vendors for a unique Lowcountry meal.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.273,
-          "tier": "low",
-          "recurring": true
         }
       ],
       "recurring": [
