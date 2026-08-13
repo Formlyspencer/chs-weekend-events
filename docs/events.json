@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-08-12 05:50 PM EDT",
+  "fetched_at": "2026-08-12 10:15 PM EDT",
   "counts": {
-    "raw": 141,
-    "scored": 47,
+    "raw": 142,
+    "scored": 48,
     "this_weekend": 12,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=47",
+    "input_count=48",
     "pre_dup_group venue=the windjammer date=2026-08-13: ['The Brook & The Bluff \u2013 on the N\u00dcTR@2026-08-13 18:00:00|src=Holy City Sinner', 'DJ MEDIC \u2013 on the inside stage@2026-08-13 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=city gallery date=2026-08-14: ['Testaments & Revelations: Second Ve@2026-08-14 12:00:00|src=Holy City Sinner', 'Testaments & Revelations: Second Ve@2026-08-14 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-08-14: ['Penelope Road on the N\u00dcTRL Beach St@2026-08-14 18:00:00|src=Holy City Sinner', 'John Wood Band on the inside stage@2026-08-14 22:00:00|src=Holy City Sinner']",
@@ -20,7 +20,7 @@
     "survivor venue=city gallery date=2026-08-15: ['Testaments & Revelations: Second Ve@2026-08-15 12:00:00', 'Testaments & Revelations: Second Ve@2026-08-15 14:00:00']",
     "survivor venue=charleston pour house date=2026-08-15: ['9th Annual\\xa0Everyone\\xa0Orchestra\\xa0Weeke@2026-08-15 16:00:00', '9th Annual\\xa0Everyone\\xa0Orchestra\\xa0Weeke@2026-08-15 18:30:00', '9th Annual\\xa0Everyone\\xa0Orchestra\\xa0Weeke@2026-08-15 20:30:00']",
     "survivor venue=the windjammer date=2026-08-15: ['Easy Honey on the N\u00dcTRL Beach Stage@2026-08-15 18:00:00', 'The Abbey Elmore Band on the inside@2026-08-15 22:00:00']",
-    "output_count=47"
+    "output_count=48"
   ],
   "buckets": {
     "today": "2026-08-12",
