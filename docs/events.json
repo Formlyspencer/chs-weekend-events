@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-08-16 02:33 PM EDT",
+  "fetched_at": "2026-08-16 05:23 PM EDT",
   "counts": {
-    "raw": 140,
-    "scored": 45,
+    "raw": 141,
+    "scored": 46,
     "this_weekend": 6,
     "next_weekend": 5
   },
   "dedup_log": [
-    "input_count=45",
+    "input_count=46",
     "pre_dup_group venue=gibbes museum of art date=2026-08-19: ['Mary Whyte: Salt of the Earth@2026-08-19 10:00:00|src=Holy City Sinner', 'Art of Jazz: Quiana Parler@2026-08-19 15:00:00|src=Holy City Sinner']",
     "survivor venue=gibbes museum of art date=2026-08-19: ['Mary Whyte: Salt of the Earth@2026-08-19 10:00:00', 'Art of Jazz: Quiana Parler@2026-08-19 15:00:00']",
-    "output_count=45"
+    "output_count=46"
   ],
   "buckets": {
     "today": "2026-08-16",
@@ -293,21 +293,6 @@
           "recurring": false
         },
         {
-          "title": "Live Music",
-          "start": "2026-08-20T18:00:00",
-          "end": null,
-          "venue": "Taco Boy, 217 Huger Street,\u00a0 Charleston,\u00a0SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.tacoboy.net/event/live-patio-music-at-taco-boy-charleston/",
-          "description": "Live Music at Taco Boy in Downtown Charleston Dates: 7/23/26 6:00pm 8/6/26 6:00pm 8/20/26 6:00pm 9/3/26 6:00pm Price: Free Live music, tacos, and margaritas? Count us in! Catch Liam Murphy every other Thursday from 6:00PM \u20139PM at Taco Boy in Downtown Charleston! We can\u2019t wait to\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.492,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "West Ashley Farmers Market",
           "start": "2026-08-19T15:00:00",
           "end": null,
@@ -349,6 +334,36 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.411,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-08-20T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
+          "title": "Live Music",
+          "start": "2026-08-20T18:00:00",
+          "end": null,
+          "venue": "Charleston Harbor Resort & Marina, 20 Patriots Point Rd, Mt Pleasant, SC",
+          "neighborhood": "Mt Pleasant",
+          "url": "https://www.charlestonharborresort.com/",
+          "description": "Live Music 6pm-9pm | At the Reel Bar 8.09 Slacktide 8.14 Jimmy Snyder 8.16 Thomas Champagne 8.20 Weigh Station 8.21 Jeff Houts 8.23 Slacktide 8.27 Thomas Champagne 8.28 Jeff Houts 8.30 Jig Wiggler",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.348,
           "tier": "low",
           "recurring": false
         },
