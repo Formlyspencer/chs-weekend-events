@@ -1,136 +1,29 @@
 {
-  "fetched_at": "2026-08-16 11:52 PM EDT",
+  "fetched_at": "2026-08-17 03:02 AM EDT",
   "counts": {
-    "raw": 140,
-    "scored": 45,
-    "this_weekend": 6,
-    "next_weekend": 5
+    "raw": 134,
+    "scored": 41,
+    "this_weekend": 0,
+    "next_weekend": 8
   },
   "dedup_log": [
-    "input_count=45",
+    "input_count=41",
     "pre_dup_group venue=gibbes museum of art date=2026-08-19: ['Mary Whyte: Salt of the Earth@2026-08-19 10:00:00|src=Holy City Sinner', 'Art of Jazz: Quiana Parler@2026-08-19 15:00:00|src=Holy City Sinner']",
     "survivor venue=gibbes museum of art date=2026-08-19: ['Mary Whyte: Salt of the Earth@2026-08-19 10:00:00', 'Art of Jazz: Quiana Parler@2026-08-19 15:00:00']",
-    "output_count=45"
+    "output_count=41"
   ],
   "buckets": {
     "today": "2026-08-16",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-08-14",
         "2026-08-16"
       ],
-      "events": [
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-16T13:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Augustana:  All the Stars and Boulevards (20th Anniversary) \u2014 An Intimate Solo Performance of the Album in Full + More",
-          "start": "2026-08-16T21:00:00",
-          "end": null,
-          "venue": "Music Farm, 32 Ann St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Platinum-selling American pop-rock artist Augustana emerged as one of the defining voices of mid-2000s alternative rock with their 2005 debut All the Stars and Boulevards .\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Hatha & Hops Yoga at The Pool House",
-          "start": "2026-08-16T10:00:00",
-          "end": null,
-          "venue": "Starlight Motor Inn, 3245 Rivers Ave., North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D206147918",
-          "description": "Hatha & Hops yoga goes pool side this August. 45 minutes of asanas that stretch, strengthen, and help you get centered. Stay after class for a refreshing dip in the pool. 10 am Sundays. Tourists, locals, everyone welcome. Pool pass and class just $25.",
-          "price": 25.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.787,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Grief Sucks: A One Man Show By KevOnStage",
-          "start": "2026-08-16T19:30:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Ever since the loss of his big brother Jason in 2022 KevOnStage has struggled internally with grief. This show is his first attempt at explaining why GRIEF SUCKS.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Live Music",
-          "start": "2026-08-16T18:00:00",
-          "end": null,
-          "venue": "Charleston Harbor Resort & Marina, 20 Patriots Point Rd, Mt Pleasant, SC",
-          "neighborhood": "Mt Pleasant",
-          "url": "https://www.charlestonharborresort.com/",
-          "description": "Live Music 6pm-9pm | At the Reel Bar 8.09 Slacktide 8.14 Jimmy Snyder 8.16 Thomas Champagne 8.20 Weigh Station 8.21 Jeff Houts 8.23 Slacktide 8.27 Thomas Champagne 8.28 Jeff Houts 8.30 Jig Wiggler",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.464,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Testaments & Revelations: Second Verse",
-          "start": "2026-08-16T12:00:00",
-          "end": null,
-          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
-          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
+      "events": [],
       "overflow": [],
       "weekdays": [],
-      "recurring": [
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-08-16T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
+      "recurring": []
     },
     "next_weekend": {
       "range": [
@@ -151,6 +44,51 @@
           "category": "art_event",
           "score": 0.782,
           "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Paint & Sip: Moonlight Canoe",
+          "start": "2026-08-21T18:30:00",
+          "end": null,
+          "venue": "Tideland Brewing, 4155 Dorchester Rd., Unit C, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://eventvesta.com/events/153480/t/tickets",
+          "description": "Tideland has a huge open renovated taproom with 25 indoor taps which contain a beer choice for every taste. They offer 4 pack cans, crowlers, and growlers to go and also have cider, wine, and N/A options.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Music Bingo",
+          "start": "2026-08-21T19:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://fireflydistillery.com/events/",
+          "description": "Get ready for an exciting night of fun, music, and cocktails at our Music Bingo Night! This unique twist on \u201cName That Tune\u201d meets \u201cBingo\u201d as you listen to hit songs, identify them, and mark them off your Bingo card for a chance to win amazing prizes! \ufeff\ufeff",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Night Ranger",
+          "start": "2026-08-21T20:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Heavy hitting rock legends, Night Ranger recently released a live album titled, 40 Years and a Night with Contemporary Youth Orchestra and it is available on CD/DVD, Vinyl, Blu-ray, and digitally across all streaming platforms.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
           "recurring": false
         },
         {
