@@ -1,16 +1,20 @@
 {
-  "fetched_at": "2026-08-18 02:41 PM EDT",
+  "fetched_at": "2026-08-18 05:27 PM EDT",
   "counts": {
-    "raw": 138,
-    "scored": 45,
-    "this_weekend": 9,
+    "raw": 139,
+    "scored": 46,
+    "this_weekend": 10,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=45",
+    "input_count=46",
     "pre_dup_group venue=gibbes museum of art date=2026-08-19: ['Mary Whyte: Salt of the Earth@2026-08-19 10:00:00|src=Holy City Sinner', 'Art of Jazz: Quiana Parler@2026-08-19 15:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-08-20: ['Matisyahu on the N\u00dcTRL Beach Stage@2026-08-20 18:00:00|src=Holy City Sinner', 'HIGH 5@2026-08-20 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-08-21: ['Drew Baldridge \u2013 on the N\u00dcTRL Beach@2026-08-21 18:00:00|src=Holy City Sinner', 'Lauren Hall on the inside stage@2026-08-21 22:00:00|src=Holy City Sinner']",
     "survivor venue=gibbes museum of art date=2026-08-19: ['Mary Whyte: Salt of the Earth@2026-08-19 10:00:00', 'Art of Jazz: Quiana Parler@2026-08-19 15:00:00']",
-    "output_count=45"
+    "survivor venue=the windjammer date=2026-08-20: ['Matisyahu on the N\u00dcTRL Beach Stage@2026-08-20 18:00:00', 'HIGH 5@2026-08-20 21:30:00']",
+    "survivor venue=the windjammer date=2026-08-21: ['Drew Baldridge \u2013 on the N\u00dcTRL Beach@2026-08-21 18:00:00', 'Lauren Hall on the inside stage@2026-08-21 22:00:00']",
+    "output_count=46"
   ],
   "buckets": {
     "today": "2026-08-18",
@@ -127,6 +131,21 @@
           "recurring": false
         },
         {
+          "title": "Lauren Hall on the inside stage",
+          "start": "2026-08-21T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$10 or FREE with a Drew Baldridge Ticket August 21, 2026 Doors at 10:00 pm 21Up Artist Website https://laurenhallmusic.com Rising Country artist and songwriter, Lauren Hall, delivers a sound that is all her own stemming from her low country roots, organic edge, and a touch of tra\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Live Music",
           "start": "2026-08-21T18:00:00",
           "end": null,
@@ -181,21 +200,6 @@
           "neighborhood": "Charleston",
           "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
           "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Testaments & Revelations: Second Verse",
-          "start": "2026-08-22T12:00:00",
-          "end": null,
-          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
-          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -326,19 +330,19 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-08-20T18:00:00",
+          "title": "HIGH 5",
+          "start": "2026-08-20T21:30:00",
           "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "HIGH 5 on the inside stage $10 or FREE with a Matisyahu ticket August 20, 2026 Doors at 9:30 pm 21 Up Artist Website https://www.high5charleston.com Diverse and professional band specializing in entertainment that\u2019s fun, fresh and energetic!",
+          "price": 10.0,
           "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
+          "category": "outdoor_music",
+          "score": 0.378,
           "tier": "low",
-          "recurring": true
+          "recurring": false
         },
         {
           "title": "Live Music",
@@ -417,21 +421,6 @@
         }
       ],
       "recurring": [
-        {
-          "title": "Saturdays at the Distillery",
-          "start": "2026-08-22T12:00:00",
-          "end": null,
-          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
-          "description": "Saturdays at the Distillery | Saturday, August 1st Spend your Saturday afternoon at Firefly with live music, great food, and plenty of room to relax.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": true
-        },
         {
           "title": "Food Truck Friday",
           "start": "2026-08-21T11:00:00",
