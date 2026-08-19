@@ -1,22 +1,24 @@
 {
-  "fetched_at": "2026-08-19 11:34 AM EDT",
+  "fetched_at": "2026-08-19 02:39 PM EDT",
   "counts": {
-    "raw": 146,
-    "scored": 49,
+    "raw": 147,
+    "scored": 50,
     "this_weekend": 13,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=49",
+    "input_count=50",
     "pre_dup_group venue=gibbes museum of art date=2026-08-19: ['Mary Whyte: Salt of the Earth@2026-08-19 10:00:00|src=Holy City Sinner', 'Art of Jazz: Quiana Parler@2026-08-19 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-08-20: ['Matisyahu on the N\u00dcTRL Beach Stage@2026-08-20 18:00:00|src=Holy City Sinner', 'HIGH 5@2026-08-20 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-08-21: ['Grounded in Grain, Washed in the Wa@2026-08-21 11:00:00|src=Holy City Sinner', 'Grounded in Grain, Washed in the Wa@2026-08-21 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-08-21: ['Drew Baldridge \u2013 on the N\u00dcTRL Beach@2026-08-21 18:00:00|src=Holy City Sinner', 'Lauren Hall on the inside stage@2026-08-21 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-08-22: ['Wilderado with Sam Burchfield on th@2026-08-22 18:00:00|src=Holy City Sinner', 'FlashMob on the inside stage@2026-08-22 22:00:00|src=Holy City Sinner']",
     "survivor venue=gibbes museum of art date=2026-08-19: ['Mary Whyte: Salt of the Earth@2026-08-19 10:00:00', 'Art of Jazz: Quiana Parler@2026-08-19 15:00:00']",
     "survivor venue=the windjammer date=2026-08-20: ['Matisyahu on the N\u00dcTRL Beach Stage@2026-08-20 18:00:00', 'HIGH 5@2026-08-20 21:30:00']",
+    "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-08-21: ['Grounded in Grain, Washed in the Wa@2026-08-21 11:00:00', 'Grounded in Grain, Washed in the Wa@2026-08-21 18:30:00']",
     "survivor venue=the windjammer date=2026-08-21: ['Drew Baldridge \u2013 on the N\u00dcTRL Beach@2026-08-21 18:00:00', 'Lauren Hall on the inside stage@2026-08-21 22:00:00']",
     "survivor venue=the windjammer date=2026-08-22: ['Wilderado with Sam Burchfield on th@2026-08-22 18:00:00', 'FlashMob on the inside stage@2026-08-22 22:00:00']",
-    "output_count=49"
+    "output_count=50"
   ],
   "buckets": {
     "today": "2026-08-19",
@@ -255,6 +257,21 @@
           "recurring": false
         },
         {
+          "title": "Grounded in Grain, Washed in the Water (Opening Reception)",
+          "start": "2026-08-21T18:30:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
+          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "\"Portraits\" by Mary Hoffman",
           "start": "2026-08-22T10:30:00",
           "end": null,
@@ -270,7 +287,7 @@
           "recurring": false
         },
         {
-          "title": "Grounded in Grain, Washed in the Water (Opening Reception)",
+          "title": "Grounded in Grain, Washed in the Water",
           "start": "2026-08-22T11:00:00",
           "end": null,
           "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
@@ -307,21 +324,6 @@
           "neighborhood": "Charleston",
           "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-to-presents-%E2%80%9Cportraits%E2%80%9D-by-mary-h/",
           "description": "Lowcountry Artists Gallery announced its upcoming exhibition, \"Portraits,\" featuring original oil paintings by Mary Hoffman.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.297,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Grounded in Grain, Washed in the Water (Opening Reception)",
-          "start": "2026-08-21T11:00:00",
-          "end": null,
-          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
-          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
