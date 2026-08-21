@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-08-20 05:31 PM EDT",
+  "fetched_at": "2026-08-20 09:35 PM EDT",
   "counts": {
-    "raw": 157,
-    "scored": 58,
+    "raw": 158,
+    "scored": 59,
     "this_weekend": 18,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=58",
+    "input_count=59",
     "pre_dup_group venue=the windjammer date=2026-08-20: ['Matisyahu on the N\u00dcTRL Beach Stage@2026-08-20 18:00:00|src=Holy City Sinner', 'HIGH 5@2026-08-20 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-08-21: ['Grounded in Grain, Washed in the Wa@2026-08-21 11:00:00|src=Holy City Sinner', 'Grounded in Grain, Washed in the Wa@2026-08-21 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-08-21: ['Drew Baldridge \u2013 on the N\u00dcTRL Beach@2026-08-21 18:00:00|src=Holy City Sinner', 'Lauren Hall on the inside stage@2026-08-21 22:00:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-08-21: ['Grounded in Grain, Washed in the Wa@2026-08-21 11:00:00', 'Grounded in Grain, Washed in the Wa@2026-08-21 18:30:00']",
     "survivor venue=the windjammer date=2026-08-21: ['Drew Baldridge \u2013 on the N\u00dcTRL Beach@2026-08-21 18:00:00', 'Lauren Hall on the inside stage@2026-08-21 22:00:00']",
     "survivor venue=the windjammer date=2026-08-22: ['Wilderado with Sam Burchfield on th@2026-08-22 18:00:00', 'FlashMob on the inside stage@2026-08-22 22:00:00']",
-    "output_count=58"
+    "output_count=59"
   ],
   "buckets": {
     "today": "2026-08-20",
@@ -699,7 +699,7 @@
           "end": null,
           "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
           "price": 15.0,
           "source": "Holy City Sinner",
