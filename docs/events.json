@@ -1,14 +1,14 @@
 {
-  "fetched_at": "2026-08-23 05:24 PM EDT",
+  "fetched_at": "2026-08-23 09:35 PM EDT",
   "counts": {
-    "raw": 152,
-    "scored": 56,
+    "raw": 151,
+    "scored": 55,
     "this_weekend": 8,
     "next_weekend": 2
   },
   "dedup_log": [
-    "input_count=56",
-    "output_count=56"
+    "input_count=55",
+    "output_count=55"
   ],
   "buckets": {
     "today": "2026-08-23",
@@ -143,21 +143,6 @@
       "overflow": [],
       "weekdays": [],
       "recurring": [
-        {
-          "title": "Pour House Farmers Market",
-          "start": "2026-08-23T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
         {
           "title": "Sunday Figure Drawing",
           "start": "2026-08-23T17:00:00",
