@@ -1,21 +1,23 @@
 {
-  "fetched_at": "2026-08-24 11:51 PM EDT",
+  "fetched_at": "2026-08-25 02:53 AM EDT",
   "counts": {
-    "raw": 151,
-    "scored": 55,
-    "this_weekend": 9,
+    "raw": 149,
+    "scored": 53,
+    "this_weekend": 11,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=55",
+    "input_count=53",
     "pre_dup_group venue=redux contemporary art center date=2026-08-28: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-08-28 11:00:00|src=Holy City Sinner', 'Opening Reception: \"Blind Heat\" by @2026-08-28 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-08-28: ['The Hang on Hazelnut Isle 2026@2026-08-28 16:00:00|src=Holy City Sinner', 'The Wood Brothers on the N\u00dcTRL Beac@2026-08-28 18:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=charleston pour house date=2026-08-28: ['SLIM\\xa0SOUL@2026-08-28 18:00:00|src=Holy City Sinner', 'Diamonds Reimagined II: A Tribute t@2026-08-28 21:00:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-08-28: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-08-28 11:00:00', 'Opening Reception: \"Blind Heat\" by @2026-08-28 17:00:00']",
     "survivor venue=the windjammer date=2026-08-28: ['The Hang on Hazelnut Isle 2026@2026-08-28 16:00:00', 'The Wood Brothers on the N\u00dcTRL Beac@2026-08-28 18:00:00']",
-    "output_count=55"
+    "survivor venue=charleston pour house date=2026-08-28: ['SLIM\\xa0SOUL@2026-08-28 18:00:00', 'Diamonds Reimagined II: A Tribute t@2026-08-28 21:00:00']",
+    "output_count=53"
   ],
   "buckets": {
-    "today": "2026-08-24",
+    "today": "2026-08-25",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -69,6 +71,21 @@
           "recurring": false
         },
         {
+          "title": "myspace nite",
+          "start": "2026-08-28T21:30:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "myspace nite is a dance party for EVERYONE. bring your top 8. leave your bad vibes at home. see you on the dancefloor.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "SLIM\u00a0SOUL",
           "start": "2026-08-28T18:00:00",
           "end": null,
@@ -77,6 +94,21 @@
           "url": "https://charlestonpourhouse.com/",
           "description": "SLIM SOUL Friday August 28th 2026 Charleston Pour House Deck Stage 5pm doors /6pm show ticket prices: $10 advance /$10 dos $5 w/ inside show ticket",
           "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Diamonds Reimagined II: A Tribute to Rihanna\u00a0 ft. Tonya Nicole\u00a0+ Jonathan Lovett",
+          "start": "2026-08-28T21:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Diamonds Reimagined II A Tribute to Rihanna ft. Tonya Nicole + Jonathan Lovett Friday 8.28.26 8pm doors /9pm show 2 x sets $15 advance / $20 day of show",
+          "price": 15.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
@@ -145,7 +177,7 @@
         },
         {
           "title": "The Hang on Hazelnut Isle 2026",
-          "start": "2026-08-28T16:00:00",
+          "start": "2026-08-29",
           "end": null,
           "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
           "neighborhood": "Isle Of Palms",
@@ -154,7 +186,7 @@
           "price": 319.99,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
-          "score": 0.171,
+          "score": 0.202,
           "tier": "low",
           "recurring": false
         }
@@ -204,6 +236,21 @@
           "score": 0.297,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "The Hang on Hazelnut Isle 2026",
+          "start": "2026-08-28T16:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$319.99 VIP Weekend Pass...$339.99 AFTER Aug 1st If available August 28, 2026 Doors at 4:00 pm 21 Up or with Parent https://www.sisterhazel.com/ ARTIST WEBSITES https://www.sisterhazel.com/ https://www.thewoodbros.com/ https://www.markbryanmusic.com/ Friday Saturday & Sunday\u2026Augu\u2026",
+          "price": 319.99,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.171,
+          "tier": "low",
+          "recurring": false
         }
       ],
       "weekdays": [
@@ -239,7 +286,7 @@
         },
         {
           "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-24T10:00:00",
+          "start": "2026-08-26T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
           "neighborhood": "Charleston",
@@ -388,51 +435,6 @@
           "recurring": false
         },
         {
-          "title": "Kids Eat Free",
-          "start": "2026-08-24T16:00:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Let us handle dinner! Kids 12 and under now eat for free on MONDAYS from 4\u20138 PM Up to 2 kids eat free with the purchase of an adult entree. We\u2019ll have cheese or pepperoni little monster pizza slices, single smash burgers and chicken tenders for your little ones.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.32,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Farmers Market",
-          "start": "2026-08-24T15:00:00",
-          "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://holycitysinner.com/entertainment/freshfields-village-unveils-2026-summer-events-lineup/",
-          "description": "Mondays, June through August from 3 to 7 p.m. A seasonal favorite that grows each year, the Freshfields Village Farmers Market brings together local vendors offering fresh produce, prepared foods and artisan goods that fill the Village Green for the evening.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.316,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-08-24T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Run River Run w/ Forty Mile Detour",
           "start": "2026-08-26T19:30:00",
           "end": null,
@@ -463,6 +465,21 @@
           "recurring": false
         },
         {
+          "title": "Music Bingo",
+          "start": "2026-08-25T18:30:00",
+          "end": null,
+          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
+          "neighborhood": "West Ashley",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Music + Bingo = Your New Tuesday Night Plans! Join us on Tuesdays at 6:30 PM for Music Bingo here at our West Ashley location! Jam out to your favorite tunes, play along, and win prizes. Bring your friends and grab a pint. See you there!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.274,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Mount Pleasant Farmers Market",
           "start": "2026-08-25T15:30:00",
           "end": null,
@@ -476,21 +493,6 @@
           "score": 0.273,
           "tier": "low",
           "recurring": true
-        },
-        {
-          "title": "Monday Mash-UPs featuring\u00a0 Steven Sandifer, Whitt Algar, Dave Grimm & revolving guests",
-          "start": "2026-08-24T18:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Monday Mash-UPs featuring Steven Sandifer, Whitt Algar, Dave Grimm & revolving guests Monday August 10,17,24,31 Charleston Pour House Deck Stage FREE SHOWS 5pm doors /6pm shows 2 x sets",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.263,
-          "tier": "low",
-          "recurring": false
         }
       ],
       "recurring": [
@@ -551,6 +553,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.641,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-08-29T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
