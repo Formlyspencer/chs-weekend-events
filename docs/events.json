@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-08-26 03:52 PM EDT",
+  "fetched_at": "2026-08-26 08:33 PM EDT",
   "counts": {
-    "raw": 155,
-    "scored": 59,
+    "raw": 156,
+    "scored": 60,
     "this_weekend": 13,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=59",
+    "input_count=60",
     "pre_dup_group venue=redux contemporary art center date=2026-08-28: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-08-28 11:00:00|src=Holy City Sinner', 'Opening Reception: \"Blind Heat\" by @2026-08-28 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-08-28: ['The Hang on Hazelnut Isle 2026@2026-08-28 16:00:00|src=Holy City Sinner', 'The Wood Brothers on the N\u00dcTRL Beac@2026-08-28 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-08-28: ['SLIM\\xa0SOUL@2026-08-28 18:00:00|src=Holy City Sinner', 'Diamonds Reimagined II: A Tribute t@2026-08-28 21:00:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-08-28: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-08-28 11:00:00', 'Opening Reception: \"Blind Heat\" by @2026-08-28 17:00:00']",
     "survivor venue=the windjammer date=2026-08-28: ['The Hang on Hazelnut Isle 2026@2026-08-28 16:00:00', 'The Wood Brothers on the N\u00dcTRL Beac@2026-08-28 18:00:00']",
     "survivor venue=charleston pour house date=2026-08-28: ['SLIM\\xa0SOUL@2026-08-28 18:00:00', 'Diamonds Reimagined II: A Tribute t@2026-08-28 21:00:00']",
-    "output_count=59"
+    "output_count=60"
   ],
   "buckets": {
     "today": "2026-08-26",
