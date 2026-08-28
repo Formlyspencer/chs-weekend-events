@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-08-27 09:57 AM EDT",
+  "fetched_at": "2026-08-27 08:18 PM EDT",
   "counts": {
-    "raw": 159,
-    "scored": 58,
+    "raw": 160,
+    "scored": 59,
     "this_weekend": 17,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=58",
+    "input_count=59",
     "pre_dup_group venue=redux contemporary art center date=2026-08-28: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-08-28 11:00:00|src=Holy City Sinner', 'Opening Reception: \"Blind Heat\" by @2026-08-28 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-08-28: ['The Hang on Hazelnut Isle 2026@2026-08-28 16:00:00|src=Holy City Sinner', 'The Wood Brothers on the N\u00dcTRL Beac@2026-08-28 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-08-28: ['SLIM\\xa0SOUL@2026-08-28 18:00:00|src=Holy City Sinner', 'Diamonds Reimagined II: A Tribute t@2026-08-28 21:00:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=the windjammer date=2026-08-28: ['The Hang on Hazelnut Isle 2026@2026-08-28 16:00:00', 'The Wood Brothers on the N\u00dcTRL Beac@2026-08-28 18:00:00']",
     "survivor venue=charleston pour house date=2026-08-28: ['SLIM\\xa0SOUL@2026-08-28 18:00:00', 'Diamonds Reimagined II: A Tribute t@2026-08-28 21:00:00']",
     "survivor venue=the windjammer date=2026-08-30: ['The Hang on Hazelnut Isle 2026@2026-08-30', 'Sister Hazel on the N\u00dcTRL Beach Sta@2026-08-30 11:30:00']",
-    "output_count=58"
+    "output_count=59"
   ],
   "buckets": {
     "today": "2026-08-27",
