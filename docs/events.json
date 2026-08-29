@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-29 05:51 AM EDT",
+  "fetched_at": "2026-08-29 12:27 PM EDT",
   "counts": {
     "raw": 149,
     "scored": 58,
@@ -196,7 +196,7 @@
           "end": null,
           "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.northcharlestoncoliseumpac.com/events/detail/wwe-1",
           "description": "WWE is the world's largest professional wrestling promotion, operating as a global media company that blends athletic, scripted, and theatrical performances into \"sports entertainment\".",
           "price": null,
           "source": "Holy City Sinner",
@@ -331,6 +331,21 @@
       "weekdays": [],
       "recurring": [
         {
+          "title": "CANCELLED - Charleston Farmers Market",
+          "start": "2026-08-29T08:00:00",
+          "end": null,
+          "venue": "Marion Square",
+          "neighborhood": "Charleston",
+          "url": "https://charlestonfarmersmarket.com/",
+          "description": "MARION SQUARE 329 Meeting Street, Charleston, SC 29403 Saturdays, 8:00 AM \u2013 2:00 PM April 4 \u2013 November 21, 2026 *CLOSED: July 4th & November 28th Additional Markets: (9:00 AM \u2013 3:00 PM) Sunday, May 31st Saturdays & Sundays, Dec.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": true
+        },
+        {
           "title": "Saturdays at the Distillery",
           "start": "2026-08-29T12:00:00",
           "end": null,
@@ -361,27 +376,12 @@
           "recurring": true
         },
         {
-          "title": "Downtown Charleston Farmers Market",
-          "start": "2026-08-29T08:00:00",
-          "end": null,
-          "venue": "Marion Square, 329 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/Charleston-Farmers-Market-37",
-          "description": "Charleston's flagship downtown farmers market at Marion Square. Local produce, prepared foods, makers, and live music. Saturdays April through November.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.655,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
           "title": "Folly Beach Farmer's Market",
           "start": "2026-08-29T12:00:00",
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
