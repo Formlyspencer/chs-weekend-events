@@ -1,188 +1,35 @@
 {
-  "fetched_at": "2026-08-30 07:18 PM EDT",
+  "fetched_at": "2026-08-31 12:37 AM EDT",
   "counts": {
-    "raw": 153,
-    "scored": 61,
-    "this_weekend": 7,
-    "next_weekend": 5
+    "raw": 148,
+    "scored": 58,
+    "this_weekend": 0,
+    "next_weekend": 11
   },
   "dedup_log": [
-    "input_count=61",
-    "pre_dup_group venue=the windjammer date=2026-08-30: ['The Hang on Hazelnut Isle 2026@2026-08-30|src=Holy City Sinner', 'Sister Hazel on the N\u00dcTRL Beach Sta@2026-08-30 11:30:00|src=Holy City Sinner', 'Mark Bryan & Friends feat. The B. W@2026-08-30 18:00:00|src=Holy City Sinner']",
+    "input_count=58",
     "pre_dup_group venue=charleston pour house date=2026-09-01: ['Domocile@2026-09-01 18:00:00|src=Holy City Sinner', 'The Disco Biscuits@2026-09-01 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00|src=Holy City Sinner']",
-    "survivor venue=the windjammer date=2026-08-30: ['The Hang on Hazelnut Isle 2026@2026-08-30', 'Sister Hazel on the N\u00dcTRL Beach Sta@2026-08-30 11:30:00', 'Mark Bryan & Friends feat. The B. W@2026-08-30 18:00:00']",
+    "pre_dup_group venue=charleston pour house date=2026-09-04: [\"Henry's\\xa0Pocket\\xa0feat. Members of Mar@2026-09-04 18:00:00|src=Holy City Sinner\", 'Wolph@2026-09-04 21:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-09-01: ['Domocile@2026-09-01 18:00:00', 'The Disco Biscuits@2026-09-01 20:30:00']",
     "survivor venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00']",
-    "output_count=61"
+    "survivor venue=charleston pour house date=2026-09-04: [\"Henry's\\xa0Pocket\\xa0feat. Members of Mar@2026-09-04 18:00:00\", 'Wolph@2026-09-04 21:00:00']",
+    "output_count=58"
   ],
   "buckets": {
     "today": "2026-08-30",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-08-28",
         "2026-08-30"
       ],
-      "events": [
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-30T13:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Hatha & Hops Yoga at The Pool House",
-          "start": "2026-08-30T10:00:00",
-          "end": null,
-          "venue": "Starlight Motor Inn, 3245 Rivers Ave., North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D206147920",
-          "description": "Hatha & Hops yoga goes pool side this August. 45 minutes of asanas that stretch, strengthen, and help you get centered. Stay after class for a refreshing dip in the pool. 10 am Sundays. Tourists, locals, everyone welcome. Pool pass and class just $25.",
-          "price": 25.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.787,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Mark Bryan & Friends feat. The B. Wrights \u2013 on the N\u00dcTRL Beach Stage",
-          "start": "2026-08-30T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/",
-          "description": "$15 Advance / $20 DOS August 30, 2026 Doors at 6:00 pm 21Up or with their parent ARTIST WEBSITE https://www.markbryanmusic.com/ Mark Bryan\u2019s remarkable musical journey began while growing in the Washington, DC area, attending shows at Landover, MD\u2019s famed Capital Centre by Elvis\u2026",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Live Music",
-          "start": "2026-08-30T18:00:00",
-          "end": null,
-          "venue": "Charleston Harbor Resort & Marina, 20 Patriots Point Rd, Mt Pleasant, SC",
-          "neighborhood": "Mt Pleasant",
-          "url": "https://www.charlestonharborresort.com/",
-          "description": "Live Music 6pm-9pm | At the Reel Bar 8.09 Slacktide 8.14 Jimmy Snyder 8.16 Thomas Champagne 8.20 Weigh Station 8.21 Jeff Houts 8.23 Slacktide 8.27 Thomas Champagne 8.28 Jeff Houts 8.30 Jig Wiggler",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.464,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Sister Hazel on the N\u00dcTRL Beach Stage",
-          "start": "2026-08-30T11:30:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "$25 Advance / $30 DOS August 30, 2026 Doors at 11:30 am All Ages https://www.sisterhazel.com Don\u2019t just buy a Ticket.\u2026",
-          "price": 25.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.454,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "WWE",
-          "start": "2026-08-30T19:00:00",
-          "end": null,
-          "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "WWE is the world's largest professional wrestling promotion, operating as a global media company that blends athletic, scripted, and theatrical performances into \"sports entertainment\".",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.411,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Testaments & Revelations: Second Verse",
-          "start": "2026-08-30T12:00:00",
-          "end": null,
-          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/city-gallery-presents-testaments-revelations-second-verse/",
-          "description": "Charleston City Gallery is pleased to present Testaments & Revelations: Second Verse, a three-person exhibition featuring the work of Katelyn Chapman, Ashleigh Coleman and Patrick Owens \u2014 artists raised in South Carolina who collectively examine identity, place and memory across\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
-      "overflow": [
-        {
-          "title": "The Hang on Hazelnut Isle 2026",
-          "start": "2026-08-30",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "$319.99 VIP Weekend Pass...$339.99 AFTER Aug 1st If available August 28, 2026 Doors at 4:00 pm 21 Up or with Parent https://www.sisterhazel.com/ ARTIST WEBSITES https://www.sisterhazel.com/ https://www.thewoodbros.com/ https://www.markbryanmusic.com/ Friday Saturday & Sunday\u2026Augu\u2026",
-          "price": 319.99,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.202,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
+      "events": [],
+      "overflow": [],
       "weekdays": [],
-      "recurring": [
-        {
-          "title": "Pour House Farmers Market",
-          "start": "2026-08-30T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-08-30T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
+      "recurring": []
     },
     "next_weekend": {
       "range": [
@@ -190,6 +37,36 @@
         "2026-09-06"
       ],
       "events": [
+        {
+          "title": "Henry's\u00a0Pocket\u00a0feat. Members of Marcus King Band,\u00a0 Flannel Church\u00a0 & Runaway Gin",
+          "start": "2026-09-04T18:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Henry's Pocket feat. Members of Marcus King Band, Flannel Church & Runaway Gin Friday 9.4.26 Charleston Pour House 24th anniversary celebration Deck Stage 5pm doors /6pm show $10 advance /day of",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.96,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Wolph",
+          "start": "2026-09-04T21:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Wolph Friday 9.4.26 Charleston Pour House *24th Anniversary Celebration* Main Stage 8pm doors /9pm show $13 advance / $15 day of show 2 x sets",
+          "price": 13.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.96,
+          "tier": "high",
+          "recurring": false
+        },
         {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-09-04T10:00:00",
@@ -236,6 +113,21 @@
           "recurring": false
         },
         {
+          "title": "Lowcountry Jazz Festival 2026: The All White Party",
+          "start": "2026-09-04T19:00:00",
+          "end": null,
+          "venue": "Gaillard Center, 95 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gaillard-center-and-closing-the-gap-in-health-care-announce-_1/",
+          "description": "Festivities begin on Friday, September 4, with the joyous All White Party, an elegant evening where guests are invited to wear their finest white attire.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.704,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Indigo Road Charleston Restaurant Week",
           "start": "2026-09-04",
           "end": null,
@@ -248,6 +140,51 @@
           "category": "food_festival",
           "score": 0.69,
           "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Indigo Road Charleston Restaurant Week",
+          "start": "2026-09-05",
+          "end": null,
+          "venue": "Various",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/food-bev/indigo-road-charleston-restaurant-week-returns-september-3-1/",
+          "description": "The Indigo Road is bringing back its Indigo Road Charleston Restaurant Week for its third year, with nine Charleston-area restaurants offering special chef-curated menus from Sept. 3-13.\u2026",
+          "price": 57.5,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.69,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Briar House Party",
+          "start": "2026-09-04T22:00:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Event Date Friday, September 04 Event Times Doors Open 9:30 pm Event Starts 10:00 pm 18+",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Moon Taxi \u2013 on the N\u00dcTRL Beach Stage",
+          "start": "2026-09-04T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/event/moon-taxi-on-the-nutrl-beach-stage-friday/",
+          "description": "$40 Advance / $50 DOS September 4, 2026 Doors at 6:00 pm 21 Up or with their Parent ridethemoontaxi.com Since forming in 2006, Moon Taxi have brought their genre-bending musicality to a boldly adventurous body of work, all while taking their live show to leading festivals across\u2026",
+          "price": 40.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
+          "tier": "low",
           "recurring": false
         },
         {
@@ -530,7 +467,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/gin-blossoms/",
           "description": "Formed in Tempe, Arizona in 1987, Gin Blossoms helped define alternative radio in the early \u201890s with their breakout major-label debut New Miserable Experience.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -658,6 +595,21 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Music on the Green",
+          "start": "2026-09-04T18:00:00",
+          "end": null,
+          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
+          "neighborhood": "Kiawah",
+          "url": "https://freshfieldsvillage.com/event/bingo-and-movie-nights-on-the-village-green/",
+          "description": "Join us for weekly on Friday nights from 6:00 to 9:00 pm. The free, family friendly concerts featuring a variety of music from regional bands including Carolina Beach music, Motown, Top 40, Country and more! Enjoy a summer filled with music, fun, and memories.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.641,
           "tier": "medium",
           "recurring": true
         },
