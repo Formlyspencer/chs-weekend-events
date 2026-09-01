@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-01 02:15 PM EDT",
+  "fetched_at": "2026-09-01 07:08 PM EDT",
   "counts": {
     "raw": 150,
-    "scored": 60,
+    "scored": 59,
     "this_weekend": 12,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=60",
+    "input_count=59",
     "pre_dup_group venue=charleston pour house date=2026-09-01: ['Domocile@2026-09-01 18:00:00|src=Holy City Sinner', 'The Disco Biscuits@2026-09-01 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00']",
     "survivor venue=charleston pour house date=2026-09-04: [\"Henry's\\xa0Pocket\\xa0feat. Members of Mar@2026-09-04 18:00:00\", 'Wolph@2026-09-04 21:00:00']",
-    "output_count=60"
+    "output_count=59"
   ],
   "buckets": {
     "today": "2026-09-01",
@@ -472,7 +472,7 @@
           "end": null,
           "venue": "Ackerman Park, 55 Sycamore Avenue, Charleston, SC",
           "neighborhood": "West Ashley",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/food-bev/west-ashley-farmers-market-opens-april-1-for-2026-season/",
           "description": "The West Ashley Farmers Market opened for the 2026 season Wednesday, April 1, at Ackerman Park, marking the earliest opening in the market\u2019s history. The market will run every Wednesday from 3 to 7 p.m. through Oct. 14, with a special Thanksgiving Market on Sunday, Nov.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -510,21 +510,6 @@
           "score": 0.411,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Karaoke",
-          "start": "2026-09-03T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "The War and Treaty",
