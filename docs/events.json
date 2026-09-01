@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-08-31 08:27 PM EDT",
+  "fetched_at": "2026-09-01 04:26 AM EDT",
   "counts": {
-    "raw": 148,
-    "scored": 58,
-    "this_weekend": 11,
+    "raw": 150,
+    "scored": 60,
+    "this_weekend": 12,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=58",
+    "input_count=60",
     "pre_dup_group venue=charleston pour house date=2026-09-01: ['Domocile@2026-09-01 18:00:00|src=Holy City Sinner', 'The Disco Biscuits@2026-09-01 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00|src=Holy City Sinner']",
@@ -16,10 +16,10 @@
     "survivor venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00']",
     "survivor venue=charleston pour house date=2026-09-04: [\"Henry's\\xa0Pocket\\xa0feat. Members of Mar@2026-09-04 18:00:00\", 'Wolph@2026-09-04 21:00:00']",
-    "output_count=58"
+    "output_count=60"
   ],
   "buckets": {
-    "today": "2026-08-31",
+    "today": "2026-09-01",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -59,6 +59,21 @@
         },
         {
           "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-09-05T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-09-04T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
@@ -69,6 +84,21 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Taco and Margarita Festival",
+          "start": "2026-09-05T11:00:00",
+          "end": null,
+          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/food-bev/taco-and-margarita-festival-returns-sept-5-2026/",
+          "description": "The Taco and Margarita Festival is returning to Riverfront Park for its second year on Saturday, Sept. 5, 2026 from 11 a.m. to 5 p.m. This year's festival will combine local food and retail vendors, craft margaritas, live entertainment and contests.\u2026",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.745,
           "tier": "medium",
           "recurring": false
         },
@@ -176,7 +206,9 @@
           "score": 0.454,
           "tier": "low",
           "recurring": false
-        },
+        }
+      ],
+      "overflow": [
         {
           "title": "\"When Things Are Gone, They're Gone\" - by Sean Gallagher and \"After the Confetti Falls: Surrealism, Nostalgia, and Presence\" by Marc Chicoine (Opening Reception)",
           "start": "2026-09-04T17:00:00",
@@ -191,9 +223,37 @@
           "score": 0.35,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
+        {
+          "title": "Grounded in Grain, Washed in the Water",
+          "start": "2026-09-05T11:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
+          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Blind Heat\" by Chadwick Tolley, \"Big Bertha's Bait n' Tackle\" by Nick Kawczynski, and \"Cramped and Tangled\" by Ellis Fox",
+          "start": "2026-09-05T12:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/three-solo-exhibitions-to-open-at-redux-art-center/",
+          "description": "Redux Contemporary Art Center closes out summer 2026 with three exciting solo exhibitions showcasing the work of emerging and established contemporary artists. The public is invited to the free opening reception on Friday, Aug. 28, from 5 to 8 p.m.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "Imagine: Head in the Clouds",
           "start": "2026-09-04T17:00:00",
@@ -202,6 +262,21 @@
           "neighborhood": "Charleston",
           "url": "https://holycitysinner.com/events/imagine-head-clouds/",
           "description": "Charleston Crafts Gallery, an artist-owned cooperative in the heart of downtown Charleston, is pleased to present its September exhibition, Imagine: Head in the Clouds which opens with a public reception on Friday, September 4th, from 5pm to 8pm.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Contre-Jour,\u201d a solo exhibition by Marc Hanson",
+          "start": "2026-09-05T10:00:00",
+          "end": null,
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-hosting-solo-exhibition-by-marc-hanson/",
+          "description": "Meyer Vogl Gallery is pleased to announce \u201cContre-Jour,\u201d a solo exhibition by Marc Hanson opening Sept. 4, 2026. For his first official solo exhibition with Meyer Vogl Gallery, Hanson focuses on the practice of painting contre-jour, or painting the landscape against the light.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -347,21 +422,6 @@
           "recurring": false
         },
         {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-08-31T10:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "North Charleston POPS! Jazz in the Park",
           "start": "2026-09-01T18:00:00",
           "end": null,
@@ -372,6 +432,21 @@
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
+          "score": 0.506,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-09-02T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
           "score": 0.506,
           "tier": "low",
           "recurring": false
@@ -452,51 +527,6 @@
           "recurring": true
         },
         {
-          "title": "Gin Blossoms",
-          "start": "2026-08-31T20:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Formed in Tempe, Arizona in 1987, Gin Blossoms helped define alternative radio in the early \u201890s with their breakout major-label debut New Miserable Experience.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.366,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Farmers Market",
-          "start": "2026-08-31T15:00:00",
-          "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://holycitysinner.com/entertainment/freshfields-village-unveils-2026-summer-events-lineup/",
-          "description": "Mondays, June through August from 3 to 7 p.m. A seasonal favorite that grows each year, the Freshfields Village Farmers Market brings together local vendors offering fresh produce, prepared foods and artisan goods that fill the Village Green for the evening.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.316,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-08-31T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "The War and Treaty",
           "start": "2026-09-02T19:30:00",
           "end": null,
@@ -559,6 +589,21 @@
       ],
       "recurring": [
         {
+          "title": "Saturdays at the Distillery",
+          "start": "2026-09-05T12:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://fireflydistillery.com/events/",
+          "description": "Saturdays at the Distillery | Saturday, September 5th \ufeff Spend your Saturday afternoon at Firefly with live music, great food, and plenty of room to relax.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
           "title": "Pour House Farmers Market",
           "start": "2026-09-06T11:00:00",
           "end": null,
@@ -600,6 +645,51 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.641,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Folly Beach Farmer's Market",
+          "start": "2026-09-05T12:00:00",
+          "end": null,
+          "venue": "1630 Folly Road, Charleston, SC",
+          "neighborhood": "Folly",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.637,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Weekend Wine-Down",
+          "start": "2026-09-05T10:00:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.63,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-09-05T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
