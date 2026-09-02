@@ -1,22 +1,24 @@
 {
-  "fetched_at": "2026-09-02 12:15 PM EDT",
+  "fetched_at": "2026-09-02 04:46 PM EDT",
   "counts": {
-    "raw": 152,
-    "scored": 60,
+    "raw": 155,
+    "scored": 62,
     "this_weekend": 16,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=60",
-    "pre_dup_group venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00|src=Holy City Sinner']",
+    "input_count=62",
+    "pre_dup_group venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00|src=Holy City Sinner', 'Intro to Collage & Junk Journals fo@2026-09-02 17:30:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-09-04: [\"Henry's\\xa0Pocket\\xa0feat. Members of Mar@2026-09-04 18:00:00|src=Holy City Sinner\", 'Wolph@2026-09-04 21:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-09-04: ['Moon Taxi \u2013 on the N\u00dcTRL Beach Stag@2026-09-04 18:00:00|src=Holy City Sinner', 'Baby Fat on the inside stage@2026-09-04 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-09-05: ['Cordovas\\xa0w/ The Band Honey@2026-09-05 18:00:00|src=Holy City Sinner', 'Interstellar\\xa0Echoes\\xa0- A tribute to @2026-09-05 21:00:00|src=Holy City Sinner']",
-    "survivor venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00']",
+    "survivor venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00', 'Intro to Collage & Junk Journals fo@2026-09-02 17:30:00', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00']",
     "survivor venue=charleston pour house date=2026-09-04: [\"Henry's\\xa0Pocket\\xa0feat. Members of Mar@2026-09-04 18:00:00\", 'Wolph@2026-09-04 21:00:00']",
+    "survivor venue=the windjammer date=2026-09-04: ['Moon Taxi \u2013 on the N\u00dcTRL Beach Stag@2026-09-04 18:00:00', 'Baby Fat on the inside stage@2026-09-04 22:00:00']",
     "survivor venue=charleston pour house date=2026-09-05: ['Cordovas\\xa0w/ The Band Honey@2026-09-05 18:00:00', 'Interstellar\\xa0Echoes\\xa0- A tribute to @2026-09-05 21:00:00']",
-    "output_count=60"
+    "output_count=62"
   ],
   "buckets": {
     "today": "2026-09-02",
@@ -238,27 +240,27 @@
           "recurring": false
         },
         {
+          "title": "Baby Fat on the inside stage",
+          "start": "2026-09-04T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$10 or FREE with a Moon Taxi ticket (9/4 show) September 4, 2026 Doors at 9:30 pm. Show at 10:00 pm. 21 Up https://www.facebook.com/BabyFatBand/ For over two decades, Baby Fat has been rocking the Charleston local music scene.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Moon Taxi \u2013 on the N\u00dcTRL Beach Stage",
           "start": "2026-09-04T18:00:00",
           "end": null,
           "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
           "neighborhood": "Isle Of Palms",
           "url": "https://the-windjammer.com/event/moon-taxi-on-the-nutrl-beach-stage-friday/",
-          "description": "$40 Advance / $50 DOS September 4, 2026 Doors at 6:00 pm 21 Up or with their Parent ridethemoontaxi.com Since forming in 2006, Moon Taxi have brought their genre-bending musicality to a boldly adventurous body of work, all while taking their live show to leading festivals across\u2026",
-          "price": 40.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.454,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Moon Taxi \u2013 on the N\u00dcTRL Beach Stage",
-          "start": "2026-09-05T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/event/moon-taxi-saturday-3/",
           "description": "$40 Advance / $50 DOS September 4, 2026 Doors at 6:00 pm 21 Up or with their Parent ridethemoontaxi.com Since forming in 2006, Moon Taxi have brought their genre-bending musicality to a boldly adventurous body of work, all while taking their live show to leading festivals across\u2026",
           "price": 40.0,
           "source": "Holy City Sinner",
@@ -285,21 +287,6 @@
           "recurring": false
         },
         {
-          "title": "Indigo Road Charleston Restaurant Week",
-          "start": "2026-09-06",
-          "end": null,
-          "venue": "Various",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/food-bev/indigo-road-charleston-restaurant-week-returns-september-3-1/",
-          "description": "The Indigo Road is bringing back its Indigo Road Charleston Restaurant Week for its third year, with nine Charleston-area restaurants offering special chef-curated menus from Sept. 3-13.\u2026",
-          "price": 57.5,
-          "source": "Holy City Sinner",
-          "category": "food_festival",
-          "score": 0.69,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Cordovas\u00a0w/ The Band Honey",
           "start": "2026-09-05T18:00:00",
           "end": null,
@@ -311,6 +298,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Moon Taxi \u2013 on the N\u00dcTRL Beach Stage",
+          "start": "2026-09-05T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/event/moon-taxi-saturday-3/",
+          "description": "$40 Advance / $50 DOS September 4, 2026 Doors at 6:00 pm 21 Up or with their Parent ridethemoontaxi.com Since forming in 2006, Moon Taxi have brought their genre-bending musicality to a boldly adventurous body of work, all while taking their live show to leading festivals across\u2026",
+          "price": 40.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
           "tier": "low",
           "recurring": false
         },
@@ -630,6 +632,21 @@
           "score": 0.276,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke Night",
+          "start": "2026-09-02T20:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.236,
+          "tier": "low",
+          "recurring": true
         }
       ],
       "recurring": [
