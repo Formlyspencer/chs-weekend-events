@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-02 07:08 PM EDT",
+  "fetched_at": "2026-09-02 11:40 PM EDT",
   "counts": {
-    "raw": 155,
-    "scored": 62,
+    "raw": 156,
+    "scored": 63,
     "this_weekend": 16,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=62",
+    "input_count=63",
     "pre_dup_group venue=redux contemporary art center date=2026-09-02: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-02 11:00:00|src=Holy City Sinner', 'Intro to Collage & Junk Journals fo@2026-09-02 17:30:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-02 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-09-04: [\"Henry's\\xa0Pocket\\xa0feat. Members of Mar@2026-09-04 18:00:00|src=Holy City Sinner\", 'Wolph@2026-09-04 21:00:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=charleston pour house date=2026-09-04: [\"Henry's\\xa0Pocket\\xa0feat. Members of Mar@2026-09-04 18:00:00\", 'Wolph@2026-09-04 21:00:00']",
     "survivor venue=the windjammer date=2026-09-04: ['Moon Taxi \u2013 on the N\u00dcTRL Beach Stag@2026-09-04 18:00:00', 'Baby Fat on the inside stage@2026-09-04 22:00:00']",
     "survivor venue=charleston pour house date=2026-09-05: ['Cordovas\\xa0w/ The Band Honey@2026-09-05 18:00:00', 'Interstellar\\xa0Echoes\\xa0- A tribute to @2026-09-05 21:00:00']",
-    "output_count=62"
+    "output_count=63"
   ],
   "buckets": {
     "today": "2026-09-02",
@@ -230,7 +230,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/xavier-wulf/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Xavier Wulf The Cool World Tour",
           "price": null,
           "source": "Holy City Sinner",
@@ -604,7 +604,7 @@
           "recurring": true
         },
         {
-          "title": "The War and Treaty",
+          "title": "CANCELLED - The War and Treaty",
           "start": "2026-09-02T19:30:00",
           "end": null,
           "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
