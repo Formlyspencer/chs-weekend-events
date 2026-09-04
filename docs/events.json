@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-03 07:05 PM EDT",
+  "fetched_at": "2026-09-03 11:42 PM EDT",
   "counts": {
-    "raw": 163,
-    "scored": 71,
-    "this_weekend": 20,
+    "raw": 164,
+    "scored": 72,
+    "this_weekend": 21,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=71",
+    "input_count=72",
     "pre_dup_group venue=charleston pour house date=2026-09-06: ['Pour House Farmers Market@2026-09-06 11:00:00|src=Manual', 'SCHUR\\xa0w/ Fai Laci@2026-09-06 19:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-03: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-03 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-03 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-09-04: [\"Henry's\\xa0Pocket\\xa0feat. Members of Mar@2026-09-04 18:00:00|src=Holy City Sinner\", 'Wolph@2026-09-04 21:00:00|src=Holy City Sinner']",
@@ -22,7 +22,7 @@
     "survivor venue=charleston pour house date=2026-09-05: ['Cordovas\\xa0w/ The Band Honey@2026-09-05 18:00:00', 'Interstellar\\xa0Echoes\\xa0- A tribute to @2026-09-05 21:00:00']",
     "survivor venue=the windjammer date=2026-09-05: ['Moon Taxi \u2013 on the N\u00dcTRL Beach Stag@2026-09-05 18:00:00', 'Tanner Beane & Dirty Power on the i@2026-09-05 22:00:00']",
     "survivor venue=the windjammer date=2026-09-06: ['Moon Taxi \u2013 on the N\u00dcTRL Beach Stag@2026-09-06 18:00:00', 'Reverse Cowgirl on the inside stage@2026-09-06 21:00:00']",
-    "output_count=71"
+    "output_count=72"
   ],
   "buckets": {
     "today": "2026-09-03",
@@ -192,6 +192,21 @@
           "url": "https://holycitysinner.com/food-bev/indigo-road-charleston-restaurant-week-returns-september-3-1/",
           "description": "The Indigo Road is bringing back its Indigo Road Charleston Restaurant Week for its third year, with nine Charleston-area restaurants offering special chef-curated menus from Sept. 3-13.\u2026",
           "price": 57.5,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.69,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "XO Brasserie\u2019s Restaurant Week",
+          "start": "2026-09-06T17:00:00",
+          "end": null,
+          "venue": "XO Brasserie, 1090 Morrison Dr., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/food-bev/xo-brasserie-announces-internal-restaurant-week/",
+          "description": "XO Brasserie is giving guests a new opportunity to explore its menu. From Sept. 6-13, XO Brasserie\u2019s Restaurant Week will feature a curated three-course menu for $50 per person.\u2026",
+          "price": 50.0,
           "source": "Holy City Sinner",
           "category": "food_festival",
           "score": 0.69,
@@ -658,7 +673,7 @@
           "end": null,
           "venue": "American Gardens, 174 King St., Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://americangardenschs.com/happenings/#!/",
           "description": "Gather the family or grab a friend and join us for our very first Movie Night in the Park! Every Thursday from September 3 through October 29*, American Gardens transforms into an open-air cinema for a free movie night made for all to enjoy.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -718,7 +733,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/the-aquabats/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "ince their formation in 1994 in Orange County, The Aquabats have been punk rock\u2019s superheroes, dedicated to injecting harmless fun into a music scene that often took itself too seriously.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -840,7 +855,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -945,21 +960,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-09-07T10:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
           "score": 0.506,
           "tier": "low",
           "recurring": false
