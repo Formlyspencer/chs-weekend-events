@@ -1,26 +1,24 @@
 {
-  "fetched_at": "2026-09-06 06:47 PM EDT",
+  "fetched_at": "2026-09-06 11:43 PM EDT",
   "counts": {
-    "raw": 170,
-    "scored": 77,
+    "raw": 169,
+    "scored": 76,
     "this_weekend": 12,
     "next_weekend": 9
   },
   "dedup_log": [
-    "input_count=77",
-    "pre_dup_group venue=charleston pour house date=2026-09-06: ['Pour House Farmers Market@2026-09-06 11:00:00|src=Manual', 'SCHUR\\xa0w/ Fai Laci@2026-09-06 19:30:00|src=Holy City Sinner']",
+    "input_count=76",
     "pre_dup_group venue=the windjammer date=2026-09-06: ['Moon Taxi \u2013 on the N\u00dcTRL Beach Stag@2026-09-06 18:00:00|src=Holy City Sinner', 'Reverse Cowgirl on the inside stage@2026-09-06 21:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-09: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-09 11:00:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-09 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-10|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-11|src=Holy City Sinner']",
-    "survivor venue=charleston pour house date=2026-09-06: ['Pour House Farmers Market@2026-09-06 11:00:00', 'SCHUR\\xa0w/ Fai Laci@2026-09-06 19:30:00']",
     "survivor venue=the windjammer date=2026-09-06: ['Moon Taxi \u2013 on the N\u00dcTRL Beach Stag@2026-09-06 18:00:00', 'Reverse Cowgirl on the inside stage@2026-09-06 21:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-09: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-09 11:00:00', 'Intro to Portrait Painting in Oil@2026-09-09 18:00:00']",
     "survivor venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10', 'Indigo Road Charleston Restaurant W@2026-09-10']",
     "survivor venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00']",
     "survivor venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11', 'Indigo Road Charleston Restaurant W@2026-09-11']",
-    "output_count=77"
+    "output_count=76"
   ],
   "buckets": {
     "today": "2026-09-06",
@@ -215,21 +213,6 @@
       "overflow": [],
       "weekdays": [],
       "recurring": [
-        {
-          "title": "Pour House Farmers Market",
-          "start": "2026-09-06T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
         {
           "title": "Sunday Figure Drawing",
           "start": "2026-09-06T17:00:00",
@@ -653,7 +636,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://musicfarm.com/event/los-mirlos/",
           "description": "Los Mirlos is a group dedicated to promoting the music and culture of the Peruvian Amazon. Although it was formed in Lima in 1973, its true roots are in Moyobamba, the city where its members were born and began their musical careers.\u2026",
           "price": null,
           "source": "Holy City Sinner",
