@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-07 07:59 AM EDT",
+  "fetched_at": "2026-09-07 01:42 PM EDT",
   "counts": {
     "raw": 167,
-    "scored": 73,
-    "this_weekend": 0,
-    "next_weekend": 16
+    "scored": 71,
+    "this_weekend": 15,
+    "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=73",
+    "input_count=71",
     "pre_dup_group venue=redux contemporary art center date=2026-09-09: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-09 11:00:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-09 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-10|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00|src=Holy City Sinner']",
@@ -18,22 +18,12 @@
     "survivor venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00']",
     "survivor venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11', 'Indigo Road Charleston Restaurant W@2026-09-11']",
     "survivor venue=various date=2026-09-12: ['Cheers Charleston Restaurant Week@2026-09-12', 'Indigo Road Charleston Restaurant W@2026-09-12']",
-    "output_count=73"
+    "output_count=71"
   ],
   "buckets": {
-    "today": "2026-09-06",
-    "show_last_weekend": false,
+    "today": "2026-09-07",
+    "show_last_weekend": true,
     "this_weekend": {
-      "range": [
-        "2026-09-04",
-        "2026-09-06"
-      ],
-      "events": [],
-      "overflow": [],
-      "weekdays": [],
-      "recurring": []
-    },
-    "next_weekend": {
       "range": [
         "2026-09-11",
         "2026-09-13"
@@ -51,21 +41,6 @@
           "source": "Holy City Sinner",
           "category": "surf_event",
           "score": 1.0,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Summerville Destination Market",
-          "start": "2026-09-12T09:00:00",
-          "end": null,
-          "venue": "Nexton Elementary School",
-          "neighborhood": null,
-          "url": "https://holycitysinner.com/entertainment/summerville-destination-market-introduces-a-new-curated-outd/",
-          "description": "RYP Unlimited LLC has announced the return and rebranding of the former Summerville Artisan & Flea Market, now known as the Summerville Destination Market (SDM).\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "vintage_market",
-          "score": 0.807,
           "tier": "high",
           "recurring": false
         },
@@ -514,7 +489,7 @@
           "end": null,
           "venue": "Charleston Adventure Forest, 1152 Guerins Bridge Rd., Awendaw, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.charlestonadventureforest.com",
           "description": "Spend Labor Day outside and make it an adventure! Charleston Adventure Forest will be OPEN ALL DAY on Monday, September 7 from 8:30 AM\u20135:00 PM! School may be out, but adventure is IN! Bring the family, grab your friends, and spend the holiday exploring the outdoors! Come experien\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -597,21 +572,6 @@
           "score": 0.397,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Karaoke",
-          "start": "2026-09-10T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "XO Brasserie\u2019s Restaurant Week",
@@ -797,10 +757,51 @@
         }
       ]
     },
+    "next_weekend": {
+      "range": [
+        "2026-09-18",
+        "2026-09-20"
+      ],
+      "events": [],
+      "overflow": [],
+      "weekdays": [],
+      "recurring": [
+        {
+          "title": "Pour House Farmers Market",
+          "start": "2026-09-20T11:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.684,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Downtown Charleston Farmers Market",
+          "start": "2026-09-19T08:00:00",
+          "end": null,
+          "venue": "Marion Square, 329 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/Charleston-Farmers-Market-37",
+          "description": "Charleston's flagship downtown farmers market at Marion Square. Local produce, prepared foods, makers, and live music. Saturdays April through November.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        }
+      ]
+    },
     "last_weekend": {
       "range": [
-        "2026-08-28",
-        "2026-08-30"
+        "2026-09-04",
+        "2026-09-06"
       ],
       "events": [],
       "overflow": [],
