@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-07 11:48 PM EDT",
+  "fetched_at": "2026-09-08 06:54 AM EDT",
   "counts": {
-    "raw": 167,
-    "scored": 73,
-    "this_weekend": 15,
+    "raw": 170,
+    "scored": 74,
+    "this_weekend": 19,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=73",
+    "input_count=74",
     "pre_dup_group venue=redux contemporary art center date=2026-09-09: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-09 11:00:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-09 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-10|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00|src=Holy City Sinner']",
@@ -18,10 +18,10 @@
     "survivor venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00']",
     "survivor venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11', 'Indigo Road Charleston Restaurant W@2026-09-11']",
     "survivor venue=various date=2026-09-12: ['Cheers Charleston Restaurant Week@2026-09-12', 'Indigo Road Charleston Restaurant W@2026-09-12']",
-    "output_count=73"
+    "output_count=74"
   ],
   "buckets": {
-    "today": "2026-09-07",
+    "today": "2026-09-08",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -42,6 +42,51 @@
           "category": "surf_event",
           "score": 1.0,
           "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Mary Whyte: Salt of the Earth",
+          "start": "2026-09-12T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
+          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Summerville Destination Market",
+          "start": "2026-09-12T09:00:00",
+          "end": null,
+          "venue": "Nexton Elementary School",
+          "neighborhood": null,
+          "url": "https://holycitysinner.com/entertainment/summerville-destination-market-introduces-a-new-curated-outd/",
+          "description": "RYP Unlimited LLC has announced the return and rebranding of the former Summerville Artisan & Flea Market, now known as the Summerville Destination Market (SDM).\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "vintage_market",
+          "score": 0.807,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Up, Up & Read! A Children\u2019s Literary Festival",
+          "start": "2026-09-12T10:30:00",
+          "end": null,
+          "venue": "Charleston Library Society, 164 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://charlestonlibrarysociety.org/event/up-up-read-a-childrens-literacy-festival/",
+          "description": "COME ONE, COME ALL! The Charleston Library Society and The Book Drop present the return of the highly popular children\u2019s literacy festival: Up, Up & Read!, a three-day, free (and open to all) festival designed to foster a love of reading in support of our community\u2019s effort to nu\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.787,
+          "tier": "medium",
           "recurring": false
         },
         {
@@ -86,6 +131,21 @@
           "source": "Holy City Sinner",
           "category": "food_festival",
           "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Bl\u014dktoberfest",
+          "start": "2026-09-12T12:00:00",
+          "end": null,
+          "venue": "Two Blokes Brewing, 547 Long Point Rd., #101, Mt Pleasant, SC",
+          "neighborhood": "Mt Pleasant",
+          "url": "https://eventvesta.com/events/159247/t/tickets",
+          "description": "Join us for Bl\u014dktoberfest to celebrate the annual release of our Oktoberfest beer! You won't want to miss all the fun and festivities! SAVE THE DATE on Saturday, September 12, 12:00 - 9:00PM The Porter Boys Krystyna\u2019s Polish Food Truck Soft pretzels from Krystyna\u2019s 6 German beer\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.78,
           "tier": "medium",
           "recurring": false
         },
@@ -210,6 +270,21 @@
           "recurring": false
         },
         {
+          "title": "Retroland Market",
+          "start": "2026-09-12T10:00:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Event Date Saturday, September 12 Event Times 1st Time Slot 10:00 am 2nd Time Slot 12:00 pm 3rd Time Slot 2:00 pm Each time slot is an hour & a half Come experience the ultimate blast from the past.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "MLW Talk\u2019n Shop LIVE",
           "start": "2026-09-11T19:00:00",
           "end": null,
@@ -236,21 +311,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.428,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "\"Blind Heat\" by Chadwick Tolley, \"Big Bertha's Bait n' Tackle\" by Nick Kawczynski, and \"Cramped and Tangled\" by Ellis Fox",
-          "start": "2026-09-11T11:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/three-solo-exhibitions-to-open-at-redux-art-center/",
-          "description": "Redux Contemporary Art Center closes out summer 2026 with three exciting solo exhibitions showcasing the work of emerging and established contemporary artists. The public is invited to the free opening reception on Friday, Aug. 28, from 5 to 8 p.m.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.297,
           "tier": "low",
           "recurring": false
         }
@@ -284,6 +344,66 @@
           "category": "food_festival",
           "score": 0.69,
           "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Grounded in Grain, Washed in the Water",
+          "start": "2026-09-12T11:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
+          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Blind Heat\" by Chadwick Tolley, \"Big Bertha's Bait n' Tackle\" by Nick Kawczynski, and \"Cramped and Tangled\" by Ellis Fox",
+          "start": "2026-09-12T12:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/three-solo-exhibitions-to-open-at-redux-art-center/",
+          "description": "Redux Contemporary Art Center closes out summer 2026 with three exciting solo exhibitions showcasing the work of emerging and established contemporary artists. The public is invited to the free opening reception on Friday, Aug. 28, from 5 to 8 p.m.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Contre-Jour,\u201d a solo exhibition by Marc Hanson",
+          "start": "2026-09-12T10:00:00",
+          "end": null,
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-hosting-solo-exhibition-by-marc-hanson/",
+          "description": "Meyer Vogl Gallery is pleased to announce \u201cContre-Jour,\u201d a solo exhibition by Marc Hanson opening Sept. 4, 2026. For his first official solo exhibition with Meyer Vogl Gallery, Hanson focuses on the practice of painting contre-jour, or painting the landscape against the light.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Blind Heat\" by Chadwick Tolley, \"Big Bertha's Bait n' Tackle\" by Nick Kawczynski, and \"Cramped and Tangled\" by Ellis Fox",
+          "start": "2026-09-11T11:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/three-solo-exhibitions-to-open-at-redux-art-center/",
+          "description": "Redux Contemporary Art Center closes out summer 2026 with three exciting solo exhibitions showcasing the work of emerging and established contemporary artists. The public is invited to the free opening reception on Friday, Aug. 28, from 5 to 8 p.m.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.297,
+          "tier": "low",
           "recurring": false
         },
         {
@@ -409,21 +529,6 @@
           "recurring": false
         },
         {
-          "title": "Pinky's Summer Smash",
-          "start": "2026-09-07T12:00:00",
-          "end": null,
-          "venue": "Pinky's on the Beach, 1 Center Street, Folly Beach, SC",
-          "neighborhood": "Folly Beach",
-          "url": "https://www.pinkysfollybeach.com/summer-smash/",
-          "description": "Summer won't stop if we don't! Pinky's Summer Smash, one day only, this Labor Day! Nine hours of live music + DJ sets, all-day specials, cold cocktails, and very questionable plans to call it an early night.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.55,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Nico Romo Hospitality's Restaurant Week Extravaganza",
           "start": "2026-09-10",
           "end": null,
@@ -435,21 +540,6 @@
           "source": "Holy City Sinner",
           "category": "food_festival",
           "score": 0.542,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Labor Day Jump",
-          "start": "2026-09-07T10:00:00",
-          "end": null,
-          "venue": "Charleston Aqua Park, 3050 Marlin Rd., Johns Island, SC",
-          "neighborhood": "Johns Island",
-          "url": "https://eventvesta.com/events/158150/t/tickets",
-          "description": "We are bringing our busy summer season to an end with our Labor Day jump! Join us between 10:00 and 6:00pm. Labor Day special: Purchase a 2nd session for only $9.99 on top of the regular $18 for the 1st session. The 2nd session has to be redeemed on Labor Day.\u2026",
-          "price": 9.99,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.528,
           "tier": "low",
           "recurring": false
         },
@@ -484,23 +574,8 @@
           "recurring": false
         },
         {
-          "title": "Labor Day Ziplining",
-          "start": "2026-09-07T08:30:00",
-          "end": null,
-          "venue": "Charleston Adventure Forest, 1152 Guerins Bridge Rd., Awendaw, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.charlestonadventureforest.com",
-          "description": "Spend Labor Day outside and make it an adventure! Charleston Adventure Forest will be OPEN ALL DAY on Monday, September 7 from 8:30 AM\u20135:00 PM! School may be out, but adventure is IN! Bring the family, grab your friends, and spend the holiday exploring the outdoors! Come experien\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-09-07T10:00:00",
+          "start": "2026-09-09T10:00:00",
           "end": null,
           "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
           "neighborhood": "Charleston",
@@ -560,7 +635,7 @@
         },
         {
           "title": "Nico Romo Hospitality's Restaurant Week Extravaganza",
-          "start": "2026-09-07",
+          "start": "2026-09-08",
           "end": null,
           "venue": "Bistronomy by Nico",
           "neighborhood": null,
@@ -649,21 +724,6 @@
           "recurring": false
         },
         {
-          "title": "Seafood Tower Hour",
-          "start": "2026-09-07T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Cheekface",
           "start": "2026-09-09T20:00:00",
           "end": null,
@@ -722,21 +782,6 @@
           "score": 0.273,
           "tier": "low",
           "recurring": true
-        },
-        {
-          "title": "The Headstrings Collective",
-          "start": "2026-09-07T14:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D207234357",
-          "description": "The Headstrings Collective Monday Muse Mondays feat. Scott Baston / Bill Jarrett and special guests * A New Lineup Every Week* Mondays September 7,14 and 21 Charleston Pour House (deck stage) 5pm doors /6pm shows 2 x sets FREE SHOWS + Monday 9.28.26 + a Special end of the month M\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.263,
-          "tier": "low",
-          "recurring": false
         }
       ],
       "recurring": [
@@ -767,6 +812,51 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Folly Beach Farmer's Market",
+          "start": "2026-09-12T12:00:00",
+          "end": null,
+          "venue": "1630 Folly Road, Charleston, SC",
+          "neighborhood": "Folly",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.637,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Weekend Wine-Down",
+          "start": "2026-09-12T10:00:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.63,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-09-12T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
