@@ -1,26 +1,28 @@
 {
-  "fetched_at": "2026-09-09 12:13 PM EDT",
+  "fetched_at": "2026-09-09 04:42 PM EDT",
   "counts": {
-    "raw": 172,
-    "scored": 74,
+    "raw": 173,
+    "scored": 75,
     "this_weekend": 25,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=74",
+    "input_count=75",
     "pre_dup_group venue=redux contemporary art center date=2026-09-09: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-09 11:00:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-09 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-10|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-11|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-09-11: ['MLW Talk\u2019n Shop LIVE@2026-09-11 19:00:00|src=Holy City Sinner', 'DJ Medic on the inside stage@2026-09-11 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-12: ['Cheers Charleston Restaurant Week@2026-09-12|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-12|src=Holy City Sinner']",
+    "pre_dup_group venue=redux contemporary art center date=2026-09-12: ['Indigo Dying Workshop@2026-09-12 11:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-12 12:00:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-09-09: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-09 11:00:00', 'Intro to Portrait Painting in Oil@2026-09-09 18:00:00']",
     "survivor venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10', 'Indigo Road Charleston Restaurant W@2026-09-10']",
     "survivor venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00']",
     "survivor venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11', 'Indigo Road Charleston Restaurant W@2026-09-11']",
     "survivor venue=the windjammer date=2026-09-11: ['MLW Talk\u2019n Shop LIVE@2026-09-11 19:00:00', 'DJ Medic on the inside stage@2026-09-11 22:00:00']",
     "survivor venue=various date=2026-09-12: ['Cheers Charleston Restaurant Week@2026-09-12', 'Indigo Road Charleston Restaurant W@2026-09-12']",
-    "output_count=74"
+    "survivor venue=redux contemporary art center date=2026-09-12: ['Indigo Dying Workshop@2026-09-12 11:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-12 12:00:00']",
+    "output_count=75"
   ],
   "buckets": {
     "today": "2026-09-09",
@@ -57,21 +59,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Low Tide",
-          "start": "2026-09-12T15:00:00",
-          "end": null,
-          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/high-tide-announces-new-low-tide-festival-in-north-charlesto/",
-          "description": "High Tide, the annual music and arts festival, recently announced its latest event, Low Tide, which will be held at North Charleston\u2019s Riverfront Park on Saturday, Sept. 12.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
           "score": 0.92,
           "tier": "high",
           "recurring": false
@@ -190,6 +177,21 @@
           "url": "https://fireflydistillery.com/events/",
           "description": "Friday Live Music Kick off your weekend the right way with Friday Happy Hour at Firefly Distillery! From 4-7 PM, sip on some great cocktails with $4 off all cocktails and $5 16 oz can beers, get some snacks off our happy hour menu all while enjoying live music from Derek Cribb.",
           "price": 4.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Low Tide",
+          "start": "2026-09-12T15:00:00",
+          "end": null,
+          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/high-tide-announces-new-low-tide-festival-in-north-charlesto/",
+          "description": "World class music from Sidepiece & more! Set in a beautiful waterfront location just 5 minutes from Downtown Charleston Over 7 hours of music from start to finish On-site food & beverage options 21+ There\u2019s so much more than just the music, maybe even the future love of your life\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
@@ -540,6 +542,21 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.266,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Indigo Dying Workshop",
+          "start": "2026-09-12T11:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://redux.givecloud.co/product/11000-091226/indigo-dying-workshop-saturday-sept-12-2026-1100-130-pm",
+          "description": "Date: Saturday, Sept 12, 2026 Time: 11:00 - 1:30 PM Instructor: Julia Vanderpool $95 ($76 w/ Membership) Age: 13+ (Anyone under 18 must be accompanied by a Guardian) Skill Level: Beginner Friendly About This Workshop: Join fiber artist Julia Vanderpool for a hands-on Indigo Dyein\u2026",
+          "price": 95.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.155,
           "tier": "low",
           "recurring": false
         }
