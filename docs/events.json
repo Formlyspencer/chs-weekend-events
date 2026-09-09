@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-09 06:59 AM EDT",
+  "fetched_at": "2026-09-09 12:13 PM EDT",
   "counts": {
     "raw": 172,
     "scored": 74,
@@ -12,14 +12,14 @@
     "pre_dup_group venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-10|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-11|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-09-11: ['MLW Talk\u2019n Shop LIVE@2026-09-11 19:00:00|src=Holy City Sinner', 'DJ Medic on the inside stage@2026-09-11 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-12: ['Cheers Charleston Restaurant Week@2026-09-12|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-12|src=Holy City Sinner']",
-    "pre_dup_group venue=charleston pour house date=2026-09-12: ['Robert Lester Folsom@2026-09-12 18:00:00|src=Holy City Sinner', 'Cosmic Charlie@2026-09-12 21:00:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-09-09: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-09 11:00:00', 'Intro to Portrait Painting in Oil@2026-09-09 18:00:00']",
     "survivor venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10', 'Indigo Road Charleston Restaurant W@2026-09-10']",
     "survivor venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00']",
     "survivor venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11', 'Indigo Road Charleston Restaurant W@2026-09-11']",
+    "survivor venue=the windjammer date=2026-09-11: ['MLW Talk\u2019n Shop LIVE@2026-09-11 19:00:00', 'DJ Medic on the inside stage@2026-09-11 22:00:00']",
     "survivor venue=various date=2026-09-12: ['Cheers Charleston Restaurant Week@2026-09-12', 'Indigo Road Charleston Restaurant W@2026-09-12']",
-    "survivor venue=charleston pour house date=2026-09-12: ['Robert Lester Folsom@2026-09-12 18:00:00', 'Cosmic Charlie@2026-09-12 21:00:00']",
     "output_count=74"
   ],
   "buckets": {
@@ -362,29 +362,14 @@
           "recurring": false
         },
         {
-          "title": "The Yacht Club on the N\u00dcTRL Beach Stage",
-          "start": "2026-09-12T18:00:00",
+          "title": "DJ Medic on the inside stage",
+          "start": "2026-09-11T22:00:00",
           "end": null,
           "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
           "neighborhood": "Isle Of Palms",
           "url": "https://the-windjammer.com/events/",
-          "description": "$15 ADV / $20 DOS September 12, 2026 Doors at 6:00 pm 21 Up or with their Parent ARTIST WEBSITE https://www.smoothsailingrock.com/ South Carolina\u2019s smoothest rock band, The Yacht Club, adds a little tempo and grit to these 70s and 80s classics, while keeping the melodies intact.\u2026",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Cosmic Charlie",
-          "start": "2026-09-12T21:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Cosmic Charlie Sat. 9.12.26 Charleston Pour House Main Stage 8pm doors /9pm show 2 x sets $20 advance /$25 day of show genre: High-Energy Grateful Dead from Athens GA since 1999",
-          "price": 20.0,
+          "description": "DJ Medic on the inside stage $10 September 11, 2026 Doors at 9:00 pm. Show at 10:00 pm. 21 Up https://www.barattiniproductions.com/about",
+          "price": 10.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
@@ -403,6 +388,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Dr. Bacon",
+          "start": "2026-09-11T18:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Dr. Bacon Friday 9.11.26 Charleston Pour House Deck Stage 5pm doors /6pm show 2 x sets 10 advance / 12 day of show",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.428,
           "tier": "low",
           "recurring": false
         }
@@ -439,17 +439,17 @@
           "recurring": false
         },
         {
-          "title": "Dr. Bacon",
-          "start": "2026-09-11T18:00:00",
+          "title": "The Yacht Club on the N\u00dcTRL Beach Stage",
+          "start": "2026-09-12T18:00:00",
           "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Dr. Bacon Friday 9.11.26 Charleston Pour House Deck Stage 5pm doors /6pm show 2 x sets 10 advance / 12 day of show",
-          "price": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$15 ADV / $20 DOS September 12, 2026 Doors at 6:00 pm 21 Up or with their Parent ARTIST WEBSITE https://www.smoothsailingrock.com/ South Carolina\u2019s smoothest rock band, The Yacht Club, adds a little tempo and grit to these 70s and 80s classics, while keeping the melodies intact.\u2026",
+          "price": 15.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
-          "score": 0.428,
+          "score": 0.504,
           "tier": "low",
           "recurring": false
         },
@@ -756,21 +756,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-09-10T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "XO Brasserie\u2019s Restaurant Week",
           "start": "2026-09-09T17:00:00",
           "end": null,
@@ -859,6 +844,21 @@
           "score": 0.276,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke Night",
+          "start": "2026-09-09T20:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.236,
+          "tier": "low",
+          "recurring": true
         }
       ],
       "recurring": [
@@ -913,7 +913,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
