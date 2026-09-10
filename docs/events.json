@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-09 07:03 PM EDT",
+  "fetched_at": "2026-09-09 11:51 PM EDT",
   "counts": {
-    "raw": 173,
-    "scored": 75,
+    "raw": 174,
+    "scored": 76,
     "this_weekend": 25,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=75",
+    "input_count=76",
     "pre_dup_group venue=redux contemporary art center date=2026-09-09: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-09 11:00:00|src=Holy City Sinner', 'Intro to Portrait Painting in Oil@2026-09-09 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-10|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00|src=Holy City Sinner']",
@@ -22,7 +22,7 @@
     "survivor venue=the windjammer date=2026-09-11: ['MLW Talk\u2019n Shop LIVE@2026-09-11 19:00:00', 'DJ Medic on the inside stage@2026-09-11 22:00:00']",
     "survivor venue=various date=2026-09-12: ['Cheers Charleston Restaurant Week@2026-09-12', 'Indigo Road Charleston Restaurant W@2026-09-12']",
     "survivor venue=redux contemporary art center date=2026-09-12: ['Indigo Dying Workshop@2026-09-12 11:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-12 12:00:00']",
-    "output_count=75"
+    "output_count=76"
   ],
   "buckets": {
     "today": "2026-09-09",
