@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-10 12:05 PM EDT",
+  "fetched_at": "2026-09-10 04:37 PM EDT",
   "counts": {
     "raw": 175,
-    "scored": 76,
+    "scored": 77,
     "this_weekend": 27,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=76",
+    "input_count=77",
     "pre_dup_group venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-10|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-11|src=Holy City Sinner']",
@@ -15,7 +15,7 @@
     "pre_dup_group venue=various date=2026-09-12: ['Cheers Charleston Restaurant Week@2026-09-12|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-12|src=Holy City Sinner']",
     "pre_dup_group venue=music farm date=2026-09-12: ['Retroland Market@2026-09-12 10:00:00|src=Holy City Sinner', 'Sploinky Rave: Charleston@2026-09-12 21:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-12: ['Indigo Dying Workshop@2026-09-12 11:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-12 12:00:00|src=Holy City Sinner']",
-    "pre_dup_group venue=charleston pour house date=2026-09-12: ['Robert Lester Folsom@2026-09-12 18:00:00|src=Holy City Sinner', 'Runaway Gin - A Tribute to Phish@2026-09-12 21:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=charleston pour house date=2026-09-12: ['Heal\\xa0with\\xa0Hearts\\xa0Kids\\xa0drum\\xa0circle@2026-09-12 15:30:00|src=Holy City Sinner', 'Robert Lester Folsom@2026-09-12 18:00:00|src=Holy City Sinner', 'Runaway Gin - A Tribute to Phish@2026-09-12 21:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-09-12: ['The Yacht Club on the N\u00dcTRL Beach S@2026-09-12 18:00:00|src=Holy City Sinner', 'HIGH 5 on the inside stage@2026-09-12 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-13: ['Cheers Charleston Restaurant Week@2026-09-13|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-13|src=Holy City Sinner']",
     "survivor venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10', 'Indigo Road Charleston Restaurant W@2026-09-10']",
@@ -25,10 +25,10 @@
     "survivor venue=various date=2026-09-12: ['Cheers Charleston Restaurant Week@2026-09-12', 'Indigo Road Charleston Restaurant W@2026-09-12']",
     "survivor venue=music farm date=2026-09-12: ['Retroland Market@2026-09-12 10:00:00', 'Sploinky Rave: Charleston@2026-09-12 21:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-12: ['Indigo Dying Workshop@2026-09-12 11:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-12 12:00:00']",
-    "survivor venue=charleston pour house date=2026-09-12: ['Robert Lester Folsom@2026-09-12 18:00:00', 'Runaway Gin - A Tribute to Phish@2026-09-12 21:00:00']",
+    "survivor venue=charleston pour house date=2026-09-12: ['Heal\\xa0with\\xa0Hearts\\xa0Kids\\xa0drum\\xa0circle@2026-09-12 15:30:00', 'Robert Lester Folsom@2026-09-12 18:00:00', 'Runaway Gin - A Tribute to Phish@2026-09-12 21:00:00']",
     "survivor venue=the windjammer date=2026-09-12: ['The Yacht Club on the N\u00dcTRL Beach S@2026-09-12 18:00:00', 'HIGH 5 on the inside stage@2026-09-12 21:30:00']",
     "survivor venue=various date=2026-09-13: ['Cheers Charleston Restaurant Week@2026-09-13', 'Indigo Road Charleston Restaurant W@2026-09-13']",
-    "output_count=76"
+    "output_count=77"
   ],
   "buckets": {
     "today": "2026-09-10",
@@ -65,21 +65,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Low Tide",
-          "start": "2026-09-12T15:00:00",
-          "end": null,
-          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/high-tide-announces-new-low-tide-festival-in-north-charlesto/",
-          "description": "High Tide, the annual music and arts festival, recently announced its latest event, Low Tide, which will be held at North Charleston\u2019s Riverfront Park on Saturday, Sept. 12.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
           "score": 0.92,
           "tier": "high",
           "recurring": false
@@ -213,6 +198,21 @@
           "url": "https://fireflydistillery.com/events/",
           "description": "Friday Live Music Kick off your weekend the right way with Friday Happy Hour at Firefly Distillery! From 4-7 PM, sip on some great cocktails with $4 off all cocktails and $5 16 oz can beers, get some snacks off our happy hour menu all while enjoying live music from Derek Cribb.",
           "price": 4.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Low Tide",
+          "start": "2026-09-12T15:00:00",
+          "end": null,
+          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/high-tide-announces-new-low-tide-festival-in-north-charlesto/",
+          "description": "World class music from Sidepiece & more! Set in a beautiful waterfront location just 5 minutes from Downtown Charleston Over 7 hours of music from start to finish On-site food & beverage options 21+ There\u2019s so much more than just the music, maybe even the future love of your life\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
@@ -430,17 +430,17 @@
           "recurring": false
         },
         {
-          "title": "Robert Lester Folsom",
-          "start": "2026-09-12T18:00:00",
+          "title": "Heal\u00a0with\u00a0Hearts\u00a0Kids\u00a0drum\u00a0circle",
+          "start": "2026-09-12T15:30:00",
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
           "url": "https://charlestonpourhouse.com/",
-          "description": "Robert Lester Folsom Saturday 9.12.26 Charleston Pour House Deck Stage 5pm doors /6pm show $25 advance / $30 day of show",
-          "price": 25.0,
+          "description": "Heal with Hearts Kids drum circle ON THE DECK @ CHS POUR HOUSE This Saturday Sept. 12th 2026 Deck Bar opens at 3pm Drum Circle 330pm -430pm FREE",
+          "price": 0.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
-          "score": 0.454,
+          "score": 0.479,
           "tier": "low",
           "recurring": false
         }
@@ -608,6 +608,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.479,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Robert Lester Folsom",
+          "start": "2026-09-12T18:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Robert Lester Folsom Saturday 9.12.26 Charleston Pour House Deck Stage 5pm doors /6pm show $25 advance / $30 day of show",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
           "tier": "low",
           "recurring": false
         },
@@ -1011,7 +1026,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
