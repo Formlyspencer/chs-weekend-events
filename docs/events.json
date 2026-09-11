@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-11 06:53 AM EDT",
+  "fetched_at": "2026-09-11 12:09 PM EDT",
   "counts": {
     "raw": 174,
     "scored": 74,
@@ -63,21 +63,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Low Tide",
-          "start": "2026-09-12T15:00:00",
-          "end": null,
-          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/high-tide-announces-new-low-tide-festival-in-north-charlesto/",
-          "description": "High Tide, the annual music and arts festival, recently announced its latest event, Low Tide, which will be held at North Charleston\u2019s Riverfront Park on Saturday, Sept. 12.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
           "score": 0.92,
           "tier": "high",
           "recurring": false
@@ -211,6 +196,21 @@
           "url": "https://fireflydistillery.com/events/",
           "description": "Friday Live Music Kick off your weekend the right way with Friday Happy Hour at Firefly Distillery! From 4-7 PM, sip on some great cocktails with $4 off all cocktails and $5 16 oz can beers, get some snacks off our happy hour menu all while enjoying live music from Derek Cribb.",
           "price": 4.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Low Tide",
+          "start": "2026-09-12T15:00:00",
+          "end": null,
+          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/high-tide-announces-new-low-tide-festival-in-north-charlesto/",
+          "description": "World class music from Sidepiece & more! Set in a beautiful waterfront location just 5 minutes from Downtown Charleston Over 7 hours of music from start to finish On-site food & beverage options 21+ There\u2019s so much more than just the music, maybe even the future love of your life\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
