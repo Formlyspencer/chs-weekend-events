@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-10 07:00 PM EDT",
+  "fetched_at": "2026-09-10 11:48 PM EDT",
   "counts": {
-    "raw": 175,
-    "scored": 77,
+    "raw": 176,
+    "scored": 78,
     "this_weekend": 27,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=77",
+    "input_count=78",
     "pre_dup_group venue=various date=2026-09-10: ['Cheers Charleston Restaurant Week@2026-09-10|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-10|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-10: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-10 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-10 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-09-11: ['Cheers Charleston Restaurant Week@2026-09-11|src=Holy City Sinner', 'Indigo Road Charleston Restaurant W@2026-09-11|src=Holy City Sinner']",
@@ -28,7 +28,7 @@
     "survivor venue=charleston pour house date=2026-09-12: ['Heal\\xa0with\\xa0Hearts\\xa0Kids\\xa0drum\\xa0circle@2026-09-12 15:30:00', 'Robert Lester Folsom@2026-09-12 18:00:00', 'Runaway Gin - A Tribute to Phish@2026-09-12 21:00:00']",
     "survivor venue=the windjammer date=2026-09-12: ['The Yacht Club on the N\u00dcTRL Beach S@2026-09-12 18:00:00', 'HIGH 5 on the inside stage@2026-09-12 21:30:00']",
     "survivor venue=various date=2026-09-13: ['Cheers Charleston Restaurant Week@2026-09-13', 'Indigo Road Charleston Restaurant W@2026-09-13']",
-    "output_count=77"
+    "output_count=78"
   ],
   "buckets": {
     "today": "2026-09-10",
@@ -345,7 +345,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/the-bouncing-souls/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "The Bouncing Souls Born To Be Tour w/ The Suicide Machines, Strike Anywhere, & Human Issue",
           "price": null,
           "source": "Holy City Sinner",
