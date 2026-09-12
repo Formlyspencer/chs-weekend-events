@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-12 11:16 AM EDT",
+  "fetched_at": "2026-09-12 04:21 PM EDT",
   "counts": {
-    "raw": 170,
+    "raw": 171,
     "scored": 71,
     "this_weekend": 23,
     "next_weekend": 0
@@ -41,7 +41,7 @@
           "end": null,
           "venue": "Folly Beach Pier",
           "neighborhood": "Folly Beach",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/sports/catch-summer-fun-at-charleston-county-parks%E2%80%99-fishing-pier-to/",
           "description": "This summer, catch fish, fun and prizes during tournaments at the Folly Beach Pier and the Mount Pleasant Pier! The Mount Pleasant Pier will host the season\u2019s first Cast Off Fishing Tournament on Saturday, May 9.\u2026",
           "price": 12.0,
           "source": "Holy City Sinner",
@@ -61,6 +61,21 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Low Tide",
+          "start": "2026-09-12T15:00:00",
+          "end": null,
+          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/high-tide-announces-new-low-tide-festival-in-north-charlesto/",
+          "description": "High Tide, the annual music and arts festival, recently announced its latest event, Low Tide, which will be held at North Charleston\u2019s Riverfront Park on Saturday, Sept. 12.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
           "score": 0.92,
           "tier": "high",
           "recurring": false
@@ -182,21 +197,6 @@
           "source": "Holy City Sinner",
           "category": "food_festival",
           "score": 0.78,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Low Tide",
-          "start": "2026-09-12T15:00:00",
-          "end": null,
-          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/high-tide-announces-new-low-tide-festival-in-north-charlesto/",
-          "description": "World class music from Sidepiece & more! Set in a beautiful waterfront location just 5 minutes from Downtown Charleston Over 7 hours of music from start to finish On-site food & beverage options 21+ There\u2019s so much more than just the music, maybe even the future love of your life\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
           "tier": "medium",
           "recurring": false
         },
@@ -586,7 +586,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
