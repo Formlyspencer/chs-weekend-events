@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-09-14 08:14 AM EDT",
+  "fetched_at": "2026-09-14 03:45 PM EDT",
   "counts": {
     "raw": 162,
     "scored": 65,
-    "this_weekend": 0,
-    "next_weekend": 15
+    "this_weekend": 15,
+    "next_weekend": 0
   },
   "dedup_log": [
     "input_count=65",
@@ -19,19 +19,9 @@
     "output_count=65"
   ],
   "buckets": {
-    "today": "2026-09-13",
-    "show_last_weekend": false,
+    "today": "2026-09-14",
+    "show_last_weekend": true,
     "this_weekend": {
-      "range": [
-        "2026-09-11",
-        "2026-09-13"
-      ],
-      "events": [],
-      "overflow": [],
-      "weekdays": [],
-      "recurring": []
-    },
-    "next_weekend": {
       "range": [
         "2026-09-18",
         "2026-09-20"
@@ -73,7 +63,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Friday, September 18th \ufeff Music Bingo is back Friday September 18th from 7 to 9pm in the Firefly Room. Free admission, first come first served, and spots fill up fast so arrive early. Wrap It Up food truck is on-site for the evening.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -467,7 +457,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/asleep-at-the-wheel/",
           "description": "In February of 1974 Asleep at the Wheel made the move from the Bay Area to Austin, Texas. After playing the Armadillo World Headquarters with Commander Cody and his Lost Planet Airmen in 1973 \u2013 and receiving encouragement from Willie Nelson and Doug Sahm to relocate \u2013 the band se\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -690,10 +680,51 @@
         }
       ]
     },
+    "next_weekend": {
+      "range": [
+        "2026-09-25",
+        "2026-09-27"
+      ],
+      "events": [],
+      "overflow": [],
+      "weekdays": [],
+      "recurring": [
+        {
+          "title": "Pour House Farmers Market",
+          "start": "2026-09-27T11:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.684,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Downtown Charleston Farmers Market",
+          "start": "2026-09-26T08:00:00",
+          "end": null,
+          "venue": "Marion Square, 329 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/Charleston-Farmers-Market-37",
+          "description": "Charleston's flagship downtown farmers market at Marion Square. Local produce, prepared foods, makers, and live music. Saturdays April through November.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        }
+      ]
+    },
     "last_weekend": {
       "range": [
-        "2026-09-04",
-        "2026-09-06"
+        "2026-09-11",
+        "2026-09-13"
       ],
       "events": [],
       "overflow": [],
