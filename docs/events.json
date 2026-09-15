@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-15 07:23 AM EDT",
+  "fetched_at": "2026-09-15 12:35 PM EDT",
   "counts": {
     "raw": 166,
-    "scored": 68,
-    "this_weekend": 18,
+    "scored": 66,
+    "this_weekend": 17,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=68",
+    "input_count=66",
     "pre_dup_group venue=redux contemporary art center date=2026-09-16: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-16 11:00:00|src=Holy City Sinner', \"Sip n' Paint!@2026-09-16 18:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=redux contemporary art center date=2026-09-17: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-17 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-17 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-09-17: ['Winyah w/ Old Mervs on the N\u00dcTRL Be@2026-09-17 18:00:00|src=Holy City Sinner', 'Reverse Cowgirl on the inside stage@2026-09-17 21:30:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=redux contemporary art center date=2026-09-17: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-17 11:00:00', 'Intro to Landscape Oil Painting@2026-09-17 18:00:00']",
     "survivor venue=the windjammer date=2026-09-17: ['Winyah w/ Old Mervs on the N\u00dcTRL Be@2026-09-17 18:00:00', 'Reverse Cowgirl on the inside stage@2026-09-17 21:30:00']",
     "survivor venue=the windjammer date=2026-09-18: ['Winyah on the N\u00dcTRL Beach Stage@2026-09-18 18:00:00', 'Macelyn Batten on the inside stage@2026-09-18 22:00:00']",
-    "output_count=68"
+    "output_count=66"
   ],
   "buckets": {
     "today": "2026-09-15",
@@ -58,21 +58,6 @@
           "recurring": false
         },
         {
-          "title": "Hoptoberfest",
-          "start": "2026-09-19T12:00:00",
-          "end": null,
-          "venue": "Fam\u2019s Brewing Co., 1291 Folly Road, James Island, SC",
-          "neighborhood": "Folly",
-          "url": "https://holycitysinner.com/food-bev/fam%E2%80%99s-brewing-co-famulari%E2%80%99s-hanahan-announce-oktoberfest-cel/",
-          "description": "Fam\u2019s Brewing Co. is kicking off Oktoberfest season in the Lowcountry on Saturday, Sept. 19, with Hoptoberfest, now in its ninth year. The ceremonial firkin will be tapped at noon, followed by the Charleston Polka Kings from 1:30-4:30 p.m.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.902,
-          "tier": "high",
-          "recurring": false
-        },
-        {
           "title": "Vintage Market Days of Charleston",
           "start": "2026-09-18",
           "end": null,
@@ -93,7 +78,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://fireflydistillery.com/events/",
           "description": "Friday, September 18th \ufeff Music Bingo is back Friday September 18th from 7 to 9pm in the Firefly Room. Free admission, first come first served, and spots fill up fast so arrive early. Wrap It Up food truck is on-site for the evening.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -735,21 +720,6 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Folly Beach Farmer's Market",
-          "start": "2026-09-19T12:00:00",
-          "end": null,
-          "venue": "1630 Folly Road, Charleston, SC",
-          "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.637,
           "tier": "medium",
           "recurring": true
         },
