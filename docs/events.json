@@ -1,25 +1,27 @@
 {
-  "fetched_at": "2026-09-15 05:01 PM EDT",
+  "fetched_at": "2026-09-16 12:04 AM EDT",
   "counts": {
     "raw": 166,
-    "scored": 66,
-    "this_weekend": 17,
+    "scored": 68,
+    "this_weekend": 21,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=66",
+    "input_count=68",
     "pre_dup_group venue=redux contemporary art center date=2026-09-16: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-16 11:00:00|src=Holy City Sinner', \"Sip n' Paint!@2026-09-16 18:00:00|src=Holy City Sinner\"]",
     "pre_dup_group venue=redux contemporary art center date=2026-09-17: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-17 11:00:00|src=Holy City Sinner', 'Intro to Landscape Oil Painting@2026-09-17 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-09-17: ['Winyah w/ Old Mervs on the N\u00dcTRL Be@2026-09-17 18:00:00|src=Holy City Sinner', 'Reverse Cowgirl on the inside stage@2026-09-17 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-09-18: ['Winyah on the N\u00dcTRL Beach Stage@2026-09-18 18:00:00|src=Holy City Sinner', 'Macelyn Batten on the inside stage@2026-09-18 22:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=charleston pour house date=2026-09-19: ['The Poho Pop Up Market@2026-09-19 11:00:00|src=Holy City Sinner', \"Restless Natives (Macon GA.'s Tribu@2026-09-19 18:00:00|src=Holy City Sinner\", 'North Mississippi Allstars@2026-09-19 20:30:00|src=Holy City Sinner', 'PoHo Family Jam@2026-09-19 21:30:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-09-16: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-16 11:00:00', \"Sip n' Paint!@2026-09-16 18:00:00\"]",
     "survivor venue=redux contemporary art center date=2026-09-17: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-17 11:00:00', 'Intro to Landscape Oil Painting@2026-09-17 18:00:00']",
     "survivor venue=the windjammer date=2026-09-17: ['Winyah w/ Old Mervs on the N\u00dcTRL Be@2026-09-17 18:00:00', 'Reverse Cowgirl on the inside stage@2026-09-17 21:30:00']",
     "survivor venue=the windjammer date=2026-09-18: ['Winyah on the N\u00dcTRL Beach Stage@2026-09-18 18:00:00', 'Macelyn Batten on the inside stage@2026-09-18 22:00:00']",
-    "output_count=66"
+    "survivor venue=charleston pour house date=2026-09-19: ['The Poho Pop Up Market@2026-09-19 11:00:00', \"Restless Natives (Macon GA.'s Tribu@2026-09-19 18:00:00\", 'North Mississippi Allstars@2026-09-19 20:30:00', 'PoHo Family Jam@2026-09-19 21:30:00']",
+    "output_count=68"
   ],
   "buckets": {
-    "today": "2026-09-15",
+    "today": "2026-09-16",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -54,6 +56,36 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "2026 Ohm Radio Block Party",
+          "start": "2026-09-19T16:00:00",
+          "end": null,
+          "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/ohm-radio-the-refinery-celebrate-11-years-of-community-broad/",
+          "description": "Join us for the Refinery x OHM Block Party , a free community celebration marking the 11th anniversary of Ohm Radio 96.3 FM , Charleston's only nonprofit community radio station.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Hoptoberfest",
+          "start": "2026-09-19T12:00:00",
+          "end": null,
+          "venue": "Fam\u2019s Brewing Co., 1291 Folly Road, James Island, SC",
+          "neighborhood": "Folly",
+          "url": "https://holycitysinner.com/food-bev/fam%E2%80%99s-brewing-co-famulari%E2%80%99s-hanahan-announce-oktoberfest-cel/",
+          "description": "Fam\u2019s Brewing Co. is kicking off Oktoberfest season in the Lowcountry on Saturday, Sept. 19, with Hoptoberfest, now in its ninth year. The ceremonial firkin will be tapped at noon, followed by the Charleston Polka Kings from 1:30-4:30 p.m.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.902,
           "tier": "high",
           "recurring": false
         },
@@ -178,6 +210,21 @@
           "recurring": false
         },
         {
+          "title": "Charleston Vinyl Show",
+          "start": "2026-09-19T19:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Saturday, September 19th \ufeff Calling all music lovers and record collectors. Join us for the Charleston Vinyl Show at Firefly Distillery on Saturday, September 19th, 2026, for a laid-back afternoon celebrating vinyl, music, food, and local vibes. \ufeff",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Teal Festival",
           "start": "2026-09-18T19:30:00",
           "end": null,
@@ -223,6 +270,21 @@
           "recurring": false
         },
         {
+          "title": "Charleston Jazz Orchestra: Piano Legends",
+          "start": "2026-09-19T17:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D207137230",
+          "description": "The Charleston Jazz Orchestra (CJO) will kick off its Fall/Winter season on Saturday, September 19, with Piano Legends , a celebration of the iconic pianists who have shaped the sound and evolution of jazz. Performances will take place at 5 p.m. and 8 p.m.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Macelyn Batten on the inside stage",
           "start": "2026-09-18T22:00:00",
           "end": null,
@@ -230,6 +292,36 @@
           "neighborhood": "Isle Of Palms",
           "url": "https://the-windjammer.com/events/",
           "description": "Macelyn Batten on the inside stage $10 or FREE with a Winyah (9/18) Ticket September 18, 2026 Doors at 9:30 pm. Show at 10:00 pm. 21 Up https://linktr.ee/macelynbatten? Charleston-based country singer/songwriter from southeastern NC.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "George Birge \u2013 on the N\u00dcTRL Beach Stage",
+          "start": "2026-09-19T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/",
+          "description": "$20 Advance / $25 DOS September 19, 2026 Doors at 6:00 pm 21Up or with their parent ARTIST WEBSITE https://www.georgebirge.com/ ABOUT GEORGE BIRGE: With a powerhouse run of chart-climbing hits, RECORDS Nashville artist-songwriter George Birge is charging full speed toward Country\u2026",
+          "price": 20.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "PoHo Family Jam",
+          "start": "2026-09-19T21:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "PoHo Family Jam ft. Oleg Terentiev Corey Stephens Danny Circharo Bill Jarrett Ethan Hamlin Jamal Hall and special guests.\u2026",
           "price": 10.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -251,7 +343,9 @@
           "score": 0.479,
           "tier": "low",
           "recurring": false
-        },
+        }
+      ],
+      "overflow": [
         {
           "title": "Winyah on the N\u00dcTRL Beach Stage",
           "start": "2026-09-18T18:00:00",
@@ -261,6 +355,21 @@
           "url": "https://the-windjammer.com/events/",
           "description": "Winyah on the N\u00dcTRL Beach Stage $25 ADV / $30 DOS September 18, 2026 Doors at 6:00 pm 21 Up or with their Parent ARTIST WEBSITE https://winyahband.com There\u2019s a raw, restless fire at the heart of Winyah\u2019s music \u2013 in the crackle of their guitars, the growl of Thomas Rowland\u2019s voic\u2026",
           "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "North Mississippi Allstars",
+          "start": "2026-09-19T20:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "North Mississippi Allstars Saturday 9.19.26 Charleston Pour House Main Stage 730pm doors 830pm show $30 advance tickets / $35 day of show tickets",
+          "price": 30.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.454,
@@ -281,9 +390,22 @@
           "score": 0.428,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
+        {
+          "title": "Restless Natives (Macon GA.'s Tribute to the Allman Brothers Band)",
+          "start": "2026-09-19T18:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Restless Natives (Macon GA.'s Tribute to the Allman Brothers Band) > 2 nights Charleston Pour House Deck Stage Sept. 18 and 19 2026 5pm doors 6pm shows 2 x sets per night",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.428,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "Grounded in Grain, Washed in the Water",
           "start": "2026-09-19T11:00:00",
@@ -437,21 +559,6 @@
           "recurring": true
         },
         {
-          "title": "North Charleston POPS! Jazz in the Park",
-          "start": "2026-09-15T18:00:00",
-          "end": null,
-          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/north-charleston-pops-announces-first-ever-fall-jazz-in-the-/",
-          "description": "The North Charleston POPS! announced its first-ever fall Jazz in the Park series, bringing four evenings of free live jazz to North Charleston Riverfront Park this September and October.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Mary Whyte: Salt of the Earth",
           "start": "2026-09-16T10:00:00",
           "end": null,
@@ -498,7 +605,7 @@
         },
         {
           "title": "Cheers Charleston Restaurant Week",
-          "start": "2026-09-15",
+          "start": "2026-09-16",
           "end": null,
           "venue": "Various",
           "neighborhood": "Charleston",
@@ -547,7 +654,7 @@
           "end": null,
           "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Karaoke every Thursday from 6-9 p.m.",
           "price": null,
           "source": "Holy City Sinner",
@@ -617,13 +724,13 @@
           "recurring": false
         },
         {
-          "title": "Little Feat: Two Nights",
-          "start": "2026-09-15T19:30:00",
+          "title": "The Browning w/ Deadlands, Extortionist, Blind Equation",
+          "start": "2026-09-16T19:30:00",
           "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
           "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Playing is the joy and satisfaction of touring, but it comes with the hard part \u2014 travel, the endless miles on a bus. There\u2019s no dodging the wear and tear, and Little Feat has been playing for quite a while.\u2026",
+          "description": "Event Date Wednesday, September 16 Doors Open 7:00 pm Event Starts 7:30 pm all ages",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -632,13 +739,13 @@
           "recurring": false
         },
         {
-          "title": "The Browning w/ Deadlands, Extortionist, Blind Equation",
-          "start": "2026-09-16T19:30:00",
+          "title": "The Mars Volta",
+          "start": "2026-09-16T20:00:00",
           "end": null,
-          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
           "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Event Date Wednesday, September 16 Doors Open 7:00 pm Event Starts 7:30 pm all ages",
+          "description": "Formed by guitarist/composer Omar Rodr\u00edguez-L\u00f3pez and singer/lyricist Cedric Bixler-Zavala, The Mars Volta rose from the ashes of El Paso punk-rock firebrands At The Drive-In in 2001.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -660,36 +767,6 @@
           "score": 0.276,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Music Bingo",
-          "start": "2026-09-15T18:30:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "West Ashley",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Music + Bingo = Your New Tuesday Night Plans! Join us on Tuesdays at 6:30 PM for Music Bingo here at our West Ashley location! Jam out to your favorite tunes, play along, and win prizes. Bring your friends and grab a pint. See you there!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.274,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Mount Pleasant Farmers Market",
-          "start": "2026-09-15T15:30:00",
-          "end": null,
-          "venue": "Mount Pleasant Farmers Market Pavilion, 645 Coleman Blvd., Mt. Pleasant, SC",
-          "neighborhood": "Mount Pleasant",
-          "url": "https://experiencemountpleasant.com/farmers-market/",
-          "description": "The weekly Mount Pleasant Farmers Market, founded in 1998, features vendors selling local farm-fresh produce, meats, sauces, baked goods, and other specialty foods in a festival atmosphere! You can also browse prepared food vendors for a unique Lowcountry meal.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.273,
-          "tier": "low",
-          "recurring": true
         }
       ],
       "recurring": [
@@ -720,6 +797,21 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Folly Beach Farmer's Market",
+          "start": "2026-09-19T12:00:00",
+          "end": null,
+          "venue": "1630 Folly Road, Charleston, SC",
+          "neighborhood": "Folly",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.637,
           "tier": "medium",
           "recurring": true
         },
