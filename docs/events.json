@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-19 04:17 PM EDT",
+  "fetched_at": "2026-09-19 06:46 PM EDT",
   "counts": {
     "raw": 162,
-    "scored": 73,
+    "scored": 74,
     "this_weekend": 19,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=73",
+    "input_count=74",
     "pre_dup_group venue=charleston pour house date=2026-09-20: ['Pour House Farmers Market@2026-09-20 11:00:00|src=Manual', 'Andy Thomas (Yarn, Trongone Band)\\xa0w@2026-09-20 19:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-09-19: ['The Poho Pop Up Market@2026-09-19 11:00:00|src=Holy City Sinner', \"Restless Natives (Macon GA.'s Tribu@2026-09-19 18:00:00|src=Holy City Sinner\", 'North Mississippi Allstars@2026-09-19 20:30:00|src=Holy City Sinner', 'PoHo Family Jam@2026-09-19 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-09-19: ['George Birge \u2013 on the N\u00dcTRL Beach S@2026-09-19 18:00:00|src=Holy City Sinner', 'Purple Magnolia on the inside stage@2026-09-19 22:00:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=the windjammer date=2026-09-19: ['George Birge \u2013 on the N\u00dcTRL Beach S@2026-09-19 18:00:00', 'Purple Magnolia on the inside stage@2026-09-19 22:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-22: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-22 11:00:00', 'Needle Felting@2026-09-22 17:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-23: ['Abstracting the Landscape@2026-09-23 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-23 11:00:00', 'Wet Felting@2026-09-23 17:00:00']",
-    "output_count=73"
+    "output_count=74"
   ],
   "buckets": {
     "today": "2026-09-19",
@@ -200,7 +200,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Saturday, September 19th \ufeff Calling all music lovers and record collectors. Join us for the Charleston Vinyl Show at Firefly Distillery on Saturday, September 19th, 2026, for a laid-back afternoon celebrating vinyl, music, food, and local vibes. \ufeff",
           "price": null,
           "source": "Holy City Sinner",
@@ -650,7 +650,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/event/live-at-firefly-with-charley-crockett/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Charley Crockett | Age of the Ram Tour September 22 | Firefly Distillery | North Charleston Charley Crockett is bringing the Age of the Ram Tour to Firefly Distillery on September 22 for a night of country, blues, and soul in North Charleston.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -680,7 +680,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/switchfoot/",
           "description": "Switchfoot have spent nearly three decades cementing their place as one of the genre\u2019s most enduring and impactful acts.\u2026",
           "price": 3.0,
           "source": "Holy City Sinner",
@@ -716,6 +716,21 @@
           "source": "Holy City Sinner",
           "category": "other_drinking",
           "score": 0.301,
+          "tier": "low",
+          "recurring": true
+        },
+        {
+          "title": "Hampton Park Farmers Market",
+          "start": "2026-09-23T15:30:00",
+          "end": null,
+          "venue": "Hampton Park",
+          "neighborhood": null,
+          "url": "https://holycitysinner.com/food-bev/hampton-park-farmers-market-returns-sept-23/",
+          "description": "The Hampton Park Farmers Market will return Wednesday, Sept. 23, and run weekly through Oct. 28 from 3:30 to 7 p.m. at the Rose Pavilion in Hampton Park.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.298,
           "tier": "low",
           "recurring": true
         },
