@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-20 04:32 PM EDT",
+  "fetched_at": "2026-09-20 07:04 PM EDT",
   "counts": {
     "raw": 163,
-    "scored": 69,
+    "scored": 68,
     "this_weekend": 7,
     "next_weekend": 9
   },
   "dedup_log": [
-    "input_count=69",
+    "input_count=68",
     "pre_dup_group venue=charleston pour house date=2026-09-20: ['Pour House Farmers Market@2026-09-20 11:00:00|src=Manual', 'Andy Thomas (Yarn, Trongone Band)\\xa0w@2026-09-20 19:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-22: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-22 11:00:00|src=Holy City Sinner', 'Needle Felting@2026-09-22 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-23: ['Abstracting the Landscape@2026-09-23 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-23 11:00:00|src=Holy City Sinner', 'Wet Felting@2026-09-23 17:00:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=redux contemporary art center date=2026-09-23: ['Abstracting the Landscape@2026-09-23 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-23 11:00:00', 'Wet Felting@2026-09-23 17:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-24: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-24 11:00:00', 'Open Studio@2026-09-24 18:00:00']",
     "survivor venue=charleston pour house date=2026-09-24: [\"Dallas Baker's\\xa04th Annual\\xa0Aloha\\xa0Shi@2026-09-24 18:00:00\", 'An evening w/ Jerry Joseph@2026-09-24 20:30:00']",
-    "output_count=69"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-09-20",
@@ -471,7 +471,7 @@
           "end": null,
           "venue": "City Lights Eastside, 12 Line St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://citylightseastside0542.s4shops.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "City Lights Nights - Every Thursday to Saturday from 5 pm to 9pm The coffee shop will be open nights (Thurs-Sat) and they plan to have live music at least once a week.",
           "price": null,
           "source": "Holy City Sinner",
@@ -509,21 +509,6 @@
           "score": 0.409,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Karaoke",
-          "start": "2026-09-24T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "An evening w/ Jerry Joseph",
