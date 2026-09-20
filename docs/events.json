@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-20 11:43 AM EDT",
+  "fetched_at": "2026-09-20 04:32 PM EDT",
   "counts": {
-    "raw": 162,
-    "scored": 68,
+    "raw": 163,
+    "scored": 69,
     "this_weekend": 7,
     "next_weekend": 9
   },
   "dedup_log": [
-    "input_count=68",
+    "input_count=69",
     "pre_dup_group venue=charleston pour house date=2026-09-20: ['Pour House Farmers Market@2026-09-20 11:00:00|src=Manual', 'Andy Thomas (Yarn, Trongone Band)\\xa0w@2026-09-20 19:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-22: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-22 11:00:00|src=Holy City Sinner', 'Needle Felting@2026-09-22 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-23: ['Abstracting the Landscape@2026-09-23 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-23 11:00:00|src=Holy City Sinner', 'Wet Felting@2026-09-23 17:00:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=redux contemporary art center date=2026-09-23: ['Abstracting the Landscape@2026-09-23 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-23 11:00:00', 'Wet Felting@2026-09-23 17:00:00']",
     "survivor venue=redux contemporary art center date=2026-09-24: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-24 11:00:00', 'Open Studio@2026-09-24 18:00:00']",
     "survivor venue=charleston pour house date=2026-09-24: [\"Dallas Baker's\\xa04th Annual\\xa0Aloha\\xa0Shi@2026-09-24 18:00:00\", 'An evening w/ Jerry Joseph@2026-09-24 20:30:00']",
-    "output_count=68"
+    "output_count=69"
   ],
   "buckets": {
     "today": "2026-09-20",
@@ -212,7 +212,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Music Bingo is back Friday September 25th from 7 to 9pm in the Firefly Room. Free admission, first come first served, and spots fill up fast so arrive early. Wrap It Up food truck is on-site for the evening.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -501,7 +501,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/event/live-at-firefly-with-charley-crockett/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Charley Crockett | Age of the Ram Tour September 22 | Firefly Distillery | North Charleston Charley Crockett is bringing the Age of the Ram Tour to Firefly Distillery on September 22 for a night of country, blues, and soul in North Charleston.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -509,6 +509,21 @@
           "score": 0.409,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-09-24T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "An evening w/ Jerry Joseph",
