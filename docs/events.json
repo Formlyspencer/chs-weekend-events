@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-23 07:05 AM EDT",
+  "fetched_at": "2026-09-23 12:27 PM EDT",
   "counts": {
-    "raw": 162,
-    "scored": 67,
+    "raw": 163,
+    "scored": 68,
     "this_weekend": 26,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=67",
+    "input_count=68",
     "pre_dup_group venue=redux contemporary art center date=2026-09-23: ['Abstracting the Landscape@2026-09-23 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-23 11:00:00|src=Holy City Sinner', 'Wet Felting@2026-09-23 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-24: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-24 11:00:00|src=Holy City Sinner', 'Open Studio@2026-09-24 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-09-24: [\"Dallas Baker's\\xa04th Annual\\xa0Aloha\\xa0Shi@2026-09-24 18:00:00|src=Holy City Sinner\", 'An evening w/ Jerry Joseph@2026-09-24 20:30:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=redux contemporary art center date=2026-09-24: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-24 11:00:00', 'Open Studio@2026-09-24 18:00:00']",
     "survivor venue=charleston pour house date=2026-09-24: [\"Dallas Baker's\\xa04th Annual\\xa0Aloha\\xa0Shi@2026-09-24 18:00:00\", 'An evening w/ Jerry Joseph@2026-09-24 20:30:00']",
     "survivor venue=holy city brewing date=2026-09-25: ['CreativeMornings Charleston: The M.@2026-09-25 08:00:00', 'Southern Screams Haunted House 2026@2026-09-25 19:30:00']",
-    "output_count=67"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-09-23",
@@ -138,7 +138,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://fireflydistillery.com/events/",
           "description": "Music Bingo is back Friday September 25th from 7 to 9pm in the Firefly Room. Free admission, first come first served, and spots fill up fast so arrive early. Wrap It Up food truck is on-site for the evening.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -168,7 +168,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://fireflydistillery.com/event/bonsai-class-live-music-sep/",
           "description": "Bonsai Workshop | Saturday, September 26th Get your hands in the soil and start your bonsai journey at Firefly Distillery with a guided, hands-on workshop.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -662,6 +662,21 @@
           "recurring": true
         },
         {
+          "title": "Karaoke",
+          "start": "2026-09-24T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "An evening w/ Jerry Joseph",
           "start": "2026-09-24T20:30:00",
           "end": null,
@@ -804,7 +819,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
