@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-23 05:17 PM EDT",
+  "fetched_at": "2026-09-23 11:55 PM EDT",
   "counts": {
-    "raw": 163,
-    "scored": 68,
-    "this_weekend": 26,
+    "raw": 164,
+    "scored": 70,
+    "this_weekend": 25,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=68",
+    "input_count=70",
     "pre_dup_group venue=redux contemporary art center date=2026-09-23: ['Abstracting the Landscape@2026-09-23 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-23 11:00:00|src=Holy City Sinner', 'Wet Felting@2026-09-23 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-09-24: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-24 11:00:00|src=Holy City Sinner', 'Open Studio@2026-09-24 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-09-24: [\"Dallas Baker's\\xa04th Annual\\xa0Aloha\\xa0Shi@2026-09-24 18:00:00|src=Holy City Sinner\", 'An evening w/ Jerry Joseph@2026-09-24 20:30:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=redux contemporary art center date=2026-09-24: ['\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-24 11:00:00', 'Open Studio@2026-09-24 18:00:00']",
     "survivor venue=charleston pour house date=2026-09-24: [\"Dallas Baker's\\xa04th Annual\\xa0Aloha\\xa0Shi@2026-09-24 18:00:00\", 'An evening w/ Jerry Joseph@2026-09-24 20:30:00']",
     "survivor venue=holy city brewing date=2026-09-25: ['CreativeMornings Charleston: The M.@2026-09-25 08:00:00', 'Southern Screams Haunted House 2026@2026-09-25 19:30:00']",
-    "output_count=68"
+    "output_count=70"
   ],
   "buckets": {
     "today": "2026-09-23",
@@ -138,7 +138,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Music Bingo is back Friday September 25th from 7 to 9pm in the Firefly Room. Free admission, first come first served, and spots fill up fast so arrive early. Wrap It Up food truck is on-site for the evening.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -158,21 +158,6 @@
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "maker_market",
-          "score": 0.83,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Bonsai Class & Live Music",
-          "start": "2026-09-26T12:00:00",
-          "end": null,
-          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/event/bonsai-class-live-music-sep/",
-          "description": "Bonsai Workshop | Saturday, September 26th Get your hands in the soil and start your bonsai journey at Firefly Distillery with a guided, hands-on workshop.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
           "score": 0.83,
           "tier": "high",
           "recurring": false
@@ -373,6 +358,21 @@
           "recurring": false
         },
         {
+          "title": "Keith Hille & The Brickyard Saints on the inside stage",
+          "start": "2026-09-25T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "Keith Hille & The Brickyard Saints on the inside stage $10 September 25, 2026 Doors at 9:00 pm. Show at 10:00 pm. 21 Up ARTIST WEBSITE: https://www.keithhille.com/ Good Time Rock \u2019n\u2019 roll!",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Five Way Friday \u2013 on the N\u00dcTRL Beach Stage",
           "start": "2026-09-26T18:00:00",
           "end": null,
@@ -384,21 +384,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Travis Tritt",
-          "start": "2026-09-26T19:30:00",
-          "end": null,
-          "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/travis-tritt-perform-north-charleston-performing-arts-center-september/",
-          "description": "Multi-platinum selling and award-winning artist, Travis Tritt, is scheduled to perform at the North Charleston Performing Arts Center on Saturday, Sept. 26, 2026 at 7:30 p.m. Tickets go on sale Friday, March 6 at 10 a.m.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.411,
           "tier": "low",
           "recurring": false
         },
@@ -767,6 +752,21 @@
           "recurring": false
         },
         {
+          "title": "Karaoke Night",
+          "start": "2026-09-23T20:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.236,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Harbor House Party Vol. II",
           "start": "2026-09-23T17:30:00",
           "end": null,
@@ -783,6 +783,21 @@
         }
       ],
       "recurring": [
+        {
+          "title": "Saturdays at the Distillery",
+          "start": "2026-09-26T12:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Saturdays at the Distillery and 843 Market Day Saturday, September 26, 2026 \u2022 12:00 PM to 5:00 PM \u2022 FREE Southbound 17 plays live 2 to 5pm. Hamby\u2019s and King of Pops on-site noon to 4pm. Local vendors from the 843 Market on the grounds noon to 4pm.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.83,
+          "tier": "high",
+          "recurring": true
+        },
         {
           "title": "Pour House Farmers Market",
           "start": "2026-09-27T11:00:00",
@@ -819,7 +834,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
