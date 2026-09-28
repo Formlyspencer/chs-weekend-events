@@ -1,171 +1,33 @@
 {
-  "fetched_at": "2026-09-27 05:07 PM EDT",
+  "fetched_at": "2026-09-28 12:32 AM EDT",
   "counts": {
-    "raw": 168,
-    "scored": 68,
-    "this_weekend": 6,
-    "next_weekend": 10
+    "raw": 165,
+    "scored": 69,
+    "this_weekend": 0,
+    "next_weekend": 15
   },
   "dedup_log": [
-    "input_count=68",
+    "input_count=69",
     "pre_dup_group venue=redux contemporary art center date=2026-09-30: ['Abstracting the Landscape@2026-09-30 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-30 11:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-10-01: ['The Hope Summit 2026 Conference, Fi@2026-10-01|src=Holy City Sinner', '42nd annual MOJA Arts Festival@2026-10-01 10:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-01: [\"Captain's Crew@2026-10-01 18:00:00|src=Holy City Sinner\", 'Andy Frasco & The U.N.@2026-10-01 22:00:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-09-30: ['Abstracting the Landscape@2026-09-30 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-30 11:00:00']",
     "survivor venue=various date=2026-10-01: ['The Hope Summit 2026 Conference, Fi@2026-10-01', '42nd annual MOJA Arts Festival@2026-10-01 10:00:00']",
     "survivor venue=charleston pour house date=2026-10-01: [\"Captain's Crew@2026-10-01 18:00:00\", 'Andy Frasco & The U.N.@2026-10-01 22:00:00']",
-    "output_count=68"
+    "output_count=69"
   ],
   "buckets": {
     "today": "2026-09-27",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-09-25",
         "2026-09-27"
       ],
-      "events": [
-        {
-          "title": "42nd annual MOJA Arts Festival",
-          "start": "2026-09-27T10:00:00",
-          "end": null,
-          "venue": "Various",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/moja-arts-festival-returns-sept-24-oct-1-with-50th-anniversa/",
-          "description": "The 42nd annual MOJA Arts Festival will run Sept. 24 through Oct. 1 at locations across Charleston, featuring local and national performers.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Mary Whyte: Salt of the Earth",
-          "start": "2026-09-27T13:00:00",
-          "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-world-premiere-of-new-exhibiti/",
-          "description": "The Gibbes Museum of Art, a beacon for the arts in the American South since its establishment in 1858, presents the new exhibition Mary Whyte: Salt of the Earth in honor of America\u2019s 250th anniversary.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Jordan Jensen",
-          "start": "2026-09-27T19:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/jordan-jensen/",
-          "description": "Jordan Jensen is a stand-up comedian and actor whose hour long comedy special, TAKE ME WITH YOU, recently debuted on Netflix and was praised by Decider as \u201ca winning comedy debut that takes on femininity standards\u201d.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.665,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Nico Romo Hospitality's Restaurant Week Extravaganza",
-          "start": "2026-09-27",
-          "end": null,
-          "venue": "NICO Oysters + Seafood, 201 Coleman Blvd, Mt Pleasant, SC",
-          "neighborhood": "Mt Pleasant",
-          "url": "https://nicoromohg.com/",
-          "description": "See image for more details",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "food_festival",
-          "score": 0.663,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "SUSTO Stringband on the N\u00dcTRL Beach Stage",
-          "start": "2026-09-27T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "SUSTO Stringband on the N\u00dcTRL Beach Stage $25 adv August 14, 2026 Doors at 6:00 pm 21 Up or with their Parent https://www.sustoisreal.com/ Justin Osborne has been performing as \u2018Susto\u2019 since 2013, when he formed a collective of fellow musicians and artists in coastal Charleston,\u2026",
-          "price": 25.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.454,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "LinkU Invitational: University of Virginia vs. Vanderbilt University and College of Charleston vs. The Citadel",
-          "start": "2026-09-27T13:00:00",
-          "end": null,
-          "venue": "Credit One Stadium, 161 Seven Farms Drive, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/sports/college-of-charleston-the-citadel-to-play-outdoor-basketball/",
-          "description": "The College of Charleston men's basketball team will play an exhibition match against crosstown rival The Citadel in the 2026 LinkU Invitational, a first-of-its-kind outdoor college basketball doubleheader at Credit One Stadium on Sunday, Sept. 27.\u2026",
-          "price": 25.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.331,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
-      "overflow": [
-        {
-          "title": "\"Contre-Jour,\u201d a solo exhibition by Marc Hanson",
-          "start": "2026-09-27T12:00:00",
-          "end": null,
-          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-hosting-solo-exhibition-by-marc-hanson/",
-          "description": "Meyer Vogl Gallery is pleased to announce \u201cContre-Jour,\u201d a solo exhibition by Marc Hanson opening Sept. 4, 2026. For his first official solo exhibition with Meyer Vogl Gallery, Hanson focuses on the practice of painting contre-jour, or painting the landscape against the light.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.313,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
+      "events": [],
+      "overflow": [],
       "weekdays": [],
-      "recurring": [
-        {
-          "title": "Pour House Farmers Market",
-          "start": "2026-09-27T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-09-27T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
+      "recurring": []
     },
     "next_weekend": {
       "range": [
@@ -173,6 +35,21 @@
         "2026-10-04"
       ],
       "events": [
+        {
+          "title": "Cast Off Fishing Tournament",
+          "start": "2026-10-03T06:00:00",
+          "end": null,
+          "venue": "Folly Beach Pier",
+          "neighborhood": "Folly Beach",
+          "url": "https://holycitysinner.com/sports/catch-summer-fun-at-charleston-county-parks%E2%80%99-fishing-pier-to/",
+          "description": "This summer, catch fish, fun and prizes during tournaments at the Folly Beach Pier and the Mount Pleasant Pier! The Mount Pleasant Pier will host the season\u2019s first Cast Off Fishing Tournament on Saturday, May 9.\u2026",
+          "price": 12.0,
+          "source": "Holy City Sinner",
+          "category": "surf_event",
+          "score": 1.0,
+          "tier": "high",
+          "recurring": false
+        },
         {
           "title": "The Hope Summit 2026 Conference, Film Festival, and Community Festival",
           "start": "2026-10-02",
@@ -200,6 +77,36 @@
           "source": "Holy City Sinner",
           "category": "holiday_event",
           "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "The Hope Summit 2026 Conference, Film Festival, and Community Festival",
+          "start": "2026-10-03",
+          "end": null,
+          "venue": "Various",
+          "neighborhood": "Charleston",
+          "url": "https://www.thehopesummit.org/",
+          "description": "The Hope Summit is an annual conference and festival organized by the Carolina Ocean Alliance in Charleston to highlight multidisciplinary and intersectional challenges facing our world and celebrate community-driven solutions that create agency and hope for communities worldwide\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Mermaids & Mateys Festival",
+          "start": "2026-10-03T10:00:00",
+          "end": null,
+          "venue": "Folly Beach",
+          "neighborhood": "Folly Beach",
+          "url": "https://holycitysinner.com/entertainment/mermaids-mateys-festival-returns-to-folly-beach-in-oct-with-/",
+          "description": "Mermaids, mateys and sea-loving adventurers are invited to gather their crew for the Mermaids & Mateys Festival on Saturday, Oct. 3, 2026 , from 10 a.m. to 4 p.m. This year, admission will be free as a welcome back to Center Street following recent construction.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.855,
           "tier": "high",
           "recurring": false
         },
@@ -234,6 +141,21 @@
           "recurring": false
         },
         {
+          "title": "Lalah Hathaway",
+          "start": "2026-10-02T20:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Five-time Grammy winner Lalah Hathaway shares the record with Beyonc\u00e9 for the most \u2018Best Traditional R&B Performance\u2019 awards won at the Grammys, each holding three.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-02T19:30:00",
           "end": null,
@@ -254,7 +176,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Nether Hour Friday 10.2.26 Charleston Pour House Deck Stage 5pm doors 6pm show $20 advance / $25 day of show",
           "price": 20.0,
           "source": "Holy City Sinner",
@@ -294,6 +216,36 @@
           "recurring": false
         },
         {
+          "title": "The Basement Yard Podcast",
+          "start": "2026-10-02T20:00:00",
+          "end": null,
+          "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.thebasementyard.com/",
+          "description": "Following years of sold-out performances and millions of devoted listeners, The Basement Yard Podcast is hitting the road once again with an all-new live show.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.411,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Grounded in Grain, Washed in the Water",
+          "start": "2026-10-03T11:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
+          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "October Exhibition Hocus Pocus Opens",
           "start": "2026-10-02T17:00:00",
           "end": null,
@@ -301,6 +253,38 @@
           "neighborhood": "Charleston",
           "url": "https://charlestoncraftsgallery.com/",
           "description": "Charleston Crafts Gallery, an artist-owned cooperative in the heart of downtown Charleston, is pleased to present its October exhibition, Hocus Pocus, which opens with a public reception on Friday, October 2, from 5pm to 8pm.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
+      "overflow": [
+        {
+          "title": "Laurie Meyer Solo Show",
+          "start": "2026-10-03T10:00:00",
+          "end": null,
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/laurie-meyer-solo-show-opening-oct-2-at-meyer-vogl-gallery/",
+          "description": "Meyer Vogl Gallery will open a solo exhibition by Charleston-based artist and gallery co-owner Laurie Meyer on Friday, Oct. 2.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"The Hands That Built America\"",
+          "start": "2026-10-03T10:30:00",
+          "end": null,
+          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-presents-the-hands-that-built-ame/",
+          "description": "The Lowcountry Artists Gallery will present \"The Hands That Built America,\" an exhibition celebrating America's makers and honoring the creativity, craftsmanship, heritage and everyday stories that have helped shape the American experience.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -322,9 +306,7 @@
           "score": 0.297,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
         {
           "title": "Grounded in Grain, Washed in the Water",
           "start": "2026-10-02T11:00:00",
@@ -493,21 +475,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-10-01T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-01T19:30:00",
           "end": null,
@@ -528,7 +495,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Captain's Crew feat. Russell Clarke aka \"The Captain\" (Sax) Ward Buckheister (Trombone / Guitar) Ryan Whitney (Drums) Matt Thompson (Bass) Thursday 10.1.26 Chs Pour House Deck Stage 5pm doors 6pm show 2 x sets $10 at the door \u201cCaptains Crew\u201d is a band of hearty Charleston local m\u2026",
           "price": 10.0,
           "source": "Holy City Sinner",
@@ -558,7 +525,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Andy Frasco & The U.N. (2 x Nights ) Wednesday 9.30 + Thursday 10.1.26 Charleston Pour House Main Stage Wed 9.30: post dead on the deck w/ Reckoning 9pm doors /10pm show Thursday 10.1: 8pm doors /9pm show",
           "price": null,
           "source": "Holy City Sinner",
@@ -735,6 +702,21 @@
       ],
       "recurring": [
         {
+          "title": "Johnny Holliday & The Silver Lining",
+          "start": "2026-10-02T20:00:00",
+          "end": null,
+          "venue": "The Washout, 41 Center St, Folly Beach, SC",
+          "neighborhood": "Folly Beach",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Here is the October Line Up for The Washout on Folly Beach! Folly Art Village Join us every Wednesday from 5-9 PM for The Folly Art Village at The Washout, plus live music from 6-9pm. Discover a vibrant artisan market featuring local makers and farmers.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "maker_market",
+          "score": 0.807,
+          "tier": "high",
+          "recurring": true
+        },
+        {
           "title": "Pour House Farmers Market",
           "start": "2026-10-04T11:00:00",
           "end": null,
@@ -761,6 +743,36 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Weekend Wine-Down",
+          "start": "2026-10-03T10:00:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.63,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-10-03T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
