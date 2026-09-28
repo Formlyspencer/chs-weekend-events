@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-09-28 09:23 AM EDT",
+  "fetched_at": "2026-09-28 05:08 PM EDT",
   "counts": {
     "raw": 165,
-    "scored": 69,
+    "scored": 68,
     "this_weekend": 15,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=69",
+    "input_count=68",
     "pre_dup_group venue=redux contemporary art center date=2026-09-30: ['Abstracting the Landscape@2026-09-30 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-30 11:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-10-01: ['The Hope Summit 2026 Conference, Fi@2026-10-01|src=Holy City Sinner', '42nd annual MOJA Arts Festival@2026-10-01 10:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-01: [\"Captain's Crew@2026-10-01 18:00:00|src=Holy City Sinner\", 'Andy Frasco & The U.N.@2026-10-01 22:00:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-09-30: ['Abstracting the Landscape@2026-09-30 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-30 11:00:00']",
     "survivor venue=various date=2026-10-01: ['The Hope Summit 2026 Conference, Fi@2026-10-01', '42nd annual MOJA Arts Festival@2026-10-01 10:00:00']",
     "survivor venue=charleston pour house date=2026-10-01: [\"Captain's Crew@2026-10-01 18:00:00\", 'Andy Frasco & The U.N.@2026-10-01 22:00:00']",
-    "output_count=69"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-09-28",
@@ -166,7 +166,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Nether Hour Friday 10.2.26 Charleston Pour House Deck Stage 5pm doors 6pm show $20 advance / $25 day of show",
           "price": 20.0,
           "source": "Holy City Sinner",
@@ -221,21 +221,6 @@
           "recurring": false
         },
         {
-          "title": "Grounded in Grain, Washed in the Water",
-          "start": "2026-10-03T11:00:00",
-          "end": null,
-          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
-          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "October Exhibition Hocus Pocus Opens",
           "start": "2026-10-02T17:00:00",
           "end": null,
@@ -249,9 +234,7 @@
           "score": 0.313,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
         {
           "title": "Laurie Meyer Solo Show",
           "start": "2026-10-03T10:00:00",
@@ -266,7 +249,9 @@
           "score": 0.313,
           "tier": "low",
           "recurring": false
-        },
+        }
+      ],
+      "overflow": [
         {
           "title": "\"The Hands That Built America\"",
           "start": "2026-10-03T10:30:00",
@@ -485,7 +470,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Captain's Crew feat. Russell Clarke aka \"The Captain\" (Sax) Ward Buckheister (Trombone / Guitar) Ryan Whitney (Drums) Matt Thompson (Bass) Thursday 10.1.26 Chs Pour House Deck Stage 5pm doors 6pm show 2 x sets $10 at the door \u201cCaptains Crew\u201d is a band of hearty Charleston local m\u2026",
           "price": 10.0,
           "source": "Holy City Sinner",
@@ -515,7 +500,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Andy Frasco & The U.N. (2 x Nights ) Wednesday 9.30 + Thursday 10.1.26 Charleston Pour House Main Stage Wed 9.30: post dead on the deck w/ Reckoning 9pm doors /10pm show Thursday 10.1: 8pm doors /9pm show",
           "price": null,
           "source": "Holy City Sinner",
