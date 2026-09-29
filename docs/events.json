@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-29 08:25 AM EDT",
+  "fetched_at": "2026-09-29 03:52 PM EDT",
   "counts": {
-    "raw": 170,
+    "raw": 171,
     "scored": 74,
-    "this_weekend": 21,
+    "this_weekend": 20,
     "next_weekend": 0
   },
   "dedup_log": [
@@ -210,21 +210,6 @@
         {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-02T19:30:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/southern-screams-haunted-house-attraction-returns-to-holy-city/",
-          "description": "Southern Screams presents MACABRE, Charleston's most immersive and terrifying haunted house experience. Open for 25 horrifying nights beginning September 25, MACABRE plunges guests into a world of darkness, dread, and pure fear.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.52,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Southern Screams Haunted House 2026",
-          "start": "2026-10-03T19:30:00",
           "end": null,
           "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
@@ -572,6 +557,21 @@
           "recurring": false
         },
         {
+          "title": "Karaoke",
+          "start": "2026-10-01T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-01T19:30:00",
           "end": null,
@@ -789,7 +789,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://fireflydistillery.com/events/",
           "description": "Saturdays at the Distillery| Saturday, October 3rd \ufeff Saturdays at the Distillery returns October 3rd from noon to 5pm with Reso-Phonic playing live from 2 to 5pm and Papa Grande and Melissa's Honey Puffs both on-site from noon to 4pm.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
