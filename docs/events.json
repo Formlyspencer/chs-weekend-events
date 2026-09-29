@@ -1,23 +1,25 @@
 {
-  "fetched_at": "2026-09-28 05:08 PM EDT",
+  "fetched_at": "2026-09-29 01:00 AM EDT",
   "counts": {
-    "raw": 165,
-    "scored": 68,
-    "this_weekend": 15,
+    "raw": 170,
+    "scored": 74,
+    "this_weekend": 21,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=68",
+    "input_count=74",
     "pre_dup_group venue=redux contemporary art center date=2026-09-30: ['Abstracting the Landscape@2026-09-30 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-30 11:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-10-01: ['The Hope Summit 2026 Conference, Fi@2026-10-01|src=Holy City Sinner', '42nd annual MOJA Arts Festival@2026-10-01 10:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-01: [\"Captain's Crew@2026-10-01 18:00:00|src=Holy City Sinner\", 'Andy Frasco & The U.N.@2026-10-01 22:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-10-03: ['Grounded in Grain, Washed in the Wa@2026-10-03 11:00:00|src=Holy City Sinner', 'Charleston Zine Fest@2026-10-03 12:00:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-09-30: ['Abstracting the Landscape@2026-09-30 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-09-30 11:00:00']",
     "survivor venue=various date=2026-10-01: ['The Hope Summit 2026 Conference, Fi@2026-10-01', '42nd annual MOJA Arts Festival@2026-10-01 10:00:00']",
     "survivor venue=charleston pour house date=2026-10-01: [\"Captain's Crew@2026-10-01 18:00:00\", 'Andy Frasco & The U.N.@2026-10-01 22:00:00']",
-    "output_count=68"
+    "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-10-03: ['Grounded in Grain, Washed in the Wa@2026-10-03 11:00:00', 'Charleston Zine Fest@2026-10-03 12:00:00']",
+    "output_count=74"
   ],
   "buckets": {
-    "today": "2026-09-28",
+    "today": "2026-09-29",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -86,6 +88,51 @@
           "recurring": false
         },
         {
+          "title": "Charleston Zine Fest",
+          "start": "2026-10-03T12:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://halsey.charleston.edu/main-events/charleston-zine-fest-3/",
+          "description": "Do you love DIY media? You\u2019ll love Charleston Zine Fest, an annual fest now in its 8th year that brings independent publishers and creators together.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Oktoberfest",
+          "start": "2026-10-03T14:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.eventbrite.com/e/oktoberfest-tickets-2001004853382",
+          "description": "Join us for our annual Oktoberfest party!! Live music, food & drink specials, games and more! \ud83c\udf7a Oktoberfest at Striped Pig Distillery \ud83c\udf7a Celebrate Oktoberfest with us on Saturday, October 3rd, from 2\u20137 PM at Striped Pig Distillery! We\u2019re bringing the spirit of Oktoberfest to Charl\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "XscapeWorks Halloween",
+          "start": "2026-10-03T18:00:00",
+          "end": null,
+          "venue": "XscapeWorks, 2430 Air Park Rd., North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/xscapeworks-halloween-brings-50-plus-rooms-of-horror-to-nort/",
+          "description": "The Original Creator of Boone Hall Fright Nights transforms XscapeWorks Into \"XscapeWorks Halloween,\" a Live-Actor Haunted Experience Unlike Anything Else in Charleston XscapeWorks, known as Charleston's largest and most extreme escape room facility, is going even more extreme th\u2026",
+          "price": 40.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "Mermaids & Mateys Festival",
           "start": "2026-10-03T10:00:00",
           "end": null,
@@ -103,6 +150,21 @@
         {
           "title": "STYLEPUBLIC presents \u201cThe Den\u201d",
           "start": "2026-10-02T18:00:00",
+          "end": null,
+          "venue": "Hed Hi Studio, 654 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/stylepublic-presents-the-den/",
+          "description": "STYLEPUBLIC presents \u201cThe Den,\u201d an immersive, site-specific resale installation conceived by celebrity stylist, fashion editor and creative director Ayoka Lucas in collaboration with The Station Park Circle and Hed Hi Studio .\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "film_screening",
+          "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "STYLEPUBLIC presents \u201cThe Den\u201d",
+          "start": "2026-10-03T14:00:00",
           "end": null,
           "venue": "Hed Hi Studio, 654 King St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -161,6 +223,21 @@
           "recurring": false
         },
         {
+          "title": "Southern Screams Haunted House 2026",
+          "start": "2026-10-03T19:30:00",
+          "end": null,
+          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/southern-screams-haunted-house-attraction-returns-to-holy-city/",
+          "description": "Southern Screams presents MACABRE, Charleston's most immersive and terrifying haunted house experience. Open for 25 horrifying nights beginning September 25, MACABRE plunges guests into a world of darkness, dread, and pure fear.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.52,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Nether Hour",
           "start": "2026-10-02T18:00:00",
           "end": null,
@@ -169,6 +246,21 @@
           "url": "https://charlestonpourhouse.com/",
           "description": "Nether Hour Friday 10.2.26 Charleston Pour House Deck Stage 5pm doors 6pm show $20 advance / $25 day of show",
           "price": 20.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "80s Beach Party w/ Weird Science on the N\u00dcTRL Beach Stage",
+          "start": "2026-10-03T19:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "80s Beach Party w/ Weird Science on the N\u00dcTRL Beach Stage $15 ADV / $20 DOS October 3, 2026 Doors at 6:00 pm. Show at 7:00 pm. 21 Up Artist Website https://www.facebook.com/p/Weird-Science-100063801181516/ Charleston\u2019s Favorite 80\u2019s CHEZZZE!",
+          "price": 15.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
@@ -221,6 +313,38 @@
           "recurring": false
         },
         {
+          "title": "Grounded in Grain, Washed in the Water",
+          "start": "2026-10-03T11:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
+          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"Blind Heat\" by Chadwick Tolley, \"Big Bertha's Bait n' Tackle\" by Nick Kawczynski, and \"Cramped and Tangled\" by Ellis Fox",
+          "start": "2026-10-03T12:00:00",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/three-solo-exhibitions-to-open-at-redux-art-center/",
+          "description": "Redux Contemporary Art Center closes out summer 2026 with three exciting solo exhibitions showcasing the work of emerging and established contemporary artists. The public is invited to the free opening reception on Friday, Aug. 28, from 5 to 8 p.m.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
+      "overflow": [
+        {
           "title": "October Exhibition Hocus Pocus Opens",
           "start": "2026-10-02T17:00:00",
           "end": null,
@@ -249,9 +373,7 @@
           "score": 0.313,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
         {
           "title": "\"The Hands That Built America\"",
           "start": "2026-10-03T10:30:00",
@@ -510,21 +632,6 @@
           "recurring": false
         },
         {
-          "title": "Seafood Tower Hour",
-          "start": "2026-09-28T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Ladybird Books X Jodi Picoult",
           "start": "2026-09-29T18:00:00",
           "end": null,
@@ -566,21 +673,6 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.286,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "CANCELLED - The Novatones on the inside stage",
-          "start": "2026-09-28T22:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "$10 or FREE with a The Wood Brothers / The Hang at Hazelnut Isle Ticket August 28, 2026 Doors at 9:30 pm. Show at 10:00 pm. 21 Up https://www.thenovatones.com/ The Novatones are a high-energy, party rock band built for one purpose: keeping the crowd dancing all night long.\u2026",
-          "price": 10.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.277,
           "tier": "low",
           "recurring": false
         },
@@ -677,6 +769,36 @@
       ],
       "recurring": [
         {
+          "title": "The Log Pile Surf Competition After Party",
+          "start": "2026-10-03T18:00:00",
+          "end": null,
+          "venue": "The Washout, 41 Center St, Folly Beach, SC",
+          "neighborhood": "Folly Beach",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Here is the October Line Up for The Washout on Folly Beach! Folly Art Village Join us every Wednesday from 5-9 PM for The Folly Art Village at The Washout, plus live music from 6-9pm. Discover a vibrant artisan market featuring local makers and farmers.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "surf_event",
+          "score": 0.85,
+          "tier": "high",
+          "recurring": true
+        },
+        {
+          "title": "Saturdays at the Distillery",
+          "start": "2026-10-03T12:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://fireflydistillery.com/events/",
+          "description": "Saturdays at the Distillery| Saturday, October 3rd \ufeff Saturdays at the Distillery returns October 3rd from noon to 5pm with Reso-Phonic playing live from 2 to 5pm and Papa Grande and Melissa's Honey Puffs both on-site from noon to 4pm.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.83,
+          "tier": "high",
+          "recurring": true
+        },
+        {
           "title": "Johnny Holliday & The Silver Lining",
           "start": "2026-10-02T20:00:00",
           "end": null,
@@ -689,6 +811,21 @@
           "category": "maker_market",
           "score": 0.807,
           "tier": "high",
+          "recurring": true
+        },
+        {
+          "title": "PoHo Family Cluster Pluck",
+          "start": "2026-10-03T13:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "PoHo Family Cluster Pluck 10.3 & 4 2026 Charleston Pour House (main stage + deck stage) Shadowgrass (x 2 nights /main stage) also on the deck / farmers market stage> Northstate Grass Suns of Stars Barrier Island Bluegrass ft.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.72,
+          "tier": "medium",
           "recurring": true
         },
         {
@@ -718,6 +855,21 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Folly Beach Farmer's Market",
+          "start": "2026-10-03T12:00:00",
+          "end": null,
+          "venue": "1630 Folly Road, Charleston, SC",
+          "neighborhood": "Folly",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.637,
           "tier": "medium",
           "recurring": true
         },
