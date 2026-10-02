@@ -1,26 +1,24 @@
 {
-  "fetched_at": "2026-10-02 01:39 PM EDT",
+  "fetched_at": "2026-10-02 05:58 PM EDT",
   "counts": {
-    "raw": 175,
-    "scored": 81,
-    "this_weekend": 29,
+    "raw": 173,
+    "scored": 75,
+    "this_weekend": 30,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=81",
+    "input_count=75",
     "pre_dup_group venue=charleston pour house date=2026-10-04: ['Pour House Farmers Market@2026-10-04 11:00:00|src=Manual', 'PoHo Family Cluster Pluck@2026-10-04 17:30:00|src=Holy City Sinner', 'An Evening w/ Shadowgrass@2026-10-04 20:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-10-02: ['Saxsquatch \u2013 on the N\u00dcTRL Beach Sta@2026-10-02 18:00:00|src=Holy City Sinner', 'The Novatones on the inside stage@2026-10-02 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-10-03: ['Grounded in Grain, Washed in the Wa@2026-10-03 11:00:00|src=Holy City Sinner', 'Charleston Zine Fest@2026-10-03 12:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-03: ['PoHo Family Cluster Pluck@2026-10-03 13:00:00|src=Holy City Sinner', 'An Evening w/ Shadowgrass@2026-10-03 21:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-10-03: ['80s Beach Party w/ Weird Science on@2026-10-03 19:00:00|src=Holy City Sinner', 'Old Soul on the Inside stage@2026-10-03 21:30:00|src=Holy City Sinner']",
-    "pre_dup_group venue=redux contemporary art center date=2026-10-07: ['Abstracting the Landscape@2026-10-07 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-10-07 11:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-10-04: ['Pour House Farmers Market@2026-10-04 11:00:00', 'PoHo Family Cluster Pluck@2026-10-04 17:30:00', 'An Evening w/ Shadowgrass@2026-10-04 20:00:00']",
     "survivor venue=the windjammer date=2026-10-02: ['Saxsquatch \u2013 on the N\u00dcTRL Beach Sta@2026-10-02 18:00:00', 'The Novatones on the inside stage@2026-10-02 22:00:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-10-03: ['Grounded in Grain, Washed in the Wa@2026-10-03 11:00:00', 'Charleston Zine Fest@2026-10-03 12:00:00']",
     "survivor venue=charleston pour house date=2026-10-03: ['PoHo Family Cluster Pluck@2026-10-03 13:00:00', 'An Evening w/ Shadowgrass@2026-10-03 21:00:00']",
     "survivor venue=the windjammer date=2026-10-03: ['80s Beach Party w/ Weird Science on@2026-10-03 19:00:00', 'Old Soul on the Inside stage@2026-10-03 21:30:00']",
-    "survivor venue=redux contemporary art center date=2026-10-07: ['Abstracting the Landscape@2026-10-07 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-10-07 11:00:00']",
-    "output_count=81"
+    "output_count=75"
   ],
   "buckets": {
     "today": "2026-10-02",
@@ -193,6 +191,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.855,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "October Oyster Roast",
+          "start": "2026-10-04T15:00:00",
+          "end": null,
+          "venue": "Edmund's Original, 1081 Morrison Dr, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Oyster roast season is back, and we are kicking things off on the Bower at Edmund\u2019s Original. Join us from 3-6 PM for an afternoon of all-you-can-eat oysters, cold beer, and live music.\u2026",
+          "price": 40.0,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.828,
           "tier": "high",
           "recurring": false
         },
@@ -887,36 +900,6 @@
       "overflow": [],
       "weekdays": [
         {
-          "title": "West Ashley Farmers Market",
-          "start": "2026-10-07T15:00:00",
-          "end": null,
-          "venue": "Ackerman Park, 55 Sycamore Avenue, Charleston, SC",
-          "neighborhood": "West Ashley",
-          "url": "https://holycitysinner.com/food-bev/west-ashley-farmers-market-opens-april-1-for-2026-season/",
-          "description": "The West Ashley Farmers Market opened for the 2026 season Wednesday, April 1, at Ackerman Park, marking the earliest opening in the market\u2019s history. The market will run every Wednesday from 3 to 7 p.m. through Oct. 14, with a special Thanksgiving Market on Sunday, Nov.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.484,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "Folly Art Village",
-          "start": "2026-10-07T17:00:00",
-          "end": null,
-          "venue": "The Washout, 41 Center St, Folly Beach, SC",
-          "neighborhood": "Folly Beach",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Here is the October Line Up for The Washout on Folly Beach! Folly Art Village Join us every Wednesday from 5-9 PM for The Folly Art Village at The Washout, plus live music from 6-9pm. Discover a vibrant artisan market featuring local makers and farmers.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "maker_market",
-          "score": 0.444,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Seafood Tower Hour",
           "start": "2026-10-05T17:00:00",
           "end": null,
@@ -945,21 +928,6 @@
           "score": 0.301,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Hampton Park Farmers Market",
-          "start": "2026-10-07T15:30:00",
-          "end": null,
-          "venue": "Hampton Park",
-          "neighborhood": null,
-          "url": "https://holycitysinner.com/food-bev/hampton-park-farmers-market-returns-sept-23/",
-          "description": "The Hampton Park Farmers Market will return Wednesday, Sept. 23, and run weekly through Oct. 28 from 3:30 to 7 p.m. at the Rose Pavilion in Hampton Park.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.298,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Steely Dead - A Sonic Fusion of The Grateful Dead and Steely Dan",
@@ -997,7 +965,7 @@
           "end": null,
           "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/entertainment/best-of-broadway-unveils-2026%E2%80%932027-season-lineup/",
           "description": "MRS. DOUBTFIRE October 6 \u2013 11, 2026 Everyone\u2019s favorite Scottish nanny is headed to N. Charleston in this internationally acclaimed hit musical critics call \u201cwonderful, heart-warming, and laugh-out-loud funny\u201d (Manchester Evening News) and \u201ca feel-good, family-friendly comedy tha\u2026",
           "price": null,
           "source": "Holy City Sinner",
