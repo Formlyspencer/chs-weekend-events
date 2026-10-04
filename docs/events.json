@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-10-04 08:00 AM EDT",
+  "fetched_at": "2026-10-04 02:33 PM EDT",
   "counts": {
     "raw": 170,
-    "scored": 77,
+    "scored": 78,
     "this_weekend": 11,
-    "next_weekend": 6
+    "next_weekend": 5
   },
   "dedup_log": [
-    "input_count=77",
+    "input_count=78",
     "pre_dup_group venue=charleston pour house date=2026-10-04: ['Pour House Farmers Market@2026-10-04 11:00:00|src=Manual', 'PoHo Family Cluster Pluck@2026-10-04 17:30:00|src=Holy City Sinner', 'An Evening w/ Shadowgrass@2026-10-04 20:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-10-07: ['Abstracting the Landscape@2026-10-07 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-10-07 11:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-10-04: ['Pour House Farmers Market@2026-10-04 11:00:00', 'PoHo Family Cluster Pluck@2026-10-04 17:30:00', 'An Evening w/ Shadowgrass@2026-10-04 20:00:00']",
     "survivor venue=redux contemporary art center date=2026-10-07: ['Abstracting the Landscape@2026-10-07 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-10-07 11:00:00']",
-    "output_count=77"
+    "output_count=78"
   ],
   "buckets": {
     "today": "2026-10-04",
@@ -288,21 +288,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.65,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Fall Art Walk",
-          "start": "2026-10-09T16:00:00",
-          "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://holycitysinner.com/entertainment/freshfields-village-welcomes-back-fall-favorites-with-two-br/",
-          "description": "Freshfields Village , the premier open-air shopping and dining destination just 30 minutes from downtown Charleston, is welcoming fall with the return of seasonal favorites and two brand-new events designed to bring the community together.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_fair",
-          "score": 0.618,
           "tier": "medium",
           "recurring": false
         },
@@ -656,6 +641,21 @@
           "recurring": false
         },
         {
+          "title": "Sommplicity Charleston Launch Party",
+          "start": "2026-10-06T17:00:00",
+          "end": null,
+          "venue": "Sonder Wine Bar, 90 Cannon Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://partiful.com/e/hIoHfK91SpUx1z5jBXmK",
+          "description": "Join me in Charleston for a Sommplicity wine tasting designed to make wine easier to understand, taste, and enjoy. \ud83c\udf77 I created Sommplicity to make wine education more approachable and easier to connect to what\u2019s actually in the glass.\u2026",
+          "price": 30.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.319,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Mrs. Doubtfire",
           "start": "2026-10-08T19:30:00",
           "end": null,
@@ -669,6 +669,21 @@
           "score": 0.308,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "National Night Out",
+          "start": "2026-10-06T17:30:00",
+          "end": null,
+          "venue": "Mount Pleasant Farmers Market Pavilion, 645 Coleman Blvd., Mt. Pleasant, SC",
+          "neighborhood": "Mount Pleasant",
+          "url": "https://holycitysinner.com/news/mount-pleasant-pd-to-host-national-night-out-on-oct-6/",
+          "description": "The Mount Pleasant Police Department will host its 2026 National Night Out on Tuesday, Oct. 6, from 5:30-7:30 p.m. at the Mount Pleasant Farmers Market, located at 645 Coleman Blvd.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.306,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "Seafood Tower Hour",
