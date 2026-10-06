@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-10-05 05:53 PM EDT",
+  "fetched_at": "2026-10-06 01:37 AM EDT",
   "counts": {
     "raw": 163,
-    "scored": 75,
-    "this_weekend": 15,
+    "scored": 78,
+    "this_weekend": 19,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=75",
+    "input_count=78",
     "pre_dup_group venue=redux contemporary art center date=2026-10-07: ['Abstracting the Landscape@2026-10-07 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-10-07 11:00:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-10-07: ['Abstracting the Landscape@2026-10-07 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-10-07 11:00:00']",
-    "output_count=75"
+    "output_count=78"
   ],
   "buckets": {
-    "today": "2026-10-05",
+    "today": "2026-10-06",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -67,8 +67,38 @@
           "recurring": false
         },
         {
+          "title": "Fire Safety Fest",
+          "start": "2026-10-10T10:00:00",
+          "end": null,
+          "venue": "Charleston Area Convention Center",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/news/north-charleston-fire-safety-fest-returns-oct-10/",
+          "description": "The North Charleston Fire Department is teaming up with the National Fire Protection Association (NFPA) to support Fire Prevention Week. This year\u2019s theme, \u201cCharge into Fire Safety: Safe Charging Is a Superpower,\u201d focuses on simple steps people can take to recharge safely.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.704,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "AfroSouth Film Festival",
           "start": "2026-10-09",
+          "end": null,
+          "venue": "Various",
+          "neighborhood": null,
+          "url": "https://www.afrosouth.com/",
+          "description": "See image or link for more info",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.65,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "AfroSouth Film Festival",
+          "start": "2026-10-10",
           "end": null,
           "venue": "Various",
           "neighborhood": null,
@@ -172,6 +202,21 @@
           "recurring": false
         },
         {
+          "title": "The 502s - Just a Little Run Tour",
+          "start": "2026-10-09T21:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "The 502s - Just a Little Run Tour Friday October 9th 2026 Charleston Pour House Main Stage 8pm doors 9pm show $30 advance / $35 day of show 21+ / under 21 ok with parent or guardian",
+          "price": 30.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "MercyMe, Jeremy Camp, Tim Timmons, Sam Wesley",
           "start": "2026-10-09T19:00:00",
           "end": null,
@@ -203,6 +248,68 @@
         },
         {
           "title": "\u201cFragments\u201d",
+          "start": "2026-10-10T10:00:00",
+          "end": null,
+          "venue": "Michael Mitchell, 414 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/kevin-paulsen-david-wiggins-collaborate-on-%E2%80%98fragments%E2%80%99-exhib/",
+          "description": "\u201cFragments\u201d marks a rare collaborative exhibition from artists and longtime friends Kevin Paulsen and David Wiggins. Rooted in the rich history of early American itinerant painters, this curated show expands on traditional folk art in a distinctly timeless manner.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Laurie Meyer Solo Show",
+          "start": "2026-10-10T10:00:00",
+          "end": null,
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/laurie-meyer-solo-show-opening-oct-2-at-meyer-vogl-gallery/",
+          "description": "Meyer Vogl Gallery will open a solo exhibition by Charleston-based artist and gallery co-owner Laurie Meyer on Friday, Oct. 2.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Darius Rucker's Riverfront Revival",
+          "start": "2026-10-09",
+          "end": null,
+          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/darius-ruckers-2026-riverfront-revival-lineup-includes/",
+          "description": "For the fifth consecutive year, three-time GRAMMY Award winner and Charleston native Darius Rucker teams up with SRE Entertainment for Riverfront Revival at North Charleston\u2019s Riverfront Park on Friday, Oct. 9 and Saturday, Oct. 10, 2026.\u2026",
+          "price": 215.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.193,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Darius Rucker's Riverfront Revival",
+          "start": "2026-10-10",
+          "end": null,
+          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/darius-ruckers-2026-riverfront-revival-lineup-includes/",
+          "description": "For the fifth consecutive year, three-time GRAMMY Award winner and Charleston native Darius Rucker teams up with SRE Entertainment for Riverfront Revival at North Charleston\u2019s Riverfront Park on Friday, Oct. 9 and Saturday, Oct. 10, 2026.\u2026",
+          "price": 215.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.193,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
+      "overflow": [
+        {
+          "title": "\u201cFragments\u201d",
           "start": "2026-10-09T10:00:00",
           "end": null,
           "venue": "Michael Mitchell, 414 King St, Charleston, SC",
@@ -231,23 +338,6 @@
           "tier": "low",
           "recurring": false
         },
-        {
-          "title": "Darius Rucker's Riverfront Revival",
-          "start": "2026-10-09",
-          "end": null,
-          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/darius-ruckers-2026-riverfront-revival-lineup-includes/",
-          "description": "For the fifth consecutive year, three-time GRAMMY Award winner and Charleston native Darius Rucker teams up with SRE Entertainment for Riverfront Revival at North Charleston\u2019s Riverfront Park on Friday, Oct. 9 and Saturday, Oct. 10, 2026.\u2026",
-          "price": 215.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.193,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
-      "overflow": [
         {
           "title": "Grounded in Grain, Washed in the Water",
           "start": "2026-10-09T11:00:00",
@@ -611,21 +701,6 @@
           "recurring": true
         },
         {
-          "title": "Seafood Tower Hour",
-          "start": "2026-10-05T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Joey Cash",
           "start": "2026-10-06T20:00:00",
           "end": null,
@@ -644,10 +719,10 @@
           "title": "Wine Down Wednesday Cruises",
           "start": "2026-10-07T18:00:00",
           "end": null,
-          "venue": "Seabreeze Marina, 50 Immigration Street, Charleston, SC",
+          "venue": "Aquarium Wharf, 360 Concord Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Your midweek plans just got an upgrade. Step aboard the Charleston Princess for Wine Down Wednesday\u2014a 90-minute Charleston Harbor wine cruise featuring hand-selected wine tastings, your own personal charcuterie box from The Social Spread SC, and waterfront views worth slowing dow\u2026",
+          "url": "https://holycitysinner.com/entertainment/charleston-harbor-tours-announces-fall-and-holiday-experienc/",
+          "description": "Charleston Harbor Tours is welcoming the fall and holiday seasons with a lineup of experiences on land and water, including wine cruises, Holiday Festival of Lights bus tours and brunch cruises with Santa.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "other_drinking",
@@ -789,6 +864,36 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Weekend Wine-Down",
+          "start": "2026-10-10T10:00:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.63,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-10-10T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
