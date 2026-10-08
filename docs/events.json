@@ -1,16 +1,20 @@
 {
-  "fetched_at": "2026-10-07 02:40 PM EDT",
+  "fetched_at": "2026-10-07 08:50 PM EDT",
   "counts": {
-    "raw": 164,
-    "scored": 79,
-    "this_weekend": 27,
+    "raw": 168,
+    "scored": 81,
+    "this_weekend": 26,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=79",
+    "input_count=81",
     "pre_dup_group venue=redux contemporary art center date=2026-10-07: ['Abstracting the Landscape@2026-10-07 10:00:00|src=Holy City Sinner', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-10-07 11:00:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-10-08: ['The California Honeydrops \u2013 on the @2026-10-08 18:00:00|src=Holy City Sinner', 'Dallas Baker and The Pluff Daddy\u2019s @2026-10-08 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-10-09: ['Bad Medicine: The Iconic Bon Jovi E@2026-10-09 19:00:00|src=Holy City Sinner', 'Reverse Cowgirl on the inside stage@2026-10-09 22:00:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-10-07: ['Abstracting the Landscape@2026-10-07 10:00:00', '\"Blind Heat\" by Chadwick Tolley, \"B@2026-10-07 11:00:00']",
-    "output_count=79"
+    "survivor venue=the windjammer date=2026-10-08: ['The California Honeydrops \u2013 on the @2026-10-08 18:00:00', 'Dallas Baker and The Pluff Daddy\u2019s @2026-10-08 21:30:00']",
+    "survivor venue=the windjammer date=2026-10-09: ['Bad Medicine: The Iconic Bon Jovi E@2026-10-09 19:00:00', 'Reverse Cowgirl on the inside stage@2026-10-09 22:00:00']",
+    "output_count=81"
   ],
   "buckets": {
     "today": "2026-10-07",
@@ -157,6 +161,21 @@
           "recurring": false
         },
         {
+          "title": "Pumpkins, Paints, & Pretty Things",
+          "start": "2026-10-10T11:00:00",
+          "end": null,
+          "venue": "DIGS Charleston, 1080 E Montague Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D210779029",
+          "description": "Join us for a fun fall day at Digs Charleston as we partner with the Park Circle Art Walk ! Watch our featured artist Hanna Zerby paint en plein air and get creative yourself with our pumpkin painting station for kids and adults alike.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_fair",
+          "score": 0.665,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "AfroSouth Film Festival",
           "start": "2026-10-09",
           "end": null,
@@ -247,38 +266,8 @@
           "recurring": false
         },
         {
-          "title": "The Black Jacket Symphony Presents Def Leppard\u2019s \u2018Hysteria\u2019",
-          "start": "2026-10-10T19:30:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Remember putting on an album and listening from start to finish? Relive that moment with a live concert experience unlike any other as The Black Jacket Symphony recreates a select classic album live in its entirety\u2014note for note, sound for sound\u2014plus a full set of greatest hits f\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-09T19:30:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/southern-screams-haunted-house-attraction-returns-to-holy-city/",
-          "description": "Southern Screams presents MACABRE, Charleston's most immersive and terrifying haunted house experience. Open for 25 horrifying nights beginning September 25, MACABRE plunges guests into a world of darkness, dread, and pure fear.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.52,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Southern Screams Haunted House 2026",
-          "start": "2026-10-10T19:30:00",
           "end": null,
           "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
@@ -297,7 +286,7 @@
           "end": null,
           "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
           "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Bad Medicine: The Iconic Bon Jovi Experience on the N\u00dcTRL Beach Stage $15 ADV / $20 DOS October 9, 2026 Doors at 6:00 pm. Show at 7:00 pm.\u2026",
           "price": 15.0,
           "source": "Holy City Sinner",
@@ -428,6 +417,21 @@
         }
       ],
       "overflow": [
+        {
+          "title": "Reverse Cowgirl on the inside stage",
+          "start": "2026-10-09T22:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Reverse Cowgirl on the inside stage $10 or FREE with a Bad Medicine: Bon Jovi Experience ticket October 9, 2026 Doors at 9:30 pm. Show at 10:00 pm.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "\"Blind Heat\" by Chadwick Tolley, \"Big Bertha's Bait n' Tackle\" by Nick Kawczynski, and \"Cramped and Tangled\" by Ellis Fox",
           "start": "2026-10-10T12:00:00",
@@ -571,7 +575,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/dalilas_on_spring",
           "description": "Dalila's Halloween Movie Night Halloween Movie Night at Dalila\u2019s: CHILDS PLAY Enjoy complimentary popcorn and movie theater candy throughout the evening, plus a specialty cocktail menu inspired by the film! Come watch a Halloween favorite, grab a cocktail, and settle in for a spo\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -746,21 +750,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-10-08T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-08T19:30:00",
           "end": null,
@@ -791,12 +780,27 @@
           "recurring": false
         },
         {
+          "title": "Dallas Baker and The Pluff Daddy\u2019s on the inside stage",
+          "start": "2026-10-08T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Dallas Baker and The Pluff Daddy\u2019s on the inside stage $10 or FREE with The California Honeydrops ticket October 8, 2026 Doors at 9:00 pm. Show at 9:30 pm.\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.378,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "The California Honeydrops \u2013 on the N\u00dcTRL Beach Stage",
           "start": "2026-10-08T18:00:00",
           "end": null,
           "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
           "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/event/californiahdrops/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "$35 adv $40 dos October 8, 2026 Doors at 6:00 pm 21 Up or with their Parent Artist Website cahoneydrops.com \u201cThe California Honeydrops...evoke the greasy rumble of Booker T and channel the spiritual ecstasy of Sly and the Family Stone.\u201d -Rolling Stone Formed in the subway systems\u2026",
           "price": 35.0,
           "source": "Holy City Sinner",
@@ -978,7 +982,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
