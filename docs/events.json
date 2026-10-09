@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-10-08 02:38 PM EDT",
+  "fetched_at": "2026-10-08 09:03 PM EDT",
   "counts": {
-    "raw": 168,
-    "scored": 79,
+    "raw": 169,
+    "scored": 80,
     "this_weekend": 32,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=79",
+    "input_count=80",
     "pre_dup_group venue=the windjammer date=2026-10-08: ['The California Honeydrops \u2013 on the @2026-10-08 18:00:00|src=Holy City Sinner', 'Dallas Baker and The Pluff Daddy\u2019s @2026-10-08 21:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-10-09: ['Bad Medicine: The Iconic Bon Jovi E@2026-10-09 19:00:00|src=Holy City Sinner', 'Reverse Cowgirl on the inside stage@2026-10-09 22:00:00|src=Holy City Sinner']",
     "survivor venue=the windjammer date=2026-10-08: ['The California Honeydrops \u2013 on the @2026-10-08 18:00:00', 'Dallas Baker and The Pluff Daddy\u2019s @2026-10-08 21:30:00']",
     "survivor venue=the windjammer date=2026-10-09: ['Bad Medicine: The Iconic Bon Jovi E@2026-10-09 19:00:00', 'Reverse Cowgirl on the inside stage@2026-10-09 22:00:00']",
-    "output_count=79"
+    "output_count=80"
   ],
   "buckets": {
     "today": "2026-10-08",
@@ -159,13 +159,13 @@
           "recurring": false
         },
         {
-          "title": "Fire Safety Fest",
+          "title": "CANCELLED - Fire Safety Fest",
           "start": "2026-10-10T10:00:00",
           "end": null,
           "venue": "Charleston Area Convention Center",
           "neighborhood": "North Charleston",
           "url": "https://holycitysinner.com/news/north-charleston-fire-safety-fest-returns-oct-10/",
-          "description": "The North Charleston Fire Department is teaming up with the National Fire Protection Association (NFPA) to support Fire Prevention Week. This year\u2019s theme, \u201cCharge into Fire Safety: Safe Charging Is a Superpower,\u201d focuses on simple steps people can take to recharge safely.\u2026",
+          "description": "Update on 10/8/26 - Due to expected inclement weather, NCFD has canceled Fire Safety Fest 2026. - The North Charleston Fire Department is teaming up with the National Fire Protection Association (NFPA) to support Fire Prevention Week.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
@@ -254,7 +254,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/jordan-klepper/",
           "description": "Jordan Klepper has been doing comedy for the better part of the last two decades. He is an Emmy winning co-host of The Daily Show on Comedy Central where he pulls double duty behind the chair and in the field.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
@@ -279,6 +279,21 @@
           "recurring": false
         },
         {
+          "title": "CANCELLED - Darius Rucker's Riverfront Revival",
+          "start": "2026-10-10",
+          "end": null,
+          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/riverfront-revival-cancels-saturday-show-due-to-weather/",
+          "description": "Due to forecast rain, high winds, thunderstorms and flooding associated with Tropical Storm Isaias this weekend, Darius Rucker\u2019s Riverfront Revival at North Charleston\u2019s Riverfront Park has canceled the Saturday portion of its two-day music festival.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.587,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Palmetto Park Jam featuring Idlewild Revival (Allman Brothers Tribute Band)",
           "start": "2026-10-11T12:00:00",
           "end": null,
@@ -299,7 +314,7 @@
           "end": null,
           "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://musicfarm.com/event/high-june/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "High June doesn\u2019t quite know what they are, and honestly, they\u2019re fine with that. What they do know is that their sound is alternative, boundless, and unapologetically theirs.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -380,6 +395,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Darius Rucker's Riverfront Revival",
+          "start": "2026-10-09T15:00:00",
+          "end": null,
+          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/riverfront-revival-cancels-saturday-show-due-to-weather/",
+          "description": "Due to forecast rain, high winds, thunderstorms and flooding associated with Tropical Storm Isaias this weekend, Darius Rucker\u2019s Riverfront Revival at North Charleston\u2019s Riverfront Park has canceled the Saturday portion of its two-day music festival.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.499,
           "tier": "low",
           "recurring": false
         },
@@ -470,36 +500,6 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Darius Rucker's Riverfront Revival",
-          "start": "2026-10-09",
-          "end": null,
-          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/darius-ruckers-2026-riverfront-revival-lineup-includes/",
-          "description": "For the fifth consecutive year, three-time GRAMMY Award winner and Charleston native Darius Rucker teams up with SRE Entertainment for Riverfront Revival at North Charleston\u2019s Riverfront Park on Friday, Oct. 9 and Saturday, Oct. 10, 2026.\u2026",
-          "price": 215.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.193,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Darius Rucker's Riverfront Revival",
-          "start": "2026-10-10",
-          "end": null,
-          "venue": "Riverfront Park, 1061 Everglades Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/darius-ruckers-2026-riverfront-revival-lineup-includes/",
-          "description": "For the fifth consecutive year, three-time GRAMMY Award winner and Charleston native Darius Rucker teams up with SRE Entertainment for Riverfront Revival at North Charleston\u2019s Riverfront Park on Friday, Oct. 9 and Saturday, Oct. 10, 2026.\u2026",
-          "price": 215.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.193,
           "tier": "low",
           "recurring": false
         }
@@ -738,7 +738,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/dalilas_on_spring",
           "description": "Dalila's Halloween Movie Night Halloween Movie Night at Dalila\u2019s: CHILDS PLAY Enjoy complimentary popcorn and movie theater candy throughout the evening, plus a specialty cocktail menu inspired by the film! Come watch a Halloween favorite, grab a cocktail, and settle in for a spo\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -881,6 +881,21 @@
           "score": 0.411,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-10-08T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "Southern Screams Haunted House 2026",
@@ -1040,7 +1055,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -1092,21 +1107,6 @@
           "category": "farmers_market",
           "score": 0.587,
           "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-10-11T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
           "recurring": true
         },
         {
