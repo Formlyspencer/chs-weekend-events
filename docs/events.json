@@ -1,16 +1,14 @@
 {
-  "fetched_at": "2026-10-11 03:24 PM EDT",
+  "fetched_at": "2026-10-11 08:19 PM EDT",
   "counts": {
-    "raw": 165,
-    "scored": 69,
+    "raw": 164,
+    "scored": 67,
     "this_weekend": 12,
-    "next_weekend": 4
+    "next_weekend": 3
   },
   "dedup_log": [
-    "input_count=69",
-    "pre_dup_group venue=charleston pour house date=2026-10-11: ['Pour House Farmers Market@2026-10-11 11:00:00|src=Manual', 'Joshua Ray Walker w/ Cecilia Castle@2026-10-11 20:00:00|src=Holy City Sinner']",
-    "survivor venue=charleston pour house date=2026-10-11: ['Pour House Farmers Market@2026-10-11 11:00:00', 'Joshua Ray Walker w/ Cecilia Castle@2026-10-11 20:00:00']",
-    "output_count=69"
+    "input_count=67",
+    "output_count=67"
   ],
   "buckets": {
     "today": "2026-10-11",
@@ -222,21 +220,6 @@
       "weekdays": [],
       "recurring": [
         {
-          "title": "Pour House Farmers Market",
-          "start": "2026-10-11T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
           "title": "Sunday Figure Drawing",
           "start": "2026-10-11T17:00:00",
           "end": null,
@@ -259,21 +242,6 @@
         "2026-10-18"
       ],
       "events": [
-        {
-          "title": "\u201cAliens Are Real\u201d Halloween pop-up",
-          "start": "2026-10-16T11:00:00",
-          "end": null,
-          "venue": "Prohibition, 547 King St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/food-bev/prohibition-s-out-of-this-world-annual-halloween-pop-up-to-r/",
-          "description": "Something spooky will land at Prohibition this Halloween season. From Thursday, Oct. 8, through Saturday, Oct. 31, Prohibition will host its immersive annual Halloween pop-up.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.782,
-          "tier": "medium",
-          "recurring": false
-        },
         {
           "title": "Charleston\u00a0Film Festival",
           "start": "2026-10-16",
@@ -434,7 +402,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/dalilas_on_spring",
           "description": "Dalila's Halloween Movie Night Halloween Movie Night at Dalila\u2019s: IT FOLLOWS Enjoy complimentary popcorn and movie theater candy throughout the evening, plus a specialty cocktail menu inspired by the film! Come watch a Halloween favorite, grab a cocktail, and settle in for a spoo\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -449,7 +417,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/dalilas_on_spring",
           "description": "Dalila's Halloween Movie Night Halloween Movie Night at Dalila\u2019s: THE ADAMS FAMILY Enjoy complimentary popcorn and movie theater candy throughout the evening, plus a specialty cocktail menu inspired by the film! Come watch a Halloween favorite, grab a cocktail, and settle in for\u2026",
           "price": null,
           "source": "Holy City Sinner",
