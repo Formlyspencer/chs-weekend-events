@@ -1,17 +1,19 @@
 {
-  "fetched_at": "2026-10-12 05:05 PM EDT",
+  "fetched_at": "2026-10-13 02:09 AM EDT",
   "counts": {
-    "raw": 163,
-    "scored": 64,
-    "this_weekend": 12,
+    "raw": 162,
+    "scored": 65,
+    "this_weekend": 19,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=64",
-    "output_count=64"
+    "input_count=65",
+    "pre_dup_group venue=charleston pour house date=2026-10-16: ['Be\\xa0Weir\\xa0Now\\xa0- A Bobby\\xa0Weir\\xa0Birthday@2026-10-16 18:00:00|src=Holy City Sinner', 'Maggie Rose@2026-10-16 20:30:00|src=Holy City Sinner']",
+    "survivor venue=charleston pour house date=2026-10-16: ['Be\\xa0Weir\\xa0Now\\xa0- A Bobby\\xa0Weir\\xa0Birthday@2026-10-16 18:00:00', 'Maggie Rose@2026-10-16 20:30:00']",
+    "output_count=65"
   ],
   "buckets": {
-    "today": "2026-10-12",
+    "today": "2026-10-13",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -19,6 +21,21 @@
         "2026-10-18"
       ],
       "events": [
+        {
+          "title": "Cast Off Fishing Tournament",
+          "start": "2026-10-17T07:00:00",
+          "end": null,
+          "venue": "Mount Pleasant Pier",
+          "neighborhood": "Folly Beach",
+          "url": "https://holycitysinner.com/sports/catch-summer-fun-at-charleston-county-parks%E2%80%99-fishing-pier-to/",
+          "description": "This summer, catch fish, fun and prizes during tournaments at the Folly Beach Pier and the Mount Pleasant Pier! The Mount Pleasant Pier will host the season\u2019s first Cast Off Fishing Tournament on Saturday, May 9.\u2026",
+          "price": 12.0,
+          "source": "Holy City Sinner",
+          "category": "surf_event",
+          "score": 1.0,
+          "tier": "high",
+          "recurring": false
+        },
         {
           "title": "Rescue Rocks",
           "start": "2026-10-16T18:00:00",
@@ -80,6 +97,21 @@
           "recurring": false
         },
         {
+          "title": "Thomas Dollbaum Solo Set",
+          "start": "2026-10-16T20:00:00",
+          "end": null,
+          "venue": "Hed Hi Studio, 654 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://hedhistudio.com/products/thomas-dollbaum-solo-set?variant=44278228287622",
+          "description": "Join Ian Wheeler, Brooks Reitz, and Rough House Pictures at Hed Hi Studios for a very special solo set by New Orleans musician Thomas Dollbaum, during a preview of Jay Howell 's gallery show.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.782,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Paint & Sip Event: Pumpkins Under the Ravenel (No experience needed!)",
           "start": "2026-10-16T18:30:00",
           "end": null,
@@ -97,6 +129,21 @@
         {
           "title": "Charleston\u00a0Film Festival",
           "start": "2026-10-16",
+          "end": null,
+          "venue": "Terrace Theater, 1956d Maybank Hwy, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.terracetheater.com/charleston-film-festival/",
+          "description": "After a few years away due to COVID and a lack of films that met our standards, the Charleston Film Festival is back! Join us October 15 - 18 at the Terrace Theater for a celebration of cinema from around the world and right here in the lowcountry.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.704,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Charleston\u00a0Film Festival",
+          "start": "2026-10-17",
           "end": null,
           "venue": "Terrace Theater, 1956d Maybank Hwy, Charleston, SC",
           "neighborhood": "Charleston",
@@ -140,6 +187,36 @@
           "recurring": false
         },
         {
+          "title": "Eddie 9V",
+          "start": "2026-10-16T20:00:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Eddie 9V has an endless stockpile of cool stories \u2013 and you\u2019ll find twelve of them on his most recent studio album Saratoga , released in November 2024 on the fabled Ruf Records label.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "The Marshall Tucker Band",
+          "start": "2026-10-16T20:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "When you wake up and want to put a smile on your face, you think of the songs that always manage to reach down and touch your soul the moment you hear the first note.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-16T19:30:00",
           "end": null,
@@ -160,12 +237,57 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Be Weir Now - A Bobby Weir Birthday Celebration feat. Chris Duvall , Jeff Kozelski, Marshall Hudson, Wes Powers, Matt Thompson, Rex Wilkes Friday 10.16.26 Charleston Pour House Deck Stage 5pm doors /6pm show 2 x sets $15 advance / $20 day of show",
           "price": 15.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "FlashMob on the inside stage",
+          "start": "2026-10-16T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "FlashMob on the inside stage $10 October 16, 2026 Doors at 9:00 pm. Show at 9:30 pm. 21 Up Charleston\u2019s Top 40 Party Band",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Maggie Rose",
+          "start": "2026-10-16T20:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Maggie Rose w/ MP Gannon Friday 10.16.26 Charleston Pour House Main Stage 730pm doors /830pm show $25 advance / $30 dos tickets on sale now at charlestonpourhouse.com",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Gabriel Iglesias: The 1976 Tour",
+          "start": "2026-10-16T20:00:00",
+          "end": null,
+          "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Gabriel Iglesias The 1976 Tour Friday, October 16, 8 PM North Charleston Coliseum Your Exclusive Pre-Sale Offer! Thursday, June 4, 10 AM \u2013 11:59 PM Offer Code: COMEDY",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.411,
           "tier": "low",
           "recurring": false
         },
@@ -183,7 +305,9 @@
           "score": 0.297,
           "tier": "low",
           "recurring": false
-        },
+        }
+      ],
+      "overflow": [
         {
           "title": "Grounded in Grain, Washed in the Water",
           "start": "2026-10-16T11:00:00",
@@ -198,9 +322,7 @@
           "score": 0.297,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
         {
           "title": "Laurie Meyer Solo Show",
           "start": "2026-10-16T10:00:00",
@@ -310,7 +432,7 @@
         },
         {
           "title": "\u201cAliens Are Real\u201d Halloween pop-up",
-          "start": "2026-10-12T16:00:00",
+          "start": "2026-10-13T16:00:00",
           "end": null,
           "venue": "Prohibition, 547 King St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -319,21 +441,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Dalila's Movie Nights",
-          "start": "2026-10-12T17:00:00",
-          "end": null,
-          "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.instagram.com/dalilas_on_spring",
-          "description": "Dalila's Halloween Movie Night Halloween Movie Night at Dalila\u2019s: IT FOLLOWS Enjoy complimentary popcorn and movie theater candy throughout the evening, plus a specialty cocktail menu inspired by the film! Come watch a Halloween favorite, grab a cocktail, and settle in for a spoo\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "film_screening",
           "score": 0.506,
           "tier": "low",
           "recurring": false
@@ -479,7 +586,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Step Dog Thursday 10.15.26 Charleston Pour House Deck Stage 5pm doors /630pm show 2 x sets $7 advance / $10 day of show",
           "price": 7.0,
           "source": "Holy City Sinner",
@@ -489,34 +596,19 @@
           "recurring": false
         },
         {
-          "title": "Cannons",
-          "start": "2026-10-12T20:00:00",
+          "title": "All Them Witches",
+          "start": "2026-10-13T20:00:00",
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
           "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Los Angeles-based trio Cannons, comprised of Michelle Joy (vocals), Ryan Clapham (lead guitar), and Paul Davis (drums, keys), have established themselves as one of electro-pop\u2019s most compelling modern acts.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.336,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-10-12T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
+          "description": "You\u2019ll find All Them Witches on the outskirts. This collective of creative outliers have never followed a pre-trodden path or comfortably fit into an existing scene or style.\u2026",
           "price": null,
           "source": "Holy City Sinner",
-          "category": "other_drinking",
+          "category": "outdoor_music",
           "score": 0.301,
           "tier": "low",
-          "recurring": true
+          "recurring": false
         },
         {
           "title": "Hampton Park Farmers Market",
@@ -554,7 +646,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Haunt Me support tba Tues. 10.13.26 Charleston Pour House Main Stage 8pm doors /9pm show $15 advance / $20 day of show",
           "price": 15.0,
           "source": "Holy City Sinner",
@@ -610,6 +702,21 @@
         }
       ],
       "recurring": [
+        {
+          "title": "Live Music",
+          "start": "2026-10-16T20:00:00",
+          "end": null,
+          "venue": "The Washout, 41 Center St, Folly Beach, SC",
+          "neighborhood": "Folly Beach",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Here is the October Line Up for The Washout on Folly Beach! Folly Art Village Join us every Wednesday from 5-9 PM for The Folly Art Village at The Washout, plus live music from 6-9pm. Discover a vibrant artisan market featuring local makers and farmers.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "maker_market",
+          "score": 0.807,
+          "tier": "high",
+          "recurring": true
+        },
         {
           "title": "Pour House Farmers Market",
           "start": "2026-10-18T11:00:00",
