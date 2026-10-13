@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-10-13 12:48 PM EDT",
+  "fetched_at": "2026-10-13 06:26 PM EDT",
   "counts": {
-    "raw": 162,
-    "scored": 65,
-    "this_weekend": 19,
+    "raw": 163,
+    "scored": 66,
+    "this_weekend": 18,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=65",
+    "input_count=66",
     "pre_dup_group venue=charleston pour house date=2026-10-16: ['Be\\xa0Weir\\xa0Now\\xa0- A Bobby\\xa0Weir\\xa0Birthday@2026-10-16 18:00:00|src=Holy City Sinner', 'Maggie Rose@2026-10-16 20:30:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-10-16: ['Be\\xa0Weir\\xa0Now\\xa0- A Bobby\\xa0Weir\\xa0Birthday@2026-10-16 18:00:00', 'Maggie Rose@2026-10-16 20:30:00']",
-    "output_count=65"
+    "output_count=66"
   ],
   "buckets": {
     "today": "2026-10-13",
@@ -21,21 +21,6 @@
         "2026-10-18"
       ],
       "events": [
-        {
-          "title": "Cast Off Fishing Tournament",
-          "start": "2026-10-17T07:00:00",
-          "end": null,
-          "venue": "Mount Pleasant Pier",
-          "neighborhood": "Folly Beach",
-          "url": "https://holycitysinner.com/sports/catch-summer-fun-at-charleston-county-parks%E2%80%99-fishing-pier-to/",
-          "description": "This summer, catch fish, fun and prizes during tournaments at the Folly Beach Pier and the Mount Pleasant Pier! The Mount Pleasant Pier will host the season\u2019s first Cast Off Fishing Tournament on Saturday, May 9.\u2026",
-          "price": 12.0,
-          "source": "Holy City Sinner",
-          "category": "surf_event",
-          "score": 1.0,
-          "tier": "high",
-          "recurring": false
-        },
         {
           "title": "Rescue Rocks",
           "start": "2026-10-16T18:00:00",
@@ -451,7 +436,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/dalilas_on_spring",
           "description": "Dalila's Halloween Movie Night Halloween Movie Night at Dalila\u2019s: THE ADAMS FAMILY Enjoy complimentary popcorn and movie theater candy throughout the evening, plus a specialty cocktail menu inspired by the film! Come watch a Halloween favorite, grab a cocktail, and settle in for\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -671,6 +656,21 @@
           "recurring": true
         },
         {
+          "title": "LINE DANCING with Loren",
+          "start": "2026-10-13T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "LINE DANCING with Loren (Every Tuesday) FREE August 11, 2026 Doors at 6:00 pm 21 Up or with their Parent",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.263,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "\u201cFragments\u201d",
           "start": "2026-10-15T10:00:00",
           "end": null,
@@ -699,6 +699,21 @@
           "score": 0.262,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke Night",
+          "start": "2026-10-14T20:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.236,
+          "tier": "low",
+          "recurring": true
         }
       ],
       "recurring": [
