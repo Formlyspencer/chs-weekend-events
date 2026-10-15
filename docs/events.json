@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-10-14 05:24 PM EDT",
+  "fetched_at": "2026-10-14 11:55 PM EDT",
   "counts": {
-    "raw": 166,
-    "scored": 67,
+    "raw": 167,
+    "scored": 68,
     "this_weekend": 21,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=67",
+    "input_count=68",
     "pre_dup_group venue=charleston pour house date=2026-10-16: ['Be\\xa0Weir\\xa0Now\\xa0- A Bobby\\xa0Weir\\xa0Birthday@2026-10-16 18:00:00|src=Holy City Sinner', 'Maggie Rose@2026-10-16 20:30:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-10-16: ['Be\\xa0Weir\\xa0Now\\xa0- A Bobby\\xa0Weir\\xa0Birthday@2026-10-16 18:00:00', 'Maggie Rose@2026-10-16 20:30:00']",
-    "output_count=67"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-10-14",
@@ -207,7 +207,7 @@
           "end": null,
           "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.ticketweb.com/event/trampled-by-turtles-the-refinery-tickets/14856503",
           "description": "TRAMPLED BY TURTLES Fri, 16 Oct, 7:30 PM EDT Doors open 6:00 PM EDT Description *Reach out to info@therefinerychs.com if you have trouble completing your ticket purchase*",
           "price": null,
           "source": "Holy City Sinner",
@@ -706,7 +706,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/scott-bradlees-postmodern-jukebox/",
           "description": "A SUMPTUOUS VINTAGE-INSPIRED MUSICAL EXPERIENCE Postmodern Jukebox \u2014 the internationally acclaimed music collective famed for their signature time-twisting style, transforming some of our most loved songs into dazzling vintage masterpieces \u2014 has announced a brand-new 56 date trek\u2026",
           "price": null,
           "source": "Holy City Sinner",
