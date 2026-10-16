@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-10-16 12:22 PM EDT",
+  "fetched_at": "2026-10-16 04:42 PM EDT",
   "counts": {
     "raw": 174,
-    "scored": 71,
-    "this_weekend": 41,
+    "scored": 73,
+    "this_weekend": 43,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=71",
+    "input_count=73",
     "pre_dup_group venue=charleston pour house date=2026-10-16: ['Be\\xa0Weir\\xa0Now\\xa0- A Bobby\\xa0Weir\\xa0Birthday@2026-10-16 18:00:00|src=Holy City Sinner', 'Maggie Rose@2026-10-16 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-17: ['Feast for us Brunch@2026-10-17 10:00:00|src=Holy City Sinner', 'The Poho Night Market@2026-10-17 17:00:00|src=Holy City Sinner', \"Daniel Donato's Cosmic Country\\xa0with@2026-10-17 20:30:00|src=Holy City Sinner\"]",
     "survivor venue=charleston pour house date=2026-10-16: ['Be\\xa0Weir\\xa0Now\\xa0- A Bobby\\xa0Weir\\xa0Birthday@2026-10-16 18:00:00', 'Maggie Rose@2026-10-16 20:30:00']",
     "survivor venue=charleston pour house date=2026-10-17: ['Feast for us Brunch@2026-10-17 10:00:00', 'The Poho Night Market@2026-10-17 17:00:00', \"Daniel Donato's Cosmic Country\\xa0with@2026-10-17 20:30:00\"]",
-    "output_count=71"
+    "output_count=73"
   ],
   "buckets": {
     "today": "2026-10-16",
@@ -77,6 +77,21 @@
           "url": "https://holycitysinner.com/entertainment/xscapeworks-halloween-brings-50-plus-rooms-of-horror-to-nort/",
           "description": "The Original Creator of Boone Hall Fright Nights transforms XscapeWorks Into \"XscapeWorks Halloween,\" a Live-Actor Haunted Experience Unlike Anything Else in Charleston XscapeWorks, known as Charleston's largest and most extreme escape room facility, is going even more extreme th\u2026",
           "price": 40.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Halloween Takeover",
+          "start": "2026-10-16T19:00:00",
+          "end": null,
+          "venue": "Stars + Satellite Rooftop Bar, 495 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/events/halloween-takeover/",
+          "description": "Something spooky is shaking at Stars! Join us Friday and Saturday nights for a Halloween pop-up filled with eerie d\u00e9cor, spirited drinks and a little mischief.\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
           "score": 0.92,
@@ -167,6 +182,21 @@
           "url": "https://holycitysinner.com/entertainment/xscapeworks-halloween-brings-50-plus-rooms-of-horror-to-nort/",
           "description": "The Original Creator of Boone Hall Fright Nights transforms XscapeWorks Into \"XscapeWorks Halloween,\" a Live-Actor Haunted Experience Unlike Anything Else in Charleston XscapeWorks, known as Charleston's largest and most extreme escape room facility, is going even more extreme th\u2026",
           "price": 40.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Halloween Takeover",
+          "start": "2026-10-17T19:00:00",
+          "end": null,
+          "venue": "Stars + Satellite Rooftop Bar, 495 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/events/halloween-takeover/",
+          "description": "Something spooky is shaking at Stars! Join us Friday and Saturday nights for a Halloween pop-up filled with eerie d\u00e9cor, spirited drinks and a little mischief.\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
           "score": 0.92,
@@ -404,7 +434,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/the-marshall-tucker-band/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "When you wake up and want to put a smile on your face, you think of the songs that always manage to reach down and touch your soul the moment you hear the first note.\u2026",
           "price": null,
           "source": "Holy City Sinner",
