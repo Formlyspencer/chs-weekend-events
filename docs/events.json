@@ -1,78 +1,43 @@
 {
-  "fetched_at": "2026-10-18 11:56 PM EDT",
+  "fetched_at": "2026-10-19 08:37 AM EDT",
   "counts": {
-    "raw": 165,
-    "scored": 67,
-    "this_weekend": 13,
-    "next_weekend": 0
+    "raw": 164,
+    "scored": 64,
+    "this_weekend": 0,
+    "next_weekend": 7
   },
   "dedup_log": [
-    "input_count=67",
-    "output_count=67"
+    "input_count=64",
+    "output_count=64"
   ],
   "buckets": {
     "today": "2026-10-18",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-10-16",
         "2026-10-18"
       ],
+      "events": [],
+      "overflow": [],
+      "weekdays": [],
+      "recurring": []
+    },
+    "next_weekend": {
+      "range": [
+        "2026-10-23",
+        "2026-10-25"
+      ],
       "events": [
         {
-          "title": "Charleston Horror Fest",
-          "start": "2026-10-18T10:00:00",
+          "title": "Nighttime at the Museum: Halloween Edition",
+          "start": "2026-10-23T17:30:00",
           "end": null,
-          "venue": "Embassy Suites by Hilton Charleston Airport Hotel & Convention Center, 5055 International Blvd, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/charleston-horror-fest-brings-slasher-legends-horror-punk-an/",
-          "description": "Horror movie fans, collectors, music lovers, cosplayers, and Halloween enthusiasts can spend a Sunday surrounded by the darker side of pop culture when Charleston Horror Fest comes to North Charleston on Sunday, Oct. 18, 2026.\u2026",
-          "price": 20.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "\u201cAliens Are Real\u201d Halloween pop-up",
-          "start": "2026-10-18T11:00:00",
-          "end": null,
-          "venue": "Prohibition, 547 King St, Charleston, SC",
+          "venue": "The Charleston Museum, 360 Meeting St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/food-bev/prohibition-s-out-of-this-world-annual-halloween-pop-up-to-r/",
-          "description": "Something spooky will land at Prohibition this Halloween season. From Thursday, Oct. 8, through Saturday, Oct. 31, Prohibition will host its immersive annual Halloween pop-up.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Fall Harvest Festival Market",
-          "start": "2026-10-18T13:00:00",
-          "end": null,
-          "venue": "Storehouse Nine, 2154 Noisette Blvd., North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/chs-aapi-collective-celebrates-diwali-and-the-fall-harvest-w/",
-          "description": "The CHS AAPI Collective invites Charleston to a celebration of AAPI-owned businesses, culture and cuisine at its second annual Fall Harvest Festival Market on Sunday, Oct. 18, from 1-4 p.m. at Storehouse 9 in the Navy Yard, 2154 Noisette Blvd. in North Charleston.\u2026",
+          "url": "https://www.charlestonmuseum.org/news-events/events/nighttime-at-the-museum-halloween-edition-2/",
+          "description": "Kick off your Halloween celebrations at The Charleston Museum with a new take on our Nighttime at the Museum event! Wear your eerie-sistible costumes and explore the Museum as you trick or treat through the galleries with a spook-tacular scavenger hunt! Have a scream with hauntin\u2026",
           "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Dracula: A Comedy of Terrors",
-          "start": "2026-10-18T15:00:00",
-          "end": null,
-          "venue": "Queen Street Playhouse, 20 Queen St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/dracula-a-comedy-of-terrors-makes-its-regional-premiere-oct-/",
-          "description": "Charleston\u2019s Halloween comedy event is here! Dracula: A Comedy of Terrors is a fast, furious and wildly funny take on the classic vampire tale, featuring 5 actors playing more than 20 characters in 90 minutes of over-the-top comedy, quick changes and bloody good fun.\u2026",
-          "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
           "score": 0.92,
@@ -81,7 +46,7 @@
         },
         {
           "title": "XscapeWorks Halloween",
-          "start": "2026-10-18T18:00:00",
+          "start": "2026-10-23T18:00:00",
           "end": null,
           "venue": "XscapeWorks, 2430 Air Park Rd., North Charleston, SC",
           "neighborhood": "North Charleston",
@@ -95,43 +60,43 @@
           "recurring": false
         },
         {
-          "title": "Charleston\u00a0Film Festival",
-          "start": "2026-10-18",
+          "title": "\u201cAliens Are Real\u201d Halloween pop-up",
+          "start": "2026-10-23T11:00:00",
           "end": null,
-          "venue": "Terrace Theater, 1956d Maybank Hwy, Charleston, SC",
+          "venue": "Prohibition, 547 King St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.terracetheater.com/charleston-film-festival/",
-          "description": "After a few years away due to COVID and a lack of films that met our standards, the Charleston Film Festival is back! Join us October 15 - 18 at the Terrace Theater for a celebration of cinema from around the world and right here in the lowcountry.\u2026",
+          "url": "https://holycitysinner.com/food-bev/prohibition-s-out-of-this-world-annual-halloween-pop-up-to-r/",
+          "description": "Something spooky will land at Prohibition this Halloween season. From Thursday, Oct. 8, through Saturday, Oct. 31, Prohibition will host its immersive annual Halloween pop-up.\u2026",
           "price": null,
           "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.704,
+          "category": "holiday_event",
+          "score": 0.782,
           "tier": "medium",
           "recurring": false
         },
         {
-          "title": "Taylor Festival Choir - Sea to Shining Sea",
-          "start": "2026-10-18T15:00:00",
+          "title": "The Pieces That Make Us Whole,\u201d a solo exhibition by Nysa Hicks Puig (Opening Reception)",
+          "start": "2026-10-23T16:30:00",
           "end": null,
-          "venue": "Circular Congregational Church, 150 Meeting St., Charleston, SC",
+          "venue": "Allegory Art Collective, 2111 Heriot Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/taylor-festival-choir-opens-season-with-sea-to-shining-sea/",
-          "description": "The Taylor Festival Choir opens its 2026-2027 season with a concert entitled \u201cSea to Shining Sea: An American Tribute\u201d on Oct. 18, 3 p.m., at Circular Congregational Church.\u2026",
-          "price": null,
+          "url": "https://holycitysinner.com/entertainment/allegory-art-collective-presents-the-pieces-that-make-us-who/",
+          "description": "Allegory Art Collective will present \u201cThe Pieces That Make Us Whole,\u201d the debut solo exhibition of Charleston-based painter and muralist Nysa Hicks Puig. The exhibition opens with a public reception Friday, Oct. 23, from 4:30-7:30 p.m. at Allegory Art Collective, 2111 Heriot St.\u2026",
+          "price": 0.0,
           "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.704,
+          "category": "art_event",
+          "score": 0.631,
           "tier": "medium",
           "recurring": false
         },
         {
-          "title": "The Living Tombstone",
-          "start": "2026-10-18T20:00:00",
+          "title": "Sexy Unique Podcast",
+          "start": "2026-10-23T18:30:00",
           "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
           "neighborhood": "Charleston",
           "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "The Living Tombstone has been dubbed \u201cthe internet\u2019s biggest gaming band\u201d \u2013 (NME) \u201cTLT\u201d as they are known to their legion of fans, are the duo Yoav Landau and Sam Haft.\u2026",
+          "description": "Sexy Unique Podcast (\u201cSUP\u201d) is a comedy podcast about reality TV and pop culture, hosted by Lara Marie Schoenhals and Carey O\u2019Donnell , both writers and comedians.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -140,29 +105,14 @@
           "recurring": false
         },
         {
-          "title": "Southern Screams Haunted House 2026",
-          "start": "2026-10-18T19:30:00",
+          "title": "TopHouse \u2013 on the N\u00dcTRL Beach Stage",
+          "start": "2026-10-23T18:00:00",
           "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/southern-screams-haunted-house-attraction-returns-to-holy-city/",
-          "description": "Southern Screams presents MACABRE, Charleston's most immersive and terrifying haunted house experience. Open for 25 horrifying nights beginning September 25, MACABRE plunges guests into a world of darkness, dread, and pure fear.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.52,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Daniel Donato's Cosmic Country\u00a0with special guest Kanika Moore",
-          "start": "2026-10-18T20:30:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Daniel Donato's Cosmic Country \"Down one Horse\" winter tour 3 nights Dec. 17,18,19 @ Chs Pour House | Main Stage 12.17 - wsg Larry Keel 12.18 - wsg Kanika Moore 12.19 - wsg Jon Stickley 730pm doors /830pm shows 2 x sets $35 advance / $40 day of show per night (40) 3 x night packa\u2026",
-          "price": 35.0,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$25 Advance / $30 DOS October 23, 2026 Doors at 6:00 pm 21Up or with their parent ARTIST WEBSITE https://tophousetheband.com/home Folk? Bluegrass? Rock? Irish? Pop? A lot of people ask us what genre we are. The truth is, we don\u2019t know.\u2026",
+          "price": 25.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.454,
@@ -171,7 +121,7 @@
         },
         {
           "title": "\u201cFragments\u201d",
-          "start": "2026-10-18T11:00:00",
+          "start": "2026-10-23T10:00:00",
           "end": null,
           "venue": "Michael Mitchell, 414 King St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -180,45 +130,30 @@
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "\"The Hands That Built America\"",
-          "start": "2026-10-18T10:30:00",
-          "end": null,
-          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-presents-the-hands-that-built-ame/",
-          "description": "The Lowcountry Artists Gallery will present \"The Hands That Built America,\" an exhibition celebrating America's makers and honoring the creativity, craftsmanship, heritage and everyday stories that have helped shape the American experience.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.313,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Charcuterie Cake Topper and Dessert Cocktail Class",
-          "start": "2026-10-18T13:00:00",
-          "end": null,
-          "venue": "Zero George, 0 George St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/food-bev/zero-george-announces-dessert-making-classes-with-charleston/",
-          "description": "The Restaurant at Zero George has announced two dessert-making classes with Julie McAllister, a Charleston-based cake artist known for transforming cakes into lifelike works of art. Chocolate Oyster and Dessert Cocktail Class Saturday, Oct. 17, at 1 p.m.\u2026",
-          "price": 175.0,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.258,
+          "score": 0.297,
           "tier": "low",
           "recurring": false
         }
       ],
       "overflow": [
         {
+          "title": "Grounded in Grain, Washed in the Water",
+          "start": "2026-10-23T11:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
+          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.297,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Laurie Meyer Solo Show",
-          "start": "2026-10-18T12:00:00",
+          "start": "2026-10-23T10:00:00",
           "end": null,
           "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -227,37 +162,26 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.313,
+          "score": 0.266,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"The Hands That Built America\"",
+          "start": "2026-10-23T10:30:00",
+          "end": null,
+          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-presents-the-hands-that-built-ame/",
+          "description": "The Lowcountry Artists Gallery will present \"The Hands That Built America,\" an exhibition celebrating America's makers and honoring the creativity, craftsmanship, heritage and everyday stories that have helped shape the American experience.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.266,
           "tier": "low",
           "recurring": false
         }
       ],
-      "weekdays": [],
-      "recurring": [
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-10-18T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
-    },
-    "next_weekend": {
-      "range": [
-        "2026-10-23",
-        "2026-10-25"
-      ],
-      "events": [],
-      "overflow": [],
       "weekdays": [
         {
           "title": "\u201cAliens Are Real\u201d Halloween pop-up",
@@ -385,7 +309,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/dalilas_on_spring",
           "description": "Dalila's Halloween Movie Night Halloween Movie Night at Dalila\u2019s: TREMORS Enjoy complimentary popcorn and movie theater candy throughout the evening, plus a specialty cocktail menu inspired by the film! Come watch a Halloween favorite, grab a cocktail, and settle in for a spooky\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -455,19 +379,34 @@
           "recurring": true
         },
         {
-          "title": "Karaoke",
-          "start": "2026-10-22T18:00:00",
+          "title": "Blake Whiten",
+          "start": "2026-10-22T20:00:00",
           "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
           "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "description": "Wielding a broken-glass vocal on self-penned songs that cut straight to the bone, Enchntmnt / Warner Records singer-songwriter Blake Whiten is a 21-year-old instinctive songsmith raised in Six Mile, South Carolina, whose talent launched him from bedroom videos to the biggest stag\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.411,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Southern Screams Haunted House 2026",
+          "start": "2026-10-22T19:30:00",
+          "end": null,
+          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/southern-screams-haunted-house-attraction-returns-to-holy-city/",
+          "description": "Southern Screams presents MACABRE, Charleston's most immersive and terrifying haunted house experience. Open for 25 horrifying nights beginning September 25, MACABRE plunges guests into a world of darkness, dread, and pure fear.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.39,
           "tier": "low",
-          "recurring": true
+          "recurring": false
         },
         {
           "title": "Jesse Williams Band",
@@ -605,21 +544,6 @@
           "recurring": false
         },
         {
-          "title": "Alana Springsteen",
-          "start": "2026-10-21T20:00:00",
-          "end": null,
-          "venue": "Music Farm, 32 Ann St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Erin Kinsey is a rising star in country music, blending heartfelt storytelling with undeniable talent. Hailing from Texas, Kinsey\u2019s passion for music ignited at just 11 years old, setting her on a path that led straight to Nashville.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Hampton Park Farmers Market",
           "start": "2026-10-21T15:30:00",
           "end": null,
@@ -739,6 +663,21 @@
           "category": "farmers_market",
           "score": 0.655,
           "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Tipsy Tour",
+          "start": "2026-10-23T11:30:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Every Friday Grab your friends (or make some new ones) in this unique way to explore the Lowcountry. You\u2019ll be picked up at the visitor\u2019s center downtown on Fridays at 11:30 AM, from there you\u2019ll travel to the home of Charleston\u2019s only domestic winery and vineyard, Deep Water Vin\u2026",
+          "price": 105.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.214,
+          "tier": "low",
           "recurring": true
         }
       ]
