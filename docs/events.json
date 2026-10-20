@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-10-20 03:03 PM EDT",
+  "fetched_at": "2026-10-20 07:41 PM EDT",
   "counts": {
-    "raw": 165,
-    "scored": 67,
+    "raw": 166,
+    "scored": 68,
     "this_weekend": 17,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=67",
+    "input_count=68",
     "pre_dup_group venue=the windjammer date=2026-10-23: ['TopHouse \u2013 on the N\u00dcTRL Beach Stage@2026-10-23 18:00:00|src=Holy City Sinner', 'VYNL on the inside stage@2026-10-23 22:00:00|src=Holy City Sinner']",
     "survivor venue=the windjammer date=2026-10-23: ['TopHouse \u2013 on the N\u00dcTRL Beach Stage@2026-10-23 18:00:00', 'VYNL on the inside stage@2026-10-23 22:00:00']",
-    "output_count=67"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-10-20",
@@ -222,7 +222,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "The Greyboy Allstars Friday 10.23.26 Charleston Pour House Main Stage 8pm doors /9pm show 2 x full sets $ 35 advance /$40 day of",
           "price": 35.0,
           "source": "Holy City Sinner",
@@ -451,7 +451,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.instagram.com/dalilas_on_spring",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Dalila's Halloween Movie Night Halloween Movie Night at Dalila\u2019s: TREMORS Enjoy complimentary popcorn and movie theater candy throughout the evening, plus a specialty cocktail menu inspired by the film! Come watch a Halloween favorite, grab a cocktail, and settle in for a spooky\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -536,21 +536,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-10-22T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-22T19:30:00",
           "end": null,
@@ -571,7 +556,7 @@
           "end": null,
           "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
           "neighborhood": "James Island",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonpourhouse.com/",
           "description": "Jesse Williams Band Thursday 10.22.26 Charleston Pour House Deck Stage 5pm doors /6pm show 2 x sets $10 adv/dos",
           "price": 10.0,
           "source": "Holy City Sinner",
@@ -701,6 +686,21 @@
           "recurring": true
         },
         {
+          "title": "LINE DANCING with Loren",
+          "start": "2026-10-20T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "LINE DANCING with Loren (Every Tuesday) FREE August 11, 2026 Doors at 6:00 pm 21 Up or with their Parent",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.263,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "\u201cFragments\u201d",
           "start": "2026-10-22T10:00:00",
           "end": null,
@@ -729,6 +729,21 @@
           "score": 0.262,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke Night",
+          "start": "2026-10-21T20:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.236,
+          "tier": "low",
+          "recurring": true
         }
       ],
       "recurring": [
