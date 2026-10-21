@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21 12:53 PM EDT",
+  "fetched_at": "2026-10-21 05:25 PM EDT",
   "counts": {
     "raw": 170,
     "scored": 75,
@@ -601,7 +601,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/dalilas_on_spring",
           "description": "Dalila's Halloween Movie Night Halloween Movie Night at Dalila\u2019s: TREMORS Enjoy complimentary popcorn and movie theater candy throughout the evening, plus a specialty cocktail menu inspired by the film! Come watch a Halloween favorite, grab a cocktail, and settle in for a spooky\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -671,6 +671,21 @@
           "recurring": true
         },
         {
+          "title": "Limbo at The Refinery presents: Macelyn Batten",
+          "start": "2026-10-22T19:00:00",
+          "end": null,
+          "venue": "The Refinery, 1640 Meeting Street Rd., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Limbo welcomes Macelyn Batten for the first time for an evening that you won't want to miss! Before doors, head over to Lou Lou's Tavern at The Refinery for dinner.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.411,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Blake Whiten",
           "start": "2026-10-22T20:00:00",
           "end": null,
@@ -684,21 +699,6 @@
           "score": 0.411,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Karaoke",
-          "start": "2026-10-22T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Southern Screams Haunted House 2026",
@@ -903,7 +903,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://fireflydistillery.com/events/",
           "description": "Saturday's at the Distillery| Saturday, October 24th \ufeff Spend your Saturday afternoon at Firefly with live music, great food, and plenty of room to relax.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -948,7 +948,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
