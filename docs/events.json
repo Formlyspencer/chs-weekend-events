@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-10-21 05:25 PM EDT",
+  "fetched_at": "2026-10-21 11:57 PM EDT",
   "counts": {
-    "raw": 170,
-    "scored": 75,
+    "raw": 171,
+    "scored": 76,
     "this_weekend": 24,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=75",
+    "input_count=76",
     "pre_dup_group venue=the windjammer date=2026-10-23: ['TopHouse \u2013 on the N\u00dcTRL Beach Stage@2026-10-23 18:00:00|src=Holy City Sinner', 'VYNL on the inside stage@2026-10-23 22:00:00|src=Holy City Sinner']",
     "survivor venue=the windjammer date=2026-10-23: ['TopHouse \u2013 on the N\u00dcTRL Beach Stage@2026-10-23 18:00:00', 'VYNL on the inside stage@2026-10-23 22:00:00']",
-    "output_count=75"
+    "output_count=76"
   ],
   "buckets": {
     "today": "2026-10-21",
@@ -327,7 +327,7 @@
           "end": null,
           "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/entertainment/disney-on-ice-presents-magic-of-family-skates-into-north-cha/",
           "description": "Disney On Ice Presents Magic of Family Disney On Ice Presents Magic of Family October 22\u201325, 2026 North Charleston Coliseum Your Exclusive Pre-Sale Offer! Thursday, May 7, 10:00 AM \u2013 Monday, May 11, 11:59 PM Offer Code: LV26PX",
           "price": null,
           "source": "Holy City Sinner",
@@ -357,7 +357,7 @@
           "end": null,
           "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/entertainment/disney-on-ice-presents-magic-of-family-skates-into-north-cha/",
           "description": "Disney On Ice Presents Magic of Family Disney On Ice Presents Magic of Family October 22\u201325, 2026 North Charleston Coliseum Your Exclusive Pre-Sale Offer! Thursday, May 7, 10:00 AM \u2013 Monday, May 11, 11:59 PM Offer Code: LV26PX",
           "price": null,
           "source": "Holy City Sinner",
@@ -736,7 +736,7 @@
           "end": null,
           "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://charlestonmusichall.com/event/gibbes-distinguished-lecture-series-presents-danny-mcbride-beeple/",
           "description": "Charleston is a thriving cultural hub, and we are excited to spend an evening with two artistic visionaries based in the Lowcountry and working at the edge of digital and media arts. This year we are excited to explore the next frontier of art: AI and its impact on visual media.\u2026",
           "price": 10.0,
           "source": "Holy City Sinner",
@@ -766,7 +766,7 @@
           "end": null,
           "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/entertainment/disney-on-ice-presents-magic-of-family-skates-into-north-cha/",
           "description": "Disney On Ice Presents Magic of Family Disney On Ice Presents Magic of Family October 22\u201325, 2026 North Charleston Coliseum Your Exclusive Pre-Sale Offer! Thursday, May 7, 10:00 AM \u2013 Monday, May 11, 11:59 PM Offer Code: LV26PX",
           "price": null,
           "source": "Holy City Sinner",
@@ -903,7 +903,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Saturday's at the Distillery| Saturday, October 24th \ufeff Spend your Saturday afternoon at Firefly with live music, great food, and plenty of room to relax.\u2026",
           "price": null,
           "source": "Holy City Sinner",
