@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-10-23 07:16 AM EDT",
+  "fetched_at": "2026-10-23 12:44 PM EDT",
   "counts": {
-    "raw": 176,
-    "scored": 76,
-    "this_weekend": 42,
+    "raw": 175,
+    "scored": 75,
+    "this_weekend": 43,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=76",
+    "input_count=75",
     "pre_dup_group venue=the windjammer date=2026-10-23: ['TopHouse \u2013 on the N\u00dcTRL Beach Stage@2026-10-23 18:00:00|src=Holy City Sinner', 'VYNL on the inside stage@2026-10-23 22:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-24: ['Oyster Roast w/ Steampot Social@2026-10-24 12:00:00|src=Holy City Sinner', 'Heal\\xa0with\\xa0Hearts\\xa0Kids\\xa0drum\\xa0circle@2026-10-24 15:30:00|src=Holy City Sinner', 'Karina Rykman w/ Wax Monkey@2026-10-24 21:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-10-24: ['Josh Meloy on the N\u00dcTRL Beach Stage@2026-10-24 18:00:00|src=Holy City Sinner', 'Tanner Beane & Dirty Power on the i@2026-10-24 22:00:00|src=Holy City Sinner']",
     "survivor venue=the windjammer date=2026-10-23: ['TopHouse \u2013 on the N\u00dcTRL Beach Stage@2026-10-23 18:00:00', 'VYNL on the inside stage@2026-10-23 22:00:00']",
     "survivor venue=charleston pour house date=2026-10-24: ['Oyster Roast w/ Steampot Social@2026-10-24 12:00:00', 'Heal\\xa0with\\xa0Hearts\\xa0Kids\\xa0drum\\xa0circle@2026-10-24 15:30:00', 'Karina Rykman w/ Wax Monkey@2026-10-24 21:00:00']",
     "survivor venue=the windjammer date=2026-10-24: ['Josh Meloy on the N\u00dcTRL Beach Stage@2026-10-24 18:00:00', 'Tanner Beane & Dirty Power on the i@2026-10-24 22:00:00']",
-    "output_count=76"
+    "output_count=75"
   ],
   "buckets": {
     "today": "2026-10-23",
@@ -64,6 +64,21 @@
           "url": "https://holycitysinner.com/entertainment/xscapeworks-halloween-brings-50-plus-rooms-of-horror-to-nort/",
           "description": "The Original Creator of Boone Hall Fright Nights transforms XscapeWorks Into \"XscapeWorks Halloween,\" a Live-Actor Haunted Experience Unlike Anything Else in Charleston XscapeWorks, known as Charleston's largest and most extreme escape room facility, is going even more extreme th\u2026",
           "price": 40.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Halloween Run",
+          "start": "2026-10-23T18:30:00",
+          "end": null,
+          "venue": "Commonhouse Aleworks, 4831 O'Hear Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Grab your running shoes and your best costume for a spooktacular evening with Fleet Feet Charleston! Wednesday, October 28 | 6:30 PM Commonhouse Aleworks Join us for a 3-mile fun run with Altra's demo shoes and Feetures, OOFOS and Nathan on-site.\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
           "score": 0.92,
@@ -296,21 +311,6 @@
           "recurring": false
         },
         {
-          "title": "The Rocky Horror Picture Show w/ LIVE Shadowcast",
-          "start": "2026-10-25T19:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/the-rocky-horror-picture-show-w-live-shadowcast/",
-          "description": "The Charleston Music Hall is thrilled to team up with Center Stage to present Rocky Horrow Picutre Show with a live shadowcast on Sunday, Oct. 25 at 7pm . This show has become an annual tradition now 5 years in the making.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
           "title": "Oyster Roast w/ Steampot Social",
           "start": "2026-10-24T12:00:00",
           "end": null,
@@ -521,6 +521,21 @@
           "recurring": false
         },
         {
+          "title": "Robby Hoffman: Live On Tour",
+          "start": "2026-10-24T19:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://charlestonmusichall.com/event/robby-hoffman-live-on-tour/",
+          "description": "Robby Hoffman is an Emmy-winning writer, Emmy-nominated actor, and comedian whose work spans stand-up, television, and podcasting.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-23T19:30:00",
           "end": null,
@@ -685,36 +700,6 @@
           "category": "holiday_event",
           "score": 0.782,
           "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Robby Hoffman: Live On Tour",
-          "start": "2026-10-24T19:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/robby-hoffman-live-on-tour/",
-          "description": "Robby Hoffman is an Emmy-winning writer, Emmy-nominated actor, and comedian whose work spans stand-up, television, and podcasting.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Southern Screams Haunted House 2026",
-          "start": "2026-10-25T19:30:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/southern-screams-haunted-house-attraction-returns-to-holy-city/",
-          "description": "Southern Screams presents MACABRE, Charleston's most immersive and terrifying haunted house experience. Open for 25 horrifying nights beginning September 25, MACABRE plunges guests into a world of darkness, dread, and pure fear.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.52,
-          "tier": "low",
           "recurring": false
         },
         {
