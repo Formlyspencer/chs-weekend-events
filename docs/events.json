@@ -1,18 +1,16 @@
 {
-  "fetched_at": "2026-10-25 07:05 PM EDT",
+  "fetched_at": "2026-10-25 11:58 PM EDT",
   "counts": {
-    "raw": 178,
-    "scored": 66,
+    "raw": 177,
+    "scored": 65,
     "this_weekend": 15,
     "next_weekend": 1
   },
   "dedup_log": [
-    "input_count=66",
-    "pre_dup_group venue=charleston pour house date=2026-10-25: ['Pour House Farmers Market@2026-10-25 11:00:00|src=Manual', 'Porch\\xa0Light\\xa0- Hush Tour\\xa0w/ Hotel Fi@2026-10-25 20:30:00|src=Holy City Sinner']",
+    "input_count=65",
     "pre_dup_group venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00|src=Holy City Sinner', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00|src=Holy City Sinner']",
-    "survivor venue=charleston pour house date=2026-10-25: ['Pour House Farmers Market@2026-10-25 11:00:00', 'Porch\\xa0Light\\xa0- Hush Tour\\xa0w/ Hotel Fi@2026-10-25 20:30:00']",
     "survivor venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00']",
-    "output_count=66"
+    "output_count=65"
   ],
   "buckets": {
     "today": "2026-10-25",
@@ -268,21 +266,6 @@
       ],
       "weekdays": [],
       "recurring": [
-        {
-          "title": "Pour House Farmers Market",
-          "start": "2026-10-25T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
         {
           "title": "Sunday Figure Drawing",
           "start": "2026-10-25T17:00:00",
