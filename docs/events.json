@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-10-26 08:33 AM EDT",
+  "fetched_at": "2026-10-26 04:21 PM EDT",
   "counts": {
     "raw": 180,
     "scored": 72,
-    "this_weekend": 0,
-    "next_weekend": 19
+    "this_weekend": 19,
+    "next_weekend": 0
   },
   "dedup_log": [
     "input_count=72",
@@ -15,19 +15,9 @@
     "output_count=72"
   ],
   "buckets": {
-    "today": "2026-10-25",
-    "show_last_weekend": false,
+    "today": "2026-10-26",
+    "show_last_weekend": true,
     "this_weekend": {
-      "range": [
-        "2026-10-23",
-        "2026-10-25"
-      ],
-      "events": [],
-      "overflow": [],
-      "weekdays": [],
-      "recurring": []
-    },
-    "next_weekend": {
       "range": [
         "2026-10-30",
         "2026-11-01"
@@ -806,10 +796,51 @@
         }
       ]
     },
+    "next_weekend": {
+      "range": [
+        "2026-11-06",
+        "2026-11-08"
+      ],
+      "events": [],
+      "overflow": [],
+      "weekdays": [],
+      "recurring": [
+        {
+          "title": "Pour House Farmers Market",
+          "start": "2026-11-08T11:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.684,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Downtown Charleston Farmers Market",
+          "start": "2026-11-07T08:00:00",
+          "end": null,
+          "venue": "Marion Square, 329 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/Charleston-Farmers-Market-37",
+          "description": "Charleston's flagship downtown farmers market at Marion Square. Local produce, prepared foods, makers, and live music. Saturdays April through November.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        }
+      ]
+    },
     "last_weekend": {
       "range": [
-        "2026-10-16",
-        "2026-10-18"
+        "2026-10-23",
+        "2026-10-25"
       ],
       "events": [],
       "overflow": [],
