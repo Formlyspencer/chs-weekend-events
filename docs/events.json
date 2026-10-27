@@ -1,21 +1,21 @@
 {
-  "fetched_at": "2026-10-26 08:16 PM EDT",
+  "fetched_at": "2026-10-27 04:46 AM EDT",
   "counts": {
     "raw": 180,
-    "scored": 72,
-    "this_weekend": 19,
+    "scored": 75,
+    "this_weekend": 22,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=72",
+    "input_count=75",
     "pre_dup_group venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00|src=Holy City Sinner', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00|src=Holy City Sinner', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00|src=Holy City Sinner']",
     "survivor venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00']",
     "survivor venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00']",
-    "output_count=72"
+    "output_count=75"
   ],
   "buckets": {
-    "today": "2026-10-26",
+    "today": "2026-10-27",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -114,6 +114,51 @@
           "recurring": false
         },
         {
+          "title": "Little Palm After Dark: Paradise Lost",
+          "start": "2026-10-30T21:00:00",
+          "end": null,
+          "venue": "Little Palm, 237 Meeting Street Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/the-ryder-hotel-announces-little-palm-after-dark-paradise-lo/",
+          "description": "Looking for a Halloween plan that doesn\u2019t involve trick-or-treating? This Halloween, The Ryder Hotel\u2019s Little Palm in Charleston is inviting guests to leave the kids at home, pull out their best costume and escape to a tropical paradise after dark with Little Palm After Dark: Par\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Redux 24th Annual Auction",
+          "start": "2026-10-31",
+          "end": null,
+          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/redux-contemporary-art-center-announces-24th-annual-art-auct/",
+          "description": "See link for more info",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Trick, Treat & Trail Family Fun Run and Festival",
+          "start": "2026-10-31T10:00:00",
+          "end": null,
+          "venue": "North Charleston Wannamaker County Park",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/trick-treat-trail-family-fun-run-and-festival-set-for-oct-31/",
+          "description": "Get ready for a spook-tacular time at the third annual Trick, Treat & Trail Family Fun Run and Festival at Wannamaker County Park! Hosted by Charleston County Parks, the event will be held on Halloween day, Saturday, Oct. 31, beginning at 10 a.m.\u2026",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "West Ashley Screams 2026",
           "start": "2026-10-30T19:30:00",
           "end": null,
@@ -179,12 +224,27 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://fireflydistillery.com/events/",
           "description": "Friday Live Music| Friday, October 30th \ufeff Kick off your weekend the right way with Friday Happy Hour at Firefly Distillery! From 4-7 PM, sip on some great cocktails with $4 off all cocktails and $5 16 oz can beers, get some snacks off our happy hour menu all while enjoying live m\u2026",
           "price": 4.0,
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Crafted & Bound",
+          "start": "2026-10-31T09:00:00",
+          "end": null,
+          "venue": "Sullivan's Island Baptist Church, 1753 Central Ave., Sullivans Island, SC",
+          "neighborhood": "Sullivan'S Island",
+          "url": "https://holycitysinner.com/lifestyle/charleston-weekend-events/?trumbaEmbed=view%3Devent%26eventid%3D212108421",
+          "description": "Crafted & Bound on the church grounds at Station 18 and Central Avenue on Sullivan's Island. This free community event will feature local artisans and makers, a book fair with local authors, delicious food, and a Pet Costume Parade & Contest! The pet parade begins at 11 AM, follo\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_fair",
+          "score": 0.581,
           "tier": "medium",
           "recurring": false
         },
@@ -280,6 +340,53 @@
         },
         {
           "title": "\u201cFragments\u201d",
+          "start": "2026-10-31T10:00:00",
+          "end": null,
+          "venue": "Michael Mitchell, 414 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/kevin-paulsen-david-wiggins-collaborate-on-%E2%80%98fragments%E2%80%99-exhib/",
+          "description": "\u201cFragments\u201d marks a rare collaborative exhibition from artists and longtime friends Kevin Paulsen and David Wiggins. Rooted in the rich history of early American itinerant painters, this curated show expands on traditional folk art in a distinctly timeless manner.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        }
+      ],
+      "overflow": [
+        {
+          "title": "Laurie Meyer Solo Show",
+          "start": "2026-10-31T10:00:00",
+          "end": null,
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/laurie-meyer-solo-show-opening-oct-2-at-meyer-vogl-gallery/",
+          "description": "Meyer Vogl Gallery will open a solo exhibition by Charleston-based artist and gallery co-owner Laurie Meyer on Friday, Oct. 2.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"The Hands That Built America\"",
+          "start": "2026-10-31T10:30:00",
+          "end": null,
+          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-presents-the-hands-that-built-ame/",
+          "description": "The Lowcountry Artists Gallery will present \"The Hands That Built America,\" an exhibition celebrating America's makers and honoring the creativity, craftsmanship, heritage and everyday stories that have helped shape the American experience.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\u201cFragments\u201d",
           "start": "2026-10-30T10:00:00",
           "end": null,
           "venue": "Michael Mitchell, 414 King St, Charleston, SC",
@@ -307,9 +414,22 @@
           "score": 0.297,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
+        {
+          "title": "Coastal Carolina Fair",
+          "start": "2026-10-31T10:00:00",
+          "end": null,
+          "venue": "Exchange Park, 9850 US-78, Ladson, SC",
+          "neighborhood": null,
+          "url": "https://coastalcarolinafair.org/fair-home/",
+          "description": "10.29.23 - 11.05.23 \u2605 daily entertainment \u2605 arena events \u2605 Senior day \u2605 Fiddle contest \u2605 Fine Art show \u2605 Creative arts \u2605 Youth Art Show \u2605 chili cookoff \u2605 honey competition \u2605 king arthur baking competition",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.289,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "Laurie Meyer Solo Show",
           "start": "2026-10-30T10:00:00",
@@ -434,7 +554,7 @@
         },
         {
           "title": "\u201cAliens Are Real\u201d Halloween pop-up",
-          "start": "2026-10-26T16:00:00",
+          "start": "2026-10-27T16:00:00",
           "end": null,
           "venue": "Prohibition, 547 King St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -443,21 +563,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "holiday_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour",
-          "start": "2026-10-26T19:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/john-cameron-mitchell-hedwig-25th-anniversary-movie-tour/",
-          "description": "Celebrate the 25th anniversary of the critically acclaimed, award-winning rock movie musical Hedwig and the Angry Inch with an unforgettable evening featuring writer, director, and Golden Globe\u2013nominated star John Cameron Mitchell.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
           "score": 0.506,
           "tier": "low",
           "recurring": false
@@ -613,21 +718,6 @@
           "recurring": false
         },
         {
-          "title": "Seafood Tower Hour",
-          "start": "2026-10-26T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Hampton Park Farmers Market",
           "start": "2026-10-28T15:30:00",
           "end": null,
@@ -776,6 +866,36 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Weekend Wine-Down",
+          "start": "2026-10-31T10:00:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.63,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-10-31T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
