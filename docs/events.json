@@ -1,18 +1,20 @@
 {
-  "fetched_at": "2026-10-27 11:13 AM EDT",
+  "fetched_at": "2026-10-27 05:58 PM EDT",
   "counts": {
     "raw": 180,
-    "scored": 75,
+    "scored": 74,
     "this_weekend": 22,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=75",
+    "input_count=74",
     "pre_dup_group venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00|src=Holy City Sinner', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00|src=Holy City Sinner', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00|src=Holy City Sinner', 'Old Soul on the Inside stage@2026-10-30 21:30:00|src=Holy City Sinner']",
     "survivor venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00']",
     "survivor venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00']",
-    "output_count=75"
+    "survivor venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00', 'Old Soul on the Inside stage@2026-10-30 21:30:00']",
+    "output_count=74"
   ],
   "buckets": {
     "today": "2026-10-27",
@@ -139,21 +141,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Trick, Treat & Trail Family Fun Run and Festival",
-          "start": "2026-10-31T10:00:00",
-          "end": null,
-          "venue": "North Charleston Wannamaker County Park",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/trick-treat-trail-family-fun-run-and-festival-set-for-oct-31/",
-          "description": "Get ready for a spook-tacular time at the third annual Trick, Treat & Trail Family Fun Run and Festival at Wannamaker County Park! Hosted by Charleston County Parks, the event will be held on Halloween day, Saturday, Oct. 31, beginning at 10 a.m.\u2026",
-          "price": 25.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
           "score": 0.92,
           "tier": "high",
           "recurring": false
@@ -309,6 +296,21 @@
           "recurring": false
         },
         {
+          "title": "Old Soul on the Inside stage",
+          "start": "2026-10-30T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/event/old-soul-on-the-inside-stage-8/",
+          "description": "$10 or Free with a The Midnight City ticket October 30, 2026 Doors at 9:30 pm 21 Up https://www.oldsoulrockband.com OldSoul is a Rock and Roll project featuring members Tristan Lamunion (vocals/guitar), Toni Josafat (vocals), Ryan Frankett (vocals/bass), and Joshua Jarman (drums)\u2026",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "The Midnight City: Nightmare Before Midnight on the N\u00dcTRL Beach Stage",
           "start": "2026-10-30T19:00:00",
           "end": null,
@@ -363,21 +365,6 @@
           "neighborhood": "Charleston",
           "url": "https://holycitysinner.com/entertainment/laurie-meyer-solo-show-opening-oct-2-at-meyer-vogl-gallery/",
           "description": "Meyer Vogl Gallery will open a solo exhibition by Charleston-based artist and gallery co-owner Laurie Meyer on Friday, Oct. 2.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.313,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "\"The Hands That Built America\"",
-          "start": "2026-10-31T10:30:00",
-          "end": null,
-          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-presents-the-hands-that-built-ame/",
-          "description": "The Lowcountry Artists Gallery will present \"The Hands That Built America,\" an exhibition celebrating America's makers and honoring the creativity, craftsmanship, heritage and everyday stories that have helped shape the American experience.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -451,7 +438,7 @@
           "end": null,
           "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-presents-the-hands-that-built-ame/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "The Lowcountry Artists Gallery will present \"The Hands That Built America,\" an exhibition celebrating America's makers and honoring the creativity, craftsmanship, heritage and everyday stories that have helped shape the American experience.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -658,21 +645,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-10-29T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Southern Screams Haunted House 2026",
           "start": "2026-10-29T19:30:00",
           "end": null,
@@ -763,6 +735,21 @@
           "recurring": true
         },
         {
+          "title": "LINE DANCING with Loren",
+          "start": "2026-10-27T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "LINE DANCING with Loren (Every Tuesday) FREE August 11, 2026 Doors at 6:00 pm 21 Up or with their Parent",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.263,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "\u201cFragments\u201d",
           "start": "2026-10-29T10:00:00",
           "end": null,
@@ -791,6 +778,21 @@
           "score": 0.262,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke Night",
+          "start": "2026-10-28T20:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.236,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "Rumours of Fleetwood Mac",
@@ -866,21 +868,6 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Weekend Wine-Down",
-          "start": "2026-10-31T10:00:00",
-          "end": null,
-          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
-          "neighborhood": "Wadmalaw Island",
-          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
-          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.63,
           "tier": "medium",
           "recurring": true
         },
