@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-10-27 05:58 PM EDT",
+  "fetched_at": "2026-10-28 12:49 AM EDT",
   "counts": {
-    "raw": 180,
-    "scored": 74,
-    "this_weekend": 22,
+    "raw": 181,
+    "scored": 80,
+    "this_weekend": 31,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=74",
+    "input_count=80",
     "pre_dup_group venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00|src=Holy City Sinner', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00|src=Holy City Sinner', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00|src=Holy City Sinner', 'Old Soul on the Inside stage@2026-10-30 21:30:00|src=Holy City Sinner']",
     "survivor venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00']",
     "survivor venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00']",
     "survivor venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00', 'Old Soul on the Inside stage@2026-10-30 21:30:00']",
-    "output_count=74"
+    "output_count=80"
   ],
   "buckets": {
-    "today": "2026-10-27",
+    "today": "2026-10-28",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -25,6 +25,21 @@
         "2026-11-01"
       ],
       "events": [
+        {
+          "title": "Halloween at Pinky's",
+          "start": "2026-10-31T12:00:00",
+          "end": null,
+          "venue": "Pinky's on the Beach, 1 Center Street, Folly Beach, SC",
+          "neighborhood": "Folly Beach",
+          "url": "https://www.pinkysfollybeach.com/halloween/?utm_source=third_party_listings&utm_medium=calendar_listing&utm_campaign=halloween",
+          "description": "Things are getting BOO-zy at Pinky's Halloween Bash! Throw on your wickedest costume, grab your favorite ghouls, and get spooky at Folly's only oceanfront bar and eatery! LIVE MUSIC TO DIE FOR 12\u20133 PM: Super Reggae Man 4\u20137 PM: Liam Murphy 8:30\u201311:30 PM: See Jane Spin DRESS TO DIS\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 1.0,
+          "tier": "high",
+          "recurring": false
+        },
         {
           "title": "5th Annual Palmetto Freedom Fest",
           "start": "2026-10-30",
@@ -146,6 +161,96 @@
           "recurring": false
         },
         {
+          "title": "Halloween at the A-Scary-Um",
+          "start": "2026-10-31T09:00:00",
+          "end": null,
+          "venue": "South Carolina Aquarium, 100 Aquarium Wharf, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/south-carolina-aquarium-becomes-the-a-scary-um-on-halloween/",
+          "description": "The South Carolina Aquarium will become the A-Scary-Um on Saturday, Oct. 31! Venomous stingers, multiple hearts, self-sharpening teeth and complex eyeballs \u2014 the animals at the Aquarium might just be spookier than you think.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Trick, Treat & Trail Family Fun Run and Festival",
+          "start": "2026-10-31T10:00:00",
+          "end": null,
+          "venue": "North Charleston Wannamaker County Park",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/trick-treat-trail-family-fun-run-and-festival-set-for-oct-31/",
+          "description": "Get ready for a spook-tacular time at the third annual Trick, Treat & Trail Family Fun Run and Festival at Wannamaker County Park! Hosted by Charleston County Parks, the event will be held on Halloween day, Saturday, Oct. 31, beginning at 10 a.m.\u2026",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "\u201cAliens Are Real\u201d Halloween pop-up",
+          "start": "2026-10-31T11:00:00",
+          "end": null,
+          "venue": "Prohibition, 547 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/food-bev/prohibition-s-out-of-this-world-annual-halloween-pop-up-to-r/",
+          "description": "Something spooky will land at Prohibition this Halloween season. From Thursday, Oct. 8, through Saturday, Oct. 31, Prohibition will host its immersive annual Halloween pop-up.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Skyline Halloween at The Rooftop",
+          "start": "2026-10-31T17:00:00",
+          "end": null,
+          "venue": "The Rooftop at the Vendue, 19 Vendue Range, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.rooftopcharleston.com/halloween/?utm_source=third_party_listings&utm_medium=calendar_listing&utm_campaign=halloween",
+          "description": "Take Halloween to new heights at The Rooftop! Dress to impress and dance the night away with a DJ spinning from 9 PM to midnight. Bring your costume A-game for our 11 PM costume contest, featuring Best Solo, Best Couple, and Best Group.\u2026",
+          "price": 50.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Welcome to Salem: Halloween Night at Dalila\u2019s Charleston",
+          "start": "2026-10-31T17:00:00",
+          "end": null,
+          "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Something wicked is brewing at Dalila\u2019s this Halloween! Join us Saturday, October 31st, for Welcome to Salem, a witchy Halloween celebration at your favorite downtown Charleston cocktail bar! We're transforming Dalila\u2019s into a gathering place for the coven, complete with spooky v\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Disco's Not Dead: Halloween",
+          "start": "2026-10-31T18:00:00",
+          "end": null,
+          "venue": "Taco Boy, 217 Huger Street,  Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.tacoboy.net/event/disco-is-not-dead-at-taco-boy-chs/",
+          "description": "Join Taco Boy Downtown for Disco's Not Dead on October 31 beginning at 6 PM. The Halloween celebration includes DJ Smartz, Don Gato Tequila drink specials, disco vibes, giveaways, and a Polaroid costume contest judged by Don Gato.\u2026",
+          "price": 500.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "West Ashley Screams 2026",
           "start": "2026-10-30T19:30:00",
           "end": null,
@@ -217,6 +322,21 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Halloween Golf Cart Parade and Carnival",
+          "start": "2026-10-31T16:00:00",
+          "end": null,
+          "venue": "Isle of Palms",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://luckydognews.com/isle-of-palms/isle-of-palms-recreation-department-to-host-halloween-golf-c_1/",
+          "description": "The Isle of Palms Recreation Department will host a Halloween Golf Cart Parade and Carnival on Saturday, Oct. 31, from 4-6 p.m. Participants can register for the Golf Cart Parade at isleofpalms.gov. The top three decorated golf carts will receive prizes.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.72,
           "tier": "medium",
           "recurring": false
         },
@@ -341,6 +461,21 @@
           "recurring": false
         },
         {
+          "title": "Maryland Boys Crab Cakes",
+          "start": "2026-10-31T16:00:00",
+          "end": null,
+          "venue": "Two Blokes Brewing, 547 Long Point Rd., #101, Mt Pleasant, SC",
+          "neighborhood": "Mt Pleasant",
+          "url": "https://eventvesta.com/events/169592/t/tickets",
+          "description": "Jumbo lump (Maryland style) crab cakes, French dips, smash burgers, fried cod sandwiches, and more!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.441,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "\u201cFragments\u201d",
           "start": "2026-10-31T10:00:00",
           "end": null,
@@ -358,6 +493,21 @@
       ],
       "overflow": [
         {
+          "title": "Grounded in Grain, Washed in the Water",
+          "start": "2026-10-31T11:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
+          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Laurie Meyer Solo Show",
           "start": "2026-10-31T10:00:00",
           "end": null,
@@ -365,6 +515,21 @@
           "neighborhood": "Charleston",
           "url": "https://holycitysinner.com/entertainment/laurie-meyer-solo-show-opening-oct-2-at-meyer-vogl-gallery/",
           "description": "Meyer Vogl Gallery will open a solo exhibition by Charleston-based artist and gallery co-owner Laurie Meyer on Friday, Oct. 2.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"The Hands That Built America\"",
+          "start": "2026-10-31T10:30:00",
+          "end": null,
+          "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-presents-the-hands-that-built-ame/",
+          "description": "The Lowcountry Artists Gallery will present \"The Hands That Built America,\" an exhibition celebrating America's makers and honoring the creativity, craftsmanship, heritage and everyday stories that have helped shape the American experience.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -438,7 +603,7 @@
           "end": null,
           "venue": "Lowcountry Artists Gallery, 148 East Bay Street, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/entertainment/lowcountry-artists-gallery-presents-the-hands-that-built-ame/",
           "description": "The Lowcountry Artists Gallery will present \"The Hands That Built America,\" an exhibition celebrating America's makers and honoring the creativity, craftsmanship, heritage and everyday stories that have helped shape the American experience.\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -541,7 +706,7 @@
         },
         {
           "title": "\u201cAliens Are Real\u201d Halloween pop-up",
-          "start": "2026-10-27T16:00:00",
+          "start": "2026-10-28T16:00:00",
           "end": null,
           "venue": "Prohibition, 547 King St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -720,36 +885,6 @@
           "recurring": false
         },
         {
-          "title": "Music Bingo",
-          "start": "2026-10-27T18:30:00",
-          "end": null,
-          "venue": "Frothy Beard Brewing Company, 1401 Sam Rittenberg Blvd, Charleston, SC",
-          "neighborhood": "West Ashley",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Music + Bingo = Your New Tuesday Night Plans! Join us on Tuesdays at 6:30 PM for Music Bingo here at our West Ashley location! Jam out to your favorite tunes, play along, and win prizes. Bring your friends and grab a pint. See you there!",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.274,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "LINE DANCING with Loren",
-          "start": "2026-10-27T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "LINE DANCING with Loren (Every Tuesday) FREE August 11, 2026 Doors at 6:00 pm 21 Up or with their Parent",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.263,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "\u201cFragments\u201d",
           "start": "2026-10-29T10:00:00",
           "end": null,
@@ -795,21 +930,6 @@
           "recurring": true
         },
         {
-          "title": "Rumours of Fleetwood Mac",
-          "start": "2026-10-27T19:30:00",
-          "end": null,
-          "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Rumours of Fleetwood Mac October 27, 7:30 PM North Charleston Performing Arts Center Your Exclusive Pre-Sale Offer! Thursday, June 25 at 10:00 AM \u2013 10:00 PM Offer Code: DREAMS",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.226,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Sonic Live in Concert",
           "start": "2026-10-28T19:30:00",
           "end": null,
@@ -842,6 +962,21 @@
           "recurring": true
         },
         {
+          "title": "Saturdays at the Distillery",
+          "start": "2026-10-31T16:00:00",
+          "end": null,
+          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Saturday's at the Distillery| Saturday, October 31st \ufeff Spend your Saturday afternoon at Firefly with live music, great food, and plenty of room to relax.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
           "title": "Pour House Farmers Market",
           "start": "2026-11-01T11:00:00",
           "end": null,
@@ -868,6 +1003,36 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Folly Beach Farmer's Market",
+          "start": "2026-10-31T12:00:00",
+          "end": null,
+          "venue": "1630 Folly Road, Charleston, SC",
+          "neighborhood": "Folly",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.637,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Weekend Wine-Down",
+          "start": "2026-10-31T10:00:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.63,
           "tier": "medium",
           "recurring": true
         },
