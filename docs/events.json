@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-10-28 04:08 PM EDT",
+  "fetched_at": "2026-10-28 08:40 PM EDT",
   "counts": {
-    "raw": 181,
-    "scored": 80,
+    "raw": 182,
+    "scored": 81,
     "this_weekend": 31,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=80",
+    "input_count=81",
     "pre_dup_group venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00|src=Holy City Sinner', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00|src=Holy City Sinner', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00|src=Holy City Sinner', 'Old Soul on the Inside stage@2026-10-30 21:30:00|src=Holy City Sinner']",
     "survivor venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00']",
     "survivor venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00']",
     "survivor venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00', 'Old Soul on the Inside stage@2026-10-30 21:30:00']",
-    "output_count=80"
+    "output_count=81"
   ],
   "buckets": {
     "today": "2026-10-28",
