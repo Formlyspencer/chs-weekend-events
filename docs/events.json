@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-10-29 05:39 AM EDT",
+  "fetched_at": "2026-10-29 02:13 PM EDT",
   "counts": {
     "raw": 183,
-    "scored": 86,
-    "this_weekend": 41,
+    "scored": 84,
+    "this_weekend": 40,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=86",
+    "input_count=84",
     "pre_dup_group venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00|src=Holy City Sinner', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00|src=Holy City Sinner', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00|src=Holy City Sinner', 'Old Soul on the Inside stage@2026-10-30 21:30:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00', 'Old Soul on the Inside stage@2026-10-30 21:30:00']",
     "survivor venue=charleston pour house date=2026-10-31: ['PHISH HALLOWEEN PARTY w/ Adam Knigh@2026-10-31 18:00:00', 'Charleston Pour House & Cygoodies p@2026-10-31 21:00:00']",
     "survivor venue=the windjammer date=2026-10-31: ['The Reckoning: Grateful Dead Tribut@2026-10-31 19:00:00', 'Reverse Cowgirl on the inside stage@2026-10-31 22:00:00']",
-    "output_count=86"
+    "output_count=84"
   ],
   "buckets": {
     "today": "2026-10-29",
@@ -386,21 +386,6 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.874,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Oyster Roast & Doggie Adoption Event",
-          "start": "2026-11-01T16:00:00",
-          "end": null,
-          "venue": "Lowlife Bar, 106 E Hudson Ave, Folly Beach, SC",
-          "neighborhood": "Folly Beach",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "See image for more info",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "food_festival",
-          "score": 0.85,
           "tier": "high",
           "recurring": false
         },
@@ -1022,21 +1007,6 @@
           "score": 0.411,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Karaoke",
-          "start": "2026-10-29T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Southern Screams Haunted House 2026",
