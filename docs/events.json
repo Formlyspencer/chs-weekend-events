@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-10-29 02:13 PM EDT",
+  "fetched_at": "2026-10-29 08:41 PM EDT",
   "counts": {
-    "raw": 183,
-    "scored": 84,
+    "raw": 184,
+    "scored": 85,
     "this_weekend": 40,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=84",
+    "input_count=85",
     "pre_dup_group venue=meyer vogl gallery date=2026-10-29: ['Laurie Meyer Solo Show@2026-10-29 10:00:00|src=Holy City Sinner', '\"Small Pieces, Bigger Picture\u201d@2026-10-29 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-30: ['Sol\\xa0Driven\\xa0Train@2026-10-30 18:00:00|src=Holy City Sinner', 'Neal Francis w/\\xa0Sam Fribush Organ T@2026-10-30 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00|src=Holy City Sinner', 'Old Soul on the Inside stage@2026-10-30 21:30:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=the windjammer date=2026-10-30: ['The Midnight City: Nightmare Before@2026-10-30 19:00:00', 'Old Soul on the Inside stage@2026-10-30 21:30:00']",
     "survivor venue=charleston pour house date=2026-10-31: ['PHISH HALLOWEEN PARTY w/ Adam Knigh@2026-10-31 18:00:00', 'Charleston Pour House & Cygoodies p@2026-10-31 21:00:00']",
     "survivor venue=the windjammer date=2026-10-31: ['The Reckoning: Grateful Dead Tribut@2026-10-31 19:00:00', 'Reverse Cowgirl on the inside stage@2026-10-31 22:00:00']",
-    "output_count=84"
+    "output_count=85"
   ],
   "buckets": {
     "today": "2026-10-29",
@@ -260,7 +260,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/dalilas_on_spring",
           "description": "Something wicked is brewing at Dalila\u2019s this Halloween! Join us Saturday, October 31st, for Welcome to Salem, a witchy Halloween celebration at your favorite downtown Charleston cocktail bar! We're transforming Dalila\u2019s into a gathering place for the coven, complete with spooky v\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -1136,7 +1136,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
