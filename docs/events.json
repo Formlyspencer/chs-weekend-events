@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-10-31 01:01 PM EDT",
+  "fetched_at": "2026-10-31 05:13 PM EDT",
   "counts": {
-    "raw": 182,
-    "scored": 82,
-    "this_weekend": 28,
+    "raw": 183,
+    "scored": 84,
+    "this_weekend": 29,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=82",
+    "input_count=84",
     "pre_dup_group venue=charleston pour house date=2026-11-01: ['Pour House Farmers Market@2026-11-01 11:00:00|src=Manual', 'DOOM GONG w/ NRO@2026-11-01 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-10-31: ['PHISH HALLOWEEN PARTY w/ Adam Knigh@2026-10-31 18:00:00|src=Holy City Sinner', 'Charleston Pour House & Cygoodies p@2026-10-31 21:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-10-31: ['The Reckoning: Grateful Dead Tribut@2026-10-31 19:00:00|src=Holy City Sinner', 'Reverse Cowgirl on the inside stage@2026-10-31 22:00:00|src=Holy City Sinner']",
@@ -20,7 +20,7 @@
     "survivor venue=redux contemporary art center date=2026-11-01: ['Redux 24th Annual Auction@2026-11-01', 'Sunday Figure Drawing@2026-11-01 17:00:00']",
     "survivor venue=redux contemporary art center date=2026-11-03: ['Redux 24th Annual Auction@2026-11-03 17:00:00', 'Fascinating Fascinators@2026-11-03 18:00:00']",
     "survivor venue=exchange park date=2026-11-04: ['Coastal Carolina Fair (Senior Day P@2026-11-04 10:00:00', 'Coastal Carolina Fair@2026-11-04 15:00:00']",
-    "output_count=82"
+    "output_count=84"
   ],
   "buckets": {
     "today": "2026-10-31",
@@ -157,7 +157,7 @@
           "end": null,
           "venue": "Dalila's, 441 Meeting St., Suite F, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/dalilas_on_spring",
           "description": "Something wicked is brewing at Dalila\u2019s this Halloween! Join us Saturday, October 31st, for Welcome to Salem, a witchy Halloween celebration at your favorite downtown Charleston cocktail bar! We're transforming Dalila\u2019s into a gathering place for the coven, complete with spooky v\u2026",
           "price": null,
           "source": "Holy City Sinner",
@@ -354,6 +354,21 @@
           "neighborhood": "North Charleston",
           "url": "https://holycitysinner.com/entertainment/southern-screams-haunted-house-attraction-returns-to-holy-city/",
           "description": "Southern Screams presents MACABRE, Charleston's most immersive and terrifying haunted house experience. Open for 25 horrifying nights beginning September 25, MACABRE plunges guests into a world of darkness, dread, and pure fear.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.52,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "D\u00eda de los Muertos",
+          "start": "2026-11-01T16:00:00",
+          "end": null,
+          "venue": "New Realm Brewing Co., 880 Island Park Dr, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Celebrate D\u00eda de los Muertos Join us at New Realm Brewing on Sunday, November 1st, from 4\u20137 PM for a vibrant and heartfelt D\u00eda de los Muertos celebration! Live Music: Enjoy live music from Gregory Guay.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "brewery_event",
@@ -642,7 +657,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
@@ -763,6 +778,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.44,
+          "tier": "low",
+          "recurring": true
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-11-05T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
           "tier": "low",
           "recurring": true
         },
