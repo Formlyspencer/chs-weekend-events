@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-11-01 07:54 AM EST",
+  "fetched_at": "2026-11-01 02:25 PM EST",
   "counts": {
-    "raw": 176,
+    "raw": 178,
     "scored": 71,
     "this_weekend": 10,
-    "next_weekend": 9
+    "next_weekend": 10
   },
   "dedup_log": [
     "input_count=71",
@@ -298,6 +298,21 @@
           "recurring": false
         },
         {
+          "title": "Good Cop / Rad Cop",
+          "start": "2026-11-06T20:00:00",
+          "end": null,
+          "venue": "Wit's End Comedy Club and Lounge, 3320 Rivers Avenue, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.witsendcharleston.com/calendar",
+          "description": "Good Cop/ Rad Cop (Netflix, Netflix is a Joke Festival, Moontower Comedy Fest) is a high-energy comedy duo from Atlanta, Georgia. With fast banter and barn-burning performances, they leave audiences on their feet singing and laughing.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.704,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "AJJ",
           "start": "2026-11-06T20:00:00",
           "end": null,
@@ -542,21 +557,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-11-05T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Tommy Prine w/ Delaney Ramsdell",
           "start": "2026-11-05T20:30:00",
           "end": null,
@@ -592,7 +592,7 @@
           "end": null,
           "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
           "neighborhood": "Isle Of Palms",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://the-windjammer.com/",
           "description": "$25 Advance / $30 DOS November 5, 2026 Doors at 6:00 pm 21Up or with their parent ARTIST WEBSITE https://www.drakemilligan.com/ Singer-songwriter, Drake Milligan, has been hailed a Country traditionalist with his old-school flair and rock n\u2019 roll roots.\u2026",
           "price": 25.0,
           "source": "Holy City Sinner",
