@@ -1,218 +1,33 @@
 {
-  "fetched_at": "2026-11-01 07:25 PM EST",
+  "fetched_at": "2026-11-02 05:43 AM EST",
   "counts": {
-    "raw": 177,
-    "scored": 70,
-    "this_weekend": 10,
-    "next_weekend": 10
+    "raw": 172,
+    "scored": 65,
+    "this_weekend": 0,
+    "next_weekend": 12
   },
   "dedup_log": [
-    "input_count=70",
-    "pre_dup_group venue=redux contemporary art center date=2026-11-01: ['Redux 24th Annual Auction@2026-11-01|src=Holy City Sinner', 'Sunday Figure Drawing@2026-11-01 17:00:00|src=Holy City Sinner']",
+    "input_count=65",
     "pre_dup_group venue=redux contemporary art center date=2026-11-03: ['Redux 24th Annual Auction@2026-11-03 17:00:00|src=Holy City Sinner', 'Fascinating Fascinators@2026-11-03 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=exchange park date=2026-11-04: ['Coastal Carolina Fair (Senior Day P@2026-11-04 10:00:00|src=Holy City Sinner', 'Coastal Carolina Fair@2026-11-04 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-05: ['Eric\\xa0Lindell@2026-11-05 18:00:00|src=Holy City Sinner', 'Tommy Prine w/ Delaney Ramsdell@2026-11-05 20:30:00|src=Holy City Sinner']",
-    "survivor venue=redux contemporary art center date=2026-11-01: ['Redux 24th Annual Auction@2026-11-01', 'Sunday Figure Drawing@2026-11-01 17:00:00']",
     "survivor venue=redux contemporary art center date=2026-11-03: ['Redux 24th Annual Auction@2026-11-03 17:00:00', 'Fascinating Fascinators@2026-11-03 18:00:00']",
     "survivor venue=exchange park date=2026-11-04: ['Coastal Carolina Fair (Senior Day P@2026-11-04 10:00:00', 'Coastal Carolina Fair@2026-11-04 15:00:00']",
     "survivor venue=charleston pour house date=2026-11-05: ['Eric\\xa0Lindell@2026-11-05 18:00:00', 'Tommy Prine w/ Delaney Ramsdell@2026-11-05 20:30:00']",
-    "output_count=70"
+    "output_count=65"
   ],
   "buckets": {
     "today": "2026-11-01",
-    "show_last_weekend": true,
+    "show_last_weekend": false,
     "this_weekend": {
       "range": [
         "2026-10-30",
         "2026-11-01"
       ],
-      "events": [
-        {
-          "title": "Redux 24th Annual Auction",
-          "start": "2026-11-01",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/redux-contemporary-art-center-announces-24th-annual-art-auct/",
-          "description": "See link for more info",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Oyster Roast & Doggie Adoption Event",
-          "start": "2026-11-01T16:00:00",
-          "end": null,
-          "venue": "Lowlife Bar, 106 E Hudson Ave, Folly Beach, SC",
-          "neighborhood": "Folly Beach",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "See image for more info",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "food_festival",
-          "score": 0.85,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Taco Tequila Kombat",
-          "start": "2026-11-01T18:00:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitybrewing.com/north-charleston-holy-city-brewing-events",
-          "description": "Taco Tequila Kombat 2026, presented by Lunazul Tequila & hosted by Rebel Taqueria & Holy City Brewing, is Charleston\u2019s Ultimate Food & Beverage competition. Enjoy perfectly paired tacos with Lunazul Tequila cocktails prepared by Charleston\u2019s best restaurants.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Slow Fish Festival",
-          "start": "2026-11-01T12:00:00",
-          "end": null,
-          "venue": null,
-          "neighborhood": null,
-          "url": "https://slowfoodcharleston.org/events/slow-fish-festival",
-          "description": "Join us at Bowen\u2019s Island for a community celebration of our local waters, fisheries, and the people who keep them thriving.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.65,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Hawthorne Heights",
-          "start": "2026-11-01T19:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/hawthorne-heights/",
-          "description": "Hawthorne Heights is an American rock band from Dayton, Ohio, known for shaping the sound of early 2000s emo and post-hardcore.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "D\u00eda de los Muertos",
-          "start": "2026-11-01T16:00:00",
-          "end": null,
-          "venue": "New Realm Brewing Co., 880 Island Park Dr, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Celebrate D\u00eda de los Muertos Join us at New Realm Brewing on Sunday, November 1st, from 4\u20137 PM for a vibrant and heartfelt D\u00eda de los Muertos celebration! Live Music: Enjoy live music from Gregory Guay.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.52,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "The Sunday Flow - Yoga",
-          "start": "2026-11-01T11:00:00",
-          "end": null,
-          "venue": "Two Blokes Brewing, 547 Long Point Rd., #101, Mt Pleasant, SC",
-          "neighborhood": "Mt Pleasant",
-          "url": "https://www.eventbrite.com/e/the-sunday-flow-yoga-at-two-blokes-brewing-tickets-2003156789882?aff=oddtdtcreator&keep_tld=true",
-          "description": "Join us every 1st and 3rd Sunday for a great start to your morning! We'll have a nice yoga flow 11-11:45AM, then you can reward yourself with a beer (or wine)! $20 includes the price of your yoga class plus your first drink! We encourage RSVPs so we can prepare properly for the c\u2026",
-          "price": 20.0,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.519,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "DOOM GONG w/ NRO",
-          "start": "2026-11-01T20:30:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "DOOM GONG w/ NRO Charleston Pour House - Main Stage 7:30pm Doors/8:30pm Show $18 Advance/$23 Day of Show",
-          "price": 18.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Stingrays Home Game (Undie Sunday/Family Sunday/Postgame Kids Slapshot)",
-          "start": "2026-11-01T15:05:00",
-          "end": null,
-          "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/sports/south-carolina-stingrays-announces-2026-27-promotional-sched/",
-          "description": "SCOOBY DOO DAY: Sunday, November 1 - 3:05 p.m. Undie Sunday presented by Gildan Family Sunday presented by Charleston County Parks & Recreation Postgame Kids Slapshot presented by East Bay Deli Join Scooby-Doo and the Mystery Inc.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.411,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "\u201cFragments\u201d",
-          "start": "2026-11-01T11:00:00",
-          "end": null,
-          "venue": "Michael Mitchell, 414 King St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/kevin-paulsen-david-wiggins-collaborate-on-%E2%80%98fragments%E2%80%99-exhib/",
-          "description": "\u201cFragments\u201d marks a rare collaborative exhibition from artists and longtime friends Kevin Paulsen and David Wiggins. Rooted in the rich history of early American itinerant painters, this curated show expands on traditional folk art in a distinctly timeless manner.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.35,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
-      "overflow": [
-        {
-          "title": "Coastal Carolina Fair",
-          "start": "2026-11-01T12:00:00",
-          "end": null,
-          "venue": "Exchange Park, 9850 US-78, Ladson, SC",
-          "neighborhood": null,
-          "url": "https://coastalcarolinafair.org/fair-home/",
-          "description": "10.29.23 - 11.05.23 \u2605 daily entertainment \u2605 arena events \u2605 Senior day \u2605 Fiddle contest \u2605 Fine Art show \u2605 Creative arts \u2605 Youth Art Show \u2605 chili cookoff \u2605 honey competition \u2605 king arthur baking competition",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.289,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
+      "events": [],
+      "overflow": [],
       "weekdays": [],
-      "recurring": [
-        {
-          "title": "Sunday Figure Drawing",
-          "start": "2026-11-01T17:00:00",
-          "end": null,
-          "venue": "Redux Contemporary Art Center, 1056 King Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://redux.givecloud.co/figure-drawing",
-          "description": "Sunday Figure Drawing When: Every Sunday (excluding holiday weekends) Time: 5-7PM Instructor: Katelyn Chapman Age: 17+",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.258,
-          "tier": "low",
-          "recurring": true
-        }
-      ]
+      "recurring": []
     },
     "next_weekend": {
       "range": [
@@ -251,12 +66,27 @@
           "recurring": false
         },
         {
+          "title": "Charleston Literary Festival",
+          "start": "2026-11-07",
+          "end": null,
+          "venue": "Dock Street Theatre, 135 Church St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/charleston-literary-festival-announces-first-slate-of-author/",
+          "description": "Charleston Literary Festival is proud to announce the first wave of authors for its 10th anniversary Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
+          "price": 750.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "Friday Live Music",
           "start": "2026-11-06T18:00:00",
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://fireflydistillery.com/events/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Friday Live Music| Friday, November 6th \ufeff Kick off your weekend the right way with Friday Happy Hour at Firefly Distillery! From 4-7 PM, sip on some great cocktails with $4 off all cocktails and $5 16 oz can beers, get some snacks off our happy hour menu all while enjoying live m\u2026",
           "price": 4.0,
           "source": "Holy City Sinner",
@@ -271,7 +101,7 @@
           "end": null,
           "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/sports/south-carolina-stingrays-announces-2026-27-promotional-sched/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "JETS AND VETS: Friday, November 6 - 7:05 p.m. Presented by Charleston Southern University $5 Friday presented by Frothy Beard Brewing Company Join us as we honor the brave men and women who have served our country with a night dedicated to our military and veterans, featuring spe\u2026",
           "price": 5.0,
           "source": "Holy City Sinner",
@@ -326,6 +156,21 @@
           "recurring": false
         },
         {
+          "title": "The Nashville Nights Band: 90s Country Experience on the inside stage",
+          "start": "2026-11-06T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$15 ADV / $20 DOS November 6, 2026 Doors at 9:00 pm. Show at 9:30 pm. 21 Up https://www.thenashvillenightsband.com/ Get ready to relive the greatest decade in country music with The Nashville Nights Band \u2014 the nation\u2019s premier tribute to 90s country.\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "The\u00a0Garcia\u00a0Project",
           "start": "2026-11-06T18:00:00",
           "end": null,
@@ -337,6 +182,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.454,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\u201cFragments\u201d",
+          "start": "2026-11-07T10:00:00",
+          "end": null,
+          "venue": "Michael Mitchell, 414 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/kevin-paulsen-david-wiggins-collaborate-on-%E2%80%98fragments%E2%80%99-exhib/",
+          "description": "\u201cFragments\u201d marks a rare collaborative exhibition from artists and longtime friends Kevin Paulsen and David Wiggins. Rooted in the rich history of early American itinerant painters, this curated show expands on traditional folk art in a distinctly timeless manner.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
           "tier": "low",
           "recurring": false
         },
@@ -354,7 +214,9 @@
           "score": 0.349,
           "tier": "low",
           "recurring": false
-        },
+        }
+      ],
+      "overflow": [
         {
           "title": "Through the Looking Glass",
           "start": "2026-11-06T17:00:00",
@@ -369,9 +231,22 @@
           "score": 0.313,
           "tier": "low",
           "recurring": false
-        }
-      ],
-      "overflow": [
+        },
+        {
+          "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
+          "start": "2026-11-07T10:00:00",
+          "end": null,
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-presents-interdisciplinarian-by-glory-day/",
+          "description": "Meyer Vogl Gallery will present \u201cINTERDISCIPLINARIAN,\u201d a solo exhibition by Greenville-based artist Glory Day, opening Friday, Nov. 6, and remaining on view through Nov. 30.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "\u201cFragments\u201d",
           "start": "2026-11-06T10:00:00",
@@ -414,6 +289,21 @@
           "source": "Holy City Sinner",
           "category": "art_event",
           "score": 0.297,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Coastal Carolina Fair",
+          "start": "2026-11-07T10:00:00",
+          "end": null,
+          "venue": "Exchange Park, 9850 US-78, Ladson, SC",
+          "neighborhood": null,
+          "url": "https://coastalcarolinafair.org/fair-home/",
+          "description": "10.29.23 - 11.05.23 \u2605 daily entertainment \u2605 arena events \u2605 Senior day \u2605 Fiddle contest \u2605 Fine Art show \u2605 Creative arts \u2605 Youth Art Show \u2605 chili cookoff \u2605 honey competition \u2605 king arthur baking competition",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.289,
           "tier": "low",
           "recurring": false
         },
@@ -733,6 +623,36 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Weekend Wine-Down",
+          "start": "2026-11-07T10:00:00",
+          "end": null,
+          "venue": "Deep Water Vineyard, 6775 Bears Bluff Rd, Wadmalaw Island, SC",
+          "neighborhood": "Wadmalaw Island",
+          "url": "https://deepwatervineyard.com/wadmalaw-island-deep-water-vineyard-events",
+          "description": "Our weekend wine-downs happen rain or shine every Saturday from 10AM-5PM, all year long. Fun stuff for you to consider when you visit our wine-down: Tastings - Offered every hour on the hour, $15 gets you a tasting of 6 samples of our wine and a souvenir stemless glass Drinks - O\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.63,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Sea Island Farmers Market",
+          "start": "2026-11-07T09:30:00",
+          "end": null,
+          "venue": "Charleston Collegiate School, 2024 Academy Rd, John\u2019s Island, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.seaislandfarmersmarket.com/",
+          "description": "Saturdays from 9:30 a.m. - 1:30 p.m., 2024 Academy Rd, John\u2019s Island The Sea Island Farmers Market is a year-round delight for locals and visitors alike. This market offers a wide variety of fresh produce, artisanal foods and handmade crafts.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
           "tier": "medium",
           "recurring": true
         },
