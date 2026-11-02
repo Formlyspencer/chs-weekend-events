@@ -1,24 +1,22 @@
 {
-  "fetched_at": "2026-11-01 02:25 PM EST",
+  "fetched_at": "2026-11-01 07:25 PM EST",
   "counts": {
-    "raw": 178,
-    "scored": 71,
+    "raw": 177,
+    "scored": 70,
     "this_weekend": 10,
     "next_weekend": 10
   },
   "dedup_log": [
-    "input_count=71",
-    "pre_dup_group venue=charleston pour house date=2026-11-01: ['Pour House Farmers Market@2026-11-01 11:00:00|src=Manual', 'DOOM GONG w/ NRO@2026-11-01 20:30:00|src=Holy City Sinner']",
+    "input_count=70",
     "pre_dup_group venue=redux contemporary art center date=2026-11-01: ['Redux 24th Annual Auction@2026-11-01|src=Holy City Sinner', 'Sunday Figure Drawing@2026-11-01 17:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=redux contemporary art center date=2026-11-03: ['Redux 24th Annual Auction@2026-11-03 17:00:00|src=Holy City Sinner', 'Fascinating Fascinators@2026-11-03 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=exchange park date=2026-11-04: ['Coastal Carolina Fair (Senior Day P@2026-11-04 10:00:00|src=Holy City Sinner', 'Coastal Carolina Fair@2026-11-04 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-05: ['Eric\\xa0Lindell@2026-11-05 18:00:00|src=Holy City Sinner', 'Tommy Prine w/ Delaney Ramsdell@2026-11-05 20:30:00|src=Holy City Sinner']",
-    "survivor venue=charleston pour house date=2026-11-01: ['Pour House Farmers Market@2026-11-01 11:00:00', 'DOOM GONG w/ NRO@2026-11-01 20:30:00']",
     "survivor venue=redux contemporary art center date=2026-11-01: ['Redux 24th Annual Auction@2026-11-01', 'Sunday Figure Drawing@2026-11-01 17:00:00']",
     "survivor venue=redux contemporary art center date=2026-11-03: ['Redux 24th Annual Auction@2026-11-03 17:00:00', 'Fascinating Fascinators@2026-11-03 18:00:00']",
     "survivor venue=exchange park date=2026-11-04: ['Coastal Carolina Fair (Senior Day P@2026-11-04 10:00:00', 'Coastal Carolina Fair@2026-11-04 15:00:00']",
     "survivor venue=charleston pour house date=2026-11-05: ['Eric\\xa0Lindell@2026-11-05 18:00:00', 'Tommy Prine w/ Delaney Ramsdell@2026-11-05 20:30:00']",
-    "output_count=71"
+    "output_count=70"
   ],
   "buckets": {
     "today": "2026-11-01",
@@ -200,21 +198,6 @@
       "weekdays": [],
       "recurring": [
         {
-          "title": "Pour House Farmers Market",
-          "start": "2026-11-01T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
           "title": "Sunday Figure Drawing",
           "start": "2026-11-01T17:00:00",
           "end": null,
@@ -273,7 +256,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://fireflydistillery.com/events/",
           "description": "Friday Live Music| Friday, November 6th \ufeff Kick off your weekend the right way with Friday Happy Hour at Firefly Distillery! From 4-7 PM, sip on some great cocktails with $4 off all cocktails and $5 16 oz can beers, get some snacks off our happy hour menu all while enjoying live m\u2026",
           "price": 4.0,
           "source": "Holy City Sinner",
