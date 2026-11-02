@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-11-02 05:43 AM EST",
+  "fetched_at": "2026-11-02 04:32 PM EST",
   "counts": {
     "raw": 172,
     "scored": 65,
-    "this_weekend": 0,
-    "next_weekend": 12
+    "this_weekend": 12,
+    "next_weekend": 0
   },
   "dedup_log": [
     "input_count=65",
@@ -17,19 +17,9 @@
     "output_count=65"
   ],
   "buckets": {
-    "today": "2026-11-01",
-    "show_last_weekend": false,
+    "today": "2026-11-02",
+    "show_last_weekend": true,
     "this_weekend": {
-      "range": [
-        "2026-10-30",
-        "2026-11-01"
-      ],
-      "events": [],
-      "overflow": [],
-      "weekdays": [],
-      "recurring": []
-    },
-    "next_weekend": {
       "range": [
         "2026-11-06",
         "2026-11-08"
@@ -101,7 +91,7 @@
           "end": null,
           "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://holycitysinner.com/sports/south-carolina-stingrays-announces-2026-27-promotional-sched/",
           "description": "JETS AND VETS: Friday, November 6 - 7:05 p.m. Presented by Charleston Southern University $5 Friday presented by Frothy Beard Brewing Company Join us as we honor the brave men and women who have served our country with a night dedicated to our military and veterans, featuring spe\u2026",
           "price": 5.0,
           "source": "Holy City Sinner",
@@ -673,10 +663,51 @@
         }
       ]
     },
+    "next_weekend": {
+      "range": [
+        "2026-11-13",
+        "2026-11-15"
+      ],
+      "events": [],
+      "overflow": [],
+      "weekdays": [],
+      "recurring": [
+        {
+          "title": "Pour House Farmers Market",
+          "start": "2026-11-15T11:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.684,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Downtown Charleston Farmers Market",
+          "start": "2026-11-14T08:00:00",
+          "end": null,
+          "venue": "Marion Square, 329 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/Charleston-Farmers-Market-37",
+          "description": "Charleston's flagship downtown farmers market at Marion Square. Local produce, prepared foods, makers, and live music. Saturdays April through November.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        }
+      ]
+    },
     "last_weekend": {
       "range": [
-        "2026-10-23",
-        "2026-10-25"
+        "2026-10-30",
+        "2026-11-01"
       ],
       "events": [],
       "overflow": [],
