@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-11-03 08:52 AM EST",
+  "fetched_at": "2026-11-03 03:50 PM EST",
   "counts": {
     "raw": 174,
-    "scored": 67,
-    "this_weekend": 18,
+    "scored": 68,
+    "this_weekend": 16,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=67",
+    "input_count=68",
     "pre_dup_group venue=redux contemporary art center date=2026-11-03: ['Redux 24th Annual Auction@2026-11-03 17:00:00|src=Holy City Sinner', 'Fascinating Fascinators@2026-11-03 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=exchange park date=2026-11-04: ['Coastal Carolina Fair (Senior Day P@2026-11-04 10:00:00|src=Holy City Sinner', 'Coastal Carolina Fair@2026-11-04 15:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-05: ['Eric\\xa0Lindell@2026-11-05 18:00:00|src=Holy City Sinner', 'Tommy Prine w/ Delaney Ramsdell@2026-11-05 20:30:00|src=Holy City Sinner']",
     "survivor venue=redux contemporary art center date=2026-11-03: ['Redux 24th Annual Auction@2026-11-03 17:00:00', 'Fascinating Fascinators@2026-11-03 18:00:00']",
     "survivor venue=exchange park date=2026-11-04: ['Coastal Carolina Fair (Senior Day P@2026-11-04 10:00:00', 'Coastal Carolina Fair@2026-11-04 15:00:00']",
     "survivor venue=charleston pour house date=2026-11-05: ['Eric\\xa0Lindell@2026-11-05 18:00:00', 'Tommy Prine w/ Delaney Ramsdell@2026-11-05 20:30:00']",
-    "output_count=67"
+    "output_count=68"
   ],
   "buckets": {
     "today": "2026-11-03",
@@ -214,36 +214,6 @@
           "url": "https://the-windjammer.com/events/",
           "description": "$15 ADV / $20 DOS November 6, 2026 Doors at 9:00 pm. Show at 9:30 pm. 21 Up https://www.thenashvillenightsband.com/ Get ready to relive the greatest decade in country music with The Nashville Nights Band \u2014 the nation\u2019s premier tribute to 90s country.\u2026",
           "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Nightrain: The Guns N\u2019 Roses Experience \u2013 on the N\u00dcTRL Beach Stage",
-          "start": "2026-11-07T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/event/nightrain-the-guns-n-roses-experience-on-the-nutrl-beach-stage/",
-          "description": "$15 Advance / $20 DOS November 7, 2026 Doors at 6:00 pm 21Up or with their parent https://www.nightrainrocks.com/ NIGHTRAIN\u2019S Tribute show to Guns N\u2019 Roses has been taking the US by storm for 14 years running.\u2026",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Quattlefest - PQ's 50th Birthday",
-          "start": "2026-11-07T18:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Quattlefest - PQ's 50th Birthday ft. Jeff Caldwell, Sean Bing, Jonathan Lovett, Jeremy Wolf and guests Sat. 11.7.26 Chs Pour House Deck Stage 5pm doors /6pm show 2 x sets $10 advance / dos",
-          "price": 10.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
@@ -540,6 +510,21 @@
           "recurring": false
         },
         {
+          "title": "Karaoke",
+          "start": "2026-11-05T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "Tommy Prine w/ Delaney Ramsdell",
           "start": "2026-11-05T20:30:00",
           "end": null,
@@ -688,6 +673,21 @@
           "score": 0.274,
           "tier": "low",
           "recurring": true
+        },
+        {
+          "title": "LINE DANCING with Loren",
+          "start": "2026-11-03T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "LINE DANCING with Loren (Every Tuesday) FREE August 11, 2026 Doors at 6:00 pm 21 Up or with their Parent",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.263,
+          "tier": "low",
+          "recurring": true
         }
       ],
       "recurring": [
@@ -727,7 +727,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
