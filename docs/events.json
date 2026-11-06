@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-11-05 02:42 PM EST",
+  "fetched_at": "2026-11-05 08:25 PM EST",
   "counts": {
-    "raw": 178,
-    "scored": 71,
+    "raw": 179,
+    "scored": 72,
     "this_weekend": 31,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=71",
+    "input_count=72",
     "pre_dup_group venue=charleston pour house date=2026-11-08: ['Pour House Farmers Market@2026-11-08 11:00:00|src=Manual', 'Photon ft. members of dopapod@2026-11-08 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-05: ['Eric\\xa0Lindell@2026-11-05 18:00:00|src=Holy City Sinner', 'Tommy Prine w/ Delaney Ramsdell@2026-11-05 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-07: [\"Quattlefest - PQ's 50th Birthday@2026-11-07 18:00:00|src=Holy City Sinner\", 'Satsang\\xa0\u201cElohim Tour 2026\" w/\\xa0Sound@2026-11-07 21:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-11-08: ['Pour House Farmers Market@2026-11-08 11:00:00', 'Photon ft. members of dopapod@2026-11-08 18:00:00']",
     "survivor venue=charleston pour house date=2026-11-05: ['Eric\\xa0Lindell@2026-11-05 18:00:00', 'Tommy Prine w/ Delaney Ramsdell@2026-11-05 20:30:00']",
     "survivor venue=charleston pour house date=2026-11-07: [\"Quattlefest - PQ's 50th Birthday@2026-11-07 18:00:00\", 'Satsang\\xa0\u201cElohim Tour 2026\" w/\\xa0Sound@2026-11-07 21:00:00']",
-    "output_count=71"
+    "output_count=72"
   ],
   "buckets": {
     "today": "2026-11-05",
