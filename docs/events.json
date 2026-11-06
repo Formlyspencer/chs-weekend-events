@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-11-06 05:35 AM EST",
+  "fetched_at": "2026-11-06 02:04 PM EST",
   "counts": {
-    "raw": 177,
-    "scored": 73,
+    "raw": 182,
+    "scored": 75,
     "this_weekend": 31,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=73",
+    "input_count=75",
     "pre_dup_group venue=charleston pour house date=2026-11-08: ['Pour House Farmers Market@2026-11-08 11:00:00|src=Manual', 'Photon ft. members of dopapod@2026-11-08 18:00:00|src=Holy City Sinner', 'Sunsquabi w/ Phyphr@2026-11-08 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-07: [\"Quattlefest - PQ's 50th Birthday@2026-11-07 18:00:00|src=Holy City Sinner\", 'Satsang\\xa0\u201cElohim Tour 2026\" w/\\xa0Sound@2026-11-07 21:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston music hall date=2026-11-08: ['Kathleen Madigan@2026-11-08 17:00:00|src=Holy City Sinner', 'Tab Benoit@2026-11-08 20:00:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-11-08: ['Pour House Farmers Market@2026-11-08 11:00:00', 'Photon ft. members of dopapod@2026-11-08 18:00:00', 'Sunsquabi w/ Phyphr@2026-11-08 20:30:00']",
     "survivor venue=charleston pour house date=2026-11-07: [\"Quattlefest - PQ's 50th Birthday@2026-11-07 18:00:00\", 'Satsang\\xa0\u201cElohim Tour 2026\" w/\\xa0Sound@2026-11-07 21:00:00']",
     "survivor venue=charleston music hall date=2026-11-08: ['Kathleen Madigan@2026-11-08 17:00:00', 'Tab Benoit@2026-11-08 20:00:00']",
-    "output_count=73"
+    "output_count=75"
   ],
   "buckets": {
     "today": "2026-11-06",
@@ -41,21 +41,6 @@
           "recurring": false
         },
         {
-          "title": "Charleston Literary Festival",
-          "start": "2026-11-06",
-          "end": null,
-          "venue": "Dock Street Theatre, 135 Church St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/charleston-literary-festival-announces-first-slate-of-author/",
-          "description": "Charleston Literary Festival is proud to announce the first wave of authors for its 10th anniversary Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
-          "price": 750.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
           "title": "Redux 24th Annual Auction",
           "start": "2026-11-06",
           "end": null,
@@ -66,21 +51,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Charleston Literary Festival",
-          "start": "2026-11-07",
-          "end": null,
-          "venue": "Dock Street Theatre, 135 Church St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/charleston-literary-festival-announces-first-slate-of-author/",
-          "description": "Charleston Literary Festival is proud to announce the first wave of authors for its 10th anniversary Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
-          "price": 750.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
           "score": 0.92,
           "tier": "high",
           "recurring": false
@@ -191,6 +161,21 @@
           "recurring": false
         },
         {
+          "title": "Charleston Literary Festival",
+          "start": "2026-11-06",
+          "end": null,
+          "venue": "Various",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/80-world-class-authors-to-come-to-charleston-for-10th-annual/",
+          "description": "Charleston Literary Festival is thrilled to announce the full lineup of authors and programming for its 10th Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.704,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Good Cop / Rad Cop",
           "start": "2026-11-06T20:00:00",
           "end": null,
@@ -198,6 +183,21 @@
           "neighborhood": "North Charleston",
           "url": "https://www.witsendcharleston.com/calendar",
           "description": "Good Cop/ Rad Cop (Netflix, Netflix is a Joke Festival, Moontower Comedy Fest) is a high-energy comedy duo from Atlanta, Georgia. With fast banter and barn-burning performances, they leave audiences on their feet singing and laughing.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.704,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Charleston Literary Festival",
+          "start": "2026-11-07",
+          "end": null,
+          "venue": "Various",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/80-world-class-authors-to-come-to-charleston-for-10th-annual/",
+          "description": "Charleston Literary Festival is thrilled to announce the full lineup of authors and programming for its 10th Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
@@ -493,21 +493,6 @@
       ],
       "overflow": [
         {
-          "title": "Charleston Literary Festival",
-          "start": "2026-11-08",
-          "end": null,
-          "venue": "Dock Street Theatre, 135 Church St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/charleston-literary-festival-announces-first-slate-of-author/",
-          "description": "Charleston Literary Festival is proud to announce the first wave of authors for its 10th anniversary Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
-          "price": 750.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
           "title": "Teacher Fest",
           "start": "2026-11-07T12:00:00",
           "end": null,
@@ -519,6 +504,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.787,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Charleston Literary Festival",
+          "start": "2026-11-08",
+          "end": null,
+          "venue": "Various",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/80-world-class-authors-to-come-to-charleston-for-10th-annual/",
+          "description": "Charleston Literary Festival is thrilled to announce the full lineup of authors and programming for its 10th Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.704,
           "tier": "medium",
           "recurring": false
         },
@@ -871,6 +871,21 @@
           "recurring": true
         },
         {
+          "title": "Bluegrass Harvest Farmers Market",
+          "start": "2026-11-08T11:00:00",
+          "end": null,
+          "venue": "Commonhouse Aleworks, 4831 O'Hear Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Join us for our monthly Bluegrass Harvest Farmers Market at Commonhouse Aleworks in the heart of Park Circle! Shop local, grab a cold beer, dig into brunch, and kick back to live bluegrass.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.587,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
           "title": "Sunday Figure Drawing",
           "start": "2026-11-08T17:00:00",
           "end": null,
@@ -911,21 +926,6 @@
       "overflow": [],
       "weekdays": [
         {
-          "title": "Charleston Literary Festival",
-          "start": "2026-11-09",
-          "end": null,
-          "venue": "Dock Street Theatre, 135 Church St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/charleston-literary-festival-announces-first-slate-of-author/",
-          "description": "Charleston Literary Festival is proud to announce the first wave of authors for its 10th anniversary Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
-          "price": 750.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_festival",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Jim Henson\u2019s Labyrinth: In Concert 40th Anniversary",
           "start": "2026-11-09T20:00:00",
           "end": null,
@@ -942,16 +942,31 @@
         },
         {
           "title": "Charleston Literary Festival",
-          "start": "2026-11-10",
+          "start": "2026-11-09",
           "end": null,
-          "venue": "Dock Street Theatre, 135 Church St, Charleston, SC",
+          "venue": "Various",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/charleston-literary-festival-announces-first-slate-of-author/",
-          "description": "Charleston Literary Festival is proud to announce the first wave of authors for its 10th anniversary Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
-          "price": 750.0,
+          "url": "https://holycitysinner.com/entertainment/80-world-class-authors-to-come-to-charleston-for-10th-annual/",
+          "description": "Charleston Literary Festival is thrilled to announce the full lineup of authors and programming for its 10th Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
-          "score": 0.506,
+          "score": 0.387,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Charleston Literary Festival",
+          "start": "2026-11-10",
+          "end": null,
+          "venue": "Various",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/80-world-class-authors-to-come-to-charleston-for-10th-annual/",
+          "description": "Charleston Literary Festival is thrilled to announce the full lineup of authors and programming for its 10th Festival, to be held November 6-15 at the historic Dock Street Theatre in downtown Charleston.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.387,
           "tier": "low",
           "recurring": false
         },
