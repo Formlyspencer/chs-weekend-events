@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-09 06:06 AM EST",
+  "fetched_at": "2026-11-09 05:08 PM EST",
   "counts": {
     "raw": 175,
-    "scored": 70,
-    "this_weekend": 0,
-    "next_weekend": 12
+    "scored": 68,
+    "this_weekend": 12,
+    "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=70",
+    "input_count=68",
     "pre_dup_group venue=various date=2026-11-12: ['Charleston Literary Festival@2026-11-12|src=Holy City Sinner', 'Night Out With F&W@2026-11-12|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-12: ['Broken Compass Bluegrass Band@2026-11-12 18:00:00|src=Holy City Sinner', 'Bearly Dead@2026-11-12 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-11-13: ['Charleston Literary Festival@2026-11-13|src=Holy City Sinner', 'Food & Wine Classic in Charleston@2026-11-13|src=Holy City Sinner']",
@@ -16,22 +16,12 @@
     "survivor venue=charleston pour house date=2026-11-12: ['Broken Compass Bluegrass Band@2026-11-12 18:00:00', 'Bearly Dead@2026-11-12 20:30:00']",
     "survivor venue=various date=2026-11-13: ['Charleston Literary Festival@2026-11-13', 'Food & Wine Classic in Charleston@2026-11-13']",
     "survivor venue=various date=2026-11-14: ['Charleston Literary Festival@2026-11-14', 'Food & Wine Classic in Charleston@2026-11-14']",
-    "output_count=70"
+    "output_count=68"
   ],
   "buckets": {
-    "today": "2026-11-08",
-    "show_last_weekend": false,
+    "today": "2026-11-09",
+    "show_last_weekend": true,
     "this_weekend": {
-      "range": [
-        "2026-11-06",
-        "2026-11-08"
-      ],
-      "events": [],
-      "overflow": [],
-      "weekdays": [],
-      "recurring": []
-    },
-    "next_weekend": {
       "range": [
         "2026-11-13",
         "2026-11-15"
@@ -188,17 +178,17 @@
           "recurring": false
         },
         {
-          "title": "Grounded in Grain, Washed in the Water",
-          "start": "2026-11-14T11:00:00",
+          "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
+          "start": "2026-11-14T10:00:00",
           "end": null,
-          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
-          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
-          "price": 0.0,
+          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-presents-interdisciplinarian-by-glory-day/",
+          "description": "Meyer Vogl Gallery will present \u201cINTERDISCIPLINARIAN,\u201d a solo exhibition by Greenville-based artist Glory Day, opening Friday, Nov. 6, and remaining on view through Nov. 30.\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.35,
+          "score": 0.313,
           "tier": "low",
           "recurring": false
         },
@@ -247,21 +237,6 @@
           "category": "outdoor_festival",
           "score": 0.704,
           "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
-          "start": "2026-11-14T10:00:00",
-          "end": null,
-          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-presents-interdisciplinarian-by-glory-day/",
-          "description": "Meyer Vogl Gallery will present \u201cINTERDISCIPLINARIAN,\u201d a solo exhibition by Greenville-based artist Glory Day, opening Friday, Nov. 6, and remaining on view through Nov. 30.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.313,
-          "tier": "low",
           "recurring": false
         },
         {
@@ -507,21 +482,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-11-12T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Broken Compass Bluegrass Band",
           "start": "2026-11-12T18:00:00",
           "end": null,
@@ -735,10 +695,51 @@
         }
       ]
     },
+    "next_weekend": {
+      "range": [
+        "2026-11-20",
+        "2026-11-22"
+      ],
+      "events": [],
+      "overflow": [],
+      "weekdays": [],
+      "recurring": [
+        {
+          "title": "Pour House Farmers Market",
+          "start": "2026-11-22T11:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.684,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Downtown Charleston Farmers Market",
+          "start": "2026-11-21T08:00:00",
+          "end": null,
+          "venue": "Marion Square, 329 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/Charleston-Farmers-Market-37",
+          "description": "Charleston's flagship downtown farmers market at Marion Square. Local produce, prepared foods, makers, and live music. Saturdays April through November.",
+          "price": 0.0,
+          "source": "Manual",
+          "category": "farmers_market",
+          "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        }
+      ]
+    },
     "last_weekend": {
       "range": [
-        "2026-10-30",
-        "2026-11-01"
+        "2026-11-06",
+        "2026-11-08"
       ],
       "events": [],
       "overflow": [],
