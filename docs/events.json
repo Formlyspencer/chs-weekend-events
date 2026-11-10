@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-09 05:08 PM EST",
+  "fetched_at": "2026-11-10 01:38 AM EST",
   "counts": {
-    "raw": 175,
+    "raw": 176,
     "scored": 68,
-    "this_weekend": 12,
+    "this_weekend": 16,
     "next_weekend": 0
   },
   "dedup_log": [
@@ -19,7 +19,7 @@
     "output_count=68"
   ],
   "buckets": {
-    "today": "2026-11-09",
+    "today": "2026-11-10",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -88,6 +88,21 @@
           "recurring": false
         },
         {
+          "title": "2nd Annual Shakedown Jam: A Park Circle Block Party",
+          "start": "2026-11-14T12:00:00",
+          "end": null,
+          "venue": "Commonhouse Aleworks, 4831 O'Hear Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/shakedown-jam-returns-for-its-2nd-annual-park-circle-block-p/",
+          "description": "Shakedown Jam is back for its 2nd Annual Park Circle Block Party on Saturday, November 14th from 12-5pm.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "Holiday Festival of Lights",
           "start": "2026-11-13T17:30:00",
           "end": null,
@@ -99,6 +114,36 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.864,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Holiday Festival of Lights",
+          "start": "2026-11-14T17:30:00",
+          "end": null,
+          "venue": "James Island County Park, 871 Riverland Dr, Charleston, SC",
+          "neighborhood": "James Island",
+          "url": "https://holycitysinner.com/entertainment/the-holiday-festival-of-lights-opens-nov-13-at-james-island-/",
+          "description": "The Holiday Festival of Lights at James Island County Park officially opens on Nov. 13. The Lowcountry\u2019s beloved holiday light show will be open nightly 5:30 \u2013 10 p.m. through Dec. 31, 2026.\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.864,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Celtic Day",
+          "start": "2026-11-14T12:00:00",
+          "end": null,
+          "venue": "Cannon Distillery, 1750 Signal Point Rd., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.cannondistillerychs.com/event-details/celtic-day",
+          "description": "Join us Saturday, November 14th from 12PM to 10PM for Lowcountry Celtic Arts Day at Cannon Distillery ( 1734 Signal Point Rd, Charleston, SC ), a day-long celebration of Scottish and Irish music, dance, and craft on the water.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.83,
           "tier": "high",
           "recurring": false
         },
@@ -163,6 +208,21 @@
           "recurring": false
         },
         {
+          "title": "The Poho Pop Up Market",
+          "start": "2026-11-14T11:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "The Poho Pop Up Market Saturday 9.19.26 11.14.26 and 12.12.26 Charleston Pour House Back Lot 11am-4pm (Free) The Poho Night Market Sat. 10.17.26 5-9pm (Free)",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.479,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "\u201cFragments\u201d",
           "start": "2026-11-14T10:00:00",
           "end": null,
@@ -178,17 +238,17 @@
           "recurring": false
         },
         {
-          "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
-          "start": "2026-11-14T10:00:00",
+          "title": "Grounded in Grain, Washed in the Water",
+          "start": "2026-11-14T11:00:00",
           "end": null,
-          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-presents-interdisciplinarian-by-glory-day/",
-          "description": "Meyer Vogl Gallery will present \u201cINTERDISCIPLINARIAN,\u201d a solo exhibition by Greenville-based artist Glory Day, opening Friday, Nov. 6, and remaining on view through Nov. 30.\u2026",
-          "price": null,
+          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
+          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.313,
+          "score": 0.35,
           "tier": "low",
           "recurring": false
         },
@@ -237,6 +297,36 @@
           "category": "outdoor_festival",
           "score": 0.704,
           "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "Concurrent Exhibitions of Oil Paintings by Wesley Israel and Liza Valero (Opening Reception)",
+          "start": "2026-11-14T12:00:00",
+          "end": null,
+          "venue": "Park Circle Gallery, 4820 Jenkins Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/entertainment/park-circle-gallery-to-exhibit-works-by-wesley-israel-and-li/",
+          "description": "The City of North Charleston\u2019s Cultural Arts Department is pleased to announce that concurrent exhibitions of oil paintings by Wesley Israel (Charleston, SC) and Liza Valero (Charleston, SC) will be on display at Park Circle Gallery from November 4-28, 2026.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
+          "start": "2026-11-14T10:00:00",
+          "end": null,
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-presents-interdisciplinarian-by-glory-day/",
+          "description": "Meyer Vogl Gallery will present \u201cINTERDISCIPLINARIAN,\u201d a solo exhibition by Greenville-based artist Glory Day, opening Friday, Nov. 6, and remaining on view through Nov. 30.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
           "recurring": false
         },
         {
@@ -392,21 +482,6 @@
           "recurring": false
         },
         {
-          "title": "Jim Henson\u2019s Labyrinth: In Concert 40th Anniversary",
-          "start": "2026-11-09T20:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/jim-hensons-labyrinth-in-concert-40th-anniversary/",
-          "description": "The magic dance continues. On the heels of a successful global tour to nearly 100 cities, Jim Henson\u2019s Labyrinth: In Concert returns in fall 2026 to visit more than 60 North America cities.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "City Lights Nights",
           "start": "2026-11-12T17:00:00",
           "end": null,
@@ -527,21 +602,6 @@
           "recurring": true
         },
         {
-          "title": "Seafood Tower Hour",
-          "start": "2026-11-09T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Runaway Gin (recreates Phish 11.10.91 35 years later)",
           "start": "2026-11-10T20:00:00",
           "end": null,
@@ -549,6 +609,21 @@
           "neighborhood": "Charleston",
           "url": "https://musicfarm.com/event/runaway-gin",
           "description": "With over 555 shows performed since its inception in 2014, Runaway Gin is the World\u2019s Most Notable Phish Tribute Project . They have been voted the Best Phish Tribute in the World two years in a row and 2022 Charleston Jam Band of the Year .\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.301,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "UB40",
+          "start": "2026-11-10T20:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://charlestonmusichall.com/event/ub40/",
+          "description": "UB40 is one of the most successful and influential British groups of all time, with more than 100 million albums sold, and more than 50 charting singles in the UK, including their trademark global #1 hits \u201cRed Red Wine\u201d and \u201c(I Can\u2019t Help) Falling in Love With You\u201d; and U.S.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -645,6 +720,21 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.655,
+          "tier": "medium",
+          "recurring": true
+        },
+        {
+          "title": "Folly Beach Farmer's Market",
+          "start": "2026-11-14T12:00:00",
+          "end": null,
+          "venue": "1630 Folly Road, Charleston, SC",
+          "neighborhood": "Folly",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.637,
           "tier": "medium",
           "recurring": true
         },
