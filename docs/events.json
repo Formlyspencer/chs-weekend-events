@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-10 11:53 AM EST",
+  "fetched_at": "2026-11-10 05:59 PM EST",
   "counts": {
-    "raw": 187,
-    "scored": 73,
-    "this_weekend": 16,
+    "raw": 189,
+    "scored": 76,
+    "this_weekend": 18,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=73",
+    "input_count=76",
     "pre_dup_group venue=various date=2026-11-12: ['Charleston Literary Festival@2026-11-12|src=Holy City Sinner', 'Night Out With F&W@2026-11-12|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-12: ['Broken Compass Bluegrass Band@2026-11-12 18:00:00|src=Holy City Sinner', 'Bearly Dead@2026-11-12 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-11-13: ['Charleston Literary Festival@2026-11-13|src=Holy City Sinner', 'Food & Wine Classic in Charleston@2026-11-13|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=charleston pour house date=2026-11-12: ['Broken Compass Bluegrass Band@2026-11-12 18:00:00', 'Bearly Dead@2026-11-12 20:30:00']",
     "survivor venue=various date=2026-11-13: ['Charleston Literary Festival@2026-11-13', 'Food & Wine Classic in Charleston@2026-11-13']",
     "survivor venue=various date=2026-11-14: ['Charleston Literary Festival@2026-11-14', 'Food & Wine Classic in Charleston@2026-11-14']",
-    "output_count=73"
+    "output_count=76"
   ],
   "buckets": {
     "today": "2026-11-10",
@@ -133,6 +133,21 @@
           "recurring": false
         },
         {
+          "title": "Holiday Kick-Off",
+          "start": "2026-11-14T10:00:00",
+          "end": null,
+          "venue": "2750 Bulrush Basket Ln., Mount Pleasant, SC",
+          "neighborhood": "Mount Pleasant",
+          "url": "https://www.eventbrite.com/e/3-events-in-1-day-tickets-2003524052374",
+          "description": "Come enjoy three events in one day! Holiday Kick-Off: Community Garden, Holiday Pop-Up Shop, & Annual Oyster Roast L.E.E.L.\u2026",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.78,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "The Charleston Classic",
           "start": "2026-11-13T17:00:00",
           "end": null,
@@ -144,21 +159,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.734,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Holiday Festival of Lights Oyster Roast - Benefiting the Charleston County Parks Foundation",
-          "start": "2026-11-14T17:30:00",
-          "end": null,
-          "venue": "James Island County Park, 871 Riverland Dr, Charleston, SC",
-          "neighborhood": "James Island",
-          "url": "https://secure.qgiv.com/for/charlestoncountyparksfoundation/event/oysterroast2026/",
-          "description": "Holiday Festival of Lights Oyster Roast - Benefiting the Charleston County Parks Foundation Featuring live music from the Rosemead Ramblers Saturday, November 14, 2026 - 5:30pm - 8:00pm James Island County Park - Wando Shelter $65 or MORE Advanced ticket purchase required, no ons\u2026",
-          "price": 65.0,
-          "source": "Holy City Sinner",
-          "category": "food_festival",
-          "score": 0.72,
           "tier": "medium",
           "recurring": false
         },
@@ -208,6 +208,21 @@
           "recurring": false
         },
         {
+          "title": "VYNL on the inside stage",
+          "start": "2026-11-13T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$10 November 13, 2026 Doors at 9:00 pm. Show at 9:30 pm. 21Up Artist Website https://www.instagram.com/vynl_chs/",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "The Poho Pop Up Market",
           "start": "2026-11-14T11:00:00",
           "end": null,
@@ -215,6 +230,21 @@
           "neighborhood": "James Island",
           "url": "https://charlestonpourhouse.com/",
           "description": "The Poho Pop Up Market Saturday 9.19.26 11.14.26 and 12.12.26 Charleston Pour House Back Lot 11am-4pm (Free) The Poho Night Market Sat. 10.17.26 5-9pm (Free)",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.479,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Dave Landeo Band on N\u00dcTRL Beach Stage, 1-4PM",
+          "start": "2026-11-14T13:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "FREE November 14, 2026 Doors and show both at 1:00 pm All Ages https://www.davidlandeo.com/ Born And Raised In Nashville, Tennessee, Lived In The Smoky Mountain Area Of Knoxville, Dave Now Resides In The Lowcountry Of Charleston, South Carolina.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -572,21 +602,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-11-12T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Broken Compass Bluegrass Band",
           "start": "2026-11-12T18:00:00",
           "end": null,
@@ -722,6 +737,21 @@
           "recurring": false
         },
         {
+          "title": "LINE DANCING with Loren",
+          "start": "2026-11-10T18:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "LINE DANCING with Loren (Every Tuesday) FREE August 11, 2026 Doors at 6:00 pm 21 Up or with their Parent",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.263,
+          "tier": "low",
+          "recurring": true
+        },
+        {
           "title": "\u201cFragments\u201d",
           "start": "2026-11-12T10:00:00",
           "end": null,
@@ -750,6 +780,21 @@
           "score": 0.262,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke Night",
+          "start": "2026-11-11T20:00:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.236,
+          "tier": "low",
+          "recurring": true
         }
       ],
       "recurring": [
