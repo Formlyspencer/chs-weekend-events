@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-11 12:25 AM EST",
+  "fetched_at": "2026-11-11 08:49 AM EST",
   "counts": {
-    "raw": 185,
-    "scored": 72,
+    "raw": 197,
+    "scored": 75,
     "this_weekend": 23,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=72",
+    "input_count=75",
     "pre_dup_group venue=various date=2026-11-12: ['Charleston Literary Festival@2026-11-12|src=Holy City Sinner', 'Night Out With F&W@2026-11-12|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-12: ['Broken Compass Bluegrass Band@2026-11-12 18:00:00|src=Holy City Sinner', 'Bearly Dead@2026-11-12 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-11-13: ['Charleston Literary Festival@2026-11-13|src=Holy City Sinner', 'Food & Wine Classic in Charleston@2026-11-13|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=various date=2026-11-13: ['Charleston Literary Festival@2026-11-13', 'Food & Wine Classic in Charleston@2026-11-13']",
     "survivor venue=various date=2026-11-14: ['Charleston Literary Festival@2026-11-14', 'Food & Wine Classic in Charleston@2026-11-14']",
     "survivor venue=the windjammer date=2026-11-14: ['Dave Landeo Band on N\u00dcTRL Beach Sta@2026-11-14 13:00:00', 'John Morgan w/ Chris Ryan on the in@2026-11-14 22:00:00']",
-    "output_count=72"
+    "output_count=75"
   ],
   "buckets": {
     "today": "2026-11-11",
@@ -604,6 +604,21 @@
           "recurring": false
         },
         {
+          "title": "2nd Annual Shakedown Jam: A Park Circle Block Party",
+          "start": "2026-11-11",
+          "end": null,
+          "venue": "Commonhouse Aleworks, North Charleston",
+          "neighborhood": "North Charleston",
+          "url": "https://link.6amcity.com/click/48328706.25554/aHR0cHM6Ly93aGF0c2dvaW5nb25pbmNoYXJsZXN0b24ubmV0L2V2ZW50LzJuZC1hbm51YWwtc2hha2Vkb3duLWphbS1hLXBhcmstY2lyY2xlLWJsb2NrLXBhcnR5Lz91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheQ/62f733efd173ab15f0e89340B8aa3bdbf",
+          "description": "12-5 p.m. \u00b7 Commonhouse Aleworks, North Charleston \u00b7 Free",
+          "price": 0.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_festival",
+          "score": 0.506,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "City Lights Nights",
           "start": "2026-11-12T17:00:00",
           "end": null,
@@ -709,6 +724,21 @@
           "recurring": true
         },
         {
+          "title": "The Wrecks - Finally : OUTSIDE Tour",
+          "start": "2026-11-11",
+          "end": null,
+          "venue": "Music Farm - Charleston",
+          "neighborhood": "Charleston",
+          "url": "https://link.6amcity.com/click/48328706.25554/aHR0cHM6Ly93d3cubGl2ZW5hdGlvbi5jb20vZXZlbnQvRzVlVlpfdTFPb3FNYS90aGUtd3JlY2tzLWZpbmFsbHktb3V0c2lkZS10b3VyP3V0bV9zb3VyY2U9Y2hzdG9kYXkmdXRtX21lZGl1bT1uZXdzbGV0dGVyJnV0bV90ZXJtPWNoc3RvZGF5JnV0bV9jYW1wYWlnbj1kYWlseS1uZXdzbGV0dGVyJnV0bV9jb250ZW50PWNoc3RvZGF5/62f733efd173ab15f0e89340Bf6ed0a81",
+          "description": "8 p.m. \u00b7 Music Farm - Charleston \u00b7 $28+ Saturday, November 14",
+          "price": 28.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_music",
+          "score": 0.319,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Hot Mulligan",
           "start": "2026-11-11T19:00:00",
           "end": null,
@@ -750,6 +780,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.301,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Broken Compass Bluegrass",
+          "start": "2026-11-11",
+          "end": null,
+          "venue": "Charleston Pour House \u2013 Deck / Main Stage",
+          "neighborhood": "Charleston",
+          "url": "https://link.6amcity.com/click/48328706.25554/aHR0cHM6Ly9jaGFybGVzdG9ucG91cmhvdXNlLmNvbS9ldmVudC9icm9rZW4tY29tcGFzcy1ibHVlZ3Jhc3MvP3V0bV9zb3VyY2U9Y2hzdG9kYXkmdXRtX21lZGl1bT1uZXdzbGV0dGVyJnV0bV90ZXJtPWNoc3RvZGF5JnV0bV9jYW1wYWlnbj1kYWlseS1uZXdzbGV0dGVyJnV0bV9jb250ZW50PWNoc3RvZGF5/62f733efd173ab15f0e89340B7ffd80c1",
+          "description": "6-9 p.m. \u00b7 Charleston Pour House \u2013 Deck / Main Stage \u00b7 $15",
+          "price": 15.0,
+          "source": "CHStoday (newsletter)",
+          "category": "outdoor_music",
+          "score": 0.266,
           "tier": "low",
           "recurring": false
         },
@@ -836,7 +881,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
