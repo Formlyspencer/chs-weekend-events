@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-12 12:26 PM EST",
+  "fetched_at": "2026-11-12 06:21 PM EST",
   "counts": {
     "raw": 215,
-    "scored": 82,
-    "this_weekend": 29,
+    "scored": 80,
+    "this_weekend": 27,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=82",
+    "input_count=80",
     "pre_dup_group venue=various date=2026-11-12: ['Charleston Literary Festival@2026-11-12|src=Holy City Sinner', 'Night Out With F&W@2026-11-12|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-11-13: ['Charleston Literary Festival@2026-11-13|src=Holy City Sinner', 'Food & Wine Classic in Charleston@2026-11-13|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-11-14: ['Charleston Literary Festival@2026-11-14|src=Holy City Sinner', 'Food & Wine Classic in Charleston@2026-11-14|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=various date=2026-11-14: ['Charleston Literary Festival@2026-11-14', 'Food & Wine Classic in Charleston@2026-11-14']",
     "survivor venue=the windjammer date=2026-11-14: ['Dave Landeo Band on N\u00dcTRL Beach Sta@2026-11-14 13:00:00', 'John Morgan w/ Chris Ryan on the in@2026-11-14 22:00:00']",
     "survivor venue=various date=2026-11-15: ['Charleston Literary Festival@2026-11-15', 'Food & Wine Classic in Charleston@2026-11-15']",
-    "output_count=82"
+    "output_count=80"
   ],
   "buckets": {
     "today": "2026-11-12",
@@ -315,21 +315,6 @@
           "recurring": false
         },
         {
-          "title": "Brad Williams",
-          "start": "2026-11-15T19:00:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/brad-williams/",
-          "description": "Pound for pound, Brad Williams is the funniest comedian in the country right now, and has become one of the most in-demand comedians working today.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Natalie\u00a0Brooke",
           "start": "2026-11-13T18:00:00",
           "end": null,
@@ -397,21 +382,6 @@
           "neighborhood": "North Charleston",
           "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Travis Tritt Saturday, November 14 North Charleston Performing Arts Center Travis Tritt is an American country singer-songwriter known for blending mainstream country with Southern rock.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.411,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "South Carolina Stingrays Home Game",
-          "start": "2026-11-15T18:05:00",
-          "end": null,
-          "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/sports/stingrays-announces-2025-26-regular-season-schedule/",
-          "description": "The South Carolina Stingrays, ECHL affiliate of the NHL\u2019s Washington Capitals and AHL\u2019s Hershey Bears, have announced a change to their 2025-26 home schedule.\u2026",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
@@ -849,7 +819,7 @@
           "end": null,
           "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
           "description": "Karaoke every Thursday from 6-9 p.m.",
           "price": null,
           "source": "Holy City Sinner",
@@ -971,7 +941,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://www.instagram.com/follybeachfarmersmarket/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
