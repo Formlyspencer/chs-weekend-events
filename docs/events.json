@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-14 02:48 PM EST",
+  "fetched_at": "2026-11-14 07:53 PM EST",
   "counts": {
-    "raw": 203,
-    "scored": 80,
+    "raw": 191,
+    "scored": 76,
     "this_weekend": 28,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=80",
+    "input_count=76",
     "pre_dup_group venue=charleston pour house date=2026-11-15: ['Pour House Farmers Market@2026-11-15 11:00:00|src=Manual', 'Deer Tick@2026-11-15 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=various date=2026-11-14: ['Charleston Literary Festival@2026-11-14|src=Holy City Sinner', 'Food & Wine Classic in Charleston@2026-11-14|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-11-14: ['Dave Landeo Band on N\u00dcTRL Beach Sta@2026-11-14 13:00:00|src=Holy City Sinner', 'John Morgan w/ Chris Ryan on the in@2026-11-14 22:00:00|src=Holy City Sinner']",
@@ -18,7 +18,7 @@
     "survivor venue=the windjammer date=2026-11-14: ['Dave Landeo Band on N\u00dcTRL Beach Sta@2026-11-14 13:00:00', 'John Morgan w/ Chris Ryan on the in@2026-11-14 22:00:00']",
     "survivor venue=various date=2026-11-15: ['Charleston Literary Festival@2026-11-15', 'Food & Wine Classic in Charleston@2026-11-15']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-11-17: ['Grounded in Grain, Washed in the Wa@2026-11-17 11:00:00', 'Charleston Porch Talks with Bethany@2026-11-17 18:30:00']",
-    "output_count=80"
+    "output_count=76"
   ],
   "buckets": {
     "today": "2026-11-14",
@@ -545,6 +545,21 @@
       "weekdays": [],
       "recurring": [
         {
+          "title": "Charleston Farmers Market",
+          "start": "2026-11-14T08:00:00",
+          "end": null,
+          "venue": "Marion Square",
+          "neighborhood": "Charleston",
+          "url": "https://charlestonfarmersmarket.com/",
+          "description": "MARION SQUARE 329 Meeting Street, Charleston, SC 29403 Saturdays, 8:00 AM \u2013 2:00 PM April 4 \u2013 November 21, 2026 *CLOSED: July 4th & November 28th Additional Markets: (9:00 AM \u2013 3:00 PM) Sunday, May 31st Saturdays & Sundays, Dec.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": true
+        },
+        {
           "title": "Oyster Roast",
           "start": "2026-11-15T13:00:00",
           "end": null,
@@ -571,21 +586,6 @@
           "source": "Manual",
           "category": "farmers_market",
           "score": 0.684,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Downtown Charleston Farmers Market",
-          "start": "2026-11-14T08:00:00",
-          "end": null,
-          "venue": "Marion Square, 329 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/Charleston-Farmers-Market-37",
-          "description": "Charleston's flagship downtown farmers market at Marion Square. Local produce, prepared foods, makers, and live music. Saturdays April through November.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.655,
           "tier": "medium",
           "recurring": true
         },
@@ -900,21 +900,6 @@
           "recurring": false
         },
         {
-          "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
-          "start": "2026-11-19T10:00:00",
-          "end": null,
-          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-presents-interdisciplinarian-by-glory-day/",
-          "description": "Meyer Vogl Gallery will present \u201cINTERDISCIPLINARIAN,\u201d a solo exhibition by Greenville-based artist Glory Day, opening Friday, Nov. 6, and remaining on view through Nov. 30.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.235,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "The Bodyguard",
           "start": "2026-11-17T19:30:00",
           "end": null,
@@ -941,6 +926,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.226,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\u201cFragments\u201d",
+          "start": "2026-11-16T10:00:00",
+          "end": null,
+          "venue": "Michael Mitchell, 414 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/kevin-paulsen-david-wiggins-collaborate-on-%E2%80%98fragments%E2%80%99-exhib/",
+          "description": "\u201cFragments\u201d marks a rare collaborative exhibition from artists and longtime friends Kevin Paulsen and David Wiggins. Rooted in the rich history of early American itinerant painters, this curated show expands on traditional folk art in a distinctly timeless manner.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.192,
           "tier": "low",
           "recurring": false
         }
