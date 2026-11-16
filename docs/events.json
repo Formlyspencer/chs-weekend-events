@@ -1,24 +1,22 @@
 {
-  "fetched_at": "2026-11-15 01:38 PM EST",
+  "fetched_at": "2026-11-15 07:51 PM EST",
   "counts": {
-    "raw": 196,
-    "scored": 81,
-    "this_weekend": 16,
+    "raw": 180,
+    "scored": 76,
+    "this_weekend": 12,
     "next_weekend": 8
   },
   "dedup_log": [
-    "input_count=81",
-    "pre_dup_group venue=charleston pour house date=2026-11-15: ['Pour House Farmers Market@2026-11-15 11:00:00|src=Manual', 'Deer Tick@2026-11-15 20:30:00|src=Holy City Sinner']",
+    "input_count=76",
     "pre_dup_group venue=various date=2026-11-15: ['Charleston Literary Festival@2026-11-15|src=Holy City Sinner', 'Food & Wine Classic in Charleston@2026-11-15|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-11-17: ['Grounded in Grain, Washed in the Wa@2026-11-17 11:00:00|src=Holy City Sinner', 'Charleston Porch Talks with Bethany@2026-11-17 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-11-19: ['Grounded in Grain, Washed in the Wa@2026-11-19 11:00:00|src=Holy City Sinner', 'Yelp Carb Comeback Finale at the Ha@2026-11-19 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=snafu brewing company date=2026-11-20: ['Thanksgiving To-Go Special@2026-11-20 12:00:00|src=Holy City Sinner', 'Harry Potter Trivia@2026-11-20 19:00:00|src=Holy City Sinner']",
-    "survivor venue=charleston pour house date=2026-11-15: ['Pour House Farmers Market@2026-11-15 11:00:00', 'Deer Tick@2026-11-15 20:30:00']",
     "survivor venue=various date=2026-11-15: ['Charleston Literary Festival@2026-11-15', 'Food & Wine Classic in Charleston@2026-11-15']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-11-17: ['Grounded in Grain, Washed in the Wa@2026-11-17 11:00:00', 'Charleston Porch Talks with Bethany@2026-11-17 18:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-11-19: ['Grounded in Grain, Washed in the Wa@2026-11-19 11:00:00', 'Yelp Carb Comeback Finale at the Ha@2026-11-19 18:00:00']",
     "survivor venue=snafu brewing company date=2026-11-20: ['Thanksgiving To-Go Special@2026-11-20 12:00:00', 'Harry Potter Trivia@2026-11-20 19:00:00']",
-    "output_count=81"
+    "output_count=76"
   ],
   "buckets": {
     "today": "2026-11-15",
@@ -29,21 +27,6 @@
         "2026-11-15"
       ],
       "events": [
-        {
-          "title": "2nd Annual Shakedown Jam: A Park Circle Block Party",
-          "start": "2026-11-13",
-          "end": null,
-          "venue": "Commonhouse Aleworks, North Charleston",
-          "neighborhood": "North Charleston",
-          "url": "https://link.6amcity.com/click/48408375.1624/aHR0cHM6Ly93aGF0c2dvaW5nb25pbmNoYXJsZXN0b24ubmV0L2V2ZW50LzJuZC1hbm51YWwtc2hha2Vkb3duLWphbS1hLXBhcmstY2lyY2xlLWJsb2NrLXBhcnR5Lz91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheQ/62f733efd173ab15f0e89340Bce714920",
-          "description": "12-5 p.m. \u00b7 Commonhouse Aleworks, North Charleston \u00b7 Free",
-          "price": 0.0,
-          "source": "CHStoday (newsletter)",
-          "category": "outdoor_festival",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
         {
           "title": "Food & Wine Classic in Charleston",
           "start": "2026-11-15",
@@ -150,21 +133,6 @@
           "recurring": false
         },
         {
-          "title": "Forge Your Own w/ Angry Giant Forge at Two Blokes Brewing",
-          "start": "2026-11-13",
-          "end": null,
-          "venue": "Two Blokes Brewing \u2014 Mount Pleasant",
-          "neighborhood": "Mount Pleasant",
-          "url": null,
-          "description": "12-5 p.m. \u00b7 Two Blokes Brewing \u2014 Mount Pleasant \u00b7 $55.20",
-          "price": 55.2,
-          "source": "CHStoday (newsletter)",
-          "category": "brewery_event",
-          "score": 0.556,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Brad Williams",
           "start": "2026-11-15T19:00:00",
           "end": null,
@@ -176,36 +144,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.547,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Natalie Brooke",
-          "start": "2026-11-13",
-          "end": null,
-          "venue": "Charleston Pour House \u2013 Deck / Main Stage",
-          "neighborhood": "Charleston",
-          "url": "https://link.6amcity.com/click/48408375.1624/aHR0cHM6Ly9jaGFybGVzdG9ucG91cmhvdXNlLmNvbS9ldmVudC9uYXRsaWUtYnJvb2tlLz91dG1fc291cmNlPWNoc3RvZGF5JnV0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fdGVybT1jaHN0b2RheSZ1dG1fY2FtcGFpZ249ZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD1jaHN0b2RheQ/62f733efd173ab15f0e89340B597fdf36",
-          "description": "6-9 p.m. \u00b7 Charleston Pour House \u2013 Deck / Main Stage \u00b7 $12+ Saturday, November 14",
-          "price": 12.0,
-          "source": "CHStoday (newsletter)",
-          "category": "outdoor_music",
-          "score": 0.483,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Brad Williams: The Tall Tales Tour",
-          "start": "2026-11-13",
-          "end": null,
-          "venue": "Charleston Music Hall",
-          "neighborhood": "Charleston",
-          "url": "https://link.6amcity.com/click/48408375.1624/aHR0cHM6Ly93d3cubGl2ZW5hdGlvbi5jb20vZXZlbnQvRzVlVlpfN1FMTUhGci9icmFkLXdpbGxpYW1zLXRoZS10YWxsLXRhbGVzLXRvdXI_dXRtX3NvdXJjZT1jaHN0b2RheSZ1dG1fbWVkaXVtPW5ld3NsZXR0ZXImdXRtX3Rlcm09Y2hzdG9kYXkmdXRtX2NhbXBhaWduPWRhaWx5LW5ld3NsZXR0ZXImdXRtX2NvbnRlbnQ9Y2hzdG9kYXk/62f733efd173ab15f0e89340Bc093ed32",
-          "description": "7 p.m. \u00b7 Charleston Music Hall \u00b7 $47+ Monday, November 16",
-          "price": 47.0,
-          "source": "CHStoday (newsletter)",
-          "category": "outdoor_music",
-          "score": 0.483,
           "tier": "low",
           "recurring": false
         },
@@ -285,21 +223,6 @@
           "source": "Holy City Sinner",
           "category": "food_festival",
           "score": 0.72,
-          "tier": "medium",
-          "recurring": true
-        },
-        {
-          "title": "Pour House Farmers Market",
-          "start": "2026-11-15T11:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Weekly Sunday farmers + makers market at the Pour House on James Island. Brunch service running alongside the market.",
-          "price": 0.0,
-          "source": "Manual",
-          "category": "farmers_market",
-          "score": 0.684,
           "tier": "medium",
           "recurring": true
         },
