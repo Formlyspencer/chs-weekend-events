@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-11-17 02:13 AM EST",
+  "fetched_at": "2026-11-17 01:18 PM EST",
   "counts": {
     "raw": 188,
-    "scored": 80,
+    "scored": 85,
     "this_weekend": 21,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=80",
+    "input_count=85",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-11-17: ['Grounded in Grain, Washed in the Wa@2026-11-17 11:00:00|src=Holy City Sinner', 'Charleston Porch Talks with Bethany@2026-11-17 18:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-11-19: ['Grounded in Grain, Washed in the Wa@2026-11-19 11:00:00|src=Holy City Sinner', 'Yelp Carb Comeback Finale at the Ha@2026-11-19 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=snafu brewing company date=2026-11-20: ['Thanksgiving To-Go Special@2026-11-20 12:00:00|src=Holy City Sinner', 'Harry Potter Trivia@2026-11-20 19:00:00|src=Holy City Sinner']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-11-17: ['Grounded in Grain, Washed in the Wa@2026-11-17 11:00:00', 'Charleston Porch Talks with Bethany@2026-11-17 18:30:00']",
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-11-19: ['Grounded in Grain, Washed in the Wa@2026-11-19 11:00:00', 'Yelp Carb Comeback Finale at the Ha@2026-11-19 18:00:00']",
     "survivor venue=snafu brewing company date=2026-11-20: ['Thanksgiving To-Go Special@2026-11-20 12:00:00', 'Harry Potter Trivia@2026-11-20 19:00:00']",
-    "output_count=80"
+    "output_count=85"
   ],
   "buckets": {
     "today": "2026-11-17",
@@ -326,13 +326,13 @@
           "recurring": false
         },
         {
-          "title": "Grounded in Grain, Washed in the Water",
-          "start": "2026-11-21T11:00:00",
+          "title": "Fighting for Freedom: Black Craftspeople and the Pursuit of Independence",
+          "start": "2026-11-21T10:00:00",
           "end": null,
-          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
-          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-fighting-for-freedom-black-cra/",
+          "description": "The Gibbes Museum of Art is pr Fighting for Freedom: Black Craftspeople and the Pursuit of Independence , an exhibition examining the essential yet often overlooked contributions of African American craftspeople to the history of American art, culture and the pursuit of freedom.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -354,6 +354,21 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.52,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Grounded in Grain, Washed in the Water",
+          "start": "2026-11-21T11:00:00",
+          "end": null,
+          "venue": "Halsey Institute of Contemporary Art at the College of Charleston, 161 Calhoun St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/halsey-institute-to-celebrate-opening-of-grounded-in-grain-w/",
+          "description": "Join the Halsey Institute of Contemporary Art for an opening reception celebrating the exhibition Grounded in Grain, Washed in the Water , guest-curated by Lauren Jackson Harris. Meet the artists and curator and enjoy light refreshments in community with contemporary art lovers.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
           "tier": "low",
           "recurring": false
         },
@@ -410,6 +425,21 @@
           "neighborhood": "Charleston",
           "url": "https://holycitysinner.com/entertainment/kevin-paulsen-david-wiggins-collaborate-on-%E2%80%98fragments%E2%80%99-exhib/",
           "description": "\u201cFragments\u201d marks a rare collaborative exhibition from artists and longtime friends Kevin Paulsen and David Wiggins. Rooted in the rich history of early American itinerant painters, this curated show expands on traditional folk art in a distinctly timeless manner.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.297,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Fighting for Freedom: Black Craftspeople and the Pursuit of Independence",
+          "start": "2026-11-20T10:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-fighting-for-freedom-black-cra/",
+          "description": "The Gibbes Museum of Art is pr Fighting for Freedom: Black Craftspeople and the Pursuit of Independence , an exhibition examining the essential yet often overlooked contributions of African American craftspeople to the history of American art, culture and the pursuit of freedom.\u2026",
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "art_event",
@@ -598,6 +628,21 @@
           "score": 0.411,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-11-19T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
+          "tier": "low",
+          "recurring": true
         },
         {
           "title": "A Tribute to Martha Rivers Ingram",
