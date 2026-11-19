@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-19 06:18 AM EST",
+  "fetched_at": "2026-11-19 03:15 PM EST",
   "counts": {
-    "raw": 178,
-    "scored": 80,
+    "raw": 175,
+    "scored": 77,
     "this_weekend": 30,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=80",
+    "input_count=77",
     "pre_dup_group venue=charleston pour house date=2026-11-22: ['Pour House Farmers Market@2026-11-22 11:00:00|src=Manual', 'Gullah Collective@2026-11-22 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-11-19: ['Grounded in Grain, Washed in the Wa@2026-11-19 11:00:00|src=Holy City Sinner', 'Yelp Carb Comeback Finale at the Ha@2026-11-19 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=snafu brewing company date=2026-11-20: ['Thanksgiving To-Go Special@2026-11-20 12:00:00|src=Holy City Sinner', 'Harry Potter Trivia@2026-11-20 19:00:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-11-19: ['Grounded in Grain, Washed in the Wa@2026-11-19 11:00:00', 'Yelp Carb Comeback Finale at the Ha@2026-11-19 18:00:00']",
     "survivor venue=snafu brewing company date=2026-11-20: ['Thanksgiving To-Go Special@2026-11-20 12:00:00', 'Harry Potter Trivia@2026-11-20 19:00:00']",
     "survivor venue=the windjammer date=2026-11-21: ['Oyster Roast@2026-11-21 13:00:00', 'Nirvani: A Nirvana Tribute Experien@2026-11-21 21:30:00']",
-    "output_count=80"
+    "output_count=77"
   ],
   "buckets": {
     "today": "2026-11-19",
@@ -872,21 +872,6 @@
           "recurring": false
         },
         {
-          "title": "Karaoke",
-          "start": "2026-11-19T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Hunter Flynn: Back To My Roots Tour w/ Peytan Porter \u2013 on the Inside Stage",
           "start": "2026-11-19T20:00:00",
           "end": null,
@@ -1107,38 +1092,7 @@
       ],
       "events": [],
       "overflow": [],
-      "weekdays": [
-        {
-          "title": "Thanksgiving Adventure Camp",
-          "start": "2026-11-23T09:00:00",
-          "end": null,
-          "venue": "Charleston Adventure Forest, 1152 Guerins Bridge Rd., Awendaw, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.charlestonadventureforest.com",
-          "description": "School's OUT, so we're OPEN! And we've got Thanksgiving break fun for the whole family! Looking for fun things to do in Charleston during Thanksgiving break? Whether you need a few kid-free hours to tackle holiday shopping and Thanksgiving preparations or you're looking for an ou\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
-          "start": "2026-11-23T10:00:00",
-          "end": null,
-          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-presents-interdisciplinarian-by-glory-day/",
-          "description": "Meyer Vogl Gallery will present \u201cINTERDISCIPLINARIAN,\u201d a solo exhibition by Greenville-based artist Glory Day, opening Friday, Nov. 6, and remaining on view through Nov. 30.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "art_event",
-          "score": 0.172,
-          "tier": "low",
-          "recurring": false
-        }
-      ],
+      "weekdays": [],
       "recurring": [
         {
           "title": "Pour House Farmers Market",
