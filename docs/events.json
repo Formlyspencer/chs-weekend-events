@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-19 03:15 PM EST",
+  "fetched_at": "2026-11-19 09:07 PM EST",
   "counts": {
-    "raw": 175,
-    "scored": 77,
+    "raw": 176,
+    "scored": 78,
     "this_weekend": 30,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=77",
+    "input_count=78",
     "pre_dup_group venue=charleston pour house date=2026-11-22: ['Pour House Farmers Market@2026-11-22 11:00:00|src=Manual', 'Gullah Collective@2026-11-22 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=halsey institute of contemporary art at the college of charleston date=2026-11-19: ['Grounded in Grain, Washed in the Wa@2026-11-19 11:00:00|src=Holy City Sinner', 'Yelp Carb Comeback Finale at the Ha@2026-11-19 18:00:00|src=Holy City Sinner']",
     "pre_dup_group venue=snafu brewing company date=2026-11-20: ['Thanksgiving To-Go Special@2026-11-20 12:00:00|src=Holy City Sinner', 'Harry Potter Trivia@2026-11-20 19:00:00|src=Holy City Sinner']",
@@ -16,7 +16,7 @@
     "survivor venue=halsey institute of contemporary art at the college of charleston date=2026-11-19: ['Grounded in Grain, Washed in the Wa@2026-11-19 11:00:00', 'Yelp Carb Comeback Finale at the Ha@2026-11-19 18:00:00']",
     "survivor venue=snafu brewing company date=2026-11-20: ['Thanksgiving To-Go Special@2026-11-20 12:00:00', 'Harry Potter Trivia@2026-11-20 19:00:00']",
     "survivor venue=the windjammer date=2026-11-21: ['Oyster Roast@2026-11-21 13:00:00', 'Nirvani: A Nirvana Tribute Experien@2026-11-21 21:30:00']",
-    "output_count=77"
+    "output_count=78"
   ],
   "buckets": {
     "today": "2026-11-19",
