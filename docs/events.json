@@ -1,18 +1,20 @@
 {
-  "fetched_at": "2026-11-21 05:46 AM EST",
+  "fetched_at": "2026-11-21 01:53 PM EST",
   "counts": {
     "raw": 175,
-    "scored": 82,
-    "this_weekend": 25,
+    "scored": 81,
+    "this_weekend": 24,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=82",
+    "input_count=81",
     "pre_dup_group venue=charleston pour house date=2026-11-22: ['Pour House Farmers Market@2026-11-22 11:00:00|src=Manual', 'Gullah Collective@2026-11-22 20:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=the windjammer date=2026-11-21: ['Oyster Roast@2026-11-21 13:00:00|src=Holy City Sinner', 'Nirvani: A Nirvana Tribute Experien@2026-11-21 21:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=charleston pour house date=2026-11-21: ['Heal\\xa0with\\xa0Hearts\\xa0Kids\\xa0drum\\xa0circle@2026-11-21 15:30:00|src=Holy City Sinner', 'Magnolia Boulevard@2026-11-21 20:30:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-11-22: ['Pour House Farmers Market@2026-11-22 11:00:00', 'Gullah Collective@2026-11-22 20:30:00']",
     "survivor venue=the windjammer date=2026-11-21: ['Oyster Roast@2026-11-21 13:00:00', 'Nirvani: A Nirvana Tribute Experien@2026-11-21 21:30:00']",
-    "output_count=82"
+    "survivor venue=charleston pour house date=2026-11-21: ['Heal\\xa0with\\xa0Hearts\\xa0Kids\\xa0drum\\xa0circle@2026-11-21 15:30:00', 'Magnolia Boulevard@2026-11-21 20:30:00']",
+    "output_count=81"
   ],
   "buckets": {
     "today": "2026-11-21",
@@ -125,21 +127,6 @@
           "source": "Holy City Sinner",
           "category": "food_festival",
           "score": 0.85,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Big Bark Holiday Market",
-          "start": "2026-11-21T12:00:00",
-          "end": null,
-          "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://holycitysinner.com/entertainment/the-big-bark-holiday-market-returns-to-firefly-distillery-on/",
-          "description": "Big Bark Holiday Market| Saturday, November 21st \ufeff The Big Bark Holiday Market benefits local animal rescues and shelters with 15 or more food trucks, live music from Reso-Phonic 2 to 5pm, the Event Cooperative Vendor Market, and adoptable dogs on site.\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "maker_market",
-          "score": 0.83,
           "tier": "high",
           "recurring": false
         },
@@ -294,6 +281,21 @@
           "recurring": false
         },
         {
+          "title": "Magnolia Boulevard",
+          "start": "2026-11-21T20:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Magnolia Boulevard Sat. 11.21.26 Charleston Pour House Main Stage 730 doors 830pm show 2 x sets $12 advance / $15 day of show",
+          "price": 12.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Nirvani: A Nirvana Tribute Experience on the inside stage",
           "start": "2026-11-21T21:30:00",
           "end": null,
@@ -320,21 +322,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Heal\u00a0with\u00a0Hearts\u00a0Kids\u00a0drum\u00a0circle",
-          "start": "2026-11-21T15:30:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Heal with Hearts Kids drum circle ON THE DECK @ CHS POUR HOUSE Saturday October 24th and Saturday November 21st 2026 Deck Bar opens at 3pm Drum Circle 330pm -430pm FREE",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.479,
           "tier": "low",
           "recurring": false
         },
@@ -400,6 +387,21 @@
         }
       ],
       "overflow": [
+        {
+          "title": "Heal\u00a0with\u00a0Hearts\u00a0Kids\u00a0drum\u00a0circle",
+          "start": "2026-11-21T15:30:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Heal with Hearts Kids drum circle ON THE DECK @ CHS POUR HOUSE Saturday October 24th and Saturday November 21st 2026 Deck Bar opens at 3pm Drum Circle 330pm -430pm FREE",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.479,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "Grounded in Grain, Washed in the Water",
           "start": "2026-11-21T11:00:00",
@@ -729,6 +731,21 @@
           "recurring": true
         },
         {
+          "title": "Thanksgiving Interfaith Service",
+          "start": "2026-11-24T18:00:00",
+          "end": null,
+          "venue": "Church of Jesus Christ of Latter-day Saints, 1519 Sam Rittenberg Blvd., Charleston, SC",
+          "neighborhood": "West Ashley",
+          "url": "https://www.cicouncil.org/",
+          "description": "Join the Charleston Interreligous Council for our annual Interfaith Thanksgiving Service \ufeff \ufeff November 24 th at 6pm Church of Jesus Christ of Latter-day Saints 1519 Sam Rittenberg Blvd in West Ashley",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.484,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Holiday Festival of Lights",
           "start": "2026-11-23T17:30:00",
           "end": null,
@@ -939,17 +956,17 @@
           "recurring": false
         },
         {
-          "title": "Fighting for Freedom: Black Craftspeople and the Pursuit of Independence",
+          "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
           "start": "2026-11-26T10:00:00",
           "end": null,
-          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-fighting-for-freedom-black-cra/",
-          "description": "The Gibbes Museum of Art is pr Fighting for Freedom: Black Craftspeople and the Pursuit of Independence , an exhibition examining the essential yet often overlooked contributions of African American craftspeople to the history of American art, culture and the pursuit of freedom.\u2026",
-          "price": 0.0,
+          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-presents-interdisciplinarian-by-glory-day/",
+          "description": "Meyer Vogl Gallery will present \u201cINTERDISCIPLINARIAN,\u201d a solo exhibition by Greenville-based artist Glory Day, opening Friday, Nov. 6, and remaining on view through Nov. 30.\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "art_event",
-          "score": 0.262,
+          "score": 0.235,
           "tier": "low",
           "recurring": false
         },
