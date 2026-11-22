@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22 05:54 AM EST",
+  "fetched_at": "2026-11-22 02:14 PM EST",
   "counts": {
     "raw": 177,
     "scored": 89,
@@ -9,7 +9,9 @@
   "dedup_log": [
     "input_count=89",
     "pre_dup_group venue=charleston pour house date=2026-11-22: ['Pour House Farmers Market@2026-11-22 11:00:00|src=Manual', 'Gullah Collective@2026-11-22 20:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00|src=Holy City Sinner', 'Music with Krystal Halvorson@2026-11-27 17:30:00|src=Holy City Sinner']",
     "survivor venue=charleston pour house date=2026-11-22: ['Pour House Farmers Market@2026-11-22 11:00:00', 'Gullah Collective@2026-11-22 20:30:00']",
+    "survivor venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00', 'Music with Krystal Halvorson@2026-11-27 17:30:00']",
     "output_count=89"
   ],
   "buckets": {
@@ -335,21 +337,6 @@
           "recurring": false
         },
         {
-          "title": "Holy City Christmas 2026",
-          "start": "2026-11-27T18:00:00",
-          "end": null,
-          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://eventvesta.com/events/172853/t/tickets",
-          "description": "Create a new family tradition this holiday season at Holy City Christmas \u2014 presented by Southern Screams at Holy City Brewing. Step inside Santa's workshop for a magical, immersive walkthrough the whole family will love. Meet beloved characters including elves, Mrs.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.743,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Ice Skating on the Point",
           "start": "2026-11-27T14:00:00",
           "end": null,
@@ -436,6 +423,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.428,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Big Boned BBQ",
+          "start": "2026-11-27T16:00:00",
+          "end": null,
+          "venue": "Two Blokes Brewing, 547 Long Point Rd., #101, Mt Pleasant, SC",
+          "neighborhood": "Mt Pleasant",
+          "url": "https://eventvesta.com/events/172869/t/tickets",
+          "description": "Ribs, brisket, pulled pork, chicken, and all the sides!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.375,
           "tier": "low",
           "recurring": false
         },
