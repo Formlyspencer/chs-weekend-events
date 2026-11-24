@@ -1,18 +1,16 @@
 {
-  "fetched_at": "2026-11-24 04:06 AM EST",
+  "fetched_at": "2026-11-24 05:06 PM EST",
   "counts": {
-    "raw": 173,
-    "scored": 90,
-    "this_weekend": 29,
+    "raw": 172,
+    "scored": 88,
+    "this_weekend": 28,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=90",
+    "input_count=88",
     "pre_dup_group venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00|src=Holy City Sinner', 'Music with Krystal Halvorson@2026-11-27 17:30:00|src=Holy City Sinner']",
-    "pre_dup_group venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00|src=Holy City Sinner', 'Thanks Dolly Concert@2026-11-28 21:00:00|src=Holy City Sinner']",
     "survivor venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00', 'Music with Krystal Halvorson@2026-11-27 17:30:00']",
-    "survivor venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00', 'Thanks Dolly Concert@2026-11-28 21:00:00']",
-    "output_count=90"
+    "output_count=88"
   ],
   "buckets": {
     "today": "2026-11-24",
@@ -189,21 +187,6 @@
           "recurring": false
         },
         {
-          "title": "DJ MeDiC: Thanksgiving Weekend Party on the inside stage",
-          "start": "2026-11-28T21:30:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "$10 November 28, 2026 Doors at 9:00 pm. Show at 9:30 pm. 21 Up ARTIST WEBSITE https://www.barattiniproductions.com/about",
-          "price": 10.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.72,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
           "title": "Santa Brunch Cruises",
           "start": "2026-11-28T11:00:00",
           "end": null,
@@ -354,21 +337,6 @@
           "recurring": false
         },
         {
-          "title": "Thanks Dolly Concert",
-          "start": "2026-11-28T21:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "THANKS DOLLY feat. Lindsay Holler Elise Testone Cary Ann Hearst Jordan Igoe The Marshgrass Mamas Jessica Daisi Jenna Dez (Babeclub) and More!! Playing their Favorite Dolly Parton songs Backed by an All Star Band Sat.\u2026",
-          "price": 18.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.504,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "The Holiday Festival",
           "start": "2026-11-27T17:00:00",
           "end": null,
@@ -380,6 +348,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.459,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Tan and Sober Gentlemen",
+          "start": "2026-11-27T12:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Friday 11.27.26 Charleston Pour House Main Stage 8pm doors 9pm show 2 x sets of T&S Gents $18 advance / $20 day of show",
+          "price": 18.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.428,
           "tier": "low",
           "recurring": false
         },
@@ -460,21 +443,6 @@
         }
       ],
       "overflow": [
-        {
-          "title": "Tan and Sober Gentlemen",
-          "start": "2026-11-27T12:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Friday 11.27.26 Charleston Pour House Main Stage 8pm doors 9pm show 2 x sets of T&S Gents $18 advance / $20 day of show",
-          "price": 18.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.428,
-          "tier": "low",
-          "recurring": false
-        },
         {
           "title": "Grounded in Grain, Washed in the Water",
           "start": "2026-11-28T11:00:00",
