@@ -1,19 +1,21 @@
 {
-  "fetched_at": "2026-11-23 06:46 PM EST",
+  "fetched_at": "2026-11-24 04:06 AM EST",
   "counts": {
     "raw": 173,
     "scored": 90,
-    "this_weekend": 20,
+    "this_weekend": 29,
     "next_weekend": 0
   },
   "dedup_log": [
     "input_count=90",
     "pre_dup_group venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00|src=Holy City Sinner', 'Music with Krystal Halvorson@2026-11-27 17:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00|src=Holy City Sinner', 'Thanks Dolly Concert@2026-11-28 21:00:00|src=Holy City Sinner']",
     "survivor venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00', 'Music with Krystal Halvorson@2026-11-27 17:30:00']",
+    "survivor venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00', 'Thanks Dolly Concert@2026-11-28 21:00:00']",
     "output_count=90"
   ],
   "buckets": {
-    "today": "2026-11-23",
+    "today": "2026-11-24",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -82,6 +84,21 @@
           "recurring": false
         },
         {
+          "title": "Holiday Festival of Lights",
+          "start": "2026-11-28T17:30:00",
+          "end": null,
+          "venue": "James Island County Park, 871 Riverland Dr, Charleston, SC",
+          "neighborhood": "James Island",
+          "url": "https://holycitysinner.com/entertainment/the-holiday-festival-of-lights-opens-nov-13-at-james-island-/",
+          "description": "The Holiday Festival of Lights at James Island County Park officially opens on Nov. 13. The Lowcountry\u2019s beloved holiday light show will be open nightly 5:30 \u2013 10 p.m. through Dec. 31, 2026.\u2026",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_festival",
+          "score": 0.864,
+          "tier": "high",
+          "recurring": false
+        },
+        {
           "title": "Thanksgiving at Pinky's on the Beach",
           "start": "2026-11-27T11:00:00",
           "end": null,
@@ -93,6 +110,21 @@
           "source": "Holy City Sinner",
           "category": "holiday_event",
           "score": 0.85,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Oyster Roast with The Walrus",
+          "start": "2026-11-28T15:00:00",
+          "end": null,
+          "venue": "Two Blokes Brewing \u2014 Cannon, 114 Cannon St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://eventvesta.com/events/173973/t/tickets",
+          "description": "Join us Sunday, Nov 29th, for an oyster roast and pop-up with The Walrus 3-7PM! Outside, enjoy live music, shade, and all-you-can-eat oyster roast oysters! Inside, the raw bar will be open with dressed oysters! Event bracelets are $25 and include access to the patio party, the oy\u2026",
+          "price": 25.0,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.828,
           "tier": "high",
           "recurring": false
         },
@@ -142,6 +174,36 @@
           "recurring": false
         },
         {
+          "title": "Holy City Christmas 2026",
+          "start": "2026-11-28T18:00:00",
+          "end": null,
+          "venue": "Holy City Brewing, 1021 Aragon Ave, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://eventvesta.com/events/172853/t/tickets",
+          "description": "Create a new family tradition this holiday season at Holy City Christmas \u2014 presented by Southern Screams at Holy City Brewing. Step inside Santa's workshop for a magical, immersive walkthrough the whole family will love. Meet beloved characters including elves, Mrs.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "DJ MeDiC: Thanksgiving Weekend Party on the inside stage",
+          "start": "2026-11-28T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$10 November 28, 2026 Doors at 9:00 pm. Show at 9:30 pm. 21 Up ARTIST WEBSITE https://www.barattiniproductions.com/about",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.72,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Santa Brunch Cruises",
           "start": "2026-11-28T11:00:00",
           "end": null,
@@ -153,6 +215,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.704,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "HALOS Toy Drive",
+          "start": "2026-11-28T15:00:00",
+          "end": null,
+          "venue": null,
+          "neighborhood": null,
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Bring a new toy or gift card to Snafu Brewing between November 16 and December 4 to support the HALOS Holiday Drive! If you donate a gift, you will receive a gift certificate for a pint on your next visit.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.686,
           "tier": "medium",
           "recurring": false
         },
@@ -232,6 +309,21 @@
           "recurring": false
         },
         {
+          "title": "Charlton Singleton\u2019s Holiday Spectacular",
+          "start": "2026-11-28T20:00:00",
+          "end": null,
+          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://charlestonmusichall.com/event/charlton-singletons-holiday-spectacular/",
+          "description": "Charlton Singleton\u2019s Holiday Spectacular has become a beloved holiday tradition in the Holy City of Charleston.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Justin Wideman on the inside stage",
           "start": "2026-11-27T21:30:00",
           "end": null,
@@ -240,6 +332,36 @@
           "url": "https://the-windjammer.com/events/",
           "description": "Justin Wideman on the inside stage $10 November 27, 2026 Doors at 9:00 pm. Show at 9:30 pm. 21 Up https://www.facebook.com/p/Justin-Wideman-Music-61563548811758/ Justin Wideman is a singer-songwriter from South AL, now based in Charleston, SC",
           "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Joel Timmons Psychedelic Surf Country",
+          "start": "2026-11-28T18:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Joel Timmons Psychedelic Surf Country Sat. 11.28.26 Chs Pour House Deck Stage 5pm doors /6pm show $18 advance / $20 day of show",
+          "price": 18.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Thanks Dolly Concert",
+          "start": "2026-11-28T21:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "THANKS DOLLY feat. Lindsay Holler Elise Testone Cary Ann Hearst Jordan Igoe The Marshgrass Mamas Jessica Daisi Jenna Dez (Babeclub) and More!! Playing their Favorite Dolly Parton songs Backed by an All Star Band Sat.\u2026",
+          "price": 18.0,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.504,
@@ -262,17 +384,32 @@
           "recurring": false
         },
         {
-          "title": "Tan and Sober Gentlemen",
-          "start": "2026-11-27T12:00:00",
+          "title": "Stingrays Home Game (Rock The Red Night)",
+          "start": "2026-11-28T18:05:00",
           "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Friday 11.27.26 Charleston Pour House Main Stage 8pm doors 9pm show 2 x sets of T&S Gents $18 advance / $20 day of show",
-          "price": 18.0,
+          "venue": "North Charleston Coliseum, 5001 Coliseum Dr, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://holycitysinner.com/sports/south-carolina-stingrays-announces-2026-27-promotional-sched/",
+          "description": "ROCK THE RED NIGHT: Saturday, November 28 - 6:05 p.m. Presented by Circle K Show your Capitals and Stingrays pride as we celebrate our long-standing affiliation with the Washington Capitals. Wear your red and enjoy a night of hockey and a sea of red in the stands.\u2026",
+          "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
-          "score": 0.428,
+          "score": 0.411,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Lindsey Stirling - The Snow Waltz Tour",
+          "start": "2026-11-28T19:00:00",
+          "end": null,
+          "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "description": "Lindsey Stirling The Snow Waltz Tour Saturday, November 28 North Charleston Performing Arts Center Your Exclusive Pre-Sale Offer! Thursday, August 27 at 10 AM \u2013 Friday, August 28 at 9 AM Offer Code: LOVE Get Tickets Public On-Sale is Friday, August 28, 10 AM.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.411,
           "tier": "low",
           "recurring": false
         },
@@ -323,6 +460,21 @@
         }
       ],
       "overflow": [
+        {
+          "title": "Tan and Sober Gentlemen",
+          "start": "2026-11-27T12:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Friday 11.27.26 Charleston Pour House Main Stage 8pm doors 9pm show 2 x sets of T&S Gents $18 advance / $20 day of show",
+          "price": 18.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.428,
+          "tier": "low",
+          "recurring": false
+        },
         {
           "title": "Grounded in Grain, Washed in the Water",
           "start": "2026-11-28T11:00:00",
@@ -597,36 +749,6 @@
         },
         {
           "title": "Thanksgiving Adventure Camp",
-          "start": "2026-11-23T09:00:00",
-          "end": null,
-          "venue": "Charleston Adventure Forest, 1152 Guerins Bridge Rd., Awendaw, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.charlestonadventureforest.com",
-          "description": "School's OUT, so we're OPEN! And we've got Thanksgiving break fun for the whole family! Looking for fun things to do in Charleston during Thanksgiving break? Whether you need a few kid-free hours to tackle holiday shopping and Thanksgiving preparations or you're looking for an ou\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Thanksgiving To-Go Special",
-          "start": "2026-11-23T12:00:00",
-          "end": null,
-          "venue": "Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Happy Thanksgiving! To express how thankful we are to everyone, we're offering two amazing to-go deals to stock up for your Thanksgiving celebrations Grab 3 crowlers of any of our draft beer for only $33 (that's up to 50% off!) AND All 4-packs are only $20, including out mix pack\u2026",
-          "price": 33.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Thanksgiving Adventure Camp",
           "start": "2026-11-24T09:00:00",
           "end": null,
           "venue": "Charleston Adventure Forest, 1152 Guerins Bridge Rd., Awendaw, SC",
@@ -656,21 +778,6 @@
           "recurring": false
         },
         {
-          "title": "Thanksgiving Farmers Market",
-          "start": "2026-11-23T13:00:00",
-          "end": null,
-          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
-          "neighborhood": "Kiawah",
-          "url": "https://holycitysinner.com/entertainment/santa-a-holiday-market-and-movies-on-the-green-freshfields-v/",
-          "description": "Freshfields Village announced a lineup of free holiday events for families, neighbors and visitors. Beginning with a Thanksgiving week farmers market and continuing through December 18, The Village Green will be filled with live music, Santa and the traditions that make the seaso\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "farmers_market",
-          "score": 0.495,
-          "tier": "low",
-          "recurring": true
-        },
-        {
           "title": "Thanksgiving Interfaith Service",
           "start": "2026-11-24T18:00:00",
           "end": null,
@@ -687,7 +794,7 @@
         },
         {
           "title": "Holiday Festival of Lights",
-          "start": "2026-11-23T17:30:00",
+          "start": "2026-11-24T17:30:00",
           "end": null,
           "venue": "James Island County Park, 871 Riverland Dr, Charleston, SC",
           "neighborhood": "James Island",
@@ -729,21 +836,6 @@
           "score": 0.39,
           "tier": "low",
           "recurring": true
-        },
-        {
-          "title": "HALOS Toy Drive",
-          "start": "2026-11-23T15:00:00",
-          "end": null,
-          "venue": null,
-          "neighborhood": null,
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Bring a new toy or gift card to Snafu Brewing between November 16 and December 4 to support the HALOS Holiday Drive! If you donate a gift, you will receive a gift certificate for a pint on your next visit.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.378,
-          "tier": "low",
-          "recurring": false
         },
         {
           "title": "HALOS Toy Drive",
@@ -819,21 +911,6 @@
           "score": 0.316,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Seafood Tower Hour",
-          "start": "2026-11-23T17:00:00",
-          "end": null,
-          "venue": "Hank\u2019s Seafood Restaurant, 10 Hayne Street, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.hanksseafoodrestaurant.com/event/seafood-tower-hour/",
-          "description": "Monday\u2013Wednesday | 5\u20136PM Golden hour just got a glow up. Join us for half price seafood towers and champagne every Monday through Wednesday from 5\u20136PM. Fresh oysters. Chilled lobster. Bubbles flowing. Launching March 2",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "other_drinking",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "Slaughter To Prevail",
