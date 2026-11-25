@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-11-25 02:43 AM EST",
+  "fetched_at": "2026-11-25 02:01 PM EST",
   "counts": {
-    "raw": 171,
-    "scored": 88,
-    "this_weekend": 34,
+    "raw": 168,
+    "scored": 87,
+    "this_weekend": 32,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=88",
+    "input_count=87",
     "pre_dup_group venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00|src=Holy City Sinner', 'Music with Krystal Halvorson@2026-11-27 17:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00|src=Holy City Sinner', 'Thanks Dolly Concert@2026-11-28 21:00:00|src=Holy City Sinner']",
     "survivor venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00', 'Music with Krystal Halvorson@2026-11-27 17:30:00']",
     "survivor venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00', 'Thanks Dolly Concert@2026-11-28 21:00:00']",
-    "output_count=88"
+    "output_count=87"
   ],
   "buckets": {
     "today": "2026-11-25",
@@ -64,21 +64,6 @@
           "price": null,
           "source": "Holy City Sinner",
           "category": "other_drinking",
-          "score": 0.92,
-          "tier": "high",
-          "recurring": false
-        },
-        {
-          "title": "Oyster Roast",
-          "start": "2026-11-29T13:00:00",
-          "end": null,
-          "venue": "Tin Roof, 1117 Magnolia Rd, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.charlestontinroof.com/home#calendar",
-          "description": "Only $15 Advance! Get your tickets now! $25 at the door. Roast Outside. Football on the projector Inside. Get your tickets now! charleston.boldtypetickets.com/events/189498574/oyster-roast-at-tin-roof-hosted-by-the-walrus-raw-bar-only-15",
-          "price": 15.0,
-          "source": "Holy City Sinner",
-          "category": "food_festival",
           "score": 0.92,
           "tier": "high",
           "recurring": false
@@ -194,7 +179,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://fireflydistillery.com/events/",
           "description": "Black FlyDay Weekend| Friday, November 27th \ufeff Firefly's Black Flyday Weekend kicks off the holiday season with two days of events at the distillery. Check the website for the full schedule, specials, and details as the event gets closer.",
           "price": null,
           "source": "Holy City Sinner",
@@ -299,7 +284,7 @@
           "end": null,
           "venue": "Firefly Distillery, 4201 Spruill Ave, North Charleston, SC",
           "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://fireflydistillery.com/events/",
           "description": "Black FlyDay Weekend| Friday, November 27th \ufeff Firefly's Black Flyday Weekend kicks off the holiday season with two days of events at the distillery. Check the website for the full schedule, specials, and details as the event gets closer.",
           "price": null,
           "source": "Holy City Sinner",
@@ -320,21 +305,6 @@
           "source": "Holy City Sinner",
           "category": "brewery_event",
           "score": 0.63,
-          "tier": "medium",
-          "recurring": false
-        },
-        {
-          "title": "Island Eye News Oyster Roast",
-          "start": "2026-11-29T13:00:00",
-          "end": null,
-          "venue": "Islander 71 Fish House and Raw Bar, 80 41st Ave, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://luckydognews.com/isle-of-palms/island-eye-news-oyster-roast-set-for-nov-29/",
-          "description": "Island Eye News will host an oyster roast fundraiser on Sunday, Nov. 29, from 1 to 5 p.m. at Islander 71. The event will bring residents and visitors together for an evening of oysters, football and community support while raising funds for local journalism.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "food_festival",
-          "score": 0.612,
           "tier": "medium",
           "recurring": false
         },
@@ -798,7 +768,7 @@
           "end": null,
           "venue": "Bourbon N' Bubbles, 570 King St, Charleston, SC",
           "neighborhood": "Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
+          "url": "https://bourbonnbubbles.com/reservations/",
           "description": "Bourbon N\u2019 Bubbles is open Thanksgiving Day, November 26, starting at 11 a.m., serving a three-course holiday menu for $80 per person. Spend more time around the table with your favorite people and leave the cooking and cleanup to us.\u2026",
           "price": 80.0,
           "source": "Holy City Sinner",
@@ -924,6 +894,21 @@
           "source": "Holy City Sinner",
           "category": "outdoor_music",
           "score": 0.44,
+          "tier": "low",
+          "recurring": true
+        },
+        {
+          "title": "Karaoke",
+          "start": "2026-11-26T18:00:00",
+          "end": null,
+          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
+          "neighborhood": "North Charleston",
+          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
+          "description": "Karaoke every Thursday from 6-9 p.m.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.39,
           "tier": "low",
           "recurring": true
         },
