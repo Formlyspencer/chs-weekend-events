@@ -1,19 +1,21 @@
 {
-  "fetched_at": "2026-11-24 05:06 PM EST",
+  "fetched_at": "2026-11-25 02:43 AM EST",
   "counts": {
-    "raw": 172,
+    "raw": 171,
     "scored": 88,
-    "this_weekend": 28,
+    "this_weekend": 34,
     "next_weekend": 0
   },
   "dedup_log": [
     "input_count=88",
     "pre_dup_group venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00|src=Holy City Sinner', 'Music with Krystal Halvorson@2026-11-27 17:30:00|src=Holy City Sinner']",
+    "pre_dup_group venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00|src=Holy City Sinner', 'Thanks Dolly Concert@2026-11-28 21:00:00|src=Holy City Sinner']",
     "survivor venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00', 'Music with Krystal Halvorson@2026-11-27 17:30:00']",
+    "survivor venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00', 'Thanks Dolly Concert@2026-11-28 21:00:00']",
     "output_count=88"
   ],
   "buckets": {
-    "today": "2026-11-24",
+    "today": "2026-11-25",
     "show_last_weekend": true,
     "this_weekend": {
       "range": [
@@ -47,6 +49,36 @@
           "price": 250.0,
           "source": "Holy City Sinner",
           "category": "holiday_event",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Tea with Santa",
+          "start": "2026-11-29T11:00:00",
+          "end": null,
+          "venue": "Hotel Bennett, 404 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.hotelbennett.com/activities/event-calendar/tea-with-santa-november-28-first-seating?_gl=1*w4cd0l*_up*MQ..*_ga*NjU3MDM4NTY0LjE3OTE4MjgxNTk.*_ga_8B1ECGZCER*czE3OTE4MjgxNTgkbzEkZzEkdDE3OTE4Mjg3NzkkajYwJGwwJGgw",
+          "description": "Tea with Santa - Tea with Santa is a beloved annual event taking place in Camellias that features an array of decadent holiday-inspired treats and a visit from Santa! Guests also enjoy festive teas or optional Champagne upgrades for grown-ups.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "other_drinking",
+          "score": 0.92,
+          "tier": "high",
+          "recurring": false
+        },
+        {
+          "title": "Oyster Roast",
+          "start": "2026-11-29T13:00:00",
+          "end": null,
+          "venue": "Tin Roof, 1117 Magnolia Rd, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://www.charlestontinroof.com/home#calendar",
+          "description": "Only $15 Advance! Get your tickets now! $25 at the door. Roast Outside. Football on the projector Inside. Get your tickets now! charleston.boldtypetickets.com/events/189498574/oyster-roast-at-tin-roof-hosted-by-the-walrus-raw-bar-only-15",
+          "price": 15.0,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
           "score": 0.92,
           "tier": "high",
           "recurring": false
@@ -187,6 +219,36 @@
           "recurring": false
         },
         {
+          "title": "Butter Me Up Bakery Pop-Up",
+          "start": "2026-11-29T11:00:00",
+          "end": null,
+          "venue": "Two Blokes Brewing \u2014 Cannon, 114 Cannon St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://eventvesta.com/events/173975/t/tickets",
+          "description": "Butter Me Up Bakery will be at Two Blokes Sunday after Yoga with The Works, selling sourdough loaves, cinnamon rolls, cookies, and other baked goods until 3PM or SOLD OUT!",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "brewery_event",
+          "score": 0.743,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
+          "title": "DJ MeDiC: Thanksgiving Weekend Party on the inside stage",
+          "start": "2026-11-28T21:30:00",
+          "end": null,
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "$10 November 28, 2026 Doors at 9:00 pm. Show at 9:30 pm. 21 Up ARTIST WEBSITE https://www.barattiniproductions.com/about",
+          "price": 10.0,
+          "source": "Holy City Sinner",
+          "category": "holiday_event",
+          "score": 0.72,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "Santa Brunch Cruises",
           "start": "2026-11-28T11:00:00",
           "end": null,
@@ -262,6 +324,21 @@
           "recurring": false
         },
         {
+          "title": "Island Eye News Oyster Roast",
+          "start": "2026-11-29T13:00:00",
+          "end": null,
+          "venue": "Islander 71 Fish House and Raw Bar, 80 41st Ave, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://luckydognews.com/isle-of-palms/island-eye-news-oyster-roast-set-for-nov-29/",
+          "description": "Island Eye News will host an oyster roast fundraiser on Sunday, Nov. 29, from 1 to 5 p.m. at Islander 71. The event will bring residents and visitors together for an evening of oysters, football and community support while raising funds for local journalism.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "food_festival",
+          "score": 0.612,
+          "tier": "medium",
+          "recurring": false
+        },
+        {
           "title": "HALOS Toy Drive",
           "start": "2026-11-27T15:00:00",
           "end": null,
@@ -307,6 +384,21 @@
           "recurring": false
         },
         {
+          "title": "Club 90s Presents MJ Night",
+          "start": "2026-11-28T22:00:00",
+          "end": null,
+          "venue": "Music Farm, 32 Ann St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://musicfarm.com/event/mj-night/",
+          "description": "A celebration of the King of Pop featuring Michael Jackson\u2019s biggest hits, remixes, deep cuts, and dance floor classics all night long with immersive visuals and nonstop energy.",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.547,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Justin Wideman on the inside stage",
           "start": "2026-11-27T21:30:00",
           "end": null,
@@ -337,6 +429,21 @@
           "recurring": false
         },
         {
+          "title": "Thanks Dolly Concert",
+          "start": "2026-11-28T21:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "THANKS DOLLY feat. Lindsay Holler Elise Testone Cary Ann Hearst Jordan Igoe The Marshgrass Mamas Jessica Daisi Jenna Dez (Babeclub) and More!! Playing their Favorite Dolly Parton songs Backed by an All Star Band Sat.\u2026",
+          "price": 18.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.504,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "The Holiday Festival",
           "start": "2026-11-27T17:00:00",
           "end": null,
@@ -348,21 +455,6 @@
           "source": "Holy City Sinner",
           "category": "outdoor_festival",
           "score": 0.459,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Tan and Sober Gentlemen",
-          "start": "2026-11-27T12:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Friday 11.27.26 Charleston Pour House Main Stage 8pm doors 9pm show 2 x sets of T&S Gents $18 advance / $20 day of show",
-          "price": 18.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.428,
           "tier": "low",
           "recurring": false
         },
@@ -444,6 +536,21 @@
       ],
       "overflow": [
         {
+          "title": "Tan and Sober Gentlemen",
+          "start": "2026-11-27T12:00:00",
+          "end": null,
+          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
+          "neighborhood": "James Island",
+          "url": "https://charlestonpourhouse.com/",
+          "description": "Friday 11.27.26 Charleston Pour House Main Stage 8pm doors 9pm show 2 x sets of T&S Gents $18 advance / $20 day of show",
+          "price": 18.0,
+          "source": "Holy City Sinner",
+          "category": "outdoor_music",
+          "score": 0.428,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "Grounded in Grain, Washed in the Water",
           "start": "2026-11-28T11:00:00",
           "end": null,
@@ -489,8 +596,68 @@
           "recurring": false
         },
         {
+          "title": "\u201cFragments\u201d",
+          "start": "2026-11-29T11:00:00",
+          "end": null,
+          "venue": "Michael Mitchell, 414 King St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/kevin-paulsen-david-wiggins-collaborate-on-%E2%80%98fragments%E2%80%99-exhib/",
+          "description": "\u201cFragments\u201d marks a rare collaborative exhibition from artists and longtime friends Kevin Paulsen and David Wiggins. Rooted in the rich history of early American itinerant painters, this curated show expands on traditional folk art in a distinctly timeless manner.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "NOSTOS: An Exhibition of Home, Memory, Migration and Belonging",
+          "start": "2026-11-29T12:00:00",
+          "end": null,
+          "venue": "City Gallery, 34 Prioleau St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://citygalleryatwaterfrontpark.com/",
+          "description": "NOSTOS An Exhibition of Home, Memory, Migration and Belonging On-View: November 20, 2026 - January 24, 2027 City Gallery | 34 Prioleau Street Wednesday - Sunday | Noon - 5:00pm Opening Reception: November 20 from 5:00-7:00pm What does home mean to you? Is it a place, a memory, a\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "Fighting for Freedom: Black Craftspeople and the Pursuit of Independence",
+          "start": "2026-11-29T13:00:00",
+          "end": null,
+          "venue": "Gibbes Museum of Art, 135 Meeting St., Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/gibbes-museum-of-art-presents-fighting-for-freedom-black-cra/",
+          "description": "The Gibbes Museum of Art is pr Fighting for Freedom: Black Craftspeople and the Pursuit of Independence , an exhibition examining the essential yet often overlooked contributions of African American craftspeople to the history of American art, culture and the pursuit of freedom.\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.35,
+          "tier": "low",
+          "recurring": false
+        },
+        {
           "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
           "start": "2026-11-28T10:00:00",
+          "end": null,
+          "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
+          "neighborhood": "Charleston",
+          "url": "https://holycitysinner.com/entertainment/meyer-vogl-gallery-presents-interdisciplinarian-by-glory-day/",
+          "description": "Meyer Vogl Gallery will present \u201cINTERDISCIPLINARIAN,\u201d a solo exhibition by Greenville-based artist Glory Day, opening Friday, Nov. 6, and remaining on view through Nov. 30.\u2026",
+          "price": null,
+          "source": "Holy City Sinner",
+          "category": "art_event",
+          "score": 0.313,
+          "tier": "low",
+          "recurring": false
+        },
+        {
+          "title": "\"INTERDISCIPLINARIAN\u201d by Glory Day",
+          "start": "2026-11-29T12:00:00",
           "end": null,
           "venue": "Meyer Vogl Gallery, 122 Meeting St, Charleston, SC",
           "neighborhood": "Charleston",
@@ -592,6 +759,21 @@
           "score": 0.266,
           "tier": "low",
           "recurring": false
+        },
+        {
+          "title": "Santa Photos and Live Music",
+          "start": "2026-11-27T10:00:00",
+          "end": null,
+          "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
+          "neighborhood": "Kiawah",
+          "url": "https://holycitysinner.com/entertainment/santa-a-holiday-market-and-movies-on-the-green-freshfields-v/",
+          "description": "Freshfields Village announced a lineup of free holiday events for families, neighbors and visitors. Beginning with a Thanksgiving week farmers market and continuing through December 18, The Village Green will be filled with live music, Santa and the traditions that make the seaso\u2026",
+          "price": 0.0,
+          "source": "Holy City Sinner",
+          "category": "farmers_market",
+          "score": 0.765,
+          "tier": "medium",
+          "recurring": true
         }
       ],
       "weekdays": [
@@ -716,53 +898,8 @@
           "recurring": false
         },
         {
-          "title": "Thanksgiving Adventure Camp",
-          "start": "2026-11-24T09:00:00",
-          "end": null,
-          "venue": "Charleston Adventure Forest, 1152 Guerins Bridge Rd., Awendaw, SC",
-          "neighborhood": "Charleston",
-          "url": "https://www.charlestonadventureforest.com",
-          "description": "School's OUT, so we're OPEN! And we've got Thanksgiving break fun for the whole family! Looking for fun things to do in Charleston during Thanksgiving break? Whether you need a few kid-free hours to tackle holiday shopping and Thanksgiving preparations or you're looking for an ou\u2026",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Thanksgiving To-Go Special",
-          "start": "2026-11-24T12:00:00",
-          "end": null,
-          "venue": "Snafu Brewing Company, 3280 Industry Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Happy Thanksgiving! To express how thankful we are to everyone, we're offering two amazing to-go deals to stock up for your Thanksgiving celebrations Grab 3 crowlers of any of our draft beer for only $33 (that's up to 50% off!) AND All 4-packs are only $20, including out mix pack\u2026",
-          "price": 33.0,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.506,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "Thanksgiving Interfaith Service",
-          "start": "2026-11-24T18:00:00",
-          "end": null,
-          "venue": "Church of Jesus Christ of Latter-day Saints, 1519 Sam Rittenberg Blvd., Charleston, SC",
-          "neighborhood": "West Ashley",
-          "url": "https://www.cicouncil.org/",
-          "description": "Join the Charleston Interreligous Council for our annual Interfaith Thanksgiving Service \ufeff \ufeff November 24 th at 6pm Church of Jesus Christ of Latter-day Saints 1519 Sam Rittenberg Blvd in West Ashley",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "holiday_event",
-          "score": 0.484,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Holiday Festival of Lights",
-          "start": "2026-11-24T17:30:00",
+          "start": "2026-11-25T17:30:00",
           "end": null,
           "venue": "James Island County Park, 871 Riverland Dr, Charleston, SC",
           "neighborhood": "James Island",
@@ -789,36 +926,6 @@
           "score": 0.44,
           "tier": "low",
           "recurring": true
-        },
-        {
-          "title": "Karaoke",
-          "start": "2026-11-26T18:00:00",
-          "end": null,
-          "venue": "Striped Pig Distillery, 2225 Old School Drive, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.postandcourier.com/charleston_scene/karaoke-charleston-bangkok-lounge-dudleys-sugeys/article_0f2b00d6-450e-11ef-9074-ab9e7193dab7.html",
-          "description": "Karaoke every Thursday from 6-9 p.m.",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.39,
-          "tier": "low",
-          "recurring": true
-        },
-        {
-          "title": "HALOS Toy Drive",
-          "start": "2026-11-24T15:00:00",
-          "end": null,
-          "venue": null,
-          "neighborhood": null,
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Bring a new toy or gift card to Snafu Brewing between November 16 and December 4 to support the HALOS Holiday Drive! If you donate a gift, you will receive a gift certificate for a pint on your next visit.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "brewery_event",
-          "score": 0.378,
-          "tier": "low",
-          "recurring": false
         },
         {
           "title": "HALOS Toy Drive",
@@ -881,21 +988,6 @@
           "recurring": false
         },
         {
-          "title": "Slaughter To Prevail",
-          "start": "2026-11-24T20:30:00",
-          "end": null,
-          "venue": "Charleston Music Hall, 37 John St, Charleston, SC",
-          "neighborhood": "Charleston",
-          "url": "https://charlestonmusichall.com/event/slaughter-to-prevail/",
-          "description": "Slaughter To Prevail are pushing heavy music into new territory. Blending crushing riffs with relentless intensity, the band has risen to the forefront of extreme metal and built a global following along the way.\u2026",
-          "price": null,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.301,
-          "tier": "low",
-          "recurring": false
-        },
-        {
           "title": "Band of Horses",
           "start": "2026-11-25T20:00:00",
           "end": null,
@@ -909,36 +1001,6 @@
           "score": 0.301,
           "tier": "low",
           "recurring": false
-        },
-        {
-          "title": "Kanika\u00a0Moore\u00a0& The\u00a0Brown Eyed Bois",
-          "start": "2026-11-24T18:00:00",
-          "end": null,
-          "venue": "Charleston Pour House, 1977 Maybank Hwy, James Island, SC",
-          "neighborhood": "James Island",
-          "url": "https://charlestonpourhouse.com/",
-          "description": "Kanika Moore & The Brown Eyed Bois > featuring Sean Bing (Doom Flamingo, Runaway Gin, Psycodelics) Corey Stephens (Motown Throwdown, Broken Speakers, Josh Roberts and the Hinges) Noah Jones (Psycodelics, Little Bird) James Rubush (Psycodelics, Whut? , Little Bird ) Charleston Pou\u2026",
-          "price": 10.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.277,
-          "tier": "low",
-          "recurring": false
-        },
-        {
-          "title": "LINE DANCING with Loren",
-          "start": "2026-11-24T18:00:00",
-          "end": null,
-          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
-          "neighborhood": "Isle Of Palms",
-          "url": "https://the-windjammer.com/events/",
-          "description": "LINE DANCING with Loren (Every Tuesday) FREE August 11, 2026 Doors at 6:00 pm 21 Up or with their Parent",
-          "price": 0.0,
-          "source": "Holy City Sinner",
-          "category": "outdoor_music",
-          "score": 0.263,
-          "tier": "low",
-          "recurring": true
         },
         {
           "title": "\u201cFragments\u201d",
@@ -971,19 +1033,19 @@
           "recurring": false
         },
         {
-          "title": "Mannheim Steamroller",
-          "start": "2026-11-24T19:30:00",
+          "title": "Karaoke Night",
+          "start": "2026-11-25T20:00:00",
           "end": null,
-          "venue": "North Charleston Performing Arts Center, 5001 Coliseum Dr, North Charleston, SC",
-          "neighborhood": "North Charleston",
-          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
-          "description": "Mannheim Steamroller November 24 An electrifying holiday tradition filled with iconic music and dazzling sights.",
+          "venue": "The Windjammer, 1008 Ocean Blvd, Isle of Palms, SC",
+          "neighborhood": "Isle Of Palms",
+          "url": "https://the-windjammer.com/events/",
+          "description": "21Up 8PM to 11PM Karaoke Night Every Wednesday With DJ JC",
           "price": null,
           "source": "Holy City Sinner",
           "category": "outdoor_music",
-          "score": 0.226,
+          "score": 0.236,
           "tier": "low",
-          "recurring": false
+          "recurring": true
         }
       ],
       "recurring": [
@@ -1004,7 +1066,7 @@
         },
         {
           "title": "Santa Photos and Live Music",
-          "start": "2026-11-27T10:00:00",
+          "start": "2026-11-29T10:00:00",
           "end": null,
           "venue": "Freshfields Village, 165 Village Green Ln, Kiawah Island, SC",
           "neighborhood": "Kiawah",
@@ -1013,8 +1075,8 @@
           "price": 0.0,
           "source": "Holy City Sinner",
           "category": "farmers_market",
-          "score": 0.765,
-          "tier": "medium",
+          "score": 0.9,
+          "tier": "high",
           "recurring": true
         },
         {
