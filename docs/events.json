@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-11-25 02:01 PM EST",
+  "fetched_at": "2026-11-25 10:24 PM EST",
   "counts": {
-    "raw": 168,
-    "scored": 87,
+    "raw": 169,
+    "scored": 88,
     "this_weekend": 32,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=87",
+    "input_count=88",
     "pre_dup_group venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00|src=Holy City Sinner', 'Music with Krystal Halvorson@2026-11-27 17:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00|src=Holy City Sinner', 'Thanks Dolly Concert@2026-11-28 21:00:00|src=Holy City Sinner']",
     "survivor venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00', 'Music with Krystal Halvorson@2026-11-27 17:30:00']",
     "survivor venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00', 'Thanks Dolly Concert@2026-11-28 21:00:00']",
-    "output_count=87"
+    "output_count=88"
   ],
   "buckets": {
     "today": "2026-11-25",
@@ -1100,7 +1100,7 @@
           "end": null,
           "venue": "1630 Folly Road, Charleston, SC",
           "neighborhood": "Folly",
-          "url": "https://www.instagram.com/follybeachfarmersmarket/",
+          "url": "https://www.holycitysinner.com/charleston-weekend-events/",
           "description": "Join us on Saturdays noon til 4pm @follybeachfarmersmarket at the historical Gullah located at 1630 Folly Road. Enjoy our \u201cLiving Arts Walk\u201d with Indigenous vendors, artisans and experiences. Saturdays beginning 4.20.24 from 12pm-4pm!",
           "price": null,
           "source": "Holy City Sinner",
