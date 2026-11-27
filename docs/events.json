@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-11-26 11:37 AM EST",
+  "fetched_at": "2026-11-26 08:34 PM EST",
   "counts": {
-    "raw": 171,
-    "scored": 86,
+    "raw": 172,
+    "scored": 87,
     "this_weekend": 36,
     "next_weekend": 0
   },
   "dedup_log": [
-    "input_count=86",
+    "input_count=87",
     "pre_dup_group venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00|src=Holy City Sinner', 'Music with Krystal Halvorson@2026-11-27 17:30:00|src=Holy City Sinner']",
     "pre_dup_group venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00|src=Holy City Sinner', 'Thanks Dolly Concert@2026-11-28 21:00:00|src=Holy City Sinner']",
     "survivor venue=two blokes brewing date=2026-11-27: ['Big Boned BBQ@2026-11-27 16:00:00', 'Music with Krystal Halvorson@2026-11-27 17:30:00']",
     "survivor venue=charleston pour house date=2026-11-28: ['Joel Timmons Psychedelic Surf Count@2026-11-28 18:00:00', 'Thanks Dolly Concert@2026-11-28 21:00:00']",
-    "output_count=86"
+    "output_count=87"
   ],
   "buckets": {
     "today": "2026-11-26",
